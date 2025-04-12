@@ -24,7 +24,7 @@
 - **Farid Sebastian Briceño De La Cruz** - U20211F211  
 - **Muñoz Vilcapoma Mauricio Rigoberto** - U202217212  
 - **David Alexander Perez Garcia** - U202222942  
-- **Jhon** - u202216035  
+- **Jhon Alexander Galvez Chambi** - U202323270
 
 **Fecha:** Abril 2025  
 **URL del proyecto:** [https://github.com/MauricioMVilcapoma/OpenSource-4328](https://github.com/MauricioMVilcapoma/OpenSource-4328)
@@ -158,6 +158,17 @@
 ---
 
 # Student Outcome
+
+El curso contribuye al cumplimiento del Student Outcome ABET:  
+**ABET – EAC - Student Outcome 4**
+
+**Criterio:**  
+La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.
+
+| Criterio específico                                                                                                                                   | Acciones realizadas | Conclusiones |
+|------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|--------------|
+| 4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software                                                          |                     |              |
+| 4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales |          
 
 ---
 
