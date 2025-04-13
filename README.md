@@ -35,7 +35,7 @@
 
 | Versión | Fecha       | Autor | Descripción |
 |---------|-------------|-------|-------------|
-| TB1     | XX/XX/XXXX  |       |             |
+| TB1     | 12/04/2025  |  Ramiro Guzman     |   Desarrollé la carátula, la tabla de contenidos, la descripción de la Startup, la Solution Profile que abarca los Antecedentes y Problemática, definí los Segmentos Objetivos y el Diseño de las entrevistas.          |
 | TB1     | XX/XX/XXXX  |       |             |
 | TB1     | XX/XX/XXXX  |       |             |
 | TB1     | XX/XX/XXXX  |       |             |
@@ -176,10 +176,46 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
 
 ### 1.1. Startup Profile
 #### 1.1.1. Descripción de la Startup
+
+**VibeFit** es una startup tecnológica enfocada en el bienestar físico y mental, cuya misión es facilitar y personalizar el camino hacia una vida saludable mediante el uso de tecnología inteligente.
+
+Su producto principal, **FitWise**, es una aplicación web y móvil que genera rutinas de entrenamiento y planes nutricionales personalizados, adaptándose al estilo de vida, objetivos y nivel de cada usuario.
+
+La propuesta de valor de VibeFit se basa en la **adaptabilidad**, la **personalización** y el **acompañamiento constante**, abordando una de las principales barreras para adoptar hábitos saludables: la falta de tiempo y de una guía clara para empezar.
+
 #### 1.1.2. Perfiles de integrantes del equipo
 
 ### 1.2. Solution Profile
 #### 1.2.1. Antecedentes y problemática
+
+- **Who (¿Quiénes son los afectados?)**  
+  Personas entre 18 y 40 años interesadas en mejorar su estado físico o mantener una vida saludable, pero que enfrentan obstáculos como la falta de tiempo, desconocimiento sobre rutinas de ejercicio y dificultad para seguir planes alimenticios realistas.
+
+- **What (¿Qué sucede?)**  
+  Existe una creciente demanda de soluciones fitness personalizadas; sin embargo, muchas aplicaciones actuales son genéricas, poco flexibles y no consideran la realidad del usuario en cuanto a tiempo, nivel, objetivos y cultura alimentaria. Esto genera frustración, abandono y poco progreso.
+
+- **Where (¿Dónde ocurre?)**  
+  Principalmente en contextos urbanos, especialmente en ciudades como Lima, donde factores como el tráfico, las largas jornadas laborales y el escaso acceso a asesoría personalizada dificultan la constancia en la actividad física y en la alimentación saludable.
+
+- **When (¿Cuándo sucede?)**  
+  De forma cotidiana, cuando las personas intentan adoptar una rutina saludable pero no encuentran un plan realista que se ajuste a su disponibilidad de tiempo y recursos personales.
+
+- **Why (¿Por qué es un problema?)**  
+  Porque afecta directamente la salud física y mental. Sin una guía adecuada y adaptada, las personas pierden motivación rápidamente, lo que impide la adquisición de hábitos saludables sostenibles en el tiempo.
+
+- **How (¿Cómo se manifiesta?)**
+  - Rutinas genéricas que no consideran el tiempo real disponible del usuario.  
+  - Planes de nutrición no adaptados a la gastronomía local.  
+  - Falta de seguimiento y visualización de progreso.  
+  - Escasa interacción humana o profesional en las plataformas actuales.
+
+- **How Much (¿Cuán grande es el problema?)**  
+  Según el Ministerio de Salud del Perú:
+  - Más del **60%** de la población adulta presenta sobrepeso u obesidad.  
+  - Más del **70%** no realiza actividad física suficiente.
+
+  Esto representa un problema de salud pública y una gran **oportunidad de mercado** para soluciones tecnológicas efectivas y accesibles como FitWise.
+  
 #### 1.2.2. Lean UX Process
 ##### 1.2.2.1. Lean UX Problem Statements
 ##### 1.2.2.2. Lean UX Assumptions
@@ -187,6 +223,39 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
 ##### 1.2.2.4. Lean UX Canvas
 
 ### 1.3. Segmentos objetivo
+
+### 1. Adultos jóvenes ocupados (25 - 40 años)
+
+**Descripción**  
+Hombres y mujeres que trabajan tiempo completo, viven en zonas urbanas como Lima Metropolitana y desean mejorar su salud física. Tienen poco tiempo libre y buscan soluciones prácticas, rápidas y efectivas que se integren fácilmente a su rutina.
+
+**Características clave**  
+- Profesionales con agendas ajustadas.  
+- Nivel socioeconómico medio a alto.  
+- Acceso constante a smartphones.  
+- Metas de salud definidas, pero necesitan guía y motivación.  
+- Buscan flexibilidad y personalización en sus entrenamientos y dietas.
+
+**Datos de sustento**  
+- Más del **65%** de personas en Lima trabajan más de 40 horas semanales (INEI).  
+- El **70%** no realiza actividad física regular.  
+- Penetración de smartphones: **91.6%** (INEI, 2022).
+
+### 2. Jóvenes universitarios saludables en formación (18 - 24 años)
+
+**Descripción**  
+Estudiantes o egresados recientes que están formando sus hábitos saludables. Cuentan con mayor disponibilidad de tiempo, pero menos conocimiento técnico y un menor poder adquisitivo. Son nativos digitales, influidos por redes sociales y tendencias fitness, y buscan una app atractiva, visual y que los motive constantemente.
+
+**Características clave**  
+- Alta actividad en redes sociales.  
+- Aprecian el contenido interactivo y la gamificación.  
+- Tienen tiempo para entrenar, pero requieren orientación.  
+- Interesados en recetas saludables peruanas y fáciles de preparar.
+
+**Datos de sustento**  
+- El **45%** de jóvenes en Perú busca llevar una vida más saludable (Ipsos, 2023).  
+- El **94%** accede a internet desde su celular.  
+- Alta disposición a probar nuevas apps si son visuales, gratuitas o freemium.
 
 ## Capítulo II: Requirements Elicitation & Analysis
 
@@ -196,6 +265,45 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
 
 ### 2.2. Entrevistas
 #### 2.2.1. Diseño de entrevistas
+
+#### Segmento: Adultos jóvenes ocupados (25 - 40 años)
+
+**Preguntas Generales**  
+- ¿Cuál es su nombre completo?  
+- ¿Cuántos años tienes?  
+- ¿Cuál es su situación actual? ¿Trabaja, estudia o ambos?  
+- ¿En qué ciudad resides?  
+
+**Preguntas sobre Personalidad**  
+- ¿Te consideras una persona extrovertida o introvertida? ¿Por qué?  
+- ¿Eres una persona que toma decisiones racionales o emocionales? ¿Por qué?  
+
+**Preguntas específicas del segmento**  
+- ¿Cuáles son tus principales obstáculos para mantener una vida saludable en tu rutina diaria?  
+- ¿Has intentado seguir alguna rutina de ejercicios o dieta antes? ¿Qué funcionó y qué no?  
+- ¿Qué tipo de herramientas digitales utilizas actualmente (si alguna) para mejorar tu salud física o alimentación?  
+- ¿Estarías dispuesto/a a pagar por una asesoría personalizada y flexible dentro de una app si resuelve tus problemas de tiempo o motivación?
+
+---
+
+#### Segmento: Jóvenes universitarios saludables en formación (18 - 24 años)
+
+**Preguntas Generales**  
+- ¿Cuál es su nombre completo?  
+- ¿Cuántos años tienes?  
+- ¿Cuál es su situación actual? ¿Trabaja, estudia o ambos?  
+- ¿En qué ciudad resides?  
+
+**Preguntas sobre Personalidad**  
+- ¿Te consideras una persona extrovertida o introvertida? ¿Por qué?  
+- ¿Eres una persona que toma decisiones racionales o emocionales? ¿Por qué?  
+
+**Preguntas específicas del segmento**  
+- ¿Qué te motiva a comenzar una rutina de ejercicios o una dieta saludable?  
+- ¿Qué te gustaría que una app de fitness haga por ti para mantenerte motivado y constante?  
+- ¿Te interesaría que la app incluya retos, logros o niveles? ¿Qué tipo de recompensas o elementos te mantendrían comprometido?  
+- ¿Qué tan importante es para ti que la app se adapte a tus horarios, metas y preferencias alimenticias locales (como recetas peruanas saludables)?
+
 #### 2.2.2. Registro de entrevistas
 #### 2.2.3. Análisis de entrevistas
 
