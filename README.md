@@ -309,6 +309,16 @@ Estudiantes o egresados recientes que están formando sus hábitos saludables. C
 
 ### 2.3. Needfinding
 #### 2.3.1. User Personas
+
+- **Adultos Jóvenes Ocupados (25–40 años)**
+<p align="center">
+  <img src="./assets/persona1.png" alt="per1"/>
+
+- **Jóvenes Universitarios Saludables en Formación (18–24 años)**
+<p align="center">
+  <img src="./assets/persona2.png" alt="per2"/>
+
+
 #### 2.3.2. User Task Matrix
 
 En esta sección se presentan las tareas que los User Persona realizan para alcanzar sus objetivos de salud y bienestar. Las tareas listadas son independientes de la existencia de una aplicación, y reflejan acciones comunes realizadas por los usuarios en su vida cotidiana al momento de intentar adoptar hábitos saludables.  
