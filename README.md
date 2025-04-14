@@ -360,6 +360,15 @@ Los segmentos considerados son:
   - Ambos buscan herramientas o estrategias para **mantener la motivación**, **organizar su alimentación** y **visualizar progreso**, aunque desde diferentes niveles de conocimiento, tiempo y objetivos.
 
 #### 2.3.3. User Journey Mapping
+
+- **Adultos Jóvenes Ocupados (25–40 años)**
+<p align="center">
+  <img src="./assets/journey1.png" alt="jour1"/>
+  
+- **Jóvenes Universitarios Saludables en Formación (18–24 años)**
+  <p align="center">
+  <img src="./assets/journey2.png" alt="jour2"/>
+    
 #### 2.3.4. Empathy Mapping
 #### 2.3.5. As-is Scenario Mapping
 
