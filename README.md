@@ -319,8 +319,74 @@ Estudiantes o egresados recientes que están formando sus hábitos saludables. C
 ## Capítulo III: Requirements Specification
 
 ### 3.1. To-Be Scenario Mapping
+
 ### 3.2. User Stories
+
+**EPIC ID: EP001 - Registro y Login**
+
+| USER STORY ID | TÍTULO                        | DESCRIPCIÓN                                                                 | CRITERIO DE ACEPTACIÓN                                                                                     | RELACIÓN |
+|---------------|-------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|----------|
+| US001         | Registro con correo electrónico | Como usuario nuevo, quiero registrarme con mi correo y contraseña, para acceder a la plataforma.            | Given un nuevo usuario, When ingresa su correo y contraseña válidos, Then se debe crear una cuenta.       | EP001    |
+| US002         | Login con autenticación OAuth  | Como usuario frecuente, quiero iniciar sesión con Google, para acceder rápidamente.                         | Given un usuario con cuenta Google, When selecciona “Iniciar sesión con Google”, Then accede automáticamente. | EP001 |
+| US003         | Recuperación de contraseña     | Como usuario, quiero recuperar mi contraseña si la olvido, para poder seguir usando la app.                 | Given un usuario registrado, When solicita recuperar su contraseña, Then recibe un correo con el enlace.  | EP001    |
+
+**EPIC ID: EP002 - Personalización Inicial**
+
+| USER STORY ID | TÍTULO                            | DESCRIPCIÓN                                                                                      | CRITERIO DE ACEPTACIÓN                                                                                              | RELACIÓN |
+|---------------|------------------------------------|---------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|----------|
+| US004         | Ingreso de datos físicos           | Como usuario nuevo, quiero ingresar mi peso, altura y sexo, para que las rutinas se ajusten.     | Given el formulario de personalización, When ingreso datos válidos, Then se deben guardar correctamente.            | EP002    |
+| US005         | Selección de zonas a trabajar      | Como usuario, quiero seleccionar las zonas del cuerpo que deseo mejorar.                         | Given la interfaz de personalización, When selecciono zonas, Then las rutinas deben adaptarse a estas preferencias. | EP002    |
+| US006         | Ingreso de nivel de experiencia    | Como usuario, quiero indicar mi nivel de experiencia física.                                     | Given un usuario nuevo, When selecciona su nivel, Then se guarda y personaliza el entrenamiento.                    | EP002    |
+| US007         | Definir objetivo principal         | Como usuario, quiero establecer un objetivo principal (perder peso, tonificar, etc).             | Given el asistente de bienvenida, When selecciono un objetivo, Then la app se adapta a ese objetivo.                | EP002    |
+
+**EPIC ID: EP003 - Dashboard Principal**
+
+| USER STORY ID | TÍTULO                          | DESCRIPCIÓN                                                                                | CRITERIO DE ACEPTACIÓN                                                                                   | RELACIÓN |
+|---------------|----------------------------------|---------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------|
+| US008         | Establecer objetivos personales  | Como usuario, quiero establecer un objetivo semanal de actividad.                         | Given el dashboard, When configuro un objetivo, Then debe mostrarse el progreso semanal.                 | EP003    |
+| US009         | Visualizar progreso semanal      | Como usuario, quiero ver mi progreso semanal en el dashboard.                             | Given que realicé entrenamientos, When ingreso al dashboard, Then debe mostrarse el progreso.            | EP003    |
+| US010         | Recibir ejercicios recomendados  | Como usuario, quiero recomendaciones diarias de ejercicios.                               | Given mi perfil personalizado, When accedo al dashboard, Then se muestran sugerencias automáticas.       | EP003    |
+| US011         | Ver objetivos populares          | Como usuario, quiero ver objetivos populares para motivarme.                              | Given el dashboard, When ingreso, Then se muestran objetivos seguidos por otros usuarios.                 | EP003    |
+
+**EPIC ID: EP004 - Sección Informe**
+
+| USER STORY ID | TÍTULO                         | DESCRIPCIÓN                                                                 | CRITERIO DE ACEPTACIÓN                                                                                     | RELACIÓN |
+|---------------|---------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|----------|
+| US012         | Visualizar progreso diario      | Como usuario, quiero ver mi progreso diario.                                | Given los registros de actividad, When consulto informes, Then se muestran detalles por día.               | EP004    |
+| US013         | Ver IMC en gráfico              | Como usuario, quiero ver una gráfica de mi IMC.                             | Given datos de peso y altura, When accedo a mi perfil, Then se muestra un gráfico de IMC.                 | EP004    |
+| US014         | Actualizar peso y altura        | Como usuario, quiero actualizar mis datos físicos.                          | Given un usuario activo, When edita peso y altura, Then se recalcula IMC y actualizan recomendaciones.     | EP004    |
+| US015         | Exportar informe en PDF         | Como usuario, quiero exportar mi progreso en PDF.                           | Given un historial de entrenamientos, When selecciono exportar, Then se genera un PDF.                    | EP004    |
+
+**EPIC ID: EP005 - Interfaz y Motivación**
+
+| USER STORY ID | TÍTULO                           | DESCRIPCIÓN                                                                 | CRITERIO DE ACEPTACIÓN                                                                                      | RELACIÓN |
+|---------------|-----------------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|----------|
+| US016         | Ver animaciones motivacionales    | Como usuario, quiero ver animaciones al completar rutinas.                  | Given que termino una rutina, When se completa, Then se muestra una animación.                             | EP005    |
+| US017         | Frases motivacionales diarias     | Como usuario, quiero recibir frases motivacionales al iniciar el día.       | Given que abro la app, When carga el dashboard, Then se muestra una frase positiva.                        | EP005    |
+| US018         | Personalizar colores de la app    | Como usuario, quiero elegir el tema de la app.                              | Given la configuración, When elijo un tema, Then se actualiza la interfaz.                                 | EP005    |
+| US019         | Acceder a comunidad de usuarios   | Como usuario, quiero ver logros de otros usuarios.                          | Given la sección comunidad, When la consulto, Then se muestran publicaciones y avances.                    | EP005    |
+
+**EPIC ID: EP006 - Nutrición Personalizada**
+
+| USER STORY ID | TÍTULO                             | DESCRIPCIÓN                                                                 | CRITERIO DE ACEPTACIÓN                                                                                   | RELACIÓN |
+|---------------|-------------------------------------|------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------|
+| US020         | Plan nutricional semanal            | Como usuario, quiero sugerencias de comidas semanales.                      | Given mi perfil, When accedo a nutrición, Then se muestra un plan de comidas personalizado.             | EP006    |
+| US021         | Filtrar recetas por dificultad      | Como usuario, quiero recetas según mi tiempo libre.                         | Given la lista de recetas, When aplico el filtro, Then se muestran recetas según dificultad.             | EP006    |
+| US022         | Ver recetas peruanas saludables     | Como usuario, quiero ver recetas locales saludables.                        | Given el módulo de recetas, When busco por tipo, Then se muestran opciones peruanas saludables.          | EP006    |
+
+**EPIC ID: EP007 - Configuración y Soporte**
+
+| USER STORY ID | TÍTULO                          | DESCRIPCIÓN                                                                  | CRITERIO DE ACEPTACIÓN                                                                                       | RELACIÓN |
+|---------------|----------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|----------|
+| US023         | Cambiar datos de cuenta          | Como usuario, quiero editar mis datos personales.                            | Given el perfil, When edito nombre o correo, Then se actualiza correctamente.                               | EP007    |
+| US024         | Contactar al soporte             | Como usuario, quiero enviar un mensaje al soporte si tengo problemas.        | Given un problema, When envío un mensaje desde ayuda, Then se genera un ticket.                             | EP007    |
+| US025         | Eliminar cuenta                  | Como usuario, quiero eliminar mi cuenta para proteger mis datos.             | Given un usuario registrado, When selecciona eliminar cuenta, Then todos sus datos son eliminados.          | EP007    |
+
+
 ### 3.3. Product Backlog
+
+
+
 ### 3.4. Impact Mapping
 
 ## Avance de Conclusiones, Bibliografía y Anexos
