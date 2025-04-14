@@ -4,7 +4,7 @@
 # Universidad Peruana de Ciencias Aplicadas
 
 <p align="center">
-  <img src="./assets/upc-logo.png" alt="UPC Logo" width="200"/>
+  <img src="assets/logos/upc-logo.png" alt="UPC Logo" width="200"/>
 </p>
 
 ### Carrera: Ingeniería de Software  
@@ -184,6 +184,15 @@ Su producto principal, **FitWise**, es una aplicación web y móvil que genera r
 La propuesta de valor de VibeFit se basa en la **adaptabilidad**, la **personalización** y el **acompañamiento constante**, abordando una de las principales barreras para adoptar hábitos saludables: la falta de tiempo y de una guía clara para empezar.
 
 #### 1.1.2. Perfiles de integrantes del equipo
+
+- Jhon Alexander Galvez Chambi - u202323270 (Ingeniería de Software)
+
+<p align="center">
+    <img src="assets/fotos/jhonfoto.jpg" alt="foto-jhon" width="170px"/>
+</p>
+
+Soy una persona responsable y comprometida con la consecución de los mejores resultados en trabajo en equipo. Poseo experiencia en diversos lenguajes de programación, incluyendo Python, JavaScript y C++, así como en varios de los frameworks asociados a estos lenguajes. Además, tengo conocimientos en tecnologías emergentes como Cloud Computing e Internet de las Cosas (IoT), y estoy dispuesto a aportar mi experiencia en estas áreas para contribuir al éxito de los proyectos en los que participo.
+
 
 ### 1.2. Solution Profile
 #### 1.2.1. Antecedentes y problemática
@@ -385,6 +394,40 @@ Estudiantes o egresados recientes que están formando sus hábitos saludables. C
 
 ### 3.3. Product Backlog
 
+Para elaborar nuestro product backlog hemos utilizado la escala lineal (1,2,3). Esto con el propósito de optimizar el nivel de las tareas.
+
+**Historia de usuario base:**
+
+US010 <br> Titulo: Recibir ejercicios recomendados <br> Descripcion: Como usuario, quiero recomendaciones diarias de ejercicios. (Puntaje asignado: 2)
+
+
+| # ORDEN | USER STORY ID | TÍTULO                              | DESCRIPCIÓN                                                                   | PRIORIDAD | STORY POINTS (1/2/3)
+|--------|----------------|--------------------------------------|-------------------------------------------------------------------------------|-----------|----------------------|
+| 1      | US001          | Registro con correo electrónico      | Como usuario nuevo, quiero registrarme con mi correo y contraseña.           | Alta      | 2                    |
+| 2      | US002          | Login con autenticación OAuth        | Como usuario frecuente, quiero iniciar sesión con Google.                    | Alta      | 2                    |
+| 3      | US004          | Ingreso de datos físicos             | Como usuario nuevo, quiero ingresar mi peso, altura y sexo.                  | Alta      | 2                    |
+| 4      | US007          | Definir objetivo principal           | Como usuario, quiero establecer un objetivo principal.                       | Alta      | 2                    |
+| 5      | US010          | Recibir ejercicios recomendados      | Como usuario, quiero recomendaciones diarias de ejercicios.                  | Alta      | 2                    |
+| 6      | US009          | Visualizar progreso semanal          | Como usuario, quiero ver mi progreso semanal en el dashboard.                | Alta      | 2                    |
+| 7      | US012          | Visualizar progreso diario           | Como usuario, quiero ver mi progreso diario.                                 | Media     | 2                    |
+| 8      | US005          | Selección de zonas a trabajar        | Como usuario, quiero seleccionar las zonas del cuerpo que deseo mejorar.     | Media     | 2                    |
+| 9      | US006          | Ingreso de nivel de experiencia      | Como usuario, quiero indicar mi nivel de experiencia física.                 | Media     | 1                    |
+| 10     | US008          | Establecer objetivos personales      | Como usuario, quiero establecer un objetivo semanal de actividad.            | Alta      | 2                    |
+| 11     | US013          | Ver IMC en gráfico                   | Como usuario, quiero ver una gráfica de mi IMC.                              | Media     | 2                    |
+| 12     | US014          | Actualizar peso y altura             | Como usuario, quiero actualizar mis datos físicos.                           | Media     | 2                    |
+| 13     | US003          | Recuperación de contraseña           | Como usuario, quiero recuperar mi contraseña si la olvido.                   | Media     | 2                    |
+| 14     | US011          | Ver objetivos populares              | Como usuario, quiero ver objetivos populares para motivarme.                 | Media     | 1                    |
+| 15     | US016          | Ver animaciones motivacionales       | Como usuario, quiero ver animaciones al completar rutinas.                   | Baja      | 1                    |
+| 16     | US017          | Frases motivacionales diarias        | Como usuario, quiero recibir frases motivacionales al iniciar el día.        | Baja      | 1                    |
+| 17     | US019          | Acceder a comunidad de usuarios      | Como usuario, quiero ver logros de otros usuarios.                           | Baja      | 2                    |
+| 18     | US020          | Plan nutricional semanal             | Como usuario, quiero sugerencias de comidas semanales.                       | Media     | 2                    |
+| 19     | US022          | Ver recetas peruanas saludables      | Como usuario, quiero ver recetas locales saludables.                         | Media     | 2                    |
+| 20     | US015          | Exportar informe en PDF              | Como usuario, quiero exportar mi progreso en PDF.                            | Baja      | 3                    |
+| 21     | US018          | Personalizar colores de la app       | Como usuario, quiero elegir el tema de la app.                               | Baja      | 1                    |
+| 22     | US021          | Filtrar recetas por dificultad       | Como usuario, quiero recetas según mi tiempo libre.                          | Baja      | 2                    |
+| 23     | US023          | Cambiar datos de cuenta              | Como usuario, quiero editar mis datos personales.                            | Baja      | 2                    |
+| 24     | US024          | Contactar al soporte                 | Como usuario, quiero enviar un mensaje al soporte si tengo problemas.        | Baja      | 1                    |
+| 25     | US025          | Eliminar cuenta                      | Como usuario, quiero eliminar mi cuenta para proteger mis datos.             | Baja      | 2                    |
 
 
 ### 3.4. Impact Mapping
