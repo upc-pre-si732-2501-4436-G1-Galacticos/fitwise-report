@@ -143,14 +143,12 @@
   - [4.10.2. Relational Database Schemas](#4102-relational-database-schemas)
 
 ## Capítulo V: Product Implementation
-
 - [5.1. Software Configuration Management](#51-software-configuration-management)
 
   - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
   - [5.1.2. Source Code Management](#512-source-code-management)
   - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
   - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-
 - [5.2. Product Implementation & Deployment](#52-product-implementation--deployment)
 
   - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
@@ -160,9 +158,13 @@
   - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
   - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
   - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
-
 - [5.3. Video About-the-Product](#53-video-about-the-product)
 
+## Capítulo VI: Conclusiones, Bibliografía y Anexos
+- [6.1. Conclusiones](#61-conclusiones)
+- [6.2. Bibliografía](#62-bibliografía)
+- [6.3. Anexos](#63-anexos)
+  
 ---
 
 # Student Outcome
@@ -193,6 +195,51 @@ Su producto principal, **FitWise**, es una aplicación web y móvil que genera r
 La propuesta de valor de VibeFit se basa en la **adaptabilidad**, la **personalización** y el **acompañamiento constante**, abordando una de las principales barreras para adoptar hábitos saludables: la falta de tiempo y de una guía clara para empezar.
 
 #### 1.1.2. Perfiles de integrantes del equipo
+
+---
+
+#### **Muñoz Vilcapoma Mauricio – Ingeniería de Software – U202217212**  
+<img src="https://github.com/user-attachments/assets/0b23f8bd-a5e9-4244-96da-64adf16ce924" alt="Muñoz Vilcapoma Mauricio" height="200"/>
+
+Soy xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
+
+---
+
+#### **Ramiro Alexander Guzman Chavez – Ingeniería de Software – U202217062**  
+<img src="./assets/RAMIROGUZMAN.png" alt="RAMIROGUZMAN" height="200"/>
+
+Mi perfil se basa en ser una persona responsable, disciplinada en todo aspecto y comprometida con las actividades que me puedan tocar.
+Considero que tengo una experiencia altamente capacitada para este tipo de tareas. Suelo desarrollarme de manera positiva en los trabajos grupales y tengo conocimientos en bases de datos, lo cual puede aportar de manera importante al equipo.
+Además, cuento con conocimientos en lenguajes de programación como Java y JavaScript, lo que me permite desarrollar soluciones tanto del lado del backend como del frontend, contribuyendo a proyectos de desarrollo de software de manera integral.
+
+---
+
+#### **Farid Sebastian Briceño De La Cruz – Ingeniería de Software – U20211F211**  
+<*(Sin imagen disponible)*
+
+Soy estudiante de Ingeniería de Software con un fuerte interés en el desarrollo de productos digitales y la tecnología. En mi tiempo libre, me gusta jugar videojuegos. También tengo un interés especial en la música, lo que me ayuda a equilibrar mi vida académica y personal. Cuento con habilidades en gestión de bases de datos y tengo experiencia en análisis de datos, lo que me ayuda a tomar decisiones informadas y crear soluciones efectivas.
+
+---
+
+#### **David Alexander Perez Garcia – Ingeniería de Software – U202222942**
+
+*(Sin imagen disponible)*
+
+Soy xxxxxxxxxxxx
+
+---
+
+#### **Jhon Alexander Galvez Chambi – Ingeniería de Software – U202323270**  
+
+- Jhon Alexander Galvez Chambi - u202323270 (Ingeniería de Software)
+
+<p align="center">
+    <img src="assets/fotos/jhonfoto.jpg" alt="foto-jhon" width="170px"/>
+</p>
+
+Soy una persona responsable y comprometida con la consecución de los mejores resultados en trabajo en equipo. Poseo experiencia en diversos lenguajes de programación, incluyendo Python, JavaScript y C++, así como en varios de los frameworks asociados a estos lenguajes. Además, tengo conocimientos en tecnologías emergentes como Cloud Computing e Internet de las Cosas (IoT), y estoy dispuesto a aportar mi experiencia en estas áreas para contribuir al éxito de los proyectos en los que participo.
+
+---
 
 ### 1.2. Solution Profile
 
@@ -329,13 +376,54 @@ Estudiantes o egresados recientes que están formando sus hábitos saludables. C
 - Alta disposición a probar nuevas apps si son visuales, gratuitas o freemium.
 
 ## Capítulo II: Requirements Elicitation & Analysis
-
 ### 2.1. Competidores
+<table> <thead> <tr> <th>Nombre del Competidor</th> <th>Descripción</th> </tr> </thead> 
+    <tbody>
+        <tr>
+            <td rowspan align="center">MyFitnessPal<img src="./assets/myfitnesspalIco.png" alt="MyFitnessPal Logo" style="width: 120px; height: auto;" </td>
+            <td>App de seguimiento nutricional y calorías con base de datos extensa, enfocada en usuarios que desean controlar su alimentación y objetivos de salud<br>
+            Página web:<a href="https://www.myfitnesspal.com/es">https://www.myfitnesspal.com/es</a>
+        </tr>
+        <tr>
+            <td align="center">Freeletics<img src="./assets/freeleticsIco.png"alt="Freeletics Logo" style="width: 120px; height: auto;"</td>
+            <td>Entrenamientos personalizados sin equipo, con enfoque en la flexibilidad del usuario y coaching mediante inteligencia artificial.<br>
+            Página web:<a href="https://www.freeletics.com/es/"> https://www.freeletics.com/es/</a>
+        </tr>
+        <tr>
+           <td rowspan align="center">8fit<br><img src="./assets/8fitIco.png"alt="8fit Logo" style="width: 120px; height: auto;"</td> 
+           <td>App que combina rutinas de ejercicio y planes alimenticios personalizados, con enfoque en principiantes y personas con tiempo limitado.<br>
+           Página web:<a href="https://8fit.com/"> https://8fit.com/</a>
+    </tbody>
+</table>
 
 #### 2.1.1. Análisis competitivo
 
+<table style="width: 100%;"> <tr> <th colspan="6" style="padding: 8px; text-align: center;">Competitive Analysis Landscape</th> </tr> <tr> <td>¿Por qué llevar a cabo este análisis?</td> <td colspan="5">Para identificar ventajas comparativas y oportunidades de posicionamiento de FitWise frente a otras aplicaciones de fitness, mejorando su estrategia de producto y marketing hacia usuarios que inician su camino hacia un estilo de vida saludable.</td> </tr>
+ <tr> <td colspan="2"></td> <td align="center"><strong>MyFitnessPal</strong><img src="./assets/myfitnesspalIco.png" alt="myfitnesspalIco Logo"></td> <td align="center"><strong>Freeletics</strong>
+ <img src="./assets/freeleticsIco.png" alt="freeleticsIco Logo"></td> <td align="center"><strong>8fit</strong><img src="./assets/8fitIco.png" alt="Pawfect Logo"></td> <td align="center"><strong>FitWise</strong><img src="./assets/fitwise.png" alt="fitwise Logo"></td> </tr> <tr> <td rowspan="2" align="center">Perfil</td> <td>Overview</td> <td>App veterana en control de calorías y macronutrientes, centrada en autogestión del usuario.</td> <td>Entrenamiento personalizado con IA y sin necesidad de equipo, ideal para rutinas en casa.</td> <td>Planes de fitness y nutrición en un mismo lugar, dirigido a personas ocupadas.</td> <td>Asistente personalizado para fitness y nutrición, con enfoque en personas sin experiencia previa ni conocimientos técnicos.</td> </tr> <tr> <td>Ventaja competitiva
+¿Qué valor ofrece a los clientes?</td> <td>Base de datos alimenticia muy amplia, historial comprobado y comunidad activa.</td> <td>Enfoque motivacional, rutinas adaptativas, coach digital.</td> <td>Combinación de entrenamiento + alimentación con interfaz amigable para novatos.</td> <td>Personalización profunda según estilo de vida, metas, tiempo disponible y acompañamiento constante para empezar desde cero.</td> </tr> <tr> <td rowspan="2" align="center">Perfil de Marketing</td> <td>Mercado objetivo</td> <td>Usuarios con experiencia en dietas y fitness que desean control detallado.</td> <td>Personas motivadas que buscan progresar desde casa con estructura y motivación.</td> <td>Usuarios principiantes con poco tiempo y ganas de hábitos saludables.</td> <td>Personas que desean mejorar su salud pero no saben por dónde empezar; estilo de vida ocupado.</td> </tr> <tr> <td>Estrategias de marketing</td> <td>SEO, comunidad online, integración con otras apps (Strava, Fitbit), contenido de expertos.</td> <td>Publicidad digital con mensajes aspiracionales, storytelling de usuarios, retos en redes.</td> <td>Anuncios orientados a principiantes, recomendaciones en tiendas de apps, testimonios.</td> <td>Marketing educativo, redes sociales con enfoque motivacional, onboarding guiado y testimonios de transformación real.</td> </tr> <tr> <td rowspan="3" align="center">Perfil del Producto</td> <td>Productos & Servicios</td> <td>Seguimiento calórico, macros, planes de comida, escáner de código de barras.</td> <td>Rutinas HIIT, coaching digital, planes progresivos.</td> <td>Ejercicios y recetas personalizadas, rutinas breves.</td> <td>App web y móvil con planes dinámicos de alimentación y entrenamiento según objetivos, nivel y estilo de vida.</td> </tr> <tr> <td>Precios & Costos</td> <td>Gratuita con funciones premium desde $9.99/mes</td> <td>Suscripción mensual desde $12.99/mes</td> <td>Freemium con planes desde $7.50/mes</td> <td>Modelo freemium, suscripción desde $5.99/mes (estimado)</td> </tr> <tr> <td>Canales de distribución</td> <td>iOS, Android, Web, integraciones con dispositivos</td> <td>iOS, Android, Web</td> <td>iOS, Android</td> <td>iOS, Android, Web, campañas en redes, alianzas con gimnasios locales</td> </tr> <tr> <td rowspan="4" align="center">Análisis SWOT</td> <td>Fortalezas</td> <td>Gran base de usuarios, amplia data nutricional, experiencia acumulada</td> <td>Entrenamientos adaptables sin equipo, coaching motivacional</td> <td>Fácil de usar, buena combinación entre nutrición y ejercicio</td> <td>Enfoque empático, personalización real, solución integral para novatos</td> </tr> <tr> <td>Debilidades</td> <td>Curva de aprendizaje, no apta para principiantes sin guía</td> <td>Poca personalización en planes nutricionales</td> <td>Limitada en métricas y seguimiento profesional</td> <td>App nueva en el mercado, aún sin comunidad consolidada</td> </tr> <tr> <td>Oportunidades</td> <td>Mayor integración con wearables y servicios de salud</td> <td>Gamificación y expansión a wellness mental</td> <td>Expansión con coaches humanos o retos grupales</td> <td>Capturar segmento desatendido que busca guía inicial sin complicaciones</td> </tr> <tr> <td>Amenazas</td> <td>Competencia con apps más simples o gratuitas</td> <td>Dependencia de motivación del usuario</td> <td>Mercado saturado de apps similares</td> <td>Dificultad para diferenciarse frente a marcas ya posicionadas</td> </tr> </table>
+
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
+**Estrategias:**  
+- **Diferenciación por personalización y acompañamiento inicial:**  
+  Mientras muchas apps de salud y fitness ofrecen planes genéricos, **FitWise** se posiciona como un guía real para personas que no saben por dónde empezar. Desde el primer día, el usuario recibe orientación paso a paso, ayudándolo a establecer metas realistas, entendiendo su estado actual de salud y hábitos. Esto reduce la tasa de abandono en las primeras semanas y genera confianza desde el inicio.  
+
+- **Enfoque en usuarios con poco tiempo y sin experiencia previa:**  
+  La mayoría de las aplicaciones se centran en usuarios que ya tienen motivación o experiencia previa en fitness. **FitWise** rompe con ese enfoque y prioriza a quienes tienen jornadas exigentes, familias que atender, o inseguridad sobre cómo entrenar o comer mejor. El producto se adapta al usuario, no al revés, con rutinas de minutos, ajustes diarios y sin tecnicismos.
+
+- **Mejora continua centrada en la experiencia del usuario:**  
+  A diferencia de competidores que lanzan versiones estáticas, **FitWise** evoluciona con sus usuarios. Se recopila feedback constante para adaptar planes, eliminar fricciones de navegación, y reforzar aspectos motivacionales como avances visibles, recompensas y mensajes personalizados. Esta iteración rápida genera una experiencia más humana y cercana.
+
+**Tácticas:**  
+- **Campañas de retos “Empieza sin presión”:**  
+  Se lanzarán desafíos accesibles para nuevos usuarios como “7 días para comenzar”, que combinan hábitos simples (caminar 10 min, hidratarse bien, cenar ligero) con mensajes motivacionales. Estos retos estarán integrados con notificaciones diarias, logros desbloqueables y recompensas virtuales (como niveles, stickers, badges) que refuercen la constancia sin agobiar.
+
+- **Contenido educativo y emocional:**  
+  Se desarrollará contenido multimedia centrado en eliminar la culpa, el miedo o la frustración asociada con el cambio de hábitos. Videos de 1 minuto, reels, posts y artículos con lenguaje amigable, comparaciones simples (“comer mejor no es comer menos”, “moverte no es ir al gym”), y testimonios reales que conecten emocionalmente con el usuario.
+
+- **Alianzas con profesionales y centros de salud:**  
+  Para reforzar la credibilidad y dar valor extra, se buscarán colaboraciones con nutricionistas, médicos, entrenadores y psicólogos. Estos expertos validarán el contenido de la app, brindarán webinars abiertos para usuarios activos, y generarán materiales especializados (ej. guías para diabéticos, personas con ansiedad alimentaria o movilidad limitada). También se explorará la integración con centros de salud o clínicas como canal de recomendación.
 ### 2.2. Entrevistas
 
 #### 2.2.1. Diseño de entrevistas
@@ -770,7 +858,12 @@ US010 <br> Titulo: Recibir ejercicios recomendados <br> Descripcion: Como usuari
 | 25      | US025         | Eliminar cuenta                 | Como usuario, quiero eliminar mi cuenta para proteger mis datos.         | Baja      | 2                    |
 
 ### 3.4. Impact Mapping
+# Capítulo III: Requirements Specification
+## 3.3. Impact Mapping.
 
+El Impact Mapping de FitWise es una herramienta estratégica que alinea los objetivos de negocio con los comportamientos deseados en sus principales usuarios: personas sin experiencia en fitness y profesionales de la salud. La técnica permite identificar los impactos necesarios, los entregables que los habilitan y las historias de usuario que aseguran una implementación centrada en la experiencia. Así, FitWise busca facilitar el inicio de hábitos saludables sostenibles y ofrecer herramientas útiles para el seguimiento y mejora continua, fomentando la adopción de la app como un aliado diario en el bienestar personal y profesional.
+
+<br><img src="./assets/impactmappingDiagram.png" alt="Impact Map" style="width: 1000px; height: auto;" ><br>
 ## Avance de Conclusiones, Bibliografía y Anexos
 
 ## Capítulo IV: Product Design
@@ -881,8 +974,6 @@ US010 <br> Titulo: Recibir ejercicios recomendados <br> Descripcion: Como usuari
 
 ### 5.3. Video About-the-Product
 
-## Avance de Conclusiones
-
-## Bibliografía
-
-## Anexos
+### 6.1. Conclusiones
+### 6.2. Bibliografía
+### 6.3. Anexos
