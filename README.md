@@ -92,8 +92,6 @@
 - [3.3. Product Backlog](#33-product-backlog)
 - [3.4. Impact Mapping](#34-impact-mapping)
 
-## Avance de Conclusiones, Bibliografía y Anexos
-
 ## Capítulo IV: Product Design
 - [4.1. Style Guidelines](#41-style-guidelines)
   - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
@@ -136,13 +134,11 @@
   - [4.10.2. Relational Database Schemas](#4102-relational-database-schemas)
 
 ## Capítulo V: Product Implementation
-
 - [5.1. Software Configuration Management](#51-software-configuration-management)
   - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
   - [5.1.2. Source Code Management](#512-source-code-management)
   - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
   - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-
 - [5.2. Product Implementation & Deployment](#52-product-implementation--deployment)
   - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
   - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
@@ -151,10 +147,13 @@
   - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
   - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
   - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
-
 - [5.3. Video About-the-Product](#53-video-about-the-product)
 
-
+## Capítulo VI: Conclusiones, Bibliografía y Anexos
+- [6.1. Conclusiones](#61-conclusiones)
+- [6.2. Bibliografía](#62-bibliografía)
+- [6.3. Anexos](#63-anexos)
+  
 ---
 
 # Student Outcome
@@ -501,6 +500,6 @@ Los segmentos considerados son:
 
 ### 5.3. Video About-the-Product
 
-## Avance de Conclusiones
-## Bibliografía
-## Anexos
+### 6.1. Conclusiones
+### 6.2. Bibliografía
+### 6.3. Anexos
