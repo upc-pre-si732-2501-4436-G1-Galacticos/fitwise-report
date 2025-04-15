@@ -194,14 +194,6 @@ La propuesta de valor de VibeFit se basa en la **adaptabilidad**, la **personali
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
-- Jhon Alexander Galvez Chambi - u202323270 (Ingeniería de Software)
-
-<p align="center">
-    <img src="assets/fotos/jhonfoto.jpg" alt="foto-jhon" width="170px"/>
-</p>
-
-Soy una persona responsable y comprometida con la consecución de los mejores resultados en trabajo en equipo. Poseo experiencia en diversos lenguajes de programación, incluyendo Python, JavaScript y C++, así como en varios de los frameworks asociados a estos lenguajes. Además, tengo conocimientos en tecnologías emergentes como Cloud Computing e Internet de las Cosas (IoT), y estoy dispuesto a aportar mi experiencia en estas áreas para contribuir al éxito de los proyectos en los que participo.
-
 ### 1.2. Solution Profile
 
 #### 1.2.1. Antecedentes y problemática
@@ -479,8 +471,6 @@ Los segmentos considerados son:
 
 ### 3.2. User Stories
 
-**EPIC ID: EP001 - Registro y Login**
-
 <table>
   <thead>
     <tr>
@@ -545,7 +535,7 @@ Los segmentos considerados son:
         <ul>
           <li> Scenario 1: Autenticación exitosa <br> Given el usuario tiene una cuenta de Google, When selecciona "Iniciar sesión con Google" y acepta los permisos solicitados, Then accede al sistema y se vincula el correo al sistema. </li>
           <li> Scenario 2: Denegación de permisos <br> Given el usuario tiene una cuenta de Google, When selecciona "Iniciar sesión con Google" y deniega los permisos solicitados Then se debe mostrar un mensaje "Debes aceptar los permisos para continuar". </li>
-          <li> Scenario 3: Cuenta Google no vinculada <br> Given un nuevo usuario, When ingresa una contraseña con menos de 8 caracteres, Then el sistema muestra un mensaje: "La contraseña debe tener al menos 8 caracteres". </li>
+          <li> Scenario 3: Cuenta Google no vinculada <br> Given un usuario que no tiene una cuenta de Google vinculada a FitWis, When intenta iniciar sesión con Google, Then el sistema redirige al formulario de registro para completar su perfil. </li>
         </ul>       
       </td>
       <td>EP001</td>
@@ -557,8 +547,8 @@ Los segmentos considerados son:
       <td>
         <ul>
           <li> Scenario 1: Solicitud exitosa <br> Given un usuario registrado, When selecciona "Olvidé mi contraseña" y envia su solicitud, Then recibe un correo con un enlace de recuperacion válido por 24 horas. </li>
-          <li> Scenario 2: Correo no registrado <br> Given un usuario no registrado, When selecciona "Olvidé mi contraseña" y envia su solicitud, Then el sistema muestra un mensaje: "Este correo no está registrado. ¿Quieres crear una cuenta?" </li>
-          <li> Scenario 3: Enlace expirado <br> Given un usuario recibe el enlace hace más de 24 horas, When intenta usarlo, Then el sistema redirige a una página para solicitar un nuevo enlace. </li>
+          <li> Scenario 2: Correo no registrado <br> Given un usuario no registrado, When selecciona "Olvidé mi contraseña" y envia su solicitud, Then el sistema muestra un mensaje: "Este correo no está registrado. ¿Quieres crear una cuenta?" Y se redirige al formulario de registro </li>
+          <li> Scenario 3: Enlace expirado <br> Given un usuario recibe el enlace de recuperacion, When intenta usarlo despues de 24 horas, Then el sistema redirige a una página para solicitar un nuevo enlace. </li>
         </ul>       
       </td>      
       <td>EP001</td>
@@ -587,7 +577,7 @@ Los segmentos considerados son:
     <tr>
       <td>US007</td>
       <td>Selección de zonas a trabajar</td>
-      <td>Como usuario, quiero seleccionar las zonas del cuerpo que deseo mejorar.</td>
+      <td>Como usuario, quiero seleccionar las zonas del cuerpo que deseo mejorar para obtener mejores resultados</td>
       <td>
         <ul>
           <li> Scenario 1: Selección múltiple de zonas <br> Given un usuario se encuentra en la interfaz de personalización, When selecciona múltiples zonas (ej: Brazo y Abdomen), Then el sistema genera una rutina que incluye ejercicios por zona seleccionada </li>
@@ -599,7 +589,7 @@ Los segmentos considerados son:
     <tr>
       <td>US008</td>
       <td>Ingreso de nivel de experiencia</td>
-      <td>Como usuario, quiero indicar mi nivel de experiencia física.</td>
+      <td>Como usuario, quiero indicar mi nivel de experiencia física para poder realizar los ejercicios sin mucha dificultad</td>
       <td>
         <ul>
           <li> Scenario 1: Mostrar niveles disponibles <br> Given un usuario se encuentra en la interfaz de personalización, When hace clic en "Selecciona tu nivel", Then el sistema muestra las opciones "Principiante", "Intermedio" y "Avanzado" </li>
@@ -612,12 +602,12 @@ Los segmentos considerados son:
     <tr>
       <td>US009</td>
       <td>Definir objetivo principal</td>
-      <td>Como usuario, quiero establecer un objetivo principal (perder peso, tonificar, etc).</td>
+      <td>Como usuario, quiero establecer un objetivo principal para que el sistema sugiera una rutina de ejercicios y una dieta adecuadas</td>
       <td>
         <ul>
-          <li> Scenario 1: Datos físicos válidos <br> Given un usuario se encuentra en el formulario de personalización, When ingresa peso (ej: 70 kg), altura (ej: 175 cm) y sexo (ej: "Femenino"), Then el sistema guarda los datos y muestra un mensaje: "Datos guardados correctamente" </li>
-          <li> Scenario 2: Correo no registrado <br> Given un usuario no registrado, When selecciona "Olvidé mi contraseña" y envia su solicitud, Then el sistema muestra un mensaje: "Este correo no está registrado. ¿Quieres crear una cuenta?" </li>
-          <li> Scenario 3: Enlace expirado <br> Given un usuario recibe el enlace hace más de 24 horas, When intenta usarlo, Then el sistema redirige a una página para solicitar un nuevo enlace. </li>
+          <li> Scenario 1: Objetivo "Perder peso" <br> Given un usuario se encuentra en el asistente de bienvenida, When selecciona "Perder peso", Then el sistema genera un plan con ejercicios cardiovasculares y un déficit calórico sugerido
+          </li>
+          <li> Scenario 2: Objetivo no seleccionado <br> Given un usuario se encuentra en el asistente de bienvenida, When no selecciona ningún objetivo, Then el sistema asigna "Mantenimiento" y muestra un mensaje: "Puedes cambiar esto luego en Configuración" </li>
         </ul>
       </td>
       <td>EP002</td>
@@ -633,10 +623,10 @@ Los segmentos considerados son:
     <tr>
       <td>US010</td>
       <td>Establecer objetivos personales</td>
-      <td>Como usuario, quiero establecer un objetivo semanal de actividad.</td>
+      <td>Como usuario, quiero establecer un objetivo de dias por semana de actividad para que el sistema registre mi progreso</td>
       <td>
         <ul>
-          <li> Scenario 1: Datos físicos válidos <br> Given un usuario se encuentra en el formulario de personalización, When ingresa peso (ej: 70 kg), altura (ej: 175 cm) y sexo (ej: "Femenino"), Then el sistema guarda los datos y muestra un mensaje: "Datos guardados correctamente" </li>
+          <li> Scenario 1: Objetivo semanal válido <br> Given un usuario se encuentra en la sección "Mis Objetivos" del dashboard, When establece un valor , Then el sistema guarda los datos y muestra un mensaje: "Datos guardados correctamente" </li>
           <li> Scenario 2: Correo no registrado <br> Given un usuario no registrado, When selecciona "Olvidé mi contraseña" y envia su solicitud, Then el sistema muestra un mensaje: "Este correo no está registrado. ¿Quieres crear una cuenta?" </li>
           <li> Scenario 3: Enlace expirado <br> Given un usuario recibe el enlace hace más de 24 horas, When intenta usarlo, Then el sistema redirige a una página para solicitar un nuevo enlace. </li>
         </ul>
