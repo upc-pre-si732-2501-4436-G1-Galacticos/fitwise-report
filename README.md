@@ -345,43 +345,45 @@ Hombres y mujeres entre 18 y 40 años que viven en zonas urbanas como Lima Metro
 ### 2.2. Entrevistas
 #### 2.2.1. Diseño de entrevistas
 
-#### Segmento: Adultos jóvenes ocupados (25 - 40 años)
-
-**Preguntas Generales**  
-- ¿Cuál es su nombre completo?  
-- ¿Cuántos años tienes?  
-- ¿Cuál es su situación actual? ¿Trabaja, estudia o ambos?  
-- ¿En qué ciudad resides?  
-
-**Preguntas sobre Personalidad**  
-- ¿Te consideras una persona extrovertida o introvertida? ¿Por qué?  
-- ¿Eres una persona que toma decisiones racionales o emocionales? ¿Por qué?  
-
-**Preguntas específicas del segmento**  
-- ¿Cuáles son tus principales obstáculos para mantener una vida saludable en tu rutina diaria?  
-- ¿Has intentado seguir alguna rutina de ejercicios o dieta antes? ¿Qué funcionó y qué no?  
-- ¿Qué tipo de herramientas digitales utilizas actualmente (si alguna) para mejorar tu salud física o alimentación?  
-- ¿Estarías dispuesto/a a pagar por una asesoría personalizada y flexible dentro de una app si resuelve tus problemas de tiempo o motivación?
+### Segmento: Adultos jóvenes urbanos en búsqueda activa de bienestar (18 - 40 años)  
+**Objetivo:** Explorar los hábitos, barreras, motivaciones y disposición del público objetivo frente al uso de soluciones digitales personalizadas para mejorar su bienestar físico y mental. Validar la propuesta de valor de FitWise y su encaje en el estilo de vida urbano y digital.
 
 ---
 
-#### Segmento: Jóvenes universitarios saludables en formación (18 - 24 años)
+### 1. Datos Generales
+1. ¿Cuál es tu nombre y edad?  
+2. ¿Cuál es tu ocupación actual? ¿Estás trabajando, estudiando o ambas cosas?  
+3. ¿En qué ciudad vives? ¿Consideras que tu rutina es principalmente urbana?
 
-**Preguntas Generales**  
-- ¿Cuál es su nombre completo?  
-- ¿Cuántos años tienes?  
-- ¿Cuál es su situación actual? ¿Trabaja, estudia o ambos?  
-- ¿En qué ciudad resides?  
+---
 
-**Preguntas sobre Personalidad**  
-- ¿Te consideras una persona extrovertida o introvertida? ¿Por qué?  
-- ¿Eres una persona que toma decisiones racionales o emocionales? ¿Por qué?  
+### 2. Estilo de vida y prioridades personales
+4. ¿Cómo suele ser un día típico para ti entre semana?  
+5. ¿Qué tan fácil o difícil es para ti encontrar tiempo para actividades relacionadas con tu bienestar (como hacer ejercicio, cocinar, descansar, etc.)?  
+6. ¿Qué lugar ocupa tu salud física y mental dentro de tus prioridades actuales?
 
-**Preguntas específicas del segmento**  
-- ¿Qué te motiva a comenzar una rutina de ejercicios o una dieta saludable?  
-- ¿Qué te gustaría que una app de fitness haga por ti para mantenerte motivado y constante?  
-- ¿Te interesaría que la app incluya retos, logros o niveles? ¿Qué tipo de recompensas o elementos te mantendrían comprometido?  
-- ¿Qué tan importante es para ti que la app se adapte a tus horarios, metas y preferencias alimenticias locales (como recetas peruanas saludables)?
+---
+
+### 3. Motivaciones y obstáculos para una vida saludable
+7. ¿Qué significa para ti llevar una vida saludable?  
+8. ¿Cuáles son las principales dificultades que enfrentas para mantener hábitos saludables?  
+9. ¿Has intentado antes seguir una rutina de ejercicio o alimentación? ¿Qué te funcionó y qué no?
+
+---
+
+### 4. Comportamiento digital y relación con la tecnología
+10. ¿Usas alguna app o herramienta digital actualmente para tu salud, alimentación o actividad física? ¿Por qué esa?  
+11. ¿Qué características valoras más en una app o plataforma de bienestar? (Por ejemplo: que sea visual, fácil de usar, flexible, motivadora, etc.)  
+12. ¿Qué te motiva más: ver tu progreso, recibir recordatorios, contar con una comunidad, gamificación, o tener acompañamiento personalizado?
+
+---
+
+### 5. Validación de la propuesta FitWise (Producto de VibeFit)
+13. Si existiera una app que te ofrezca rutinas de entrenamiento y planes nutricionales **personalizados**, **flexibles** y que se adapten a tu disponibilidad y nivel físico, ¿la usarías? ¿Qué te llamaría la atención o qué te haría dudar?  
+14. ¿Te gustaría que esta app también te acompañe en el proceso con seguimiento, recordatorios, y herramientas para ver tu avance en tiempo real?  
+15. ¿Estarías dispuesto/a a pagar por una plataforma como esta si realmente se adapta a ti y te ayuda a mantenerte motivado/a?
+
+---
 
 #### 2.2.2. Registro de entrevistas
 #### 2.2.3. Análisis de entrevistas
