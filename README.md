@@ -176,11 +176,16 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
 ### 1.1. Startup Profile
 #### 1.1.1. Descripción de la Startup
 
-**VibeFit** es una startup tecnológica enfocada en el bienestar físico y mental, cuya misión es facilitar y personalizar el camino hacia una vida saludable mediante el uso de tecnología inteligente.
+VibeFit es una startup tecnológica enfocada en mejorar el bienestar físico y mental de las personas a través de soluciones digitales inteligentes. Su misión es simplificar, personalizar y acompañar el proceso hacia una vida saludable, especialmente para quienes enfrentan barreras como la falta de tiempo, motivación o conocimiento especializado.
 
-Su producto principal, **FitWise**, es una aplicación web y móvil que genera rutinas de entrenamiento y planes nutricionales personalizados, adaptándose al estilo de vida, objetivos y nivel de cada usuario.
+Su producto principal, FitWise, es una aplicación disponible en versión web y móvil que crea rutinas de entrenamiento y planes nutricionales completamente personalizados. La plataforma se adapta a las características, objetivos y nivel físico de cada usuario, permitiendo que cualquier persona pueda incorporar hábitos saludables a su estilo de vida, sin importar su experiencia previa o disponibilidad horaria.
 
-La propuesta de valor de VibeFit se basa en la **adaptabilidad**, la **personalización** y el **acompañamiento constante**, abordando una de las principales barreras para adoptar hábitos saludables: la falta de tiempo y de una guía clara para empezar.
+La propuesta de valor de VibeFit se centra en tres pilares clave:
+
+Adaptabilidad, para ajustarse a las necesidades individuales.
+Personalización, para ofrecer soluciones únicas y efectivas.
+Acompañamiento constante, mediante tecnología que guía, motiva y mide el progreso del usuario.
+VibeFit nace para transformar la manera en que las personas se relacionan con su salud, derribando los obstáculos más comunes y convirtiendo el bienestar en una experiencia accesible, flexible y sostenible.
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
