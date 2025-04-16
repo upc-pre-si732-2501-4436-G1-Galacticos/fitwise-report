@@ -268,38 +268,30 @@ Soy xxxxxxxxx
 
 ### 1.3. Segmentos objetivo
 
-### 1. Adultos jóvenes ocupados (25 - 40 años)
+#### Adultos jóvenes urbanos en búsqueda activa de bienestar (18 - 40 años)
 
 **Descripción**  
-Hombres y mujeres que trabajan tiempo completo, viven en zonas urbanas como Lima Metropolitana y desean mejorar su salud física. Tienen poco tiempo libre y buscan soluciones prácticas, rápidas y efectivas que se integren fácilmente a su rutina.
+Hombres y mujeres entre 18 y 40 años que viven en zonas urbanas como Lima Metropolitana, y están comprometidos (o en proceso de compromiso) con su bienestar físico. Incluye tanto a profesionales con rutinas demandantes como a estudiantes universitarios en formación. Tienen diferentes niveles de disponibilidad de tiempo y recursos, pero comparten la necesidad de una solución práctica, accesible, visualmente atractiva y motivadora que se adapte a sus estilos de vida. Son usuarios digitales habituales que buscan orientación, flexibilidad y personalización en su camino hacia una vida más saludable.
 
-**Características clave**  
-- Profesionales con agendas ajustadas.  
-- Nivel socioeconómico medio a alto.  
-- Acceso constante a smartphones.  
-- Metas de salud definidas, pero necesitan guía y motivación.  
-- Buscan flexibilidad y personalización en sus entrenamientos y dietas.
+**Características clave**
+- Viven en ciudades grandes, con acceso frecuente a internet y smartphones.  
+- Nivel socioeconómico medio a medio-alto.  
+- Nativos digitales o altamente activos en plataformas digitales.  
+- Buscan herramientas intuitivas, visuales y gamificadas que los guíen y motiven.  
+- Interesados en rutinas y recetas saludables, preferentemente peruanas y fáciles.  
+- Quieren resultados reales y sostenibles, sin complicaciones ni pérdida de tiempo.
 
-**Datos de sustento**  
-- Más del **65%** de personas en Lima trabajan más de 40 horas semanales (INEI).  
-- El **70%** no realiza actividad física regular.  
-- Penetración de smartphones: **91.6%** (INEI, 2022).
+**Datos de sustento**
+- Según la Encuesta Demográfica y de Salud Familiar (ENDES) 2023 del INEI, más del 70% de la población adulta joven no realiza actividad física suficiente, a pesar de tener intenciones de mejorar su salud y bienestar.  
 
-### 2. Jóvenes universitarios saludables en formación (18 - 24 años)
 
-**Descripción**  
-Estudiantes o egresados recientes que están formando sus hábitos saludables. Cuentan con mayor disponibilidad de tiempo, pero menos conocimiento técnico y un menor poder adquisitivo. Son nativos digitales, influidos por redes sociales y tendencias fitness, y buscan una app atractiva, visual y que los motive constantemente.
+- El Perfil de Salud 2023 elaborado por la Dirección General de Epidemiología indica que las enfermedades no transmisibles, como la hipertensión, diabetes y obesidad, son altamente prevalentes en población urbana y joven, lo cual refuerza la necesidad de intervenciones de prevención y promoción de salud desde plataformas digitales.  
 
-**Características clave**  
-- Alta actividad en redes sociales.  
-- Aprecian el contenido interactivo y la gamificación.  
-- Tienen tiempo para entrenar, pero requieren orientación.  
-- Interesados en recetas saludables peruanas y fáciles de preparar.
 
-**Datos de sustento**  
-- El **45%** de jóvenes en Perú busca llevar una vida más saludable (Ipsos, 2023).  
-- El **94%** accede a internet desde su celular.  
-- Alta disposición a probar nuevas apps si son visuales, gratuitas o freemium.
+- Según el Perfil de País elaborado por la Organización Panamericana de la Salud (OPS), el Perú enfrenta retos significativos en cuanto a estilos de vida poco saludables, especialmente en contextos urbanos. El informe destaca la importancia de adoptar tecnologías de salud digital para llegar efectivamente a las poblaciones más jóvenes.  
+  
+
+---
 
 ## Capítulo II: Requirements Elicitation & Analysis
 ### 2.1. Competidores
