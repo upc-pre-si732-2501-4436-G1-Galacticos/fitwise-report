@@ -32,6 +32,7 @@
 - **Jhon Alexander Galvez Chambi** - U202323270
 
 **Fecha:** Abril 2025  
+**URL del proyecto: [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos)**
 ---
 
 # Registro de Versiones del Informe
@@ -186,11 +187,16 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
 
 #### 1.1.1. Descripción de la Startup
 
-**VibeFit** es una startup tecnológica enfocada en el bienestar físico y mental, cuya misión es facilitar y personalizar el camino hacia una vida saludable mediante el uso de tecnología inteligente.
+VibeFit es una startup tecnológica enfocada en mejorar el bienestar físico y mental de las personas a través de soluciones digitales inteligentes. Su misión es simplificar, personalizar y acompañar el proceso hacia una vida saludable, especialmente para quienes enfrentan barreras como la falta de tiempo, motivación o conocimiento especializado.
 
-Su producto principal, **FitWise**, es una aplicación web y móvil que genera rutinas de entrenamiento y planes nutricionales personalizados, adaptándose al estilo de vida, objetivos y nivel de cada usuario.
+Su producto principal, FitWise, es una aplicación disponible en versión web y móvil que crea rutinas de entrenamiento y planes nutricionales completamente personalizados. La plataforma se adapta a las características, objetivos y nivel físico de cada usuario, permitiendo que cualquier persona pueda incorporar hábitos saludables a su estilo de vida, sin importar su experiencia previa o disponibilidad horaria.
 
-La propuesta de valor de VibeFit se basa en la **adaptabilidad**, la **personalización** y el **acompañamiento constante**, abordando una de las principales barreras para adoptar hábitos saludables: la falta de tiempo y de una guía clara para empezar.
+La propuesta de valor de VibeFit se centra en tres pilares clave:
+
+Adaptabilidad, para ajustarse a las necesidades individuales.
+Personalización, para ofrecer soluciones únicas y efectivas.
+Acompañamiento constante, mediante tecnología que guía, motiva y mide el progreso del usuario.
+VibeFit nace para transformar la manera en que las personas se relacionan con su salud, derribando los obstáculos más comunes y convirtiendo el bienestar en una experiencia accesible, flexible y sostenible.
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
@@ -340,42 +346,30 @@ _¿Cómo podríamos mejorar FitWise para que los usuarios mantengan una adherenc
 
 ### 1.3. Segmentos objetivo
 
-### 1. Adultos jóvenes ocupados (25 - 40 años)
+#### Adultos jóvenes urbanos en búsqueda activa de bienestar (18 - 40 años)
 
 **Descripción**  
-Hombres y mujeres que trabajan tiempo completo, viven en zonas urbanas como Lima Metropolitana y desean mejorar su salud física. Tienen poco tiempo libre y buscan soluciones prácticas, rápidas y efectivas que se integren fácilmente a su rutina.
+Hombres y mujeres entre 18 y 40 años que viven en zonas urbanas como Lima Metropolitana, y están comprometidos (o en proceso de compromiso) con su bienestar físico. Incluye tanto a profesionales con rutinas demandantes como a estudiantes universitarios en formación. Tienen diferentes niveles de disponibilidad de tiempo y recursos, pero comparten la necesidad de una solución práctica, accesible, visualmente atractiva y motivadora que se adapte a sus estilos de vida. Son usuarios digitales habituales que buscan orientación, flexibilidad y personalización en su camino hacia una vida más saludable.
 
 **Características clave**
-
-- Profesionales con agendas ajustadas.
-- Nivel socioeconómico medio a alto.
-- Acceso constante a smartphones.
-- Metas de salud definidas, pero necesitan guía y motivación.
-- Buscan flexibilidad y personalización en sus entrenamientos y dietas.
-
-**Datos de sustento**
-
-- Más del **65%** de personas en Lima trabajan más de 40 horas semanales (INEI).
-- El **70%** no realiza actividad física regular.
-- Penetración de smartphones: **91.6%** (INEI, 2022).
-
-### 2. Jóvenes universitarios saludables en formación (18 - 24 años)
-
-**Descripción**  
-Estudiantes o egresados recientes que están formando sus hábitos saludables. Cuentan con mayor disponibilidad de tiempo, pero menos conocimiento técnico y un menor poder adquisitivo. Son nativos digitales, influidos por redes sociales y tendencias fitness, y buscan una app atractiva, visual y que los motive constantemente.
-
-**Características clave**
-
-- Alta actividad en redes sociales.
-- Aprecian el contenido interactivo y la gamificación.
-- Tienen tiempo para entrenar, pero requieren orientación.
-- Interesados en recetas saludables peruanas y fáciles de preparar.
+- Viven en ciudades grandes, con acceso frecuente a internet y smartphones.  
+- Nivel socioeconómico medio a medio-alto.  
+- Nativos digitales o altamente activos en plataformas digitales.  
+- Buscan herramientas intuitivas, visuales y gamificadas que los guíen y motiven.  
+- Interesados en rutinas y recetas saludables, preferentemente peruanas y fáciles.  
+- Quieren resultados reales y sostenibles, sin complicaciones ni pérdida de tiempo.
 
 **Datos de sustento**
+- Según la Encuesta Demográfica y de Salud Familiar (ENDES) 2023 del INEI, más del 70% de la población adulta joven no realiza actividad física suficiente, a pesar de tener intenciones de mejorar su salud y bienestar.  
 
-- El **45%** de jóvenes en Perú busca llevar una vida más saludable (Ipsos, 2023).
-- El **94%** accede a internet desde su celular.
-- Alta disposición a probar nuevas apps si son visuales, gratuitas o freemium.
+
+- El Perfil de Salud 2023 elaborado por la Dirección General de Epidemiología indica que las enfermedades no transmisibles, como la hipertensión, diabetes y obesidad, son altamente prevalentes en población urbana y joven, lo cual refuerza la necesidad de intervenciones de prevención y promoción de salud desde plataformas digitales.  
+
+
+- Según el Perfil de País elaborado por la Organización Panamericana de la Salud (OPS), el Perú enfrenta retos significativos en cuanto a estilos de vida poco saludables, especialmente en contextos urbanos. El informe destaca la importancia de adoptar tecnologías de salud digital para llegar efectivamente a las poblaciones más jóvenes.  
+  
+
+---
 
 ## Capítulo II: Requirements Elicitation & Analysis
 ### 2.1. Competidores
@@ -430,49 +424,45 @@ Estudiantes o egresados recientes que están formando sus hábitos saludables. C
 
 #### 2.2.1. Diseño de entrevistas
 
-#### Segmento: Adultos jóvenes ocupados (25 - 40 años)
-
-**Preguntas Generales**
-
-- ¿Cuál es su nombre completo?
-- ¿Cuántos años tienes?
-- ¿Cuál es su situación actual? ¿Trabaja, estudia o ambos?
-- ¿En qué ciudad resides?
-
-**Preguntas sobre Personalidad**
-
-- ¿Te consideras una persona extrovertida o introvertida? ¿Por qué?
-- ¿Eres una persona que toma decisiones racionales o emocionales? ¿Por qué?
-
-**Preguntas específicas del segmento**
-
-- ¿Cuáles son tus principales obstáculos para mantener una vida saludable en tu rutina diaria?
-- ¿Has intentado seguir alguna rutina de ejercicios o dieta antes? ¿Qué funcionó y qué no?
-- ¿Qué tipo de herramientas digitales utilizas actualmente (si alguna) para mejorar tu salud física o alimentación?
-- ¿Estarías dispuesto/a a pagar por una asesoría personalizada y flexible dentro de una app si resuelve tus problemas de tiempo o motivación?
+### Segmento: Adultos jóvenes urbanos en búsqueda activa de bienestar (18 - 40 años)  
+**Objetivo:** Explorar los hábitos, barreras, motivaciones y disposición del público objetivo frente al uso de soluciones digitales personalizadas para mejorar su bienestar físico y mental. Validar la propuesta de valor de FitWise y su encaje en el estilo de vida urbano y digital.
 
 ---
 
-#### Segmento: Jóvenes universitarios saludables en formación (18 - 24 años)
+### 1. Datos Generales
+1. ¿Cuál es tu nombre y edad?  
+2. ¿Cuál es tu ocupación actual? ¿Estás trabajando, estudiando o ambas cosas?  
+3. ¿En qué ciudad vives? ¿Consideras que tu rutina es principalmente urbana?
 
-**Preguntas Generales**
+---
 
-- ¿Cuál es su nombre completo?
-- ¿Cuántos años tienes?
-- ¿Cuál es su situación actual? ¿Trabaja, estudia o ambos?
-- ¿En qué ciudad resides?
+### 2. Estilo de vida y prioridades personales
+4. ¿Cómo suele ser un día típico para ti entre semana?  
+5. ¿Qué tan fácil o difícil es para ti encontrar tiempo para actividades relacionadas con tu bienestar (como hacer ejercicio, cocinar, descansar, etc.)?  
+6. ¿Qué lugar ocupa tu salud física y mental dentro de tus prioridades actuales?
 
-**Preguntas sobre Personalidad**
+---
 
-- ¿Te consideras una persona extrovertida o introvertida? ¿Por qué?
-- ¿Eres una persona que toma decisiones racionales o emocionales? ¿Por qué?
+### 3. Motivaciones y obstáculos para una vida saludable
+7. ¿Qué significa para ti llevar una vida saludable?  
+8. ¿Cuáles son las principales dificultades que enfrentas para mantener hábitos saludables?  
+9. ¿Has intentado antes seguir una rutina de ejercicio o alimentación? ¿Qué te funcionó y qué no?
 
-**Preguntas específicas del segmento**
+---
 
-- ¿Qué te motiva a comenzar una rutina de ejercicios o una dieta saludable?
-- ¿Qué te gustaría que una app de fitness haga por ti para mantenerte motivado y constante?
-- ¿Te interesaría que la app incluya retos, logros o niveles? ¿Qué tipo de recompensas o elementos te mantendrían comprometido?
-- ¿Qué tan importante es para ti que la app se adapte a tus horarios, metas y preferencias alimenticias locales (como recetas peruanas saludables)?
+### 4. Comportamiento digital y relación con la tecnología
+10. ¿Usas alguna app o herramienta digital actualmente para tu salud, alimentación o actividad física? ¿Por qué esa?  
+11. ¿Qué características valoras más en una app o plataforma de bienestar? (Por ejemplo: que sea visual, fácil de usar, flexible, motivadora, etc.)  
+12. ¿Qué te motiva más: ver tu progreso, recibir recordatorios, contar con una comunidad, gamificación, o tener acompañamiento personalizado?
+
+---
+
+### 5. Validación de la propuesta FitWise (Producto de VibeFit)
+13. Si existiera una app que te ofrezca rutinas de entrenamiento y planes nutricionales **personalizados**, **flexibles** y que se adapten a tu disponibilidad y nivel físico, ¿la usarías? ¿Qué te llamaría la atención o qué te haría dudar?  
+14. ¿Te gustaría que esta app también te acompañe en el proceso con seguimiento, recordatorios, y herramientas para ver tu avance en tiempo real?  
+15. ¿Estarías dispuesto/a a pagar por una plataforma como esta si realmente se adapta a ti y te ayuda a mantenerte motivado/a?
+
+---
 
 #### 2.2.2. Registro de entrevistas
 
