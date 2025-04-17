@@ -5,7 +5,7 @@
 # Universidad Peruana de Ciencias Aplicadas
 
 <p align="center">
-  <img src="assets/logos/upc-logo.png" alt="UPC Logo" width="200"/>
+  <img src="assets/upc-logo.png" alt="UPC Logo" width="200"/>
 </p>
 
 ### Carrera: Ingeniería de Software
@@ -32,27 +32,25 @@
 - **Jhon Alexander Galvez Chambi** - U202323270
 
 **Fecha:** Abril 2025  
-**URL del proyecto:** [https://github.com/MauricioMVilcapoma/OpenSource-4328](https://github.com/MauricioMVilcapoma/OpenSource-4328)
-
 ---
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha      | Autor         | Descripción                                                                                                                                                                                                  |
-| ------- | ---------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| TB1     | 12/04/2025 | Ramiro Guzman | Desarrollé la carátula, la tabla de contenidos, la descripción de la Startup, la Solution Profile que abarca los Antecedentes y Problemática, definí los Segmentos Objetivos y el Diseño de las entrevistas. |
-| TB1     | XX/XX/XXXX |               |                                                                                                                                                                                                              |
-| TB1     | XX/XX/XXXX |               |                                                                                                                                                                                                              |
-| TB1     | XX/XX/XXXX |               |                                                                                                                                                                                                              |
-| TB1     | XX/XX/XXXX |               |                                                                                                                                                                                                              |
-| TB1     | XX/XX/XXXX |               |                                                                                                                                                                                                              |
-| TB1     | XX/XX/XXXX |               |                                                                                                                                                                                                              |
-| TB1     | XX/XX/XXXX |               |                                                                                                                                                                                                              |
-| TB1     | XX/XX/XXXX |               |                                                                                                                                                                                                              |
-| TB1     | XX/XX/XXXX |               |                                                                                                                                                                                                              |
-| TB1     | XX/XX/XXXX |               |                                                                                                                                                                                                              |
-| TB1     | XX/XX/XXXX |               |                                                                                                                                                                                                              |
-| TB1     | XX/XX/XXXX |               |                                                                                                                                                                                                              |
+| Versión | Fecha       | Autor | Descripción |
+|---------|-------------|-------|-------------|
+| TB1     | 12/04/2025  |  Ramiro Guzman     |   Desarrollé la carátula, la tabla de contenidos, la descripción de la Startup, la Solution Profile que abarca los Antecedentes y Problemática, definí los Segmentos Objetivos y el Diseño de las entrevistas.          |
+| TB1     | XX/XX/XXXX  |       |             |
+| TB1     | XX/XX/XXXX  |       |             |
+| TB1     | XX/XX/XXXX  |       |             |
+| TB1     | XX/XX/XXXX  |       |             |
+| TB1     | XX/XX/XXXX  |       |             |
+| TB1     | XX/XX/XXXX  |       |             |
+| TB1     | XX/XX/XXXX  |       |             |
+| TB1     | XX/XX/XXXX  |       |             |
+| TB1     | XX/XX/XXXX  |       |             | 
+| TB1     | XX/XX/XXXX  |       |             |
+| TB1     | XX/XX/XXXX  |       |             |
+| TB1     | XX/XX/XXXX  |       |             |
 
 # Contenido
 
@@ -199,14 +197,18 @@ La propuesta de valor de VibeFit se basa en la **adaptabilidad**, la **personali
 ---
 
 #### **Muñoz Vilcapoma Mauricio – Ingeniería de Software – U202217212**  
-<img src="https://github.com/user-attachments/assets/0b23f8bd-a5e9-4244-96da-64adf16ce924" alt="Muñoz Vilcapoma Mauricio" height="200"/>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0b23f8bd-a5e9-4244-96da-64adf16ce924" alt="Muñoz Vilcapoma Mauricio" height="200"/>
+</p>
 
 Soy xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
 
 ---
 
 #### **Ramiro Alexander Guzman Chavez – Ingeniería de Software – U202217062**  
-<img src="./assets/RAMIROGUZMAN.png" alt="RAMIROGUZMAN" height="200"/>
+<p align="center">
+  <img src="./assets/RAMIROGUZMAN.png" alt="RAMIROGUZMAN" height="170"/>
+</p>
 
 Mi perfil se basa en ser una persona responsable, disciplinada en todo aspecto y comprometida con las actividades que me puedan tocar.
 Considero que tengo una experiencia altamente capacitada para este tipo de tareas. Suelo desarrollarme de manera positiva en los trabajos grupales y tengo conocimientos en bases de datos, lo cual puede aportar de manera importante al equipo.
@@ -234,7 +236,7 @@ Soy xxxxxxxxxxxx
 - Jhon Alexander Galvez Chambi - u202323270 (Ingeniería de Software)
 
 <p align="center">
-    <img src="assets/fotos/jhonfoto.jpg" alt="foto-jhon" width="170px"/>
+    <img src="assets/jhonfoto.jpg" alt="foto-jhon" height="200px"/>
 </p>
 
 Soy una persona responsable y comprometida con la consecución de los mejores resultados en trabajo en equipo. Poseo experiencia en diversos lenguajes de programación, incluyendo Python, JavaScript y C++, así como en varios de los frameworks asociados a estos lenguajes. Además, tengo conocimientos en tecnologías emergentes como Cloud Computing e Internet de las Cosas (IoT), y estoy dispuesto a aportar mi experiencia en estas áreas para contribuir al éxito de los proyectos en los que participo.
@@ -482,11 +484,11 @@ Estudiantes o egresados recientes que están formando sus hábitos saludables. C
 
 - **Adultos Jóvenes Ocupados (25–40 años)**
 <p align="center">
-  <img src="./assets/recursos/persona1.png" alt="per1"/>
+  <img src="./assets/persona1.png" alt="per1"/>
 
 - **Jóvenes Universitarios Saludables en Formación (18–24 años)**
 <p align="center">
-  <img src="./assets/recursos/persona2.png" alt="per2"/>
+  <img src="./assets/persona2.png" alt="per2"/>
 
 #### 2.3.2. User Task Matrix
 
@@ -533,21 +535,21 @@ Los segmentos considerados son:
 
 - **Adultos Jóvenes Ocupados (25–40 años)**
 <p align="center">
-  <img src="./assets/recursos/journey1.png" alt="jour1"/>
+  <img src="./assets/journey1.png" alt="jour1"/>
 
 - **Jóvenes Universitarios Saludables en Formación (18–24 años)**
   <p align="center">
-  <img src="./assets/recursos/journey2.png" alt="jour2"/>
+  <img src="./assets/journey2.png" alt="jour2"/>
 
 #### 2.3.4. Empathy Mapping
 
 - **Adultos Jóvenes Ocupados (25–40 años)**
 <p align="center">
-  <img src="./assets/recursos/emp1.png" alt="emp1"/>
+  <img src="./assets/emp1.png" alt="emp1"/>
 
 - **Jóvenes Universitarios Saludables en Formación (18–24 años)**
   <p align="center">
-  <img src="./assets/recursos/emp2.png" alt="emp2"/>
+  <img src="./assets/emp2.png" alt="emp2"/>
 
 #### 2.3.5. As-is Scenario Mapping
 
@@ -596,9 +598,9 @@ Los segmentos considerados son:
       <td>Como usuario nuevo, quiero registrarme con mi correo y contraseña, para acceder a la plataforma.</td>
       <td>
         <ul>
-          <li> Scenario 1: Registro exitoso <br> Given un nuevo usuario, When ingresa su correo y contraseña válidos, Then se debe crear una cuenta. </li>
-          <li> Scenario 2: Correo ya registrado <br> Given un nuevo usuario, When ingresa un correo ya registrado, Then se debe mostrar un mensaje "Este correo ya está en uso, por favor seleccione otro". </li>
-          <li> Scenario 3: Contraseña inválida <br> Given un nuevo usuario, When ingresa una contraseña con menos de 8 caracteres, Then el sistema muestra un mensaje: "La contraseña debe tener al menos 8 caracteres". </li>
+          <li> Scenario 1: Registro exitoso <br> Given un nuevo usuario se encuentra en el formulario de registro, When ingresa su correo y contraseña válidos, Then se debe crear una cuenta. </li>
+          <li> Scenario 2: Correo ya registrado <br> Given un nuevo usuario se encuentra en el formulario de registro, When ingresa un correo ya registrado, Then se debe mostrar un mensaje "Este correo ya está en uso, por favor seleccione otro". </li>
+          <li> Scenario 3: Contraseña inválida <br> Given un nuevo usuario se encuentra en el formulario de registro, When ingresa una contraseña con menos de 8 caracteres, Then el sistema muestra un mensaje: "La contraseña debe tener al menos 8 caracteres". </li>
         </ul>       
       </td>
       <td>EP001</td>
@@ -623,7 +625,7 @@ Los segmentos considerados son:
         <ul>
           <li> Scenario 1: Autenticación exitosa <br> Given el usuario tiene una cuenta de Google, When selecciona "Iniciar sesión con Google" y acepta los permisos solicitados, Then accede al sistema y se vincula el correo al sistema. </li>
           <li> Scenario 2: Denegación de permisos <br> Given el usuario tiene una cuenta de Google, When selecciona "Iniciar sesión con Google" y deniega los permisos solicitados Then se debe mostrar un mensaje "Debes aceptar los permisos para continuar". </li>
-          <li> Scenario 3: Cuenta Google no vinculada <br> Given un usuario que no tiene una cuenta de Google vinculada a FitWis, When intenta iniciar sesión con Google, Then el sistema redirige al formulario de registro para completar su perfil. </li>
+          <li> Scenario 3: Cuenta Google no vinculada <br> Given un usuario que no tiene una cuenta de Google vinculada a FitWise, When intenta iniciar sesión con Google, Then el sistema redirige al formulario de registro para completar su perfil. </li>
         </ul>       
       </td>
       <td>EP001</td>
@@ -681,8 +683,8 @@ Los segmentos considerados son:
       <td>
         <ul>
           <li> Scenario 1: Mostrar niveles disponibles <br> Given un usuario se encuentra en la interfaz de personalización, When hace clic en "Selecciona tu nivel", Then el sistema muestra las opciones "Principiante", "Intermedio" y "Avanzado" </li>
-          <li> Scenario 2: Nivel seleccionado <br> Given un usuario se encuentra en la interfaz de personalización, When selecciona un nivel, Then el sistema muestra un mensaje: "Nivel asignado" y se ajusta de acuerdo al nivel elegido</li>  
-          <li> Scenario 3: Nivel actualizado <br> Given un usuario con un nivel de experiencia asignado, When selecciona "Cambiar de nivel" y selecciona un nivel, Then el sistema muestra un mensaje: "Nivel actualizado" y actualiza el perfil del usuario </li>
+          <li> Scenario 2: Nivel seleccionado <br> Given un usuario se encuentra en la interfaz de personalización, When selecciona un nivel, Then el sistema muestra un mensaje: "Nivel asignado" y se ajusta el perfil de acuerdo al nivel elegido</li>  
+          <li> Scenario 3: Nivel actualizado <br> Given un usuario con un nivel de experiencia asignado, When selecciona "Cambiar de nivel" y selecciona un nuevo nivel, Then el sistema muestra un mensaje: "Nivel actualizado" y actualiza el perfil del usuario </li>
         </ul>
       </td>
       <td>EP002</td>
@@ -692,10 +694,11 @@ Los segmentos considerados son:
       <td>Definir objetivo principal</td>
       <td>Como usuario, quiero establecer un objetivo principal para que el sistema sugiera una rutina de ejercicios y una dieta adecuadas</td>
       <td>
-        <ul>
-          <li> Scenario 1: Objetivo "Perder peso" <br> Given un usuario se encuentra en el asistente de bienvenida, When selecciona "Perder peso", Then el sistema genera un plan con ejercicios cardiovasculares y un déficit calórico sugerido
+        <ul>          
+          <li> Scenario 1: Mostrar objetivos disponibles <br> Given un usuario se encuentra en la interfaz de personalización, When hace clic en "Selecciona tu objetivo personal", Then el sistema muestra las opciones "Perder peso", "Mantenerse en forma" y "Aumentar masa muscular"</li>
+          <li> Scenario 2: Seleccion de objetivo <br> Given un usuario se encuentra en la interfaz de personalización, When selecciona uno o multiples objetivos, Then el sistema genera un plan con ejercicios ajustados a sus preferencias.
           </li>
-          <li> Scenario 2: Objetivo no seleccionado <br> Given un usuario se encuentra en el asistente de bienvenida, When no selecciona ningún objetivo, Then el sistema asigna "Mantenimiento" y muestra un mensaje: "Puedes cambiar esto luego en Configuración" </li>
+          <li> Scenario 3: Objetivo no seleccionado <br> Given un usuario se encuentra en el asistente de bienvenida, When no selecciona ningún objetivo, Then el sistema asigna "Mantenerse en forma" y muestra un mensaje: "Puedes cambiar esto luego en Configuración" </li>
         </ul>
       </td>
       <td>EP002</td>
@@ -714,9 +717,9 @@ Los segmentos considerados son:
       <td>Como usuario, quiero establecer un objetivo de dias por semana de actividad para que el sistema registre mi progreso</td>
       <td>
         <ul>
-          <li> Scenario 1: Objetivo semanal válido <br> Given un usuario se encuentra en la sección "Mis Objetivos" del dashboard, When establece un valor , Then el sistema guarda los datos y muestra un mensaje: "Datos guardados correctamente" </li>
-          <li> Scenario 2: Correo no registrado <br> Given un usuario no registrado, When selecciona "Olvidé mi contraseña" y envia su solicitud, Then el sistema muestra un mensaje: "Este correo no está registrado. ¿Quieres crear una cuenta?" </li>
-          <li> Scenario 3: Enlace expirado <br> Given un usuario recibe el enlace hace más de 24 horas, When intenta usarlo, Then el sistema redirige a una página para solicitar un nuevo enlace. </li>
+          <li> Scenario 1: Objetivo semanal válido <br> Given un usuario se encuentra en la sección "Mis Objetivos" del dashboard, When establece un valor en el rango de los 7 dias, Then el sistema guarda los datos y muestra un mensaje: "Datos guardados correctamente" </li>
+          <li> Scenario 2: Objetivo semanal inválido <br> Given un usuario se encuentra en la sección "Mis Objetivos" del dashboard, When selecciona un valor fuera del rango de los 7 dias, Then el sistema muestra un mensaje: "Máximo 7 días permitidos" </li>
+          <li> Scenario 3: Actualización del objetivo semanal <br> Given un usuario tiene un objetivo semanal establecido, When selecciona "Actualizar el objetivo semanal" y cambia a un valor válido, Then el sistema recalcula el progreso automáticamente. </li>
         </ul>
       </td>
       <td>EP003</td>
@@ -724,12 +727,11 @@ Los segmentos considerados son:
     <tr>
       <td>US011</td>
       <td>Visualizar progreso semanal</td>
-      <td>Como usuario, quiero ver mi progreso semanal en el dashboard.</td>
+      <td>Como usuario, quiero ver mi progreso semanal en el dashboard para no descuidar mis objetivos planteados</td>
       <td>
         <ul>
-          <li> Scenario 1: Datos físicos válidos <br> Given un usuario se encuentra en el formulario de personalización, When ingresa peso (ej: 70 kg), altura (ej: 175 cm) y sexo (ej: "Femenino"), Then el sistema guarda los datos y muestra un mensaje: "Datos guardados correctamente" </li>
-          <li> Scenario 2: Correo no registrado <br> Given un usuario no registrado, When selecciona "Olvidé mi contraseña" y envia su solicitud, Then el sistema muestra un mensaje: "Este correo no está registrado. ¿Quieres crear una cuenta?" </li>
-          <li> Scenario 3: Enlace expirado <br> Given un usuario recibe el enlace hace más de 24 horas, When intenta usarlo, Then el sistema redirige a una página para solicitar un nuevo enlace. </li>
+          <li> Scenario 1: Progreso con datos completos<br> Given un usuario completo 2 de 3 entrenamientos semanales, When ingresa a la seccion "Progreso actual" del dashboard, Then el sistema muestra un gráfico circular con "66% completado" y un mensaje motivador (ej: "¡Vas bien!") </li>
+          <li> Scenario 2: Sin datos registrados <br> Given un usuario no he realizado entrenamientos esta semana, When ingresa a la seccion "Progreso actual" del dashboard, Then el sistema muestra un mensaje: "Comienza tu primer entrenamiento hoy" con un botón de "Comenzar" </li> 
         </ul>
       </td>
       <td>EP003</td>
@@ -737,99 +739,241 @@ Los segmentos considerados son:
     <tr>
       <td>US012</td>
       <td>Recibir ejercicios recomendados</td>
-      <td>Como usuario, quiero recomendaciones diarias de ejercicios.</td>
-      <td>Given un usuario nuevo, When selecciona su nivel, Then se guarda y personaliza el entrenamiento.</td>
-      <td>EP002</td>
+      <td>Como usuario, quiero recomendaciones diarias de ejercicios basados en mi perfil para agregarlos a mis rutinas</td>
+      <td>
+        <ul>
+          <li> Scenario 1: Recomendación basada en objetivo<br> Given un usuario tiene un objetivo personal y un nivel de experiencia asignados, When accede al dashboard, Then el sistema muestra 3 ejercicios ajustados a su perfil </li>
+          <li> Scenario 2: Rotación diaria de recomendaciones <br> Given un usuario completo los ejercicios recomendados ayer, When accede al dashboard al dia siguiente, Then el sistema muestra 3 nuevos ejercicios ajustados a su perfil </li> 
+        </ul>
+      </td>
+      <td>EP003</td>
     </tr>
     <tr>
       <td>US013</td>
-      <td>Ver objetivos populares</td>
-      <td>Como usuario, quiero ver objetivos populares para motivarme.</td>
-      <td>Given el asistente de bienvenida, When selecciono un objetivo, Then la app se adapta a ese objetivo.</td>
+      <td>Ver rutinas y dietas de usuarios con objetivos similares</td>
+      <td>Como usuario, quiero ver rutinas y dietas de otros usuarios con objetivos similares para motivarme.</td>
+      <td>
+        <ul>
+          <li> Scenario 1: Rutinas de ejercicios de usuarios similares<br> Given un usuario tiene un objetivo personal, When accede al dashboard y accede a la seccion "Rutinas de usuarios como tu", Then el sistema muestra rutinas populares de otros usuarios con el mismo objetivo</li>
+          <li> Scenario 2: Planes de nutricion de usuarios similares <br> Given un usuario tiene un objetivo personal, When accede al dashboard y accede a la seccion "Dietas de usuarios como tu", Then el sistema muestra dietas populares de otros usuarios con el mismo objetivo </li> 
+        </ul>
+      </td>
       <td>EP003</td>
     </tr>
     <!-- Epic 4 -->
     <tr>
       <td><b>EP004</b></td>
-      <td>Dashboard Principal</td>
-      <td>Funcionalidades relacionadas con la interfaz principal donde el usuario accede a su progreso, metas y contenido recomendado.</td>
+      <td>Informe de Progreso</td>
+      <td>Funcionalidades que permiten al usuario analizar su progreso, ver estadísticas e informes gráficos.</td>
       <td>-</td>
       <td>-</td>
     </tr>
-    <tr>
-      <td>US012</td>
-      <td>Visualizar progreso diario</td>
-      <td>Como usuario, quiero ver mi progreso diario.</td>
-      <td>Given los registros de actividad, When consulto informes, Then se muestran detalles por día.</td>
-      <td>EP004</td>
-    </tr>
-    <tr>
-      <td>US013</td>
-      <td>Ver IMC en gráfico</td>
-      <td>Como usuario, quiero ver una gráfica de mi IMC.</td>
-      <td>Given datos de peso y altura, When accedo a mi perfil, Then se muestra un gráfico de IMC.</td>
-      <td>EP004</td>
-    </tr>  
     <tr>
       <td>US014</td>
-      <td>Actualizar peso y altura</td>
-      <td>Como usuario, quiero actualizar mis datos físicos.</td>
-      <td>Given un usuario activo, When edita peso y altura, Then se recalcula IMC y actualizan recomendaciones.</td>
+      <td>Visualizar progreso diario</td>
+      <td>Como usuario, quiero ver mi progreso diario para saber </td>
+      <td>
+        <ul>          
+          <li> Scenario 1: Progreso con datos completos<br> Given un usuario completo 2 de 3 entrenamientos semanales, When ingresa a la seccion "Progreso actual" del dashboard, Then el sistema muestra un gráfico circular con "66% completado" y un mensaje motivador (ej: "¡Vas bien!") </li>
+          <li> Scenario 2: Sin datos registrados <br> Given un usuario no he realizado entrenamientos esta semana, When ingresa a la seccion "Progreso actual" del dashboard, Then el sistema muestra un mensaje: "Comienza tu primer entrenamiento hoy" con un botón de "Comenzar" </li>
+          <li> Scenario 3: Comparativa semanal <br> Given un usuario se encuentra en la seccion "Informe de Progreso", When selecciona "Historial, Then el sistema muestra comparativas del progreso realizado en distintas semanas</li>      
+        </ul>
+      </td>
       <td>EP004</td>
     </tr>
     <tr>
       <td>US015</td>
-      <td>Exportar informe en PDF</td>
-      <td>Como usuario, quiero exportar mi progreso en PDF.</td>
-      <td>Given un historial de entrenamientos, When selecciono exportar, Then se genera un PDF.</td>
+      <td>Ver IMC en gráfico</td>
+      <td>Como usuario, quiero ver una gráfica de mi IMC para saber si me encuentro en mi rango adecuado</td>
+      <td>
+        <ul>          
+          <li> Scenario 1: Gráfico interactivo<br> Given un usuario tiene registros de altura y peso, When ingresa a la seccion "Mi Salud", Then el sistema muestra una gráfica de lineas con el IMC actual </li>
+          <li> Scenario 2: Gráfico con histórico <br> Given un usuario tiene registros de cambios en su IMC, When ingresa a la seccion "Mi Salud" y va al apartado "Historico", Then el sistema muestra un gráfica de líneas con los IMC registrados en el sistema </li>
+          <li> Scenario 3: Zona de riesgo <br> Given un usuario tiene un IMC, When su valor alcanza niveles riesgoso, Then el sistema destaca el área en rojo y sugiere: "Consulta a un especialista"</li>      
+        </ul>
+      </td>
+      <td>EP004</td>
+    </tr>  
+    <tr>
+      <td>US016</td>
+      <td>Actualizar peso y altura</td>
+      <td>Como usuario, quiero actualizar mis datos físicos para que mis rutinas se ajusten a mis cambios fisico</td>
+      <td>
+        <ul>          
+          <li> Scenario 1: Actualización de peso y altura válida<br> Given un usuario ingresa a la seccion "Configuracion" y entra en "Actualizar peso y altura", When introduce un valor dentro del rango (80cm-250cm) para altura y el rango (20 kg-250kg) , Then el sistema muestra el mensaje "Tu peso y altura han sido modificados correctamente" y ajusta el perfil del usuario </li>
+          <li> Scenario 2: Peso invalido <br> Given un usuario se encuentra en la pantalla "Actualizar peso y altura", When ingresa un valor fuera del rango valido para el peso, Then el sistema muestra un mensaje: "Por favor, introduce un peso válido (minimo 20 kg - máximo 250 kg)." </li>
+          <li> Scenario 3: Altura fuera de rango <br> Given un usuario se encuentra en la pantalla "Actualizar peso y altura", When ingresa un valor fuera del rango valido para la altura, Then el sistema muestra un mensaje: "Por favor, introduce una altura válida (minimo 80 cm - máximo 250 cm)."</li>      
+        </ul>
+      </td>
       <td>EP004</td>
     </tr>
+    <tr>
+      <td>US017</td>
+      <td>Exportar informe en PDF</td>
+      <td>Como usuario, quiero exportar mi progreso en PDF para tener un consolidado de mi progreso</td>
+      <td>
+        <ul>          
+          <li> Scenario 1: Generación de reporte exitosa<br> Given un usuario tiene al menos un entrenamiento completado, When ingresa a la seccion "Progreso actual" y entra en "Exportar progreso", Then el sistema genera un archivo PDF que incluye el logo de FitWise, graficos de proceso, resumen por metricas </li>
+          <li> Scenario 2: Sin datos suficientes <br> Given un usuario no tiene entrenamientos completado, When ingresa a la seccion "Progreso actual" y entra en "Exportar progreso", Then el sistema muestra un mensaje: "necesitas al menos un entrenamiento completado" para generar un informe </li>            
+        </ul>
+      </td>
+      <td>EP004</td>
+    </tr>
+    <!-- Epic 5 -->
+    <tr>
+      <td><b>EP005</b></td>
+      <td>Funciones Complementarias</td>
+      <td>Características adicionales como motivación visual, comunidad, soporte y personalización estética que enriquecen la experiencia del usuario.</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>US018</td>
+      <td>Recibir mensajes motivacionales diarios</td>
+      <td>Como usuario, quiero recibir frases motivacionales diarias, para mantener el ánimo alto.</td>
+      <td>
+        <ul>          
+          <li> Scenario 1: Frases segun el progreso<br> Given un usuario ha cumplido 3 dias seguidos de entrenamiento, When ingresa a la aplicacion, Then se le muestra un mensaje motivador: "Tu consistencia está dando resultados 🔥" </li>
+          <li> Scenario 2: Primer acceso del dia  <br> Given un usuario ingresa por primera vez un dia, When accede a la pantalla del dashboard, Then el sistema muestra un mensaje de bienvenida: "Buenos días [Nombre], hoy es un gran día para..." </li> 
+          <li>Scenario 3: Sin actividad reciente <br> Given un usuario lleva mas de 5 dias sin entrenar, When accede a la pantalla de nuevo, Then el sistema muestra el mensaje: "Te hemos extrañado [Nombre]❤️ ¿Listo para retomar tu rutina desde donde la dejaste? "</li>
+        </ul>
+      </td>
+      <td>EP005</td>
+    </tr>    
+    <tr>
+      <td>US019</td>
+      <td>Personalizar colores de la app</td>
+      <td>Como usuario, quiero poder elegir el tema visual de la app, para que sea más atractiva para mí.</td>
+      <td>
+        <ul>          
+          <li> Scenario 1: cambio de tema oscuro/claro<br> Given un usuario se encuentra en la seccion "Configuracion > Apariencia", When selecciona "Modo oscuro", Then el sistema adopta el nuevo tema instantaneamente </li>
+          <li> Scenario 2: Tema personalizado <br> Given un usuario se encuentra en la seccion "Configuracion > Apariencia", When selecciona un color (ej:"Verde"), Then el sistema adopta el nuevo tema instantaneamente </li>
+          <li> Scenario 3: Tema por defecto <br> Given un usuario se encuentra en la seccion "Configuracion > Apariencia", When selecciona "Restaurar tema original", Then el sistema cambia a los colores de FitWise </li>
+        </ul>
+      </td>
+      <td>EP005</td>
+    </tr>
+    <tr>
+      <td>US020</td>
+      <td>Ver testimonios de usuarios satisfechos con la personalizacion</td>
+      <td>Como visitante de la Landing Page, quiero ver un carrusel con testimonios reales, para sentirme inspirado a registrarme</td>
+      <td>
+        <ul>          
+          <li> Scenario 1: Testimonios visibles en el carrusel<br> 
+            Given un visitante de la Landing Page, When accede a la sección de testimonios, Then el sistema muestra un carrusel con testimonios reales de usuarios satisfechos.
+          </li>
+          <li> Scenario 2: Testimonios no disponibles<br> 
+            Given un visitante de la Landing Page, When accede a la sección de testimonios y no hay testimonios disponibles, Then el sistema muestra un mensaje: "Pronto compartiremos más historias inspiradoras".
+          </li>            
+        </ul>
+      </td>
+      <td>EP005</td>
+    </tr>
+    <!-- Epic 6 -->
+    <tr>
+      <td><b>EP006</b></td>
+      <td>Nutrición Personalizada</td>
+      <td>Funcionalidades enfocadas en ofrecer recomendaciones de planes alimenticios y recetas saludables adaptadas al usuario.</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>US021</td>
+      <td>Recibir plan nutricional semanal</td>
+      <td>Como usuario, quiero recibir sugerencias de comidas semanales, para complementar mi rutina de ejercicio.</td>
+      <td>
+        <ul>          
+          <li> Scenario 1: Plan basado en objetivos<br> Given un usuario tiene un objetivo establecido en su perfil (Ej:"Perder peso"), When ingresa a la seccion "Plan Nutricional", Then el sistema muestra un menu recomendado para complementar su rutina personalizada </li>
+          <li> Scenario 2: Restricciones alimentarias<br> Given un usuario tiene restricciones alimentarias configuradas en su perfil (Ej: "Sin gluten"),When ingresa a la sección "Plan Nutricional", Then el sistema muestra un menú semanal que excluye alimentos restringidos y sugiere alternativas adecuadas.</li>
+          <li> Scenario 3: Sin objetivos definidos<br> Given un usuario no tiene un objetivo establecido en su perfil, When ingresa a la sección "Plan Nutricional", Then el sistema muestra un menú general balanceado y un mensaje: "Establece un objetivo para recibir recomendaciones personalizadas". </li> 
+        </ul>
+      </td>
+      <td>EP006</td>
+    </tr>
+    <tr>
+      <td>US022</td>
+      <td>Filtrar recetas por nivel de dificultad</td>
+      <td>Como usuario, quiero elegir recetas fáciles según mi tiempo libre, para poder cocinarlas sin complicaciones.</td>
+      <td>
+        <ul>
+          <li>Scenario 1: Filtrar recetas fáciles<br> Given un usuario se encuentra en la sección "Recetas", When selecciona el filtro "Fácil" en el nivel de dificultad, Then el sistema muestra una lista de recetas rápidas y sencillas de preparar.</li>
+          <li>Scenario 2: Sin recetas disponibles para el filtro<br> Given un usuario se encuentra en la sección "Recetas", When selecciona un filtro de dificultad que no tiene recetas disponibles, Then el sistema muestra un mensaje: "No se encontraron recetas para este nivel de dificultad. Intenta con otro filtro."</li>            
+        </ul>
+      </td>
+      <td>EP006</td>
+    </tr>  
+    <tr>
+      <td>US023</td>
+      <td>Ver recetas saludables peruanas</td>
+      <td>Como usuario, quiero ver recetas saludables locales, para mantenerme sano sin salir de mi cultura.</td>
+      <td>
+        <ul>
+          <li>Scenario 1: Recetas disponibles<br> Given un usuario se encuentra en la sección "Recetas Peruanas", When selecciona una categoría (ej: "Desayunos"), Then el sistema muestra una lista de recetas saludables peruanas relacionadas con esa categoría.</li>
+          <li>Scenario 2: Filtro por ingredientes<br> Given un usuario se encuentra en la sección "Recetas Peruanas", When utiliza el filtro de ingredientes (ej: "Quinua"), Then el sistema muestra recetas saludables peruanas que incluyan ese ingrediente.</li>
+          <li>Scenario 3: Sin recetas disponibles<br> Given un usuario se encuentra en la sección "Recetas Peruanas", When no hay recetas disponibles para la categoría seleccionada, Then el sistema muestra un mensaje: "Estamos trabajando en nuevas recetas para esta categoría. ¡Vuelve pronto!".</li>
+        </ul>
+      </td>
+      <td>EP006</td>
+    </tr>    
+    <!-- Epic 7 -->
+    <tr>
+      <td><b>EP007</b></td>
+      <td>Gestión de Cuenta</td>
+      <td>Funcionalidades para permitir al usuario actualizar, modificar o eliminar su cuenta y gestionar su información personal.</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>US024</td>
+      <td>Cambiar datos de cuenta</td>
+      <td>Como usuario, quiero editar mi nombre y correo electrónico, para mantener mis datos actualizados</td>
+      <td>
+        <ul>
+          <li>Scenario 1: Actualización exitosa<br> Given un usuario autenticado se encuentra en la sección "Configuración > Cuenta", When edita su nombre y correo electrónico con valores válidos y guarda los cambios, Then el sistema actualiza los datos y muestra un mensaje: "Tus datos han sido actualizados correctamente".</li>
+          <li>Scenario 2: Correo electrónico ya registrado<br>Given un usuario autenticado se encuentra en la sección "Configuración > Cuenta", When intenta guardar un correo electrónico que ya está registrado en el sistema, Then el sistema muestra un mensaje: "Este correo ya está en uso. Por favor, elige otro".</li>
+          <li>Scenario 3: Datos inválidos<br>Given un usuario autenticado se encuentra en la sección "Configuración > Cuenta", When intenta guardar un nombre vacío o un correo electrónico con formato inválido, Then el sistema muestra un mensaje: "Por favor, ingresa un nombre válido y un correo electrónico en el formato correcto".</li>
+        </ul>
+      </td>
+      <td>EP007</td>
+    </tr>
+    <tr>
+      <td>US025</td>
+      <td>Contactar al soporte tecnico</td>
+      <td>Como usuario, quiero enviar un mensaje al soporte si tengo problemas, para recibir ayuda de calidad.</td>
+      <td>
+        <ul>
+          <li>Scenario 1: Envío exitoso de mensaje<br>Given un usuario autenticado se encuentra en la sección "Ayuda y Soporte", When escribe un mensaje describiendo su problema y lo envía, Then el sistema confirma el envío con un mensaje: "Tu solicitud ha sido enviada. Nos pondremos en contacto contigo pronto."</li>
+          <li>Scenario 2: Mensaje vacío<br>Given un usuario autenticado se encuentra en la sección "Ayuda y Soporte", When intenta enviar un mensaje sin contenido, Then el sistema muestra un mensaje de error: "Por favor, escribe un mensaje antes de enviarlo."</li>
+          <li>Scenario 3: Error en el envío<br>Given un usuario autenticado se encuentra en la sección "Ayuda y Soporte", When intenta enviar un mensaje pero ocurre un problema técnico, Then el sistema muestra un mensaje: "Hubo un error al enviar tu solicitud. Por favor, inténtalo nuevamente más tarde."</li>
+        </ul>
+      </td>
+      <td>EP007</td>
+    </tr>  
+    <tr>
+      <td>US026</td>
+      <td>Eliminar cuenta</td>
+      <td>Como usuario, quiero poder eliminar mi cuenta si ya no deseo usar la app, para proteger mis datos personales.</td>
+      <td>
+        <ul>
+          <li>Scenario 1: Eliminación exitosa<br>Given un usuario autenticado se encuentra en la sección "Configuración > Cuenta", When selecciona la opción "Eliminar cuenta" y confirma la acción, Then el sistema elimina la cuenta y muestra un mensaje: "Tu cuenta ha sido eliminada correctamente."</li>
+          <li>Scenario 2: Cancelación de la eliminación<br>Given un usuario autenticado se encuentra en la sección "Configuración > Cuenta", When selecciona la opción "Eliminar cuenta" pero cancela la acción en el cuadro de confirmación, Then el sistema no realiza ningún cambio y muestra un mensaje: "La eliminación de tu cuenta ha sido cancelada."</li>
+          <li>Scenario 3: Error técnico durante la eliminación<br>Given un usuario autenticado se encuentra en la sección "Configuración > Cuenta", When selecciona la opción "Eliminar cuenta" pero ocurre un problema técnico, Then el sistema muestra un mensaje: "Hubo un error al intentar eliminar tu cuenta. Por favor, inténtalo nuevamente más tarde."</li>
+        </ul>
+      </td>
+      <td>EP007</td>
+    </tr>    
   </tbody>
 </table>
 
-**EPIC ID: EP004 - Sección Informe**
-
-| USER STORY ID | TÍTULO                     | DESCRIPCIÓN                                        | CRITERIO DE ACEPTACIÓN                                                                                 | RELACIÓN |
-| ------------- | -------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | -------- |
-| US012         | Visualizar progreso diario | Como usuario, quiero ver mi progreso diario.       | Given los registros de actividad, When consulto informes, Then se muestran detalles por día.           | EP004    |
-| US013         | Ver IMC en gráfico         | Como usuario, quiero ver una gráfica de mi IMC.    | Given datos de peso y altura, When accedo a mi perfil, Then se muestra un gráfico de IMC.              | EP004    |
-| US014         | Actualizar peso y altura   | Como usuario, quiero actualizar mis datos físicos. | Given un usuario activo, When edita peso y altura, Then se recalcula IMC y actualizan recomendaciones. | EP004    |
-| US015         | Exportar informe en PDF    | Como usuario, quiero exportar mi progreso en PDF.  | Given un historial de entrenamientos, When selecciono exportar, Then se genera un PDF.                 | EP004    |
-
-**EPIC ID: EP005 - Interfaz y Motivación**
-
-| USER STORY ID | TÍTULO                          | DESCRIPCIÓN                                                           | CRITERIO DE ACEPTACIÓN                                                                  | RELACIÓN |
-| ------------- | ------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | -------- |
-| US016         | Ver animaciones motivacionales  | Como usuario, quiero ver animaciones al completar rutinas.            | Given que termino una rutina, When se completa, Then se muestra una animación.          | EP005    |
-| US017         | Frases motivacionales diarias   | Como usuario, quiero recibir frases motivacionales al iniciar el día. | Given que abro la app, When carga el dashboard, Then se muestra una frase positiva.     | EP005    |
-| US018         | Personalizar colores de la app  | Como usuario, quiero elegir el tema de la app.                        | Given la configuración, When elijo un tema, Then se actualiza la interfaz.              | EP005    |
-| US019         | Acceder a comunidad de usuarios | Como usuario, quiero ver logros de otros usuarios.                    | Given la sección comunidad, When la consulto, Then se muestran publicaciones y avances. | EP005    |
-
-**EPIC ID: EP006 - Nutrición Personalizada**
-
-| USER STORY ID | TÍTULO                          | DESCRIPCIÓN                                            | CRITERIO DE ACEPTACIÓN                                                                          | RELACIÓN |
-| ------------- | ------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------- | -------- |
-| US020         | Plan nutricional semanal        | Como usuario, quiero sugerencias de comidas semanales. | Given mi perfil, When accedo a nutrición, Then se muestra un plan de comidas personalizado.     | EP006    |
-| US021         | Filtrar recetas por dificultad  | Como usuario, quiero recetas según mi tiempo libre.    | Given la lista de recetas, When aplico el filtro, Then se muestran recetas según dificultad.    | EP006    |
-| US022         | Ver recetas peruanas saludables | Como usuario, quiero ver recetas locales saludables.   | Given el módulo de recetas, When busco por tipo, Then se muestran opciones peruanas saludables. | EP006    |
-
-**EPIC ID: EP007 - Configuración y Soporte**
-
-| USER STORY ID | TÍTULO                  | DESCRIPCIÓN                                                           | CRITERIO DE ACEPTACIÓN                                                                             | RELACIÓN |
-| ------------- | ----------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------- |
-| US023         | Cambiar datos de cuenta | Como usuario, quiero editar mis datos personales.                     | Given el perfil, When edito nombre o correo, Then se actualiza correctamente.                      | EP007    |
-| US024         | Contactar al soporte    | Como usuario, quiero enviar un mensaje al soporte si tengo problemas. | Given un problema, When envío un mensaje desde ayuda, Then se genera un ticket.                    | EP007    |
-| US025         | Eliminar cuenta         | Como usuario, quiero eliminar mi cuenta para proteger mis datos.      | Given un usuario registrado, When selecciona eliminar cuenta, Then todos sus datos son eliminados. | EP007    |
-
 ### 3.3. Product Backlog
 
-Para elaborar nuestro product backlog hemos utilizado la escala lineal (1,2,3). Esto con el propósito de optimizar el nivel de las tareas.
+Para elaborar nuestro product backlog hemos utilizado la escala de Fibonacci (1,2,3,5,8). Esto con el propósito de optimizar el nivel de las tareas.
 
 **Historia de usuario base:**
 
-US010 <br> Titulo: Recibir ejercicios recomendados <br> Descripcion: Como usuario, quiero recomendaciones diarias de ejercicios. (Puntaje asignado: 2)
+US010 <br> Titulo: Recibir ejercicios recomendados <br> Descripcion: Como usuario, quiero recomendaciones diarias de ejercicios. (Puntaje asignado:5)
 
-| # ORDEN | USER STORY ID | TÍTULO                          | DESCRIPCIÓN                                                              | PRIORIDAD | STORY POINTS (1/2/3) |
+| # ORDEN | USER STORY ID | TÍTULO                          | DESCRIPCIÓN                                                              | PRIORIDAD | STORY POINTS (1/2/3/5/8) |
 | ------- | ------------- | ------------------------------- | ------------------------------------------------------------------------ | --------- | -------------------- |
 | 1       | US001         | Registro con correo electrónico | Como usuario nuevo, quiero registrarme con mi correo y contraseña.       | Alta      | 2                    |
 | 2       | US002         | Login con autenticación OAuth   | Como usuario frecuente, quiero iniciar sesión con Google.                | Alta      | 2                    |
@@ -856,6 +1000,8 @@ US010 <br> Titulo: Recibir ejercicios recomendados <br> Descripcion: Como usuari
 | 23      | US023         | Cambiar datos de cuenta         | Como usuario, quiero editar mis datos personales.                        | Baja      | 2                    |
 | 24      | US024         | Contactar al soporte            | Como usuario, quiero enviar un mensaje al soporte si tengo problemas.    | Baja      | 1                    |
 | 25      | US025         | Eliminar cuenta                 | Como usuario, quiero eliminar mi cuenta para proteger mis datos.         | Baja      | 2                    |
+
+**Enlace del Product Backlog en la herramienta Jira: [https://fitwise-si732.atlassian.net/jira/software/projects/SCRUM/summary](https://fitwise-si732.atlassian.net/jira/software/projects/SCRUM/summary)**
 
 ### 3.4. Impact Mapping
 # Capítulo III: Requirements Specification
