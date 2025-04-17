@@ -542,6 +542,8 @@ Los segmentos considerados son:
   <img src="./assets/emp2.png" alt="emp2"/>
 
 #### 2.3.5. As-is Scenario Mapping
+<p align="center">
+<img src="./assets/As-is_Scenario_Map.png" alt="aism"/>
 
 ### 2.4. Ubiquitous Language
 
