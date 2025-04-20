@@ -231,9 +231,13 @@ Soy estudiante de Ingeniería de Software con un fuerte interés en el desarroll
 
 #### **David Alexander Perez Garcia – Ingeniería de Software – U202222942**
 
-*(Sin imagen disponible)*
+- David Alexander Pérez Garía - u202222942 (Ingeniería de Software)
 
-Soy xxxxxxxxxxxx
+<p align="center">
+    <img src="assets/davidfoto.jpg" alt="foto-david" height="200px"/>
+</p>
+
+Mi nombre es David, actualmente soy estudiante de Ingeniería de Software (7mo ciclo). Me especializo en el desarrollo de aplicaciones web, trabajando de forma independiente en proyectos de programación. Tengo experiencia en lenguajes como  TypeScript, Java y PHP, utilizando tecnologías modernas como React, Next.js, Spring Boot, Express y Laravel. Apasionado por la tecnología y el aprendizaje continuo, siempre busco mejorar mis habilidades y asumir nuevos desafíos en el mundo del desarrollo de software.
 
 ---
 
