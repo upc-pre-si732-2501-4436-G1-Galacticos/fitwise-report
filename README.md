@@ -465,6 +465,84 @@ Hombres y mujeres entre 18 y 40 años que viven en zonas urbanas como Lima Metro
 ---
 
 #### 2.2.2. Registro de entrevistas
+**Entrevista para el Segmento Objetivo 1 - Adultos jóvenes urbanos en búsqueda activa de bienestar (18 - 40 años) :**
+
+- **Entrevista 1:**
+**Entrevistador:** 
+**Entrevistado:** 
+**Sexo:** 
+**Edad:** 
+**Domicilio:** 
+**Inicio de la Entrevista:** 0:00
+**Duración de la Entrevista:** 5:30<br>
+<img src="./assets/entrevista1.png" alt="Entrevista con ...." style="width: 600px; height: auto;"><br>
+
+- **Resumen:** 
+Resumen aqui
+
+Enlace al video: [https://link.com](https://link.com)
+
+
+- **Entrevista 2:**
+**Entrevistador:** 
+**Entrevistado:** 
+**Sexo:** 
+**Edad:** 
+**Domicilio:** 
+**Inicio de la Entrevista:** 0:00
+**Duración de la Entrevista:** 5:30<br>
+<img src="./assets/entrevista2.png" alt="Entrevista con ...." style="width: 600px; height: auto;"><br>
+
+- **Resumen:** 
+Resumen aqui
+
+Enlace al video: [https://link.com](https://link.com)
+
+- **Entrevista 3:**
+**Entrevistador:** 
+**Entrevistado:** 
+**Sexo:** 
+**Edad:** 
+**Domicilio:** 
+**Inicio de la Entrevista:** 0:00
+**Duración de la Entrevista:** 5:30<br>
+<img src="./assets/entrevista3.png" alt="Entrevista con ...." style="width: 600px; height: auto;"><br>
+
+- **Resumen:** 
+Resumen aqui
+
+Enlace al video: [https://link.com](https://link.com)
+
+
+- **Entrevista 4:**
+**Entrevistador:** 
+**Entrevistado:** 
+**Sexo:** 
+**Edad:** 
+**Domicilio:** 
+**Inicio de la Entrevista:** 0:00
+**Duración de la Entrevista:** 5:30<br>
+<img src="./assets/entrevista4.png" alt="Entrevista con ...." style="width: 600px; height: auto;"><br>
+
+- **Resumen:** 
+Resumen aqui
+
+Enlace al video: [https://link.com](https://link.com)
+
+- **Entrevista 5:**
+**Entrevistador:** David Alexander Pérez García
+**Entrevistado:** Sujey García
+**Sexo:** Femenina
+**Edad:** 30 años
+**Domicilio:** Comas Lima Peru
+**Inicio de la Entrevista:** 0:00
+**Duración de la Entrevista:** 3:30<br>
+<img src="./assets/entrevista5.png" alt="Entrevista con Sujey" style="width: 600px; height: auto;"><br>
+
+- **Resumen:** 
+En esta entrevista  para el segmento “adultos jóvenes urbanos en búsqueda activa de bienestar”, Sujei García, una mujer de 33 años que trabaja como asistente en psicología y vive en Lima, comparte su experiencia diaria marcada por una agenda ocupada entre el trabajo, el cuidado de su hija y las tareas del hogar, lo cual le impide priorizar su bienestar físico y mental. Aunque intenta mantener una alimentación saludable, no realiza actividad física por falta de tiempo. No utiliza actualmente ninguna aplicación de bienestar, pero considera ideal una plataforma que le ofrezca rutinas personalizadas, recordatorios, y acompañamiento virtual. Valora especialmente el seguimiento del progreso en tiempo real y estaría dispuesta a pagar por una herramienta que le ayude a mantenerse motivada y organizada en sus hábitos de salud
+
+Enlace al video: [https://drive.google.com/file/d/113316BTQESZ3BF_1MPrYAFdxl9qdo4mX/view](https://drive.google.com/file/d/113316BTQESZ3BF_1MPrYAFdxl9qdo4mX/view)
 
 #### 2.2.3. Análisis de entrevistas
 
