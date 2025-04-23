@@ -1088,8 +1088,6 @@ US010
 **Enlace del Product Backlog en la herramienta Jira: [https://fitwise-si732.atlassian.net/jira/software/projects/SCRUM/summary](https://fitwise-si732.atlassian.net/jira/software/projects/SCRUM/summary)**
 
 ### 3.4. Impact Mapping
-# Capítulo III: Requirements Specification
-## 3.3. Impact Mapping.
 
 El Impact Mapping de FitWise es una herramienta estratégica que alinea los objetivos de negocio con los comportamientos deseados en sus principales usuarios: personas sin experiencia en fitness y profesionales de la salud. La técnica permite identificar los impactos necesarios, los entregables que los habilitan y las historias de usuario que aseguran una implementación centrada en la experiencia. Así, FitWise busca facilitar el inicio de hábitos saludables sostenibles y ofrecer herramientas útiles para el seguimiento y mejora continua, fomentando la adopción de la app como un aliado diario en el bienestar personal y profesional.
 
@@ -1100,27 +1098,367 @@ El Impact Mapping de FitWise es una herramienta estratégica que alinea los obje
 
 ### 4.1. Style Guidelines
 
+Esta sección establece los lineamientos visuales y comunicacionales esenciales para asegurar una identidad de marca coherente, accesible y reconocible en todas las plataformas del producto digital FitWise. Esta guía servirá como un repositorio central de uso común para los equipos de diseño, desarrollo y contenido, facilitando la colaboración y promoviendo la consistencia.
+
 #### 4.1.1. General Style Guidelines
+
+- **Branding:**  
+  El logotipo de FitWise refleja una marca dinámica y juvenil, con una tipografía manuscrita fluida y enérgica sobre un fondo oscuro que acentúa el contraste y la modernidad. El estilo caligráfico transmite cercanía y entusiasmo, alineándose con el espíritu activo y personalizado del producto. La curvatura del trazo inferior aporta movimiento, simbolizando progreso y continuidad en el bienestar físico y mental del usuario.
+
+<p align="center">
+    <img src="assets/FitWiseLogoAlternative.png" alt="fitwise-logo-alternativo" height="200px" style="margin-right: 20px;"/>
+    <img src="assets/FitWiseLogo.png" alt="fitwise-logo" height="200px"/>
+</p>
+
+- **Typography:**  
+  Para mantener coherencia con el logo, se utilizará una combinación de fuentes tipográficas que equilibre personalidad y legibilidad:  
+    - **Primaria:** Poppins Semi-Bold – para títulos, headers y llamados a la acción (evoca modernidad y dinamismo).  
+    - **Secundaria:** Open Sans Regular – para cuerpos de texto, descripciones y formularios (alta legibilidad y neutralidad).  
+  Estas fuentes garantizan consistencia entre marca y contenido, y su estructura geométrica facilita la lectura en interfaces digitales.
+
+- **Color Palette:**  
+  Inspirados en el logo y sus contrastes vibrantes sobre un fondo claro, se utilizará la siguiente paleta base:  
+    - **Fondo base:** Blanco puro (#FFFFFF) – utilizado como color de fondo principal.  
+    - **Primario:** Gris claro (#4E5366) – transmite seriedad, foco y modernidad.  
+    - **Acentos:** Verde lima (#BEED00) – utilizados en botones y elementos interactivos para dar vitalidad y frescura.
+
+<p align="center">
+    <img src="assets/color-palette-fitwise.png" alt="color-palette" height="200px"/>
+</p>
+
+- **Spacing & Layout:**  
+  Se adoptará un sistema basado en una grilla de 8px, promoviendo un diseño limpio, balanceado y altamente escalable. Se priorizará el uso del espacio negativo para mantener una experiencia visual aireada y sin saturación.
+
+- **Tone of Communication:**  
+  La voz de la marca FitWise será:  
+    - **Divertida y motivacional:** cercana al usuario, con un lenguaje que inspire acción sin caer en lo informal extremo.  
+    - **Empática y entusiasta:** enfocada en acompañar, celebrar logros y mantener el compromiso con el bienestar del usuario.  
+    - **Positiva y clara:** evitando tecnicismos, centrada en la simplicidad y la motivación personal.
+
+- **Design Principles:**  
+  Los principios rectores para todas las decisiones visuales y de interacción son:  
+    - Consistencia visual y funcional.  
+    - Diseño centrado en la experiencia del usuario (UX-first).  
+    - Accesibilidad: contraste adecuado, fuentes legibles, navegación simple.  
+    - Mobile-first: el diseño comienza en entornos móviles, adaptándose progresivamente a pantallas mayores.  
+    - Claridad y propósito: cada componente visual debe tener un propósito funcional y estético claro.
 
 #### 4.1.2. Web Style Guidelines
 
+Esta sección establece los lineamientos visuales, estructurales y de interacción para ofrecer una interfaz centrada en el usuario, moderna, accesible y completamente responsive.
+
+**1. Enfoque Central: Plataforma Web como Experiencia Principal**  
+Toda la experiencia de FitWise se construye primero para el entorno web. El diseño no solo se adapta a múltiples tamaños de pantalla, sino que es optimizado principalmente para escritorios y laptops, aprovechando el espacio disponible para brindar mayor contexto, paneles interactivos, visualización de métricas y navegación fluida.
+
+**2. Sistema de Diseño y Componentes**  
+FitWise Web UI se basa en un sistema modular de componentes reutilizables que siguen principios de diseño accesible, minimalismo funcional y claridad visual. Los elementos clave incluyen:  
+- **Botones:** Prominentes, con colores vibrantes (verde lima y acentos en blanco/azul oscuro), estados de hover y foco.  
+- **Inputs:** Limpios, con labels persistentes, validación visual clara y errores accesibles.  
+- **Tablas y paneles:** Estructura tipo dashboard, uso de tarjetas para métricas, bordes redondeados, sombra sutil.  
+- **Modales y overlays:** Animación suave de entrada/salida, enfoque en acción principal.  
+
+**3. Tipografía y Jerarquía Visual**  
+La plataforma adopta una tipografía moderna y altamente legible:  
+- **Títulos (Poppins Bold):** Para secciones y llamadas a la acción.  
+- **Cuerpo (Open Sans Regular):** Para contenido, descripciones y formularios.  
+
+Escala de tipografía adaptativa con unidades REM:  
+- **h1:** 2.5rem — Título principal  
+- **h2:** 2rem — Subtítulo  
+- **h3:** 1.5rem — Sección  
+- **Texto base:** 1rem (16px)  
+
+El diseño jerárquico está reforzado por espaciado, color y tamaño de texto, facilitando la navegación visual.
+
+**4. Diseño Responsive y Adaptabilidad**  
+Aunque la prioridad es el entorno de escritorio, se asegura una experiencia fluida en tablets y móviles con breakpoints bien definidos:  
+- **≥ 1440px:** Pantallas grandes, dashboards extendidos  
+- **1024–1439px:** Desktop estándar, experiencia completa  
+- **768–1023px:** Tablets, navegación colapsada  
+- **≤ 767px:** Mobile, vista simplificada con navegación hamburguesa  
+
+**5. Interacción, Feedback y Animaciones**  
+Cada acción genera una respuesta visual clara:  
+- Botones con animación de clic  
+- Hover y foco en elementos interactivos  
+- Skeleton loaders para cargas de datos  
+- Transiciones suaves (200–300ms) para desplazamientos y overlays  
+
+**6. Accesibilidad y Buenas Prácticas**  
+- Navegación por teclado asegurada en todos los componentes  
+- Etiquetas `aria` en elementos interactivos  
+- Imágenes con texto alternativo  
+- Compatible con lectores de pantalla  
+
+**7. Ejemplo Aplicado: Dashboard de Usuario**  
+- **Sidebar fija:** Con navegación icónica y labels colapsables.  
+- **Panel central:** Con estadísticas, metas y progreso visual.  
+- **Gráficas dinámicas:** Con datos de actividad.  
+- **CTA claros:** Para iniciar rutinas, ajustar metas o contactar coach.  
+
 #### 4.1.3. Mobile Style Guidelines
 
-##### 4.1.3.1. iOS Mobile Style Guidelines
+ La aplicación móvil será una extensión indispensable que brindará acceso ágil a funcionalidades clave. Su diseño se centrará en la simplicidad, el enfoque en la salud y el bienestar, y la conexión directa con las necesidades cotidianas de los usuarios en movimiento. Esta guía establece los principios visuales, de interacción y consistencia entre plataformas móviles iOS y Android, manteniendo la esencia de la identidad visual de FitWise.
+
+#### 4.1.3.1. iOS Mobile Style Guidelines
+
+El diseño para dispositivos Apple se alinea con las **Human Interface Guidelines** de Apple, optimizando la experiencia para usuarios de iPhone y iPad. La aplicación se integrará con servicios nativos de iOS como **Apple HealthKit** para sincronización de datos.
+
+**Principios de diseño y estilo:**
+
+- **Navegación principal:** Uso de `UITabBarController` con íconos claros para Home, Rutinas, Progreso y Perfil.  
+- **Gestos intuitivos:** Deslizamientos para avanzar entre secciones, especialmente en rutinas y calendarios.  
+- **Diseño modular:** Bloques reutilizables de contenido en tarjetas, con sombras suaves y bordes redondeados.  
+- **Botones de acción primaria:** Ubicados consistentemente al pie de cada vista, con colores acentuados de la paleta FitWise.  
+- **Interacción nativa:** Uso de Haptics, FaceID/TouchID para autenticación y Push Notifications enriquecidas para motivación y alertas.  
+- **Modo claro/oscuro:** Completamente soportado para mantener accesibilidad y bienestar visual.  
+
+**Especificaciones técnicas y visuales:**
+
+| **Elemento UI**       | **Detalles**                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| **Fuente principal**   | San Francisco, dinámicamente escalable                                     |
+| **Tamaño base de texto** | 16pt (adaptativo)                                                         |
+| **Íconos**             | SF Symbols o diseño personalizado en línea monocromática                   |
+| **Paleta de color**    | Fondo oscuro: `#2F3545` / Acento: `#00C897`                                |
+| **Padding estándar**   | 16pt horizontal / 24pt vertical entre secciones                            |
+
 
 ##### 4.1.3.2. Android Mobile Style Guidelines
 
+La aplicación Android será desarrollada siguiendo **Material Design 3 (Material You)**, brindando una experiencia completamente adaptativa y contextual según las preferencias del usuario.
+
+**Principios de diseño y estilo:**
+
+- **Navegación inferior:** Barra con iconografía clara para acceso a las secciones principales.  
+- **Componentes de interfaz:** Uso intensivo de **Jetpack Compose** para interfaces modernas, flexibles y reactivas.  
+- **Soporte de temas dinámicos:** Integración con el color del sistema del usuario para una experiencia personalizada.  
+- **Accesos rápidos:** Floating Action Button para iniciar una nueva rutina, registrar progreso o sincronizar dispositivos.  
+- **Integración con servicios Android:** Google Fit, notificaciones contextuales y acciones por voz a través de Google Assistant.  
+- **Responsive y adaptable:** Compatible con pantallas pequeñas, medianas y tablets.  
+
+**Especificaciones técnicas y visuales:**
+
+| **Elemento UI**       | **Detalles**                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| **Fuente principal**   | Roboto                                                                     |
+| **Tamaño base de texto** | 14sp a 18sp (según jerarquía)                                              |
+| **Íconos**             | Material Icons personalizados con líneas delgadas                          |
+| **Paleta de color**    | Primario: `#00C897` / Secundario: `#2F3545` / Fondo: `#FFFFFF`             |
+| **Elevación por defecto** | 4dp en tarjetas, 8dp en botones flotantes                                |
+
+
 ### 4.2. Information Architecture
+
+La arquitectura de información de FitWise se ha diseñado para facilitar la comprensión, navegación y uso del sistema por parte de sus usuarios desde el primer contacto con la plataforma (landing page) hasta su experiencia diaria con las herramientas de personalización, progreso y motivación.
+
+Se prioriza una estructura jerárquica clara, minimalista, progresiva y modular, donde el usuario siempre sepa dónde está, qué puede hacer y cómo avanzar hacia sus objetivos.
+
+Esta arquitectura aplica tanto para la versión web (principal) como para la versión móvil complementaria.
 
 #### 4.2.1. Organization Systems
 
+Se emplearán los siguientes esquemas de organización según el tipo de contenido:
+
+| **Tipo de Contenido**         | **Sistema de Organización aplicado**                                                                 |
+|-------------------------------|-----------------------------------------------------------------------------------------------------|
+| **Secciones generales de la plataforma** | Jerárquico visual – el contenido se estructura de mayor a menor importancia en pantalla.                       |
+| **Proceso de onboarding**     | Secuencial – guía paso a paso desde el registro hasta la personalización.                                             |
+| **Rutinas, planes y recetas** | Categorización por tópicos – musculación, cardio, recetas peruanas, etc.                                               |
+| **Progreso del usuario**      | Cronológico – visualización de estadísticas por días/semanas.                                                         |
+| **Comunidad y logros**        | Por audiencia/rol – contenido visible según tipo de usuario (principiante, avanzado).                                  |
+
+Además, se incorporarán sistemas matriciales en secciones interactivas como:  
+- Comparación entre rutinas según objetivos.  
+- Selección de recetas por nivel de dificultad y tipo de dieta.  
+
 #### 4.2.2. Labeling Systems
+
+Las etiquetas se diseñarán para ser:  
+- **Claras y autoexplicativas**, evitando tecnicismos innecesarios.  
+- **Breves**, con un máximo de 2–3 palabras.  
+- **Consistentes en tono**, siguiendo la guía de estilo verbal (motivacional, clara, cercana).  
+
+**Ejemplos de etiquetas a aplicar:**
+
+| **Área**         | **Etiquetas utilizadas**                          |
+|-------------------|--------------------------------------------------|
+| **Navegación**    | Inicio, Plan, Progreso, Perfil                   |
+| **Rutinas**       | Calentamiento, Cardio, Fuerza                    |
+| **Recetas**       | Rápidas, Peruanas, Proteicas                     |
+| **Progreso**      | Hoy, Esta semana, Historial                      |
+| **Gamificación**  | Nivel actual, Meta semanal, Medallas             |
+
+Para evitar ambigüedad, se utilizarán **íconos universales acompañados de etiquetas textuales** en todas las interfaces.
 
 #### 4.2.3. SEO Tags and Meta Tags
 
+Para asegurar que la plataforma FitWise sea fácilmente encontrada y correctamente interpretada por los motores de búsqueda, se han definido los siguientes lineamientos para la aplicación de SEO Tags y Meta Tags tanto en la Landing Page como en la Aplicación Web.
+
+**Landing Page**
+
+- **Title:**  
+  `FitWise | Tu rutina personalizada de ejercicio y nutrición`  
+  *(50–60 caracteres, recomendado para SEO óptimo)*
+
+- **Meta Description:**  
+  `Descubre FitWise, la plataforma inteligente que crea rutinas de entrenamiento y planes nutricionales adaptados a tu estilo de vida. Mejora tu bienestar físico y mental con soluciones personalizadas.`  
+  *(150–160 caracteres, dentro del límite recomendado)*
+
+- **Meta Keywords:** *(Opcional, ya que Google no la utiliza para SEO moderno)*  
+  `rutinas personalizadas, ejercicios en casa, salud, nutrición, app fitness, bienestar, entrenamiento online, fitness Perú`
+
+- **Meta Author:**  
+  `VibeFit`
+
+- **Open Graph Tags (para compartir en redes sociales):**  
+  ```html
+  <meta property="og:title" content="FitWise | Tu camino hacia una vida saludable">
+  <meta property="og:description" content="Entrena, come mejor y mejora tu salud con planes personalizados según tu estilo de vida y objetivos.">
+  <meta property="og:image" content="/assets/meta-fitwise-preview.jpg">
+  <meta property="og:url" content="https://fitwise.app">
+
+- **Twitter Card Tags:**
+  ```html
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="FitWise | Bienestar personalizado">
+  <meta name="twitter:description" content="Rutinas y planes de alimentación creados para ti. ¡Empieza hoy tu transformación!">
+  <meta name="twitter:image" content="/assets/meta-fitwise-preview.jpg">
+
+**Aplicacion Web**
+
+En la aplicación web, las meta etiquetas se ajustarán dinámicamente en función de la página o vista activa, siguiendo estos lineamientos:
+
+|Página |	Title	| Meta Description|
+|---|---|---|
+|Panel principal |	`Dashboard	| FitWise`|
+|Rutinas	|`Rutinas personalizadas| 	FitWise`|
+|Plan de comidas|	`Nutrición para ti	| FitWise`|
+|Progreso|	`Mi progreso	| FitWise`|
+
+
+Se integrará estructura de datos (schema.org) para mejorar la visibilidad en motores de búsqueda:
+
+- Organización (Startup): Información sobre VibeFit.
+- Producto Software: Detalles sobre FitWise como producto digital.
+- Opiniones de usuarios: Ratings y reviews para destacar en resultados de búsqueda.
+- Preguntas frecuentes (FAQ Page): Respuestas a preguntas comunes para mejorar la experiencia del usuario y el SEO.
+
+``` 
+🧑‍💻 Nota:
+Aunque <meta name="keywords"> es técnicamente válida, se considera obsoleta para SEO moderno. Puede mantenerse para compatibilidad extendida, pero no es prioritaria. 
+```
+
 #### 4.2.4. Searching Systems
 
+Para garantizar que los usuarios puedan acceder fácilmente a la información dentro de la plataforma FitWise, se han diseñado sistemas de búsqueda intuitivos, eficientes y adaptados a los distintos módulos de la aplicación web. Estas decisiones están centradas en reducir la fricción, minimizar la sobrecarga cognitiva y mejorar la experiencia general del usuario, especialmente considerando los dos segmentos objetivos definidos: adultos jóvenes ocupados y jóvenes universitarios saludables en formación.
+
+**Tipos de Búsqueda Disponibles**
+
+1. **Búsqueda Global (barra principal):**  
+   - **Ubicación:** Parte superior de la interfaz web (header) en todas las vistas principales.  
+   - **Alcance:** Permite buscar contenido en múltiples categorías (ejercicios, recetas, artículos, rutinas, desafíos, comunidad).  
+   - **Autocompletado:** Sugiere resultados a medida que el usuario escribe, con categorías diferenciadas.  
+
+2. **Búsqueda Contextual (por módulo):**  
+   - **Ubicación:** Dentro de módulos como "Mis rutinas", "Mi progreso", "Plan nutricional", "Explorar comunidad", entre otros.  
+   - **Alcance:** Se limita a contenidos del módulo en el que se encuentra el usuario.  
+   - **Filtros específicos:** Permite realizar búsquedas con filtros como nivel de dificultad, duración del ejercicio, tipo de dieta, fecha o etiquetas personalizadas.  
+
+3. **Búsqueda Rápida con Filtros Inteligentes:**  
+   - **Filtros disponibles según la categoría:**  
+     - **Ejercicios:** Nivel, duración, zona muscular, tipo (cardio, fuerza, estiramiento).  
+     - **Recetas:** Ingredientes disponibles, tipo de comida, tiempo de preparación, valor nutricional.  
+     - **Progreso:** Por fecha, métrica (peso, grasa corporal, resistencia), comparación entre semanas.  
+     - **Contenido educativo:** Por categoría (hábitos, nutrición, motivación), popularidad o fecha de publicación.  
+   - **Diseño UI:** Controles desplegables, chips seleccionables y sliders para facilitar la interacción.  
+
+4. **Historial y búsquedas recientes:**  
+   - El sistema registra las últimas búsquedas para ofrecer acceso rápido a información previamente consultada.  
+   - Se mostrará al enfocar el campo de búsqueda sin necesidad de escribir texto.  
+
+**Presentación de Resultados**
+
+- Los resultados se presentan de forma visual, utilizando **tarjetas (cards)** organizadas en una cuadrícula limpia y responsiva.  
+- Las tarjetas incluyen:  
+  - Título.  
+  - Ícono o imagen destacada.  
+  - Etiquetas principales (por ejemplo: “30 min”, “Alta intensidad”, “Vegetariano”).  
+  - Botón de acción rápida.  
+- Se incluirán **badges** para marcar contenido nuevo o destacado (“Popular”, “Recomendado para ti”, “Nuevo”).  
+
+**Accesibilidad y Rendimiento**
+
+- **Rendimiento:** Los resultados aparecerán rápidamente incluso en conexiones móviles.  
+- **Atajos de teclado:** El campo de búsqueda será accesible con atajos (ej. `/` para enfocarlo).  
+- **Optimización móvil:** La búsqueda estará optimizada para dispositivos móviles con pantalla táctil y entrada por voz en futuras versiones.  
+
 #### 4.2.5. Navigation Systems
+
+La navegación dentro de la plataforma web FitWise ha sido diseñada para brindar una experiencia fluida, intuitiva y consistente, permitiendo que los usuarios —tanto nuevos como recurrentes— puedan alcanzar sus objetivos sin fricción, con claridad visual y accesos directos a las funcionalidades más utilizadas.
+
+**Estructura General de Navegación**
+
+1. **Menú Principal (Navbar Fijo):**  
+   - Presente en todas las vistas del sitio, tanto en desktop como en versión móvil (menú hamburguesa).  
+   - **Ítems principales:**  
+     - Inicio  
+     - Explorar (rutinas, ejercicios, recetas)  
+     - Mi Progreso  
+     - Mi Plan  
+     - Comunidad  
+     - Perfil  
+   - Acompañado por íconos simples e identificables.  
+   - Elemento destacado visualmente para el botón **"Comenzar entrenamiento"**, que redirige al flujo de acción principal del usuario.  
+
+2. **Subnavegación Contextual:**  
+   - Dependiendo del módulo o sección, se presenta un submenú lateral o pestañas horizontales que agrupan funcionalidades relacionadas.  
+   - Ejemplo:  
+     - En **“Mi Plan”**: pestañas para “Rutina semanal”, “Plan nutricional” y “Preferencias”.  
+     - En **“Progreso”**: pestañas para “Gráficos”, “Historial”, “Metas”.  
+
+3. **Footer (pie de página) informativo:**  
+   - Incluye accesos rápidos a:  
+     - Sobre nosotros  
+     - Términos y condiciones  
+     - Preguntas frecuentes  
+     - Contacto  
+     - Redes sociales  
+   - Disponible solo en la Landing Page y vistas públicas. No aparece durante sesiones activas para evitar distracciones.  
+
+**Guía de Usuario Dentro del Producto**
+
+1. **Breadcrumbs (rastro de navegación):**  
+   - Se usará en rutas profundas como por ejemplo:  
+     `Inicio / Explorar / Rutinas / Fuerza para piernas`  
+   - Facilita el retorno a niveles superiores y brinda claridad de ubicación dentro de la plataforma.  
+
+2. **Llamadas a la acción (CTAs) constantes:**  
+   - Botones estratégicos como:  
+     - “Iniciar ahora”  
+     - “Agregar a mi plan”  
+     - “Ver progreso”  
+     - “Compartir”  
+   - Destacados visualmente con colores primarios, reforzando el flujo deseado.  
+
+3. **Sistema de progreso y feedback visual:**  
+   - Avances dentro de formularios o personalizaciones (como en el onboarding o creación de rutina) se representarán con pasos numerados o indicadores visuales.  
+   - Retroalimentación inmediata tras una acción (ej. “Rutina agregada exitosamente”).  
+
+**Navegación Adaptativa**
+
+1. **Responsive Design:**  
+   - Toda la estructura de navegación está optimizada para adaptarse a diferentes tamaños de pantalla (desktop, tablet, móvil).  
+
+2. **Menús colapsables y fijos en scroll:**  
+   - En dispositivos móviles, la barra de navegación se oculta al hacer scroll hacia abajo y reaparece al subir, maximizando el espacio útil en pantalla sin perder la orientación del usuario.  
+
+**Enlace con el Objetivo del Usuario**
+
+Cada sección está pensada para responder directamente a los objetivos primarios de los segmentos definidos:  
+- **Adultos jóvenes:** Acceso rápido a lo esencial (rutinas, progreso, recomendaciones).  
+- **Jóvenes universitarios:** Exploración, descubrimiento y facilidad para compartir contenido dentro de una interfaz motivadora.  
+
 
 ### 4.3. Landing Page UI Design
 
