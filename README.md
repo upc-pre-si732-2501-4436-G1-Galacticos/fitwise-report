@@ -233,9 +233,13 @@ Soy estudiante de Ingeniería de Software con un fuerte interés en el desarroll
 
 #### **David Alexander Perez Garcia – Ingeniería de Software – U202222942**
 
-*(Sin imagen disponible)*
+- David Alexander Pérez Garía - u202222942 (Ingeniería de Software)
 
-Soy xxxxxxxxxxxx
+<p align="center">
+    <img src="assets/davidfoto.jpg" alt="foto-david" height="200px"/>
+</p>
+
+Mi nombre es David, actualmente soy estudiante de Ingeniería de Software (7mo ciclo). Me especializo en el desarrollo de aplicaciones web, trabajando de forma independiente en proyectos de programación. Tengo experiencia en lenguajes como  TypeScript, Java y PHP, utilizando tecnologías modernas como React, Next.js, Spring Boot, Express y Laravel. Apasionado por la tecnología y el aprendizaje continuo, siempre busco mejorar mis habilidades y asumir nuevos desafíos en el mundo del desarrollo de software.
 
 ---
 
@@ -467,6 +471,84 @@ Hombres y mujeres entre 18 y 40 años que viven en zonas urbanas como Lima Metro
 ---
 
 #### 2.2.2. Registro de entrevistas
+**Entrevista para el Segmento Objetivo 1 - Adultos jóvenes urbanos en búsqueda activa de bienestar (18 - 40 años) :**
+
+- **Entrevista 1:**
+**Entrevistador:** 
+**Entrevistado:** 
+**Sexo:** 
+**Edad:** 
+**Domicilio:** 
+**Inicio de la Entrevista:** 0:00
+**Duración de la Entrevista:** 5:30<br>
+<img src="./assets/entrevista1.png" alt="Entrevista con ...." style="width: 600px; height: auto;"><br>
+
+- **Resumen:** 
+Resumen aqui
+
+Enlace al video: [https://link.com](https://link.com)
+
+
+- **Entrevista 2:**
+**Entrevistador:** 
+**Entrevistado:** 
+**Sexo:** 
+**Edad:** 
+**Domicilio:** 
+**Inicio de la Entrevista:** 0:00
+**Duración de la Entrevista:** 5:30<br>
+<img src="./assets/entrevista2.png" alt="Entrevista con ...." style="width: 600px; height: auto;"><br>
+
+- **Resumen:** 
+Resumen aqui
+
+Enlace al video: [https://link.com](https://link.com)
+
+- **Entrevista 3:**
+**Entrevistador:** 
+**Entrevistado:** 
+**Sexo:** 
+**Edad:** 
+**Domicilio:** 
+**Inicio de la Entrevista:** 0:00
+**Duración de la Entrevista:** 5:30<br>
+<img src="./assets/entrevista3.png" alt="Entrevista con ...." style="width: 600px; height: auto;"><br>
+
+- **Resumen:** 
+Resumen aqui
+
+Enlace al video: [https://link.com](https://link.com)
+
+
+- **Entrevista 4:**
+**Entrevistador:** 
+**Entrevistado:** 
+**Sexo:** 
+**Edad:** 
+**Domicilio:** 
+**Inicio de la Entrevista:** 0:00
+**Duración de la Entrevista:** 5:30<br>
+<img src="./assets/entrevista4.png" alt="Entrevista con ...." style="width: 600px; height: auto;"><br>
+
+- **Resumen:** 
+Resumen aqui
+
+Enlace al video: [https://link.com](https://link.com)
+
+- **Entrevista 5:**
+**Entrevistador:** David Alexander Pérez García
+**Entrevistado:** Sujey García
+**Sexo:** Femenina
+**Edad:** 30 años
+**Domicilio:** Comas Lima Peru
+**Inicio de la Entrevista:** 0:00
+**Duración de la Entrevista:** 3:30<br>
+<img src="./assets/entrevista5.png" alt="Entrevista con Sujey" style="width: 600px; height: auto;"><br>
+
+- **Resumen:** 
+En esta entrevista  para el segmento “adultos jóvenes urbanos en búsqueda activa de bienestar”, Sujei García, una mujer de 33 años que trabaja como asistente en psicología y vive en Lima, comparte su experiencia diaria marcada por una agenda ocupada entre el trabajo, el cuidado de su hija y las tareas del hogar, lo cual le impide priorizar su bienestar físico y mental. Aunque intenta mantener una alimentación saludable, no realiza actividad física por falta de tiempo. No utiliza actualmente ninguna aplicación de bienestar, pero considera ideal una plataforma que le ofrezca rutinas personalizadas, recordatorios, y acompañamiento virtual. Valora especialmente el seguimiento del progreso en tiempo real y estaría dispuesta a pagar por una herramienta que le ayude a mantenerse motivada y organizada en sus hábitos de salud
+
+Enlace al video: [https://drive.google.com/file/d/113316BTQESZ3BF_1MPrYAFdxl9qdo4mX/view](https://drive.google.com/file/d/113316BTQESZ3BF_1MPrYAFdxl9qdo4mX/view)
 
 #### 2.2.3. Análisis de entrevistas
 
@@ -474,82 +556,88 @@ Hombres y mujeres entre 18 y 40 años que viven en zonas urbanas como Lima Metro
 
 #### 2.3.1. User Personas
 
-- **Adultos Jóvenes Ocupados (25–40 años)**
+- **Adultos jóvenes urbanos en búsqueda activa de bienestar (18 - 40 años)**
 <p align="center">
-  <img src="./assets/persona1.png" alt="per1"/>
+  <img src="./assets/person.png" alt="per1"/>
 
-- **Jóvenes Universitarios Saludables en Formación (18–24 años)**
-<p align="center">
-  <img src="./assets/persona2.png" alt="per2"/>
 
 #### 2.3.2. User Task Matrix
 
-En esta sección se presentan las tareas que los User Persona realizan para alcanzar sus objetivos de salud y bienestar. Las tareas listadas son independientes de la existencia de una aplicación, y reflejan acciones comunes realizadas por los usuarios en su vida cotidiana al momento de intentar adoptar hábitos saludables.  
-Los segmentos considerados son:
+**Segmento considerado:**  
+Adultos jóvenes urbanos (18 - 40 años) en búsqueda activa de bienestar, representados por el User Persona **Andre Robles**.
 
-- **Adultos Jóvenes Ocupados (25–40 años)**
-- **Jóvenes Universitarios Saludables en Formación (18–24 años)**
 
-| **Tarea / Task**                                 | **Alejandro Ríos (Adulto Joven Ocupado)** |                 | **Camila Fernández (Universitaria Saludable)** |                 |
-| ------------------------------------------------ | ----------------------------------------- | --------------- | ---------------------------------------------- | --------------- |
-|                                                  | **Frecuencia**                            | **Importancia** | **Frecuencia**                                 | **Importancia** |
-| Buscar recetas saludables adaptadas al tiempo    | Media                                     | Alta            | Alta                                           | Alta            |
-| Planificar tiempos para hacer ejercicio          | Baja                                      | Alta            | Media                                          | Media           |
-| Probar rutinas cortas en YouTube/TikTok          | Baja                                      | Media           | Alta                                           | Alta            |
-| Comer saludable fuera de casa                    | Alta                                      | Alta            | Baja                                           | Media           |
-| Medir o visualizar su progreso físico            | Media                                     | Alta            | Alta                                           | Alta            |
-| Compartir avances en redes sociales              | Baja                                      | Baja            | Alta                                           | Alta            |
-| Buscar motivación o inspiración                  | Media                                     | Media           | Alta                                           | Alta            |
-| Probar nuevas apps de fitness                    | Media                                     | Media           | Alta                                           | Alta            |
-| Pedir consejos a conocidos sobre salud/bienestar | Baja                                      | Media           | Media                                          | Media           |
-| Mantener constancia en rutinas de entrenamiento  | Baja                                      | Muy Alta        | Media                                          | Alta            |
-| Seguir influencers o cuentas fitness             | Baja                                      | Baja            | Alta                                           | Media           |
 
-- **Tareas con mayor frecuencia e importancia para ambos segmentos:**
+ **Tareas vs Frecuencia e Importancia**
 
-  - **Medir o visualizar el progreso físico:** ambas personas valoran poder ver resultados tangibles.
-  - **Buscar recetas saludables:** aunque difieren en contexto (tiempo vs. presupuesto), es una tarea clave para ambos.
+| Tareas (Tasks)                                      | Frecuencia (Andre Robles) | Importancia (Andre Robles) |
+|-----------------------------------------------------|----------------------------|-----------------------------|
+| Buscar información sobre rutinas de ejercicio       | Alta                       | Alta                        |
+| Planificar comidas saludables                       | Media                      | Alta                        |
+| Probar recetas nuevas                               | Media                      | Media                       |
+| Salir a caminar o hacer ejercicio al aire libre     | Alta                       | Alta                        |
+| Compartir o buscar motivación en redes sociales     | Alta                       | Media                       |
+| Medir su progreso físico (peso, energía, estado)    | Media                      | Alta                        |
+| Investigar sobre apps o plataformas de bienestar    | Media                      | Media                       |
+| Ajustar su rutina diaria para incluir bienestar     | Alta                       | Alta                        |
+| Conversar con amigos sobre sus hábitos saludables   | Media                      | Media                       |
+| Leer o ver contenido relacionado con salud mental   | Baja                       | Media                       |
 
-- **Tareas especialmente relevantes para Alejandro Ríos (Adulto Joven Ocupado):**
 
-  - **Planificar tiempo para entrenar y comer sano fuera de casa**, tareas que requieren mayor organización debido a su carga laboral.
-  - **Mantener constancia**, aunque su frecuencia es baja, su importancia es muy alta, lo que representa una oportunidad para diseñar soluciones que fomenten hábitos.
 
-- **Tareas especialmente relevantes para Camila Fernández (Universitaria):**
+ **Análisis del User Task Matrix**
 
-  - **Compartir avances, probar nuevas apps y rutinas de TikTok**, muestra una fuerte necesidad de interacción visual y motivación social.
-  - **Buscar inspiración** es parte de su rutina, influenciada por redes sociales y contenido fitness moderno.
+Tareas con mayor frecuencia e importancia
+- **Buscar información sobre rutinas de ejercicio**
+- **Salir a caminar o hacer ejercicio al aire libre**
+- **Ajustar su rutina diaria para incluir bienestar**
 
-- **Coincidencias:**
-  - Ambos buscan herramientas o estrategias para **mantener la motivación**, **organizar su alimentación** y **visualizar progreso**, aunque desde diferentes niveles de conocimiento, tiempo y objetivos.
+Estas tareas reflejan acciones clave en el compromiso de Andre con su salud física y bienestar diario.
+
+**Tareas de alta importancia pero frecuencia media**
+- **Planificar comidas saludables**
+- **Medir su progreso físico**
+
+Andre valora estas tareas pero aún no logra integrarlas por completo a su rutina, lo cual puede deberse a falta de tiempo, hábito o herramientas adecuadas.
+
+**Tareas de importancia y frecuencia media**
+- **Probar recetas nuevas**
+- **Investigar sobre apps**
+- **Conversar con amigos sobre hábitos saludables**
+
+Estas actividades tienen un componente social o exploratorio, y suelen aparecer en momentos puntuales de motivación.
+
+**Tarea de menor frecuencia**
+- **Leer o ver contenido sobre salud mental**
+
+Aunque la salud mental es relevante, Andre no la prioriza de forma activa, lo que representa una oportunidad para ampliar su enfoque de bienestar.
+
+
+
 
 #### 2.3.3. User Journey Mapping
 
-- **Adultos Jóvenes Ocupados (25–40 años)**
+- **Adultos jóvenes urbanos en búsqueda activa de bienestar (18 - 40 años)**
 <p align="center">
-  <img src="./assets/journey1.png" alt="jour1"/>
-
-- **Jóvenes Universitarios Saludables en Formación (18–24 años)**
-  <p align="center">
-  <img src="./assets/journey2.png" alt="jour2"/>
+  <img src="./assets/journey.png" alt="journey"/>
 
 #### 2.3.4. Empathy Mapping
 
-- **Adultos Jóvenes Ocupados (25–40 años)**
+- **Adultos jóvenes urbanos en búsqueda activa de bienestar (18 - 40 años)**
 <p align="center">
-  <img src="./assets/emp1.png" alt="emp1"/>
-
-- **Jóvenes Universitarios Saludables en Formación (18–24 años)**
-  <p align="center">
-  <img src="./assets/emp2.png" alt="emp2"/>
+  <img src="./assets/empathy.png" alt="emp"/>
 
 #### 2.3.5. As-is Scenario Mapping
+<p align="center">
+<img src="./assets/As-is_Scenario_Map.png" alt="aism"/>
 
 ### 2.4. Ubiquitous Language
 
 ## Capítulo III: Requirements Specification
 
 ### 3.1. To-Be Scenario Mapping
+<p align="center">
+<img src="./assets/To-be_Scenario_Map.png" alt="tbsm"/>
 
 ### 3.2. User Stories
 
