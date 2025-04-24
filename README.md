@@ -32,7 +32,9 @@
 - **Jhon Alexander Galvez Chambi** - U202323270
 
 **Fecha:** Abril 2025  
-**URL del proyecto: [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos)**
+
+**URL del proyecto:** [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos)
+
 ---
 
 # Registro de Versiones del Informe
@@ -174,10 +176,10 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 **Criterio:**  
 La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.
 
-| Criterio específico                                                                                                                                          | Acciones realizadas | Conclusiones |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------- | ------------ |
-| 4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software                                                                  |                     |              |
-| 4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales |
+| <div style="width:100px">Criterio específico</div> | <div align="center" style="width:250px">Acciones Realizadas</div> | <div align="center" style="width:250px">Conclusiones</div> |
+|:-------------------:|-------------------|------------|
+|4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software  | **- Ramiro Guzman** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Farid Briceño** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Jhon Galvez** <br> **TB1:**  <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Mauricio Muñoz** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- David Perez** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br>| **TB1:** Cada miembro participó en sus actividades asignadas, manteniendo una comunicación activa y eficaz que fortaleció la confianza mutua. Esto mejoró el trabajo en equipo, un valor crucial para proyectos colaborativos |
+|4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales| **- Ramiro Guzman** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Farid Briceño** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Jhon Galvez** <br> **TB1:**  <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Mauricio Muñoz** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- David Perez** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> | **TB1:** Cada miembro participó en sus actividades asignadas, manteniendo una comunicación activa y eficaz que fortaleció la confianza mutua. Esto mejoró el trabajo en equipo, un valor crucial para proyectos colaborativos |
 
 ---
 
@@ -193,9 +195,10 @@ Su producto principal, FitWise, es una aplicación disponible en versión web y 
 
 La propuesta de valor de VibeFit se centra en tres pilares clave:
 
-Adaptabilidad, para ajustarse a las necesidades individuales.
-Personalización, para ofrecer soluciones únicas y efectivas.
-Acompañamiento constante, mediante tecnología que guía, motiva y mide el progreso del usuario.
+- Adaptabilidad, para ajustarse a las necesidades individuales.
+- Personalización, para ofrecer soluciones únicas y efectivas.
+- Acompañamiento constante, mediante tecnología que guía, motiva y mide el progreso del usuario.
+
 VibeFit nace para transformar la manera en que las personas se relacionan con su salud, derribando los obstáculos más comunes y convirtiendo el bienestar en una experiencia accesible, flexible y sostenible.
 
 #### 1.1.2. Perfiles de integrantes del equipo
@@ -203,17 +206,19 @@ VibeFit nace para transformar la manera en que las personas se relacionan con su
 ---
 
 #### **Muñoz Vilcapoma Mauricio – Ingeniería de Software – U202217212**  
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0b23f8bd-a5e9-4244-96da-64adf16ce924" alt="Muñoz Vilcapoma Mauricio" height="200"/>
 </p>
 
-Soy xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
+Soy Muñoz Vilcapoma Mauricio, estudiante de Ingeniería de Software. Deseo desempeñar un papel fundamental en el mundo de la tecnología, creando soluciones innovadoras y avanzadas como desarrollador de Software. Estoy comprometido con mi desarrollo profesional y con hacer una diferencia en el campo de la ingeniería de software.
 
 ---
 
 #### **Ramiro Alexander Guzman Chavez – Ingeniería de Software – U202217062**  
+
 <p align="center">
-  <img src="./assets/RAMIROGUZMAN.png" alt="RAMIROGUZMAN" height="170"/>
+  <img src="./assets/RAMIROGUZMAN.png" alt="RAMIROGUZMAN" height="200"/>
 </p>
 
 Mi perfil se basa en ser una persona responsable, disciplinada en todo aspecto y comprometida con las actividades que me puedan tocar.
@@ -222,16 +227,17 @@ Además, cuento con conocimientos en lenguajes de programación como Java y Java
 
 ---
 
-#### **Farid Sebastian Briceño De La Cruz – Ingeniería de Software – U20211F211**  
-<*(Sin imagen disponible)*
+#### **Farid Sebastian Briceño De La Cruz – Ingeniería de Software – U20211F211** 
+
+<p align="center">
+    <img src="assets/faridfoto.jpg" alt="foto-farid" height="200px"/>
+</p>
 
 Soy estudiante de Ingeniería de Software con un fuerte interés en el desarrollo de productos digitales y la tecnología. En mi tiempo libre, me gusta jugar videojuegos. También tengo un interés especial en la música, lo que me ayuda a equilibrar mi vida académica y personal. Cuento con habilidades en gestión de bases de datos y tengo experiencia en análisis de datos, lo que me ayuda a tomar decisiones informadas y crear soluciones efectivas.
 
 ---
 
 #### **David Alexander Perez Garcia – Ingeniería de Software – U202222942**
-
-- David Alexander Pérez Garía - u202222942 (Ingeniería de Software)
 
 <p align="center">
     <img src="assets/davidfoto.jpg" alt="foto-david" height="200px"/>
@@ -242,8 +248,6 @@ Mi nombre es David, actualmente soy estudiante de Ingeniería de Software (7mo c
 ---
 
 #### **Jhon Alexander Galvez Chambi – Ingeniería de Software – U202323270**  
-
-- Jhon Alexander Galvez Chambi - u202323270 (Ingeniería de Software)
 
 <p align="center">
     <img src="assets/jhonfoto.jpg" alt="foto-jhon" height="200px"/>
@@ -345,7 +349,7 @@ _¿Cómo podríamos mejorar FitWise para que los usuarios mantengan una adherenc
 ##### 1.2.2.4. Lean UX Canvas
 
 <p align="center">
-    <img src="assets/recursos/LeanUX_Canvas.jpg" alt="lean-ux-canvas"/>
+    <img src="assets/LeanUX_Canvas.png" alt="lean-ux-canvas"/>
 </p>
 
 ### 1.3. Segmentos objetivo
@@ -469,86 +473,143 @@ Hombres y mujeres entre 18 y 40 años que viven en zonas urbanas como Lima Metro
 ---
 
 #### 2.2.2. Registro de entrevistas
+
 **Entrevista para el Segmento Objetivo 1 - Adultos jóvenes urbanos en búsqueda activa de bienestar (18 - 40 años) :**
 
 - **Entrevista 1:**
-**Entrevistador:** 
-**Entrevistado:** 
-**Sexo:** 
-**Edad:** 
-**Domicilio:** 
-**Inicio de la Entrevista:** 0:00
-**Duración de la Entrevista:** 5:30<br>
-<img src="./assets/entrevista1.png" alt="Entrevista con ...." style="width: 600px; height: auto;"><br>
 
-- **Resumen:** 
-Resumen aqui
+  **Entrevistador:** Jhon Alexander Galvez Chambi
 
-Enlace al video: [https://link.com](https://link.com)
+  **Entrevistado:** Sebastian Rodriguez Macedo
+
+  **Sexo:** Masculino
+
+  **Edad:** 18
+
+  **Domicilio:** La Perla, Callao
+
+  **Inicio de la Entrevista:** 0:00
+
+  **Duración de la Entrevista:** 7:09
+
+  <img src="./assets/entrevista1.png" alt="Entrevista con Sebastian" style="width: 600px; height: auto;">
+
+  - **Resumen:** 
+  Sebastián es estudiante de la Universidad Peruana de Ciencias Aplicadas. Su rutina diaria comienza temprano, dedicando tiempo a estudiar, planificar su alimentación y hacer algo de ejercicio. Aunque intenta mantener un equilibrio, siente que no tiene suficiente tiempo para organizar todas las actividades que le gustaría realizar. Para él, una vida saludable implica estar bien tanto física como mentalmente. Su mayor desafío para lograrlo es la alimentación. Aunque actualmente no utiliza ninguna aplicación para mantenerse en forma, le gustaría encontrar una que le permita hacer un seguimiento de su progreso en función de los objetivos físicos que establezca.
+
+  Enlace al video: [Entrevista Sebastian](https://youtu.be/tBXV1LA4RdA)
 
 
 - **Entrevista 2:**
-**Entrevistador:** 
-**Entrevistado:** 
-**Sexo:** 
-**Edad:** 
-**Domicilio:** 
-**Inicio de la Entrevista:** 0:00
-**Duración de la Entrevista:** 5:30<br>
-<img src="./assets/entrevista2.png" alt="Entrevista con ...." style="width: 600px; height: auto;"><br>
 
-- **Resumen:** 
-Resumen aqui
+  **Entrevistador:** Ramiro Alexander Guzman Chavez
 
-Enlace al video: [https://link.com](https://link.com)
+  **Entrevistado:** Christopher Adrián Carlos Urcia Tardío
+
+  **Sexo:** Masculino
+
+  **Edad:** 27
+
+  **Domicilio:** Bellavista Lima Peru
+
+  **Inicio de la Entrevista:** 4:00
+
+  **Duración de la Entrevista:** 5:22
+
+  <img src="./assets/Urcia.png" alt="Entrevista con Urcia" style="width: 600px; height: auto;">
+
+  - **Resumen:** 
+  Christopher trabaja como asistente en oficina, con una jornada de 9 a 5. Su rutina diaria incluye organizar reuniones, responder correos y colaborar en pequeños proyectos. Luego del trabajo, dedica tiempo al estudio y procura mantenerse activo a través del ejercicio, lectura o actividades recreativas. Considera muy importante llevar un estilo de vida saludable, aunque a veces enfrenta obstáculos como la falta de tiempo y motivación. Utiliza una aplicación para registrar su actividad física y alimentación, lo que le ayuda a mantenerse enfocado. Ha probado diferentes dietas, pero lo que más le ha funcionado es mantener hábitos sostenibles. Cree que la tecnología puede ser una gran aliada para organizar sus rutinas, reducir el estrés con herramientas como meditación, y recibir recordatorios personalizados. Le gustaría una app que se adapte a sus horarios, personalice entrenamientos y planes alimenticios, y que incluya funciones de comunidad, retos y seguimiento personalizado. Está dispuesto a pagar por una app que cumpla con estas expectativas.
+
+  Enlace al video: [Entrevista Christopher](https://drive.google.com/file/d/1CefdfzctUQmsBDRiMwWRxyFM35zNvKiG/view?usp=sharing)
+
 
 - **Entrevista 3:**
-**Entrevistador:** 
-**Entrevistado:** 
-**Sexo:** 
-**Edad:** 
-**Domicilio:** 
-**Inicio de la Entrevista:** 0:00
-**Duración de la Entrevista:** 5:30<br>
-<img src="./assets/entrevista3.png" alt="Entrevista con ...." style="width: 600px; height: auto;"><br>
 
-- **Resumen:** 
-Resumen aqui
+  **Entrevistador:** Jhon Alexander Galvez Chambi
 
-Enlace al video: [https://link.com](https://link.com)
+  **Entrevistado:** Fabrizio Alberto Paredes Santos
+
+  **Sexo:** Masculino
+
+  **Edad:** 18
+
+  **Domicilio:** San Miguel, Lima
+
+  **Inicio de la Entrevista:** 0:00
+
+  **Duración de la Entrevista:** 08:41
+
+  <img src="./assets/entrevista3.png" alt="Entrevista con Fabrizio" style="width: 600px; height: auto;">
+
+  - **Resumen:** 
+  Fabrizio es estudiante de la Universidad Peruana de Ciencias Aplicadas. Su rutina diaria incluye asistir a clases, realizar sus tareas y aprovechar su tiempo libre realizando actividades recreativas, como ir al gimnasio. Sin embargo, considera que cuando la carga académica es alta, le resulta difícil mantener los hábitos saludables que tiene, como comer de manera sana. Para él, una vida saludable implica estar bien tanto física como mentalmente. Su principal desafío para llevar un estilo de vida saludable es la alimentación, ya que contar con la orientación de un profesional suele ser costoso. Actualmente, utiliza la aplicación Fitia para mejorar sus hábitos alimenticios. Además, considera que una aplicación intuitiva que muestre el progreso del usuario es clave para mantenerse motivado y alcanzar los objetivos establecidos. Fabrizio cree que una aplicación que combine el aspecto nutricional de Fitia con un plan de rutinas de ejercicio sería una propuesta innovadora que estaría dispuesto a probar.
+
+  Enlace al video: [Entrevista Fabrizio](https://youtu.be/tp0VYYkMdFQ)
 
 
 - **Entrevista 4:**
-**Entrevistador:** 
-**Entrevistado:** 
-**Sexo:** 
-**Edad:** 
-**Domicilio:** 
-**Inicio de la Entrevista:** 0:00
-**Duración de la Entrevista:** 5:30<br>
-<img src="./assets/entrevista4.png" alt="Entrevista con ...." style="width: 600px; height: auto;"><br>
 
-- **Resumen:** 
-Resumen aqui
+  **Entrevistador:** Jhon Alexander Galvez Chambi
 
-Enlace al video: [https://link.com](https://link.com)
+  **Entrevistado:** Ivan Vilca Chambi
+
+  **Sexo:** Masculino
+
+  **Edad:** 29
+
+  **Domicilio:** Callao, Callo
+
+  **Inicio de la Entrevista:** 0:00
+
+  **Duración de la Entrevista:** 5:30
+
+  <img src="./assets/entrevista4.png" alt="Entrevista con Ivan" style="width: 600px; height: auto;">
+
+  - **Resumen:** 
+  Iván es un joven estudiante que vive en la ciudad del Callao. Siente que su rutina académica complica la planificación de actividades orientadas a su bienestar, el cual ha quedado relegado a un segundo plano en su estilo de vida. A pesar de esto, considera que tanto el deporte como una alimentación adecuada son fundamentales para mantener una vida sana. En el pasado, ha intentado incorporar rutinas de ejercicio, pero suele perder la motivación después de unos días. Actualmente, no utiliza ninguna aplicación para organizar sus actividades de bienestar, pero le gustaría encontrar una que sea fácil de usar, motivadora, que le permita seguir su progreso hacia los objetivos que se proponga y que se adapte a sus preferencias. Además, lo que más le interesaría de una aplicación de este tipo sería la posibilidad de realizar un seguimiento real de su progreso físico. No obstante, también le preocupa la seguridad e integridad de sus datos dentro de la aplicación.
+
+  Enlace al video: [Entrevista Ivan](https://youtu.be/QHWPDbnKUhE)
+
 
 - **Entrevista 5:**
-**Entrevistador:** David Alexander Pérez García
-**Entrevistado:** Sujey García
-**Sexo:** Femenina
-**Edad:** 30 años
-**Domicilio:** Comas Lima Peru
-**Inicio de la Entrevista:** 0:00
-**Duración de la Entrevista:** 3:30<br>
-<img src="./assets/entrevista5.png" alt="Entrevista con Sujey" style="width: 600px; height: auto;"><br>
+
+  **Entrevistador:** David Alexander Pérez García
+
+  **Entrevistado:** Sujey García
+
+  **Sexo:** Femenina
+
+  **Edad:** 30 años
+
+  **Domicilio:** Comas Lima Peru
+
+  **Inicio de la Entrevista:** 0:00
+
+  **Duración de la Entrevista:** 3:30
+
+  <img src="./assets/entrevista5.png" alt="Entrevista con Sujey" style="width: 600px; height: auto;">
 
 - **Resumen:** 
 En esta entrevista  para el segmento “adultos jóvenes urbanos en búsqueda activa de bienestar”, Sujei García, una mujer de 33 años que trabaja como asistente en psicología y vive en Lima, comparte su experiencia diaria marcada por una agenda ocupada entre el trabajo, el cuidado de su hija y las tareas del hogar, lo cual le impide priorizar su bienestar físico y mental. Aunque intenta mantener una alimentación saludable, no realiza actividad física por falta de tiempo. No utiliza actualmente ninguna aplicación de bienestar, pero considera ideal una plataforma que le ofrezca rutinas personalizadas, recordatorios, y acompañamiento virtual. Valora especialmente el seguimiento del progreso en tiempo real y estaría dispuesta a pagar por una herramienta que le ayude a mantenerse motivada y organizada en sus hábitos de salud
 
-Enlace al video: [https://drive.google.com/file/d/113316BTQESZ3BF_1MPrYAFdxl9qdo4mX/view](https://drive.google.com/file/d/113316BTQESZ3BF_1MPrYAFdxl9qdo4mX/view)
+Enlace al video: [Entrevista Sujei](https://drive.google.com/file/d/113316BTQESZ3BF_1MPrYAFdxl9qdo4mX/view)
 
 #### 2.2.3. Análisis de entrevistas
+
+- Perfil del segmento entrevistado: La mayoría de los entrevistados son estudiantes universitarios (3 de 5), mientras que el resto trabaja en oficinas o como asistentes (2 de 5). La edad promedio estimada es de aproximadamente 25 años. Todos viven en Lima Metropolitana o Callao.
+
+- Percepción del bienestar: El 100% de los entrevistados consideran que una vida saludable debe integrar tanto el bienestar físico como mental. Destacan la importancia de reducir el estrés, cuidar la alimentación y mantenerse activos. Se percibe un interés claro por herramientas que promuevan un enfoque holístico de la salud.
+
+- Principales obstáculos: El 80% de los entrevistados mencionaron la falta de tiempo como principal barrera para cuidar su bienestar. El 60% reconoció perder la motivación fácilmente y el mismo porcentaje indicó que les resulta difícil mantener una alimentación saludable, especialmente por la carga académica o laboral. Solo un entrevistado mencionó que acceder a un profesional de salud o nutrición resulta costoso.
+
+- Uso actual de aplicaciones de bienestar: El 60% de los entrevistados no utilizan actualmente ninguna aplicación de bienestar, aunque mostraron un alto interés en adoptar una. El 40% restante sí ha utilizado aplicaciones, como Fitia o apps de seguimiento de actividad física.
+
+- Funcionalidades más deseadas: El 80% desea rutinas personalizadas que se adapten a sus horarios y objetivos. El mismo porcentaje busca realizar un seguimiento visual y real de su progreso físico. El 40% valoró los recordatorios inteligentes y el acompañamiento virtual, mientras que el 40% también mostró interés en combinar nutrición y ejercicio en una sola plataforma. Solo un entrevistado mencionó funciones sociales como retos o comunidad, y otro expresó preocupación por la seguridad de sus datos.
+
+- Disposición a pagar: El 40% de los entrevistados afirmó estar dispuesto a pagar por una aplicación que cumpla con sus expectativas en cuanto a personalización, seguimiento y organización.
+
+- Conclusión general para FitWise: El segmento muestra una necesidad real de una solución tecnológica que les ayude a organizar sus rutinas de bienestar de forma simple, motivadora y personalizada. Existe una oportunidad clara para diseñar una plataforma que combine aspectos nutricionales, rutinas de ejercicio, seguimiento de progreso y acompañamiento virtual. Además, es importante considerar una experiencia de usuario que se adapte a su estilo de vida dinámico y que transmita confianza respecto a la privacidad de sus datos. También se sugiere explorar un modelo freemium con funciones premium, dado que parte del segmento estaría dispuesto a pagar por un servicio completo.
 
 ### 2.3. Needfinding
 
@@ -630,6 +691,24 @@ Aunque la salud mental es relevante, Andre no la prioriza de forma activa, lo qu
 <img src="./assets/As-is_Scenario_Map.png" alt="aism"/>
 
 ### 2.4. Ubiquitous Language
+
+| Término              | Definición                                                                                     |
+|----------------------|-----------------------------------------------------------------------------------------------|
+| Rutina Personalizada | Conjunto de ejercicios adaptados al nivel, disponibilidad horaria y objetivos del usuario.    |
+| Plan Nutricional     | Guía de alimentación ajustada a los objetivos físicos, preferencias alimenticias y estilo de vida del usuario. |
+| Objetivo             | Meta personal del usuario, como bajar de peso, ganar masa muscular, o mejorar condición física. |
+| Onboarding           | Proceso inicial donde el usuario define sus metas, horarios, nivel físico y preferencias.     |
+| Seguimiento Visual   | Visualización del progreso a través de gráficos, badges, historial y feedback semanal.        |
+| Badges               | Insignias otorgadas como recompensa por completar rutinas, cumplir objetivos o mantener constancia. |
+| Break Fit            | Microentrenamientos diseñados para realizarse en espacios cortos durante el día (ej. en una pausa laboral). |
+| Check-in Diario      | Registro automático/manual de la actividad del día (rutina completada, alimentación, estado físico). |
+| Panel de Progreso    | Vista donde el usuario visualiza su evolución, logros y áreas a mejorar en tiempo real.        |
+| Recompensas          | Beneficios que se obtienen al cumplir metas (descuentos, puntos, acceso a contenido premium).  |
+| Coach Virtual        | Asistente inteligente que brinda recomendaciones y ajustes personalizados a las rutinas.      |
+| Nivel de Experiencia | Clasificación del usuario según su condición física actual: principiante, intermedio, avanzado. |
+| Motivadores          | Elementos dentro de la app que refuerzan el compromiso del usuario (notificaciones, mensajes personalizados, comunidad). |
+| Adherencia           | Grado en el que el usuario sigue de forma constante su plan personalizado.                    |
+| Feedback Inteligente | Retroalimentación automática basada en el progreso registrado, para reforzar o ajustar el plan. |
 
 ## Capítulo III: Requirements Specification
 
@@ -1045,45 +1124,47 @@ Aunque la salud mental es relevante, Andre no la prioriza de forma activa, lo qu
 
 ### 3.3. Product Backlog
 
-Para elaborar nuestro product backlog hemos utilizado la escala de Fibonacci (1,2,3,5,8). Esto con el propósito de optimizar el nivel de las tareas.
+Para elaborar nuestro product backlog hemos utilizado la escala de Fibonacci (1, 2, 3, 5, 8). Esto con el propósito de optimizar el nivel de las tareas.
 
 **Historia de usuario base:**
 
-US010 <br> Titulo: Recibir ejercicios recomendados <br> Descripcion: Como usuario, quiero recomendaciones diarias de ejercicios. (Puntaje asignado:5)
+US010  
+**Título:** Recibir ejercicios recomendados  
+**Descripción:** Como usuario, quiero recomendaciones diarias de ejercicios.  
+**Puntaje asignado:** 5  
 
-| # ORDEN | USER STORY ID | TÍTULO                          | DESCRIPCIÓN                                                              | PRIORIDAD | STORY POINTS (1/2/3/5/8) |
-| ------- | ------------- | ------------------------------- | ------------------------------------------------------------------------ | --------- | -------------------- |
-| 1       | US001         | Registro con correo electrónico | Como usuario nuevo, quiero registrarme con mi correo y contraseña.       | Alta      | 2                    |
-| 2       | US002         | Login con autenticación OAuth   | Como usuario frecuente, quiero iniciar sesión con Google.                | Alta      | 2                    |
-| 3       | US004         | Ingreso de datos físicos        | Como usuario nuevo, quiero ingresar mi peso, altura y sexo.              | Alta      | 2                    |
-| 4       | US007         | Definir objetivo principal      | Como usuario, quiero establecer un objetivo principal.                   | Alta      | 2                    |
-| 5       | US010         | Recibir ejercicios recomendados | Como usuario, quiero recomendaciones diarias de ejercicios.              | Alta      | 2                    |
-| 6       | US009         | Visualizar progreso semanal     | Como usuario, quiero ver mi progreso semanal en el dashboard.            | Alta      | 2                    |
-| 7       | US012         | Visualizar progreso diario      | Como usuario, quiero ver mi progreso diario.                             | Media     | 2                    |
-| 8       | US005         | Selección de zonas a trabajar   | Como usuario, quiero seleccionar las zonas del cuerpo que deseo mejorar. | Media     | 2                    |
-| 9       | US006         | Ingreso de nivel de experiencia | Como usuario, quiero indicar mi nivel de experiencia física.             | Media     | 1                    |
-| 10      | US008         | Establecer objetivos personales | Como usuario, quiero establecer un objetivo semanal de actividad.        | Alta      | 2                    |
-| 11      | US013         | Ver IMC en gráfico              | Como usuario, quiero ver una gráfica de mi IMC.                          | Media     | 2                    |
-| 12      | US014         | Actualizar peso y altura        | Como usuario, quiero actualizar mis datos físicos.                       | Media     | 2                    |
-| 13      | US003         | Recuperación de contraseña      | Como usuario, quiero recuperar mi contraseña si la olvido.               | Media     | 2                    |
-| 14      | US011         | Ver objetivos populares         | Como usuario, quiero ver objetivos populares para motivarme.             | Media     | 1                    |
-| 15      | US016         | Ver animaciones motivacionales  | Como usuario, quiero ver animaciones al completar rutinas.               | Baja      | 1                    |
-| 16      | US017         | Frases motivacionales diarias   | Como usuario, quiero recibir frases motivacionales al iniciar el día.    | Baja      | 1                    |
-| 17      | US019         | Acceder a comunidad de usuarios | Como usuario, quiero ver logros de otros usuarios.                       | Baja      | 2                    |
-| 18      | US020         | Plan nutricional semanal        | Como usuario, quiero sugerencias de comidas semanales.                   | Media     | 2                    |
-| 19      | US022         | Ver recetas peruanas saludables | Como usuario, quiero ver recetas locales saludables.                     | Media     | 2                    |
-| 20      | US015         | Exportar informe en PDF         | Como usuario, quiero exportar mi progreso en PDF.                        | Baja      | 3                    |
-| 21      | US018         | Personalizar colores de la app  | Como usuario, quiero elegir el tema de la app.                           | Baja      | 1                    |
-| 22      | US021         | Filtrar recetas por dificultad  | Como usuario, quiero recetas según mi tiempo libre.                      | Baja      | 2                    |
-| 23      | US023         | Cambiar datos de cuenta         | Como usuario, quiero editar mis datos personales.                        | Baja      | 2                    |
-| 24      | US024         | Contactar al soporte            | Como usuario, quiero enviar un mensaje al soporte si tengo problemas.    | Baja      | 1                    |
-| 25      | US025         | Eliminar cuenta                 | Como usuario, quiero eliminar mi cuenta para proteger mis datos.         | Baja      | 2                    |
+| # ORDEN | USER STORY ID | TÍTULO  | DESCRIPCIÓN     | PRIORIDAD | STORY POINTS (1/2/3/5/8) |
+| ------- | ------------- | ------- | --------------- | --------- | ------------------------ |
+| 1       | US001         | Registro desde la Landing Page  | Como usuario nuevo, quiero ver botones de registro en la landing page, para acceder a FitWise. | Alta      | 3                         |
+| 2       | US002         | Registro con correo electrónico | Como usuario nuevo, quiero registrarme con mi correo y contraseña, para acceder a la plataforma. | Alta      | 3                         |
+| 3       | US003         | Uso de tokens para validación   | Como developer, quiero implementar un servicio de autenticación JWT para manejar sesiones seguras. | Alta      | 5                         |
+| 4       | US004         | Login con autenticación OAuth   | Como usuario frecuente, quiero iniciar sesión con Google, para acceder rápidamente. | Alta      | 3                         |
+| 5       | US005         | Recuperación de contraseña      | Como usuario, quiero recuperar mi contraseña si la olvido, para poder seguir usando la app. | Media     | 5                         |
+| 6       | US006         | Ingreso de datos físicos        | Como usuario nuevo, quiero ingresar mi peso, altura y sexo, para que las rutinas se ajusten. | Alta      | 3                         |
+| 7       | US007         | Selección de zonas a trabajar   | Como usuario, quiero seleccionar las zonas del cuerpo que deseo mejorar, para obtener mejores resultados. | Media     | 5                         |
+| 8       | US008         | Ingreso de nivel de experiencia | Como usuario, quiero indicar mi nivel de experiencia física, para realizar los ejercicios sin mucha dificultad. | Media     | 3                         |
+| 9       | US009         | Definir objetivo principal      | Como usuario, quiero establecer un objetivo principal, para que el sistema sugiera una rutina de ejercicios y una dieta adecuadas. | Alta      | 5                         |
+| 10      | US010         | Recibir ejercicios recomendados | Como usuario, quiero recomendaciones diarias de ejercicios, para agregarlos a mis rutinas. | Alta      | 5                         |
+| 11      | US011         | Visualizar progreso semanal     | Como usuario, quiero ver mi progreso semanal en el dashboard, para no descuidar mis objetivos planteados. | Alta      | 5                         |
+| 12      | US012         | Visualizar progreso diario      | Como usuario, quiero ver mi progreso diario, para saber si estoy cumpliendo mis metas. | Media     | 5                         |
+| 13      | US013         | Ver rutinas y dietas similares  | Como usuario, quiero ver rutinas y dietas de usuarios con objetivos similares, para motivarme. | Media     | 5                         |
+| 14      | US014         | Ver IMC en gráfico              | Como usuario, quiero ver una gráfica de mi IMC, para saber si me encuentro en mi rango adecuado. | Media     | 3                         |
+| 15      | US015         | Actualizar peso y altura        | Como usuario, quiero actualizar mis datos físicos, para que mis rutinas se ajusten a mis cambios físicos. | Media     | 3                         |
+| 16      | US016         | Exportar informe en PDF         | Como usuario, quiero exportar mi progreso en PDF, para tener un consolidado de mi progreso. | Baja      | 8                         |
+| 17      | US017         | Recibir mensajes motivacionales | Como usuario, quiero recibir frases motivacionales diarias, para mantener el ánimo alto. | Baja      | 3                         |
+| 18      | US018         | Personalizar colores de la app  | Como usuario, quiero poder elegir el tema visual de la app, para que sea más atractiva para mí. | Baja      | 2                         |
+| 19      | US019         | Ver testimonios de usuarios     | Como visitante, quiero ver un carrusel con testimonios reales, para sentirme inspirado a registrarme. | Baja      | 3                         |
+| 20      | US020         | Recibir plan nutricional semanal| Como usuario, quiero recibir sugerencias de comidas semanales, para complementar mi rutina de ejercicio. | Media     | 5                         |
+| 21      | US021         | Filtrar recetas por dificultad  | Como usuario, quiero elegir recetas fáciles según mi tiempo libre, para poder cocinarlas sin complicaciones. | Baja      | 3                         |
+| 22      | US022         | Ver recetas saludables peruanas | Como usuario, quiero ver recetas saludables locales, para mantenerme sano sin salir de mi cultura. | Baja      | 3                         |
+| 23      | US023         | Cambiar datos de cuenta         | Como usuario, quiero editar mi nombre y correo electrónico, para mantener mis datos actualizados. | Baja      | 3                         |
+| 24      | US024         | Contactar al soporte técnico    | Como usuario, quiero enviar un mensaje al soporte si tengo problemas, para recibir ayuda rápida. | Baja      | 2                         |
+| 25      | US025         | Eliminar cuenta                 | Como usuario, quiero poder eliminar mi cuenta si ya no deseo usar la app, para proteger mis datos personales. | Baja      | 3                         |
+| 26      | US026         | Establecer objetivos personales        | CComo usuario, quiero establecer un objetivo de dias por semana de actividad para que el sistema registre mi progreso |  Media     | 5                     |
 
 **Enlace del Product Backlog en la herramienta Jira: [https://fitwise-si732.atlassian.net/jira/software/projects/SCRUM/summary](https://fitwise-si732.atlassian.net/jira/software/projects/SCRUM/summary)**
 
 ### 3.4. Impact Mapping
-# Capítulo III: Requirements Specification
-## 3.3. Impact Mapping.
 
 El Impact Mapping de FitWise es una herramienta estratégica que alinea los objetivos de negocio con los comportamientos deseados en sus principales usuarios: personas sin experiencia en fitness y profesionales de la salud. La técnica permite identificar los impactos necesarios, los entregables que los habilitan y las historias de usuario que aseguran una implementación centrada en la experiencia. Así, FitWise busca facilitar el inicio de hábitos saludables sostenibles y ofrecer herramientas útiles para el seguimiento y mejora continua, fomentando la adopción de la app como un aliado diario en el bienestar personal y profesional.
 
@@ -1094,27 +1175,367 @@ El Impact Mapping de FitWise es una herramienta estratégica que alinea los obje
 
 ### 4.1. Style Guidelines
 
+Esta sección establece los lineamientos visuales y comunicacionales esenciales para asegurar una identidad de marca coherente, accesible y reconocible en todas las plataformas del producto digital FitWise. Esta guía servirá como un repositorio central de uso común para los equipos de diseño, desarrollo y contenido, facilitando la colaboración y promoviendo la consistencia.
+
 #### 4.1.1. General Style Guidelines
+
+- **Branding:**  
+  El logotipo de FitWise refleja una marca dinámica y juvenil, con una tipografía manuscrita fluida y enérgica sobre un fondo oscuro que acentúa el contraste y la modernidad. El estilo caligráfico transmite cercanía y entusiasmo, alineándose con el espíritu activo y personalizado del producto. La curvatura del trazo inferior aporta movimiento, simbolizando progreso y continuidad en el bienestar físico y mental del usuario.
+
+<p align="center">
+    <img src="assets/FitWiseLogoAlternative.png" alt="fitwise-logo-alternativo" height="200px" style="margin-right: 20px;"/>
+    <img src="assets/FitWiseLogo.png" alt="fitwise-logo" height="200px"/>
+</p>
+
+- **Typography:**  
+  Para mantener coherencia con el logo, se utilizará una combinación de fuentes tipográficas que equilibre personalidad y legibilidad:  
+    - **Primaria:** Poppins Semi-Bold – para títulos, headers y llamados a la acción (evoca modernidad y dinamismo).  
+    - **Secundaria:** Open Sans Regular – para cuerpos de texto, descripciones y formularios (alta legibilidad y neutralidad).  
+  Estas fuentes garantizan consistencia entre marca y contenido, y su estructura geométrica facilita la lectura en interfaces digitales.
+
+- **Color Palette:**  
+  Inspirados en el logo y sus contrastes vibrantes sobre un fondo claro, se utilizará la siguiente paleta base:  
+    - **Fondo base:** Blanco puro (#FFFFFF) – utilizado como color de fondo principal.  
+    - **Primario:** Gris claro (#4E5366) – transmite seriedad, foco y modernidad.  
+    - **Acentos:** Verde lima (#BEED00) – utilizados en botones y elementos interactivos para dar vitalidad y frescura.
+
+<p align="center">
+    <img src="assets/color-palette-fitwise.png" alt="color-palette" height="200px"/>
+</p>
+
+- **Spacing & Layout:**  
+  Se adoptará un sistema basado en una grilla de 8px, promoviendo un diseño limpio, balanceado y altamente escalable. Se priorizará el uso del espacio negativo para mantener una experiencia visual aireada y sin saturación.
+
+- **Tone of Communication:**  
+  La voz de la marca FitWise será:  
+    - **Divertida y motivacional:** cercana al usuario, con un lenguaje que inspire acción sin caer en lo informal extremo.  
+    - **Empática y entusiasta:** enfocada en acompañar, celebrar logros y mantener el compromiso con el bienestar del usuario.  
+    - **Positiva y clara:** evitando tecnicismos, centrada en la simplicidad y la motivación personal.
+
+- **Design Principles:**  
+  Los principios rectores para todas las decisiones visuales y de interacción son:  
+    - Consistencia visual y funcional.  
+    - Diseño centrado en la experiencia del usuario (UX-first).  
+    - Accesibilidad: contraste adecuado, fuentes legibles, navegación simple.  
+    - Mobile-first: el diseño comienza en entornos móviles, adaptándose progresivamente a pantallas mayores.  
+    - Claridad y propósito: cada componente visual debe tener un propósito funcional y estético claro.
 
 #### 4.1.2. Web Style Guidelines
 
+Esta sección establece los lineamientos visuales, estructurales y de interacción para ofrecer una interfaz centrada en el usuario, moderna, accesible y completamente responsive.
+
+**1. Enfoque Central: Plataforma Web como Experiencia Principal**  
+Toda la experiencia de FitWise se construye primero para el entorno web. El diseño no solo se adapta a múltiples tamaños de pantalla, sino que es optimizado principalmente para escritorios y laptops, aprovechando el espacio disponible para brindar mayor contexto, paneles interactivos, visualización de métricas y navegación fluida.
+
+**2. Sistema de Diseño y Componentes**  
+FitWise Web UI se basa en un sistema modular de componentes reutilizables que siguen principios de diseño accesible, minimalismo funcional y claridad visual. Los elementos clave incluyen:  
+- **Botones:** Prominentes, con colores vibrantes (verde lima y acentos en blanco/azul oscuro), estados de hover y foco.  
+- **Inputs:** Limpios, con labels persistentes, validación visual clara y errores accesibles.  
+- **Tablas y paneles:** Estructura tipo dashboard, uso de tarjetas para métricas, bordes redondeados, sombra sutil.  
+- **Modales y overlays:** Animación suave de entrada/salida, enfoque en acción principal.  
+
+**3. Tipografía y Jerarquía Visual**  
+La plataforma adopta una tipografía moderna y altamente legible:  
+- **Títulos (Poppins Bold):** Para secciones y llamadas a la acción.  
+- **Cuerpo (Open Sans Regular):** Para contenido, descripciones y formularios.  
+
+Escala de tipografía adaptativa con unidades REM:  
+- **h1:** 2.5rem — Título principal  
+- **h2:** 2rem — Subtítulo  
+- **h3:** 1.5rem — Sección  
+- **Texto base:** 1rem (16px)  
+
+El diseño jerárquico está reforzado por espaciado, color y tamaño de texto, facilitando la navegación visual.
+
+**4. Diseño Responsive y Adaptabilidad**  
+Aunque la prioridad es el entorno de escritorio, se asegura una experiencia fluida en tablets y móviles con breakpoints bien definidos:  
+- **≥ 1440px:** Pantallas grandes, dashboards extendidos  
+- **1024–1439px:** Desktop estándar, experiencia completa  
+- **768–1023px:** Tablets, navegación colapsada  
+- **≤ 767px:** Mobile, vista simplificada con navegación hamburguesa  
+
+**5. Interacción, Feedback y Animaciones**  
+Cada acción genera una respuesta visual clara:  
+- Botones con animación de clic  
+- Hover y foco en elementos interactivos  
+- Skeleton loaders para cargas de datos  
+- Transiciones suaves (200–300ms) para desplazamientos y overlays  
+
+**6. Accesibilidad y Buenas Prácticas**  
+- Navegación por teclado asegurada en todos los componentes  
+- Etiquetas `aria` en elementos interactivos  
+- Imágenes con texto alternativo  
+- Compatible con lectores de pantalla  
+
+**7. Ejemplo Aplicado: Dashboard de Usuario**  
+- **Sidebar fija:** Con navegación icónica y labels colapsables.  
+- **Panel central:** Con estadísticas, metas y progreso visual.  
+- **Gráficas dinámicas:** Con datos de actividad.  
+- **CTA claros:** Para iniciar rutinas, ajustar metas o contactar coach.  
+
 #### 4.1.3. Mobile Style Guidelines
 
-##### 4.1.3.1. iOS Mobile Style Guidelines
+ La aplicación móvil será una extensión indispensable que brindará acceso ágil a funcionalidades clave. Su diseño se centrará en la simplicidad, el enfoque en la salud y el bienestar, y la conexión directa con las necesidades cotidianas de los usuarios en movimiento. Esta guía establece los principios visuales, de interacción y consistencia entre plataformas móviles iOS y Android, manteniendo la esencia de la identidad visual de FitWise.
+
+#### 4.1.3.1. iOS Mobile Style Guidelines
+
+El diseño para dispositivos Apple se alinea con las **Human Interface Guidelines** de Apple, optimizando la experiencia para usuarios de iPhone y iPad. La aplicación se integrará con servicios nativos de iOS como **Apple HealthKit** para sincronización de datos.
+
+**Principios de diseño y estilo:**
+
+- **Navegación principal:** Uso de `UITabBarController` con íconos claros para Home, Rutinas, Progreso y Perfil.  
+- **Gestos intuitivos:** Deslizamientos para avanzar entre secciones, especialmente en rutinas y calendarios.  
+- **Diseño modular:** Bloques reutilizables de contenido en tarjetas, con sombras suaves y bordes redondeados.  
+- **Botones de acción primaria:** Ubicados consistentemente al pie de cada vista, con colores acentuados de la paleta FitWise.  
+- **Interacción nativa:** Uso de Haptics, FaceID/TouchID para autenticación y Push Notifications enriquecidas para motivación y alertas.  
+- **Modo claro/oscuro:** Completamente soportado para mantener accesibilidad y bienestar visual.  
+
+**Especificaciones técnicas y visuales:**
+
+| **Elemento UI**       | **Detalles**                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| **Fuente principal**   | San Francisco, dinámicamente escalable                                     |
+| **Tamaño base de texto** | 16pt (adaptativo)                                                         |
+| **Íconos**             | SF Symbols o diseño personalizado en línea monocromática                   |
+| **Paleta de color**    | Fondo oscuro: `#2F3545` / Acento: `#00C897`                                |
+| **Padding estándar**   | 16pt horizontal / 24pt vertical entre secciones                            |
+
 
 ##### 4.1.3.2. Android Mobile Style Guidelines
 
+La aplicación Android será desarrollada siguiendo **Material Design 3 (Material You)**, brindando una experiencia completamente adaptativa y contextual según las preferencias del usuario.
+
+**Principios de diseño y estilo:**
+
+- **Navegación inferior:** Barra con iconografía clara para acceso a las secciones principales.  
+- **Componentes de interfaz:** Uso intensivo de **Jetpack Compose** para interfaces modernas, flexibles y reactivas.  
+- **Soporte de temas dinámicos:** Integración con el color del sistema del usuario para una experiencia personalizada.  
+- **Accesos rápidos:** Floating Action Button para iniciar una nueva rutina, registrar progreso o sincronizar dispositivos.  
+- **Integración con servicios Android:** Google Fit, notificaciones contextuales y acciones por voz a través de Google Assistant.  
+- **Responsive y adaptable:** Compatible con pantallas pequeñas, medianas y tablets.  
+
+**Especificaciones técnicas y visuales:**
+
+| **Elemento UI**       | **Detalles**                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| **Fuente principal**   | Roboto                                                                     |
+| **Tamaño base de texto** | 14sp a 18sp (según jerarquía)                                              |
+| **Íconos**             | Material Icons personalizados con líneas delgadas                          |
+| **Paleta de color**    | Primario: `#00C897` / Secundario: `#2F3545` / Fondo: `#FFFFFF`             |
+| **Elevación por defecto** | 4dp en tarjetas, 8dp en botones flotantes                                |
+
+
 ### 4.2. Information Architecture
+
+La arquitectura de información de FitWise se ha diseñado para facilitar la comprensión, navegación y uso del sistema por parte de sus usuarios desde el primer contacto con la plataforma (landing page) hasta su experiencia diaria con las herramientas de personalización, progreso y motivación.
+
+Se prioriza una estructura jerárquica clara, minimalista, progresiva y modular, donde el usuario siempre sepa dónde está, qué puede hacer y cómo avanzar hacia sus objetivos.
+
+Esta arquitectura aplica tanto para la versión web (principal) como para la versión móvil complementaria.
 
 #### 4.2.1. Organization Systems
 
+Se emplearán los siguientes esquemas de organización según el tipo de contenido:
+
+| **Tipo de Contenido**         | **Sistema de Organización aplicado**                                                                 |
+|-------------------------------|-----------------------------------------------------------------------------------------------------|
+| **Secciones generales de la plataforma** | Jerárquico visual – el contenido se estructura de mayor a menor importancia en pantalla.                       |
+| **Proceso de onboarding**     | Secuencial – guía paso a paso desde el registro hasta la personalización.                                             |
+| **Rutinas, planes y recetas** | Categorización por tópicos – musculación, cardio, recetas peruanas, etc.                                               |
+| **Progreso del usuario**      | Cronológico – visualización de estadísticas por días/semanas.                                                         |
+| **Comunidad y logros**        | Por audiencia/rol – contenido visible según tipo de usuario (principiante, avanzado).                                  |
+
+Además, se incorporarán sistemas matriciales en secciones interactivas como:  
+- Comparación entre rutinas según objetivos.  
+- Selección de recetas por nivel de dificultad y tipo de dieta.  
+
 #### 4.2.2. Labeling Systems
+
+Las etiquetas se diseñarán para ser:  
+- **Claras y autoexplicativas**, evitando tecnicismos innecesarios.  
+- **Breves**, con un máximo de 2–3 palabras.  
+- **Consistentes en tono**, siguiendo la guía de estilo verbal (motivacional, clara, cercana).  
+
+**Ejemplos de etiquetas a aplicar:**
+
+| **Área**         | **Etiquetas utilizadas**                          |
+|-------------------|--------------------------------------------------|
+| **Navegación**    | Inicio, Plan, Progreso, Perfil                   |
+| **Rutinas**       | Calentamiento, Cardio, Fuerza                    |
+| **Recetas**       | Rápidas, Peruanas, Proteicas                     |
+| **Progreso**      | Hoy, Esta semana, Historial                      |
+| **Gamificación**  | Nivel actual, Meta semanal, Medallas             |
+
+Para evitar ambigüedad, se utilizarán **íconos universales acompañados de etiquetas textuales** en todas las interfaces.
 
 #### 4.2.3. SEO Tags and Meta Tags
 
+Para asegurar que la plataforma FitWise sea fácilmente encontrada y correctamente interpretada por los motores de búsqueda, se han definido los siguientes lineamientos para la aplicación de SEO Tags y Meta Tags tanto en la Landing Page como en la Aplicación Web.
+
+**Landing Page**
+
+- **Title:**  
+  `FitWise | Tu rutina personalizada de ejercicio y nutrición`  
+  *(50–60 caracteres, recomendado para SEO óptimo)*
+
+- **Meta Description:**  
+  `Descubre FitWise, la plataforma inteligente que crea rutinas de entrenamiento y planes nutricionales adaptados a tu estilo de vida. Mejora tu bienestar físico y mental con soluciones personalizadas.`  
+  *(150–160 caracteres, dentro del límite recomendado)*
+
+- **Meta Keywords:** *(Opcional, ya que Google no la utiliza para SEO moderno)*  
+  `rutinas personalizadas, ejercicios en casa, salud, nutrición, app fitness, bienestar, entrenamiento online, fitness Perú`
+
+- **Meta Author:**  
+  `VibeFit`
+
+- **Open Graph Tags (para compartir en redes sociales):**  
+  ```html
+  <meta property="og:title" content="FitWise | Tu camino hacia una vida saludable">
+  <meta property="og:description" content="Entrena, come mejor y mejora tu salud con planes personalizados según tu estilo de vida y objetivos.">
+  <meta property="og:image" content="/assets/meta-fitwise-preview.jpg">
+  <meta property="og:url" content="https://fitwise.app">
+
+- **Twitter Card Tags:**
+  ```html
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="FitWise | Bienestar personalizado">
+  <meta name="twitter:description" content="Rutinas y planes de alimentación creados para ti. ¡Empieza hoy tu transformación!">
+  <meta name="twitter:image" content="/assets/meta-fitwise-preview.jpg">
+
+**Aplicacion Web**
+
+En la aplicación web, las meta etiquetas se ajustarán dinámicamente en función de la página o vista activa, siguiendo estos lineamientos:
+
+|Página |	Title	| Meta Description|
+|---|---|---|
+|Panel principal |	`Dashboard	| FitWise`|
+|Rutinas	|`Rutinas personalizadas| 	FitWise`|
+|Plan de comidas|	`Nutrición para ti	| FitWise`|
+|Progreso|	`Mi progreso	| FitWise`|
+
+
+Se integrará estructura de datos (schema.org) para mejorar la visibilidad en motores de búsqueda:
+
+- Organización (Startup): Información sobre VibeFit.
+- Producto Software: Detalles sobre FitWise como producto digital.
+- Opiniones de usuarios: Ratings y reviews para destacar en resultados de búsqueda.
+- Preguntas frecuentes (FAQ Page): Respuestas a preguntas comunes para mejorar la experiencia del usuario y el SEO.
+
+``` 
+🧑‍💻 Nota:
+Aunque <meta name="keywords"> es técnicamente válida, se considera obsoleta para SEO moderno. Puede mantenerse para compatibilidad extendida, pero no es prioritaria. 
+```
+
 #### 4.2.4. Searching Systems
 
+Para garantizar que los usuarios puedan acceder fácilmente a la información dentro de la plataforma FitWise, se han diseñado sistemas de búsqueda intuitivos, eficientes y adaptados a los distintos módulos de la aplicación web. Estas decisiones están centradas en reducir la fricción, minimizar la sobrecarga cognitiva y mejorar la experiencia general del usuario, especialmente considerando los dos segmentos objetivos definidos: adultos jóvenes ocupados y jóvenes universitarios saludables en formación.
+
+**Tipos de Búsqueda Disponibles**
+
+1. **Búsqueda Global (barra principal):**  
+   - **Ubicación:** Parte superior de la interfaz web (header) en todas las vistas principales.  
+   - **Alcance:** Permite buscar contenido en múltiples categorías (ejercicios, recetas, artículos, rutinas, desafíos, comunidad).  
+   - **Autocompletado:** Sugiere resultados a medida que el usuario escribe, con categorías diferenciadas.  
+
+2. **Búsqueda Contextual (por módulo):**  
+   - **Ubicación:** Dentro de módulos como "Mis rutinas", "Mi progreso", "Plan nutricional", "Explorar comunidad", entre otros.  
+   - **Alcance:** Se limita a contenidos del módulo en el que se encuentra el usuario.  
+   - **Filtros específicos:** Permite realizar búsquedas con filtros como nivel de dificultad, duración del ejercicio, tipo de dieta, fecha o etiquetas personalizadas.  
+
+3. **Búsqueda Rápida con Filtros Inteligentes:**  
+   - **Filtros disponibles según la categoría:**  
+     - **Ejercicios:** Nivel, duración, zona muscular, tipo (cardio, fuerza, estiramiento).  
+     - **Recetas:** Ingredientes disponibles, tipo de comida, tiempo de preparación, valor nutricional.  
+     - **Progreso:** Por fecha, métrica (peso, grasa corporal, resistencia), comparación entre semanas.  
+     - **Contenido educativo:** Por categoría (hábitos, nutrición, motivación), popularidad o fecha de publicación.  
+   - **Diseño UI:** Controles desplegables, chips seleccionables y sliders para facilitar la interacción.  
+
+4. **Historial y búsquedas recientes:**  
+   - El sistema registra las últimas búsquedas para ofrecer acceso rápido a información previamente consultada.  
+   - Se mostrará al enfocar el campo de búsqueda sin necesidad de escribir texto.  
+
+**Presentación de Resultados**
+
+- Los resultados se presentan de forma visual, utilizando **tarjetas (cards)** organizadas en una cuadrícula limpia y responsiva.  
+- Las tarjetas incluyen:  
+  - Título.  
+  - Ícono o imagen destacada.  
+  - Etiquetas principales (por ejemplo: “30 min”, “Alta intensidad”, “Vegetariano”).  
+  - Botón de acción rápida.  
+- Se incluirán **badges** para marcar contenido nuevo o destacado (“Popular”, “Recomendado para ti”, “Nuevo”).  
+
+**Accesibilidad y Rendimiento**
+
+- **Rendimiento:** Los resultados aparecerán rápidamente incluso en conexiones móviles.  
+- **Atajos de teclado:** El campo de búsqueda será accesible con atajos (ej. `/` para enfocarlo).  
+- **Optimización móvil:** La búsqueda estará optimizada para dispositivos móviles con pantalla táctil y entrada por voz en futuras versiones.  
+
 #### 4.2.5. Navigation Systems
+
+La navegación dentro de la plataforma web FitWise ha sido diseñada para brindar una experiencia fluida, intuitiva y consistente, permitiendo que los usuarios —tanto nuevos como recurrentes— puedan alcanzar sus objetivos sin fricción, con claridad visual y accesos directos a las funcionalidades más utilizadas.
+
+**Estructura General de Navegación**
+
+1. **Menú Principal (Navbar Fijo):**  
+   - Presente en todas las vistas del sitio, tanto en desktop como en versión móvil (menú hamburguesa).  
+   - **Ítems principales:**  
+     - Inicio  
+     - Explorar (rutinas, ejercicios, recetas)  
+     - Mi Progreso  
+     - Mi Plan  
+     - Comunidad  
+     - Perfil  
+   - Acompañado por íconos simples e identificables.  
+   - Elemento destacado visualmente para el botón **"Comenzar entrenamiento"**, que redirige al flujo de acción principal del usuario.  
+
+2. **Subnavegación Contextual:**  
+   - Dependiendo del módulo o sección, se presenta un submenú lateral o pestañas horizontales que agrupan funcionalidades relacionadas.  
+   - Ejemplo:  
+     - En **“Mi Plan”**: pestañas para “Rutina semanal”, “Plan nutricional” y “Preferencias”.  
+     - En **“Progreso”**: pestañas para “Gráficos”, “Historial”, “Metas”.  
+
+3. **Footer (pie de página) informativo:**  
+   - Incluye accesos rápidos a:  
+     - Sobre nosotros  
+     - Términos y condiciones  
+     - Preguntas frecuentes  
+     - Contacto  
+     - Redes sociales  
+   - Disponible solo en la Landing Page y vistas públicas. No aparece durante sesiones activas para evitar distracciones.  
+
+**Guía de Usuario Dentro del Producto**
+
+1. **Breadcrumbs (rastro de navegación):**  
+   - Se usará en rutas profundas como por ejemplo:  
+     `Inicio / Explorar / Rutinas / Fuerza para piernas`  
+   - Facilita el retorno a niveles superiores y brinda claridad de ubicación dentro de la plataforma.  
+
+2. **Llamadas a la acción (CTAs) constantes:**  
+   - Botones estratégicos como:  
+     - “Iniciar ahora”  
+     - “Agregar a mi plan”  
+     - “Ver progreso”  
+     - “Compartir”  
+   - Destacados visualmente con colores primarios, reforzando el flujo deseado.  
+
+3. **Sistema de progreso y feedback visual:**  
+   - Avances dentro de formularios o personalizaciones (como en el onboarding o creación de rutina) se representarán con pasos numerados o indicadores visuales.  
+   - Retroalimentación inmediata tras una acción (ej. “Rutina agregada exitosamente”).  
+
+**Navegación Adaptativa**
+
+1. **Responsive Design:**  
+   - Toda la estructura de navegación está optimizada para adaptarse a diferentes tamaños de pantalla (desktop, tablet, móvil).  
+
+2. **Menús colapsables y fijos en scroll:**  
+   - En dispositivos móviles, la barra de navegación se oculta al hacer scroll hacia abajo y reaparece al subir, maximizando el espacio útil en pantalla sin perder la orientación del usuario.  
+
+**Enlace con el Objetivo del Usuario**
+
+Cada sección está pensada para responder directamente a los objetivos primarios de los segmentos definidos:  
+- **Adultos jóvenes:** Acceso rápido a lo esencial (rutinas, progreso, recomendaciones).  
+- **Jóvenes universitarios:** Exploración, descubrimiento y facilidad para compartir contenido dentro de una interfaz motivadora.  
+
 
 ### 4.3. Landing Page UI Design
 
@@ -1139,46 +1560,679 @@ El Impact Mapping de FitWise es una herramienta estratégica que alinea los obje
 #### 4.5.2. iOS Mobile Applications Prototyping
 
 ### 4.6. Web Applications UX/UI Design
-
+En esta sección, te presentamos nuestra propuesta visual y de interacción para las aplicaciones que son el núcleo de la experiencia de usuario en nuestros productos digitales. Con un enfoque fresco y detallado en el diseño UX/UI, buscamos crear interfaces intuitivas y atractivas que mejoren la usabilidad y proporcionen una experiencia satisfactoria. Cada componente del diseño ha sido cuidadosamente elaborado para garantizar una interacción fluida y coherente. A continuación, compartimos nuestra propuesta para las aplicaciones, resaltando los aspectos visuales y de interacción que hacen única la experiencia del usuario
 #### 4.6.1. Web Applications Wireframes
+- Boceto de Log-in:  
+<p align="center">
+<img src="./assets/login.png" alt="login"/>
+
+- Boceto Sign-in:  
+<p align="center">
+<img src="./assets/register.png" alt="register"/>
+
+- Boceto de Home rutinas:
+
+<p align="center">
+<img src="./assets/rutinas.png" alt="rutinas"/>
+
+- Boceto de Home Dietas:
+
+<p align="center">
+<img src="./assets/dietas.png" alt="dietas"/>
+
+- Boceto de Home Perfil:
+
+<p align="center">
+<img src="./assets/perfil.png" alt="perfil"/>
+
+- Boceto de Home Comunidad:
+
+<p align="center">
+<img src="./assets/comunidad.png" alt="comunidad"/>
+
+- Boceto de Home progreso:
+
+<p align="center">
+<img src="./assets/progreso.png" alt="progreso"/>
+
 
 #### 4.6.2. Web Applications Wireflow Diagrams
 
+#### User goal: 
+
+Registrarse en la aplicación
+
+Como usuario, quiero registrarme en la aplicación.
+
+**Task Flow:**
+- El usuario se encuentra en el login.
+- El usuario se dirige a "Sign Up".
+- El usuario rellena el formulario.
+- El usuario crea su cuenta.
+
+<p align="center">
+<img src="./assets/goalRegistro.jpg" alt="goalRegistro"/>
+</p>
+
+---
+
+#### User goal: 
+
+Agregar una rutina
+
+Como usuario, quiero agregar una rutina en la aplicación.
+
+**Task Flow:**
+- El usuario inicia sesión.
+- El usuario se dirige a la sección de rutinas.
+- El usuario rellena los datos del formulario.
+- El usuario crea la rutina.
+
+<p align="center">
+<img src="./assets/goalRutina.jpg" alt="goalRutina"/>
+</p>
+
+---
+
+#### User goal: 
+
+Agregar una dieta
+
+Como usuario, quiero agregar una dieta en la aplicación.
+
+**Task Flow:**
+- El usuario inicia sesión.
+- El usuario se dirige a la sección de dieta.
+- El usuario rellena los datos del formulario.
+- El usuario crea la dieta.
+
+<p align="center">
+<img src="./assets/goalDieta.jpg" alt="goalDieta"/>
+</p>
+
+---
+
+#### User goal: 
+
+Actualizar perfil
+
+Como usuario, quiero actualizar mi perfil en la aplicación.
+
+**Task Flow:**
+- El usuario inicia sesión.
+- El usuario se dirige a la sección de perfil.
+- El usuario rellena los datos del formulario.
+- El usuario actualiza sus datos.
+
+<p align="center">
+<img src="./assets/goalPerfil.jpg" alt="goalPerfil"/>
+</p>
+
+---
+
+#### User goal: 
+
+Seleccionar rutina
+
+Como usuario, quiero seleccionar una rutina de la comunidad en la aplicación.
+
+**Task Flow:**
+- El usuario inicia sesión.
+- El usuario se dirige a la sección de rutina.
+- El usuario selecciona una rutina de la lista.
+- El usuario selecciona el intervalo de tiempo a cumplir.
+- El usuario se inscribe aceptando el objetivo de la rutina.
+
+<p align="center">
+<img src="./assets/goalSelectRutina.jpg" alt="goalSelectRutina"/>
+</p>
+
+---
+
+#### User goal: 
+
+Seleccionar dieta
+
+Como usuario, quiero seleccionar una dieta de la comunidad en la aplicación.
+
+**Task Flow:**
+- El usuario inicia sesión.
+- El usuario se dirige a la sección de dieta.
+- El usuario selecciona una dieta de la lista.
+- El usuario selecciona el intervalo de tiempo a cumplir.
+- El usuario se inscribe aceptando el objetivo de la dieta.
+
+<p align="center">
+<img src="./assets/goalSelectDieta.jpg" alt="goalSelectDieta"/>
+</p>
+
+---
+
 #### 4.6.3. Web Applications Mock-ups
+
+- **Boceto de Login:**  
+<p align="center">
+<img src="./assets/loginMock.png" alt="loginMock"/>
+</p>
+
+- **Boceto de Sign Up:**  
+<p align="center">
+<img src="./assets/registerMock.png" alt="registerMock"/>
+</p>
+
+- **Boceto de Home - Rutinas:**  
+<p align="center">
+<img src="./assets/rutinaMock.png" alt="rutinasMock"/>
+</p>
+
+- **Boceto de Home - Dietas:**  
+<p align="center">
+<img src="./assets/dietaMock.png" alt="dietasMock"/>
+</p>
+
+- **Boceto de Home - Perfil:**  
+<p align="center">
+<img src="./assets/perfilMock.png" alt="perfilMock"/>
+</p>
+
+- **Boceto de Home - Comunidad:**  
+<p align="center">
+<img src="./assets/comunidadMock.png" alt="comunidadMock"/>
+</p>
+
+- **Boceto de Home - Progreso:**  
+<p align="center">
+<img src="./assets/progresoMock.png" alt="progresoMock"/>
+</p>
+
 
 #### 4.6.4. Web Applications User Flow Diagrams
 
-### 4.7. Web Applications Prototyping
+#### User Flow Nº1
+
+**a) User Goal:**  
+Registrarse en la aplicación.  
+Como usuario, quiero registrarme en la aplicación.
+
+**b) Task Flow:**
+- El usuario se encuentra en el login.
+- El usuario se dirige a "Sign Up".
+- El usuario rellena el formulario.
+- El usuario crea su cuenta.
+
+**c) User Flow:**  
+<p align="center">
+<img src="./assets/flowRegister.jpg" alt="flowRegister"/>
+</p>
+
+---
+
+#### User Flow Nº2
+
+**a) User Goal:**  
+Agregar una rutina.  
+Como usuario, quiero agregar una rutina en la aplicación.
+
+**b) Task Flow:**
+- El usuario inicia sesión.
+- El usuario se dirige a la sección de rutinas.
+- El usuario rellena los datos del formulario.
+- El usuario crea la rutina.
+
+**c) User Flow:**  
+<p align="center">
+<img src="./assets/flowRutina.jpg" alt="flowRutina"/>
+</p>
+
+---
+
+#### User Flow Nº3
+
+**a) User Goal:**  
+Agregar una dieta.  
+Como usuario, quiero agregar una dieta en la aplicación.
+
+**b) Task Flow:**
+- El usuario inicia sesión.
+- El usuario se dirige a la sección de dieta.
+- El usuario rellena los datos del formulario.
+- El usuario crea la dieta.
+
+**c) User Flow:**  
+<p align="center">
+<img src="./assets/flowDieta.jpg" alt="flowDieta"/>
+</p>
+
+---
+
+#### User Flow Nº4
+
+**a) User Goal:**  
+Actualizar perfil.  
+Como usuario, quiero actualizar mi perfil en la aplicación.
+
+**b) Task Flow:**
+- El usuario inicia sesión.
+- El usuario se dirige a la sección de perfil.
+- El usuario rellena los datos del formulario.
+- El usuario actualiza sus datos.
+
+**c) User Flow:**  
+<p align="center">
+<img src="./assets/flowPerfil.jpg" alt="flowPerfil"/>
+</p>
+
+---
+
+#### User Flow Nº5
+
+**a) User Goal:**  
+Seleccionar rutina.  
+Como usuario, quiero seleccionar una rutina de la comunidad en la aplicación.
+
+**b) Task Flow:**
+- El usuario inicia sesión.
+- El usuario se dirige a la sección de rutina.
+- El usuario selecciona una rutina de la lista.
+- El usuario selecciona el intervalo de tiempo a cumplir.
+- El usuario se inscribe aceptando el objetivo de la rutina.
+
+**c) User Flow:**  
+<p align="center">
+<img src="./assets/flowSelectRutina.jpg" alt="flowSelectRutina"/>
+</p>
+
+---
+
+#### User Flow Nº6
+
+**a) User Goal:**  
+Seleccionar dieta.  
+Como usuario, quiero seleccionar una dieta de la comunidad en la aplicación.
+
+**b) Task Flow:**
+- El usuario inicia sesión.
+- El usuario se dirige a la sección de dieta.
+- El usuario selecciona una dieta de la lista.
+- El usuario selecciona el intervalo de tiempo a cumplir.
+- El usuario se inscribe aceptando el objetivo de la dieta.
+
+**c) User Flow:**  
+<p align="center">
+<img src="./assets/flowSelectDieta.jpg" alt="flowSelectDieta"/>
+</p>
+
+---
+
+## 4.7. Applications Prototyping.
+
+En el desarrollo de nuestra aplicación web, hemos priorizado la creación de una experiencia simple, funcional y motivadora para los usuarios interesados en mejorar su salud física a través de rutinas de ejercicios y planes alimenticios personalizados. A continuación, se describen las principales funcionalidades prototipadas:
+
+**1. Registro en la Aplicación:** 
+El proceso de registro es rápido e intuitivo. El usuario puede crear una cuenta mediante correo electrónico o iniciar sesión con google.
+
+**2. Agregar una rutina o dieta:** 
+El usuario puede cargar sus propias rutinas de ejercicios o planes de alimentacións. Se pueden agregar descripciones, tiempos, niveles de dificultad y objetivos específicos (por ejemplo, pérdida de peso, ganancia muscular, mantenimiento).
+
+**3. Seleccionar una rutina o dieta:** 
+El usuario accede a un catálogo organizado por objetivos y nivel. Al seleccionar una rutina o dieta, se despliega una vista detallada con días, horarios, recetas o ejercicios.
+
+**4. Editar Perfil:**  Durante este proceso, se recopilan datos relevantes como edad, peso, objetivos y nivel de experiencia para personalizar la experiencia desde el inicio.
+
+**5. Ver progresos o logros de la comunidad:** 
+El usuario puede explorar una sección comunitaria donde ve los logros de otros miembros, lo que crea un ambiente motivacional.
+
+
+  Enlace al video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222942_upc_edu_pe/ESTK0xG2xV5Aut6tKahxD84BAMaj_tVt1y_6GQJg4hiw4Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cKimYd](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222942_upc_edu_pe/ESTK0xG2xV5Aut6tKahxD84BAMaj_tVt1y_6GQJg4hiw4Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cKimYd)
+
+
 
 ### 4.8. Domain-Driven Software Architecture
 
 #### 4.8.1. Software Architecture Context Diagram
 
+  <img src="assets/structurizr-SystemContext.png" alt="structurizr-SystemContext"/>
+
 #### 4.8.2. Software Architecture Container Diagrams
+
+  <img src="assets/structurizr-Container.png" alt="structurizr-Container"/>
 
 #### 4.8.3. Software Architecture Components Diagrams
 
+  <img src="assets/structurizr-Component.png" alt="structurizr-Component"/>
+
 ### 4.9. Software Object-Oriented Design
+
+El diseño orientado a objetos del software será esencial para nuestro proyecto. Estructuramos nuestro software de acuerdo a nuestras reglas de
+negocio para poder crear componentes que puedan ser entendibles para su desarrollo en un sistema real, y sean fáciles de modificar para
+nosotros.
 
 #### 4.9.1. Class Diagrams
 
+<p align="center">
+  <img src="./assets/DiagramaClasesDise.png" alt="DiagramaClasesDise" />
+</p>
+
 #### 4.9.2. Class Dictionary
+
+| Clase               | Atributo              | Descripción                                                      | Tipo de Dato               |
+|---------------------|------------------------|------------------------------------------------------------------|----------------------------|
+| **User**            | id                     | Identificador único del usuario                                  | int                        |
+| **User**            | name                   | Nombre del usuario                                               | String                     |
+| **User**            | email                  | Correo electrónico                                               | String                     |
+| **User**            | password               | Contraseña del usuario                                           | String                     |
+| **User**            | dateOfBirth            | Fecha de nacimiento                                              | Date                       |
+| **User**            | gender                 | Género del usuario                                               | String                     |
+| **User**            | height                 | Altura del usuario                                               | int                        |
+| **User**            | weight                 | Peso del usuario                                                 | int                        |\
+| **User**            | authId                 | Autenticación del usuario                                        | int                        |
+| **User**            | activityLevel          | Nivel de actividad física                                        | String                     |
+| **User**            | subscriptionPlan       | Plan de suscripción activo                                       | bool                       |
+| **Goal**            | id                     | Identificador del objetivo                                       | int                        |
+| **Goal**            | userId                 | ID del usuario asociado                                          | int                        |
+| **Goal**            | title                  | Título del objetivo                                              | String                     |
+| **Goal**            | description            | Descripción del objetivo                                         | String                     |
+| **Goal**            | targetDate             | Fecha límite del objetivo                                        | Date                       |
+| **Goal**            | isAchieved             | Indicador de logro del objetivo                                  | bool                       |
+| **Goal**            | progressPercentage     | Progreso en porcentaje                                           | int                        |
+| **ProgressTracker** | id                     | Identificador del registro de progreso                           | int                        |
+| **ProgressTracker** | userId                 | ID del usuario asociado                                          | int                        |
+| **ProgressTracker** | date                   | Fecha del registro                                               | Date                       |
+| **ProgressTracker** | weight                 | Peso del usuario ese día                                         | int                        |
+| **ProgressTracker** | bodyFatPercentage      | Porcentaje de grasa corporal                                     | int                        |
+| **ProgressTracker** | workoutsCompleted      | Cantidad de rutinas completadas                                  | int                        |
+| **Notification**    | id                     | Identificador de la notificación                                 | int                        |
+| **Notification**    | content                | Contenido del mensaje                                            | String                     |
+| **Notification**    | date                   | Fecha de envío                                                   | Date                       |
+| **Notification**    | read                   | Indicador de lectura                                             | bool                       |
+| **Notification**    | type                   | Tipo de notificación                                             | String                     |
+| **Notification**    | priority               | Prioridad (alta/media/baja)                                      | String                     |
+| **Notification**    | relatedEntityId        | ID de entidad relacionada                                        | int                        |
+| **SubscriptionPlan**| id                     | Identificador del plan                                           | int                        |
+| **SubscriptionPlan**| name                   | Nombre del plan                                                  | String                     |
+| **SubscriptionPlan**| price                  | Precio del plan                                                  | int                        |
+| **SubscriptionPlan**| durationInMonths       | Duración del plan en meses                                       | int                        |
+| **SubscriptionPlan**| features               | Características incluidas                                        | String                     |
+| **PaymentMethod**   | id                     | Identificador del método de pago                                 | int                        |
+| **PaymentMethod**   | type                   | Tipo de tarjeta                                                  | String                     |
+| **PaymentMethod**   | cardNumber             | Número de tarjeta                                                | String                     |
+| **PaymentMethod**   | expiryDate             | Fecha de vencimiento                                             | Date                       |
+| **Trainer**         | id                     | Identificador del entrenador                                     | int                        |
+| **Trainer**         | name                   | Nombre del entrenador                                            | String                     |
+| **Trainer**         | speciality             | Especialidad del entrenador                                      | String                     |
+| **Trainer**         | available              | Disponibilidad actual                                            | bool                       |
+| **Trainer**         | email                  | Correo electrónico                                               | String                     |
+| **Trainer**         | password               | Contraseña del entrenador                                        | String                     |
+| **Trainer**         | authId                 | Autenticación del entrenador                                        | int                     |
+| **TrainerAssignment**| id                    | ID del registro de asignación                                    | int                        |
+| **TrainerAssignment**| trainerId             | ID del entrenador asignado                                       | int                        |
+| **TrainerAssignment**| userId                | ID del usuario asignado                                          | int                        |
+| **TrainerAssignment**| assignedDate          | Fecha de asignación                                              | Date                       |
+| **TrainerAssignment**| workoutId             | ID del entrenamiento asignado                                    | int                        |
+| **TrainerAssignment**| dietId                | ID de la dieta asignada                                          | int                        |
+| **Workout**         | id                     | Identificador del entrenamiento                                  | int                        |
+| **Workout**         | title                  | Nombre o título del workout                                      | String                     |
+| **Workout**         | description            | Descripción de la rutina                                         | String                     |
+| **Workout**         | difficultyLevel        | Nivel de dificultad                                              | String                     |
+| **Workout**         | duration               | Duración estimada                                                | String                     |
+| **Workout**         | exercises              | Lista de ejercicios incluidos                                    | List<Exercise>             |
+| **Exercise**        | id                     | Identificador del ejercicio                                      | int                        |
+| **Exercise**        | name                   | Nombre del ejercicio                                             | String                     |
+| **Exercise**        | type                   | Tipo de ejercicio (cardio, fuerza, etc.)                         | String                     |
+| **Exercise**        | repetitions            | Número de repeticiones                                           | int                        |
+| **Exercise**        | sets                   | Número de sets                                                   | int                        |
+| **Exercise**        | duration               | Duración del ejercicio                                           | String                     |
+| **Diet**            | id                     | Identificador de la dieta                                        | int                        |
+| **Diet**            | mealPlan               | Lista de comidas incluidas                                       | List<Meal>                 |
+| **Diet**            | calories               | Calorías totales                                                 | int                        |
+| **Diet**            | macros                 | Información de macronutrientes                                   | String                     |
+| **Meal**            | id                     | Identificador de la comida                                       | int                        |
+| **Meal**            | mealType               | Tipo de comida (desayuno, almuerzo, etc.)                        | String                     |
+| **Meal**            | calories               | Calorías por comida                                              | int                        |
+| **Meal**            | ingredients            | Ingredientes de la comida                                        | String                     |
+| **Meal**            | instructions           | Instrucciones de preparación                                     | String                     |
+
 
 ### 4.10. Database Design
 
+El diseño de la base de datos será fundamental para nuestro proyecto, ya que proporcionará la estructura subyacente para almacenar y gestionar
+los datos de manera eficiente y segura. Esto nos permitirá organizar los datos de manera lógica y coherente, facilitando su recuperación y
+manipulación en respuesta a las solicitudes de los usuarios.
+
 #### 4.10.1. Relational/Non-Relational Database Diagram
+
+<p align="center">
+  <img src="./assets/DiagramaDBWeb.png" alt="DiagramaDBWeb" />
+</p>
 
 ## Capítulo V: Product Implementation
 
-### 5.1. Software Configuration Management
+### 5.1. Software Configuration Management.
 
-#### 5.1.1. Software Development Environment Configuration
+Para asegurar la consistencia, trazabilidad y calidad del producto digital  durante todo su ciclo de vida, el equipo ha definido una estrategia de gestión de configuración de software. Esta estrategia cubre la configuración del entorno de desarrollo, la gestión del código fuente, las convenciones de codificación y la configuración del despliegue de los productos. El enfoque está alineado con buenas prácticas de ingeniería de software y metodologías ágiles.
+
+#### 5.1.1. Software Development Environment Configuration.
+
+| Categoría | Herramienta | Propósito | Tipo de acceso/enlace |
+|:----:|:----:|:----:|:----:|
+| Project Management | Jira | Gestión del backlog y tareas del equipo mediante tableros Kanban. | https://www.atlassian.com/es/software/jira |
+| Requirements Management | UXPressia | Creación y documentación de User Personas y customer journeys. | https://uxpressia.com |
+| Product UX/UI Design | Figma | Creación de wireframes y mockups de la interfaz de usuario. | https://figma.com |
+| Modelado de Software | Visual Paradigm | Modelado de arquitectura de software: diagramas de contexto, Bounded Contexts, etc. | https://visual-paradigm.com |
+| Frontend Development | Visual Studio Code | Editor de código para el desarrollo del Landing Page y Frontend (Angular). | https://code.visualstudio.com |
+| Backend Development | IntelliJ IDEA | Entorno de desarrollo para el backend en Java con Spring Boot. | https://www.jetbrains.com/idea/ |
+| Version Control | GitHub | Repositorio de control de versiones para todos los productos digitales. | https://github.com |
+| Software Documentation | Markdown | Redacción de documentación técnica del proyecto. | Compatible con GitHub / editores de texto |
 
 #### 5.1.2. Source Code Management
 
+El equipo de FitWise utiliza Git como sistema de control de versiones y GitHub como plataforma de alojamiento y colaboración en el desarrollo de los distintos productos digitales que conforman la solución. Esta estrategia garantiza un seguimiento efectivo de los cambios realizados en el código fuente, la colaboración entre miembros del equipo, y la trazabilidad de las decisiones tomadas durante el ciclo de desarrollo.
+
+Nuestra organizacion es la siguiente: https://github.com/upc-pre-si732-2501-4436-G1-Galacticos
+
+Los repositorios utilizados para el desarrollo de código fuente son los siguientes:
+
+<div align="center">
+
+| Producto Digital | URL del Repositorio | 
+|:----------------:|:-------------------:|
+| Landing Page | https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/landing-page | 
+| Web Services (Backend API) | https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/backend|
+| Frontend Web Application | https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/frontend|
+
+</div>
+
+**Modelos de Ramificación**
+
+- **Repositorios con Código Fuente (Landing Page, Frontend, Backend):**
+
+    Para estos repositorios se implementará GitFlow, un modelo de ramificación más estructurado, el cual permite separar de manera clara las etapas de desarrollo, pruebas, liberación y mantenimiento. GitFlow resulta adecuado para mantener la estabilidad del código sin depender de estas herramientas externas.
+
+    **La estructura de ramas en GitFlow será:**
+
+    - _Main_: Contiene el código en estado estable y listo para producción.
+    - _Develop_: Rama de integración para desarrollo activo.
+    - _Feature branches_: Para nuevas funcionalidades.
+        - Convención: `feature/nombre-descriptivo`  
+        - Ejemplo: `feature/US007-business-profiles`
+    - _Release branches_: Para preparar versiones antes de pasar a producción.
+        - Convención: `release/X.Y.Z`  
+        - Ejemplo: `release/1.0.0`
+    - _Hotfix branches_: Para correcciones urgentes.
+        - Convención: `hotfix/X.Y.Z`  
+        - Ejemplo: `hotfix/1.0.1`        
+
+    **Versionado Semántico (Semantic Versioning)**
+
+    - Se utiliza Semantic Versioning 2.0.0, con el esquema MAJOR.MINOR.PATCH:
+
+        - **MAJOR:** Cambios incompatibles.
+        - **MINOR:** Funcionalidades nuevas retrocompatibles.
+        - **PATCH:** Correcciones retrocompatibles.
+
+        **Ejemplos de versiones:**  
+        `v1.0.0`, `v1.1.0`, `v1.1.1`.
+    
+    **Convenciones para Commits**
+
+    El equipo sigue el estándar de Conventional Commits para los mensajes de commits, lo que permite claridad en el historial y facilita la generación automática de changelogs:
+
+    `<type>[optional scope]: <description>`
+
+    Tipos comunes:
+
+    - `feat`: Nueva funcionalidad.
+    - `fix`: Corrección de errores.
+    - `docs`: Cambios en documentación.
+    - `style`: Cambios de formato sin impacto funcional.
+    - `refactor`: Reestructuración del código.
+    - `test`: Relacionados con pruebas.
+    - `chore`: Tareas de mantenimiento.
+
+    Ejemplo:
+    ```plaintext
+    feat(auth): implement login via OAuth
+    fix(api): handle null user tokens
+
 #### 5.1.3. Source Code Style Guide & Conventions
+El equipo ha adoptado guías de estilo y convenciones de codificación para cada uno de los lenguajes utilizados. Estas convenciones permiten que todos los miembros del equipo desarrollen bajo un estándar común y que el código sea comprensible tanto para desarrolladores actuales como futuros.
+
+**Nomenclatura general:**
+
+- Todos los identificadores, comentarios y documentación del código se escribirán en inglés.
+- Se utilizará el sistema de control de calidad en revisiones por pull request para verificar que las convenciones se cumplan antes de fusionar el código a la rama `develop`.
+
+---
+
+**Backend: Java con Spring Boot**
+
+Para el desarrollo de los servicios web de FitWise, se utilizará **Java 21** junto con el framework **Spring Boot**. Se adoptan las siguientes convenciones:
+
+- **Guía de estilo base:**  
+  [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+
+- **Estructura de paquetes basada en Domain-Driven Design (DDD):**  
+  - `com.FitWise.domain`  
+  - `com.FitWise.application`  
+  - `com.FitWise.infrastructure`  
+  - `com.FitWise.api`  
+
+- **Nomenclatura:**  
+  - Clases nombradas en **CamelCase**:  
+    Ejemplo: `FitnessExperienceService`, `UserProfileRepository`  
+  - Métodos y variables en **lowerCamelCase**:  
+    Ejemplo: `findAllRecipes()`, `userEmail`  
+
+- **Documentación:**  
+  - Uso obligatorio de **Javadoc** para describir métodos y clases públicas.
+
+- **Separación lógica del código:**  
+  - Cada capa debe tener responsabilidades claras:  
+    - Controladores (`@RestController`)  
+    - Servicios (`@Service`)  
+    - Repositorios (`@Repository`)  
+    - Modelos  
+
+- **Anotaciones de Spring:**  
+  - Uso de anotaciones como `@RestController`, `@Service`, `@Repository` para reforzar la estructura y mantener la claridad del código.
+
+---
+
+**Frontend: Angular Framework (TypeScript, HTML, CSS)**
+
+Para el desarrollo del frontend, el equipo utilizará **Angular 19**, basado en **TypeScript**, junto con **HTML** y **CSS**. Las convenciones son:
+
+- **Guías de estilo base:**  
+  - [Angular Style Guide (Oficial)](https://angular.io/guide/styleguide)  
+  - [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
+
+- **Estructura modular y escalable:**  
+  - Cada componente, servicio o módulo tendrá su propio directorio.
+
+- **Nomenclatura de archivos:**  
+  - Archivos nombrados con **kebab-case**:  
+    - Componentes: `featured-experience.component.ts`  
+    - Servicios: `auth.service.ts`  
+    - HTML y CSS asociados seguirán el mismo nombre base.
+
+- **Nomenclatura de clases y componentes:**  
+  - Componentes y clases en **UpperCamelCase**:  
+    Ejemplo: `FeaturedExperienceComponent`, `AuthService`, `UserModel`  
+  - Variables, métodos y propiedades en **lowerCamelCase**.
+
+- **Modelos de datos:**  
+  - Uso de **interfaces** para definir modelos de datos (e.g., `User`, `Plan`, `Recipe`) y asegurar tipado fuerte.
+
+- **HTML:**  
+  - Buenas prácticas semánticas y accesibles:  
+    Uso de etiquetas apropiadas (`<main>`, `<section>`, `<button>`, etc.).
+
+- **CSS:**  
+  - Convenciones basadas en el [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html):  
+    - Nombres de clase descriptivos en inglés:  
+      Ejemplo: `.experience-card`
+    - Agrupación por tipo de selector.  
+    - Estilos reutilizables mediante clases utilitarias.
 
 #### 5.1.4. Software Deployment Configuration
+La configuración de despliegue para FitWise contempla mecanismos organizados para publicar correctamente cada uno de los productos digitales del sistema: **Landing Page**, **Web Services (Backend)** y **Frontend Web Application**. Esta configuración garantiza que el equipo pueda replicar y mantener el proceso de despliegue con consistencia y trazabilidad.
+
+---
+
+**Despliegue del Landing Page**
+
+- **Tecnología:**  
+  HTML5, CSS3, JavaScript (Vanilla), diseño responsivo.
+
+- **Plataforma de despliegue:**  
+  GitHub Pages
+
+- **Método de despliegue:**  
+  - La rama `main` contiene la versión estable y publicada del sitio.  
+  - El contenido del directorio raíz se mantiene como fuente para GitHub Pages.  
+  - Los cambios aprobados en `develop` son fusionados a `main` mediante pull request.  
+  - GitHub Pages actualiza automáticamente la publicación al detectar cambios en `main`.
+
+---
+
+**Despliegue del Backend (Web Services)**
+
+- **Tecnología:**  
+  Java 21 + Spring Boot.
+
+- **Plataforma de despliegue:**  
+  Render o Railway (por definir).
+
+- **Método de despliegue:**  
+  - El backend se empaqueta como un archivo `.jar` con Gradle o Maven.  
+  - Se configura un pipeline de despliegue automático o manual desde el repositorio hacia el servicio en la nube.  
+  - Las variables de entorno (como credenciales de base de datos) se almacenan de forma segura en la plataforma de hosting.  
+  - El servicio se expone mediante una URL pública que el frontend puede consumir vía HTTP/REST.
+
+---
+
+**Despliegue del Frontend Web Application**
+
+- **Tecnología:**  
+  Angular 19 (TypeScript, HTML, SCSS/CSS).
+
+- **Plataforma de despliegue:**  
+  Vercel o Netlify (por definir).
+
+- **Método de despliegue:**  
+  - Angular se compila con `ng build --prod` para generar los archivos estáticos de producción.  
+  - La rama `main` sirve como fuente para el despliegue.  
+  - La plataforma detecta cambios en `main` y publica automáticamente la nueva versión del frontend.  
+  - El archivo `environment.ts` de producción incluirá la URL pública del backend para permitir integración total.
+
+---
+
+**Consideraciones Finales**
+
+- Se documentará el procedimiento de despliegue paso a paso en la wiki del repositorio principal.  
+- Los entornos de desarrollo y producción estarán claramente separados mediante archivos de configuración.  
+- Se establecerán pruebas manuales básicas post-despliegue para verificar la disponibilidad y funcionalidad de los servicios.  
+- Si el tiempo lo permite, se evaluará la incorporación de **GitHub Actions** para automatizar los flujos de despliegue continuo (CI/CD).
 
 ### 5.2. Product Implementation & Deployment
 
