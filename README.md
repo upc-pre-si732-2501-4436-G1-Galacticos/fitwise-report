@@ -1498,9 +1498,15 @@ Cada sección está pensada para responder directamente a los objetivos primario
 
 #### 4.8.1. Software Architecture Context Diagram
 
+  <img src="assets/structurizr-SystemContext.png" alt="structurizr-SystemContext"/>
+
 #### 4.8.2. Software Architecture Container Diagrams
 
+  <img src="assets/structurizr-Container.png" alt="structurizr-Container"/>
+
 #### 4.8.3. Software Architecture Components Diagrams
+
+  <img src="assets/structurizr-Component.png" alt="structurizr-Component"/>
 
 ### 4.9. Software Object-Oriented Design
 
