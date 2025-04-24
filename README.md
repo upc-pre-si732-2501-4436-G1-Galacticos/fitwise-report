@@ -1882,6 +1882,9 @@ El usuario accede a un catálogo organizado por objetivos y nivel. Al selecciona
 **5. Ver progresos o logros de la comunidad:** 
 El usuario puede explorar una sección comunitaria donde ve los logros de otros miembros, lo que crea un ambiente motivacional.
 
+<p align="center">
+<img src="./assets/prototipoWeb.jpg" alt="prototipoWeb"/>
+</p>
 
   Enlace al video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222942_upc_edu_pe/ESTK0xG2xV5Aut6tKahxD84BAMaj_tVt1y_6GQJg4hiw4Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cKimYd](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222942_upc_edu_pe/ESTK0xG2xV5Aut6tKahxD84BAMaj_tVt1y_6GQJg4hiw4Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cKimYd)
 
