@@ -492,19 +492,19 @@ Enlace al video: [https://link.com](https://link.com)
 
 
 - **Entrevista 2:**
-**Entrevistador:** 
-**Entrevistado:** 
-**Sexo:** 
-**Edad:** 
-**Domicilio:** 
-**Inicio de la Entrevista:** 0:00
-**Duración de la Entrevista:** 5:30<br>
-<img src="./assets/entrevista2.png" alt="Entrevista con ...." style="width: 600px; height: auto;"><br>
+**Entrevistador:** Ramiro Alexander Guzman Chavez
+**Entrevistado:** Christopher Adrián Carlos Urcia Tardío
+**Sexo:** Masculino
+**Edad:** 27
+**Domicilio:** Bellavista Lima Peru
+**Inicio de la Entrevista:** 4:00
+**Duración de la Entrevista:** 5:22<br>
+<img src="./assets/Urcia.png" alt="Entrevista con Urcia" style="width: 600px; height: auto;"><br>
 
 - **Resumen:** 
-Resumen aqui
+Christopher trabaja como asistente en oficina, con una jornada de 9 a 5. Su rutina diaria incluye organizar reuniones, responder correos y colaborar en pequeños proyectos. Luego del trabajo, dedica tiempo al estudio y procura mantenerse activo a través del ejercicio, lectura o actividades recreativas. Considera muy importante llevar un estilo de vida saludable, aunque a veces enfrenta obstáculos como la falta de tiempo y motivación. Utiliza una aplicación para registrar su actividad física y alimentación, lo que le ayuda a mantenerse enfocado. Ha probado diferentes dietas, pero lo que más le ha funcionado es mantener hábitos sostenibles. Cree que la tecnología puede ser una gran aliada para organizar sus rutinas, reducir el estrés con herramientas como meditación, y recibir recordatorios personalizados. Le gustaría una app que se adapte a sus horarios, personalice entrenamientos y planes alimenticios, y que incluya funciones de comunidad, retos y seguimiento personalizado. Está dispuesto a pagar por una app que cumpla con estas expectativas.
 
-Enlace al video: [https://link.com](https://link.com)
+Enlace al video: [https://drive.google.com/file/d/1CefdfzctUQmsBDRiMwWRxyFM35zNvKiG/view?usp=sharing](https://drive.google.com/file/d/1CefdfzctUQmsBDRiMwWRxyFM35zNvKiG/view?usp=sharing)
 
 - **Entrevista 3:**
 **Entrevistador:** 
