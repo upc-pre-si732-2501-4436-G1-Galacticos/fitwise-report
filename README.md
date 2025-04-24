@@ -42,7 +42,7 @@
 | Versión | Fecha       | Autor | Descripción |
 |---------|-------------|-------|-------------|
 | TB1     | 12/04/2025  |  Ramiro Guzman     |   Desarrollé la carátula, la tabla de contenidos, la descripción de la Startup, la Solution Profile que abarca los Antecedentes y Problemática, definí los Segmentos Objetivos y el Diseño de las entrevistas.          |
-| TB1     | XX/XX/XXXX  |       |             |
+| TB1     | 24/04/2025  |   Jhon Galvez  | Me enfoqué en el desarrollo de las historias de usuario, el backlog del producto, la guía de estilos, los lineamientos para el desarrollo del código fuente y las configuraciones para el despliegue de la landing page.    |
 | TB1     | XX/XX/XXXX  |       |             |
 | TB1     | XX/XX/XXXX  |       |             |
 | TB1     | XX/XX/XXXX  |       |             |
@@ -178,8 +178,8 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
 
 | <div style="width:100px">Criterio específico</div> | <div align="center" style="width:250px">Acciones Realizadas</div> | <div align="center" style="width:250px">Conclusiones</div> |
 |:-------------------:|-------------------|------------|
-|4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software  | **- Ramiro Guzman** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Farid Briceño** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Jhon Galvez** <br> **TB1:**  <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Mauricio Muñoz** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- David Perez** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br>| **TB1:** Cada miembro participó en sus actividades asignadas, manteniendo una comunicación activa y eficaz que fortaleció la confianza mutua. Esto mejoró el trabajo en equipo, un valor crucial para proyectos colaborativos |
-|4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales| **- Ramiro Guzman** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Farid Briceño** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Jhon Galvez** <br> **TB1:**  <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Mauricio Muñoz** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- David Perez** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> | **TB1:** Cada miembro participó en sus actividades asignadas, manteniendo una comunicación activa y eficaz que fortaleció la confianza mutua. Esto mejoró el trabajo en equipo, un valor crucial para proyectos colaborativos |
+|4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software  | **- Ramiro Guzman** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Farid Briceño** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Jhon Galvez** <br> **TB1:** A lo largo de esta primera fase, asimilé el código de conducta y la ética fundamentales para un desarrollador. Esto me impulsó a colaborar activamente en la recopilación de la información requerida para nuestra aplicación, con la meta clara de generar un impacto significativo en la salud y el bienestar de las personas. <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Mauricio Muñoz** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- David Perez** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br>| **TB1:** Cada miembro participó en sus actividades asignadas, manteniendo una comunicación activa y eficaz que fortaleció la confianza mutua. Esto mejoró el trabajo en equipo, un valor crucial para proyectos colaborativos |
+|4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales| **- Ramiro Guzman** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Farid Briceño** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Jhon Galvez** <br> **TB1:** He tomado conciencia de la crucial importancia de la salud en la sociedad contemporánea. El anhelo por el bienestar físico y mental es evidente, pero las dinámicas de la vida en la ciudad a menudo se interponen en la consecución de estos objetivos. En este sentido, considero que la propuesta que hemos concebido aborda esta problemática desde una perspectiva integral. <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Mauricio Muñoz** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- David Perez** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> | **TB1:** Cada miembro participó en sus actividades asignadas, manteniendo una comunicación activa y eficaz que fortaleció la confianza mutua. Esto mejoró el trabajo en equipo, un valor crucial para proyectos colaborativos |
 
 ---
 
@@ -1538,9 +1538,36 @@ Cada sección está pensada para responder directamente a los objetivos primario
 
 ### 4.3. Landing Page UI Design
 
+El Landing Page de FitWise representa la materialización visual de las decisiones tomadas en torno a la arquitectura de información, la identidad de marca y las guías de estilo establecidas previamente.
+
+El diseño del Landing Page ha sido pensado para captar la atención de los visitantes desde el primer momento, comunicar de forma clara el valor diferencial de la plataforma, y facilitar una navegación intuitiva y responsiva hacia los distintos componentes clave del sitio.
+
+Este diseño refleja:
+
+- La jerarquía visual establecida en los Organization Systems, priorizando elementos como el mensaje principal, el buscador de experiencias, y los llamados a la acción (CTAs).
+
+- La coherencia con el Design System de FitWise, respetando la paleta cromática corporativa inspirada en su logotipo, el uso tipográfico moderno y legible, y los principios de accesibilidad e inclusión.
+
+- Una arquitectura de información que orienta al usuario de manera fluida, reduciendo la carga cognitiva y facilitando la conversión desde la primera interacción.
+
+- La incorporación de patrones reconocibles en UI/UX para generar confianza, claridad y familiaridad con la experiencia.
+
+
 #### 4.3.1. Landing Page Wireframe
 
+<p align="center">
+<img src="./assets/landing-wireframe.png" alt="goalRegistro"/>
+</p>
+
 #### 4.3.2. Landing Page Mock-up
+
+<p align="center">
+<img src="./assets/landing-mockup.png" alt="goalRegistro"/>
+</p>
+
+<p align="center">
+<img src="./assets/landing-mockup-mobile.png" alt="goalRegistro"/>
+</p>
 
 ### 4.4. Mobile Applications UX/UI Design
 
@@ -2231,16 +2258,63 @@ La configuración de despliegue para FitWise contempla mecanismos organizados pa
 
 **Consideraciones Finales**
 
-- Se documentará el procedimiento de despliegue paso a paso en la wiki del repositorio principal.  
 - Los entornos de desarrollo y producción estarán claramente separados mediante archivos de configuración.  
 - Se establecerán pruebas manuales básicas post-despliegue para verificar la disponibilidad y funcionalidad de los servicios.  
-- Si el tiempo lo permite, se evaluará la incorporación de **GitHub Actions** para automatizar los flujos de despliegue continuo (CI/CD).
+
 
 ### 5.2. Product Implementation & Deployment
 
 #### 5.2.1. Sprint Backlogs
 
+En esta parte mostramos las tareas desarrolladas para este sprint:
+
+Enlace Jira: https://fitwise-si732.atlassian.net/jira/software/projects/SCRUM/boards/1/timeline?atlOrigin=eyJpIjoiZWIyNzUyNmE0YjE1NDU2YWExYTdkMmY3ZmZkODdiNWYiLCJwIjoiaiJ9
+
+<p align="center">
+  <img src="./assets/sprint1-jira-detalles.png" alt="Jira1" />
+</p>
+
+<p align="center">
+  <img src="./assets/sprint1-jira.png" alt="Jira2" />
+</p>
+
+Durante la primera iteración de desarrollo, implementamos los componentes esenciales de la página de inicio, los elementos de interfaz y el menú de navegación
+
+
+|Sprint #|Sprint 1|||||||
+| :- | :- | :- | :- | :- | :- | :- | :- |
+|User Story|Work-Item / Task|||||||
+|Id|Title|Id|Title|Description|<p>Estimation</p><p>(Hours)</p>|Assigned To|<p>Status</p><p>(To-do /</p><p>InProcess /</p><p>ToReview /</p><p>Done)</p>|
+|US-01|Registro básico|T01|Desarrollar un sistema de registro de usuarios.|La página web debe incluir una funcionalidad que permita a los usuarios registrarse o crear una cuenta personal.|1|Jorge Guevara|Done|
+|US-02|Inicio de sesión|T02|Desarrollo del módulo de inicio de sesión|Es necesario desarrollar un sistema que permita a los usuarios ya registrados ingresar sus credenciales para acceder a su perfil personal.|1|Mathias Aspajo|Done|
+|US-31|Navegación por el landing page|T03|Construcción de la plataforma web|Se debe desarrollar la estructura base del sitio web, garantizando su correcta navegación y funcionamiento, como punto de partida para implementar la landing page.|0\.5|Jhon Galvez, Cesar Linares|Done|
+|US-32|Ver información del startup|T04|Presentación del trabajo|Incluir una sección dedicada a mostrar a los miembros del equipo de desarrollo|0\.5|Jhon Galvez|Done|
+|US-33|Conocer la misión de la startup|T05|Información de la misión de la Startup|Agregar un apartado que exponga claramente la misión de la startup.|0\.5|Jhon Galvez, Farid Briceño|Done|
+|US-34|Contactar al equipo de soporte (Versión usuario)|T06|Formulario de contacto para soporte|Incorporar un formulario dentro de la landing page que permita a los usuarios enviar consultas o mensajes al equipo de atención al cliente o soporte técnico.|2|Jhon Galvez|Done|
+|US-35|Visualización responsive|T07|Adaptabilidad a dispositivos móviles|El sitio web debe estar optimizado para garantizar una experiencia de navegación cómoda y fluida desde smartphones y otros dispositivos móviles.|2|Jhon Galvez, Cesar Linares|Done|
+|US-36|Contactar al equipo de soporte (Versión agencia)|T08|Formulario de contacto para agencias|Incluir un formulario exclusivo para agencias, donde puedan realizar consultas, expresar su interés en colaborar o solicitar información adicional sobre los servicios y beneficios que ofrece la plataforma para sus operaciones.|2|Farid Briceño|Done|
+|US-37|Modelo de monetización|T09|Sección informativa para agencias|Agregar una sección dedicada a explicar claramente cómo las agencias pueden generar ingresos a través del uso de la aplicación.|0.5|Farid Briceño|Done|
+
+
 #### 5.2.2. Implemented Landing Page Evidence
+
+- Deploy: https://upc-pre-si732-2501-4436-g1-galacticos.github.io/landing-page/
+
+- Repositorio: https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/landing-page
+
+<p align="center">
+  <img src="./assets/landing-hero.png" alt="landing-hero" />
+</p>
+
+<p align="center">
+  <img src="./assets/landing-acceso.png" alt="landing-acceso" />
+</p>
+
+
+<p align="center">
+  <img src="./assets/landing-explorar.png" alt="landing-explorar" />
+</p>
+
 
 #### 5.2.3. Implemented Frontend-Web Application Evidence
 
@@ -2252,8 +2326,27 @@ La configuración de despliegue para FitWise contempla mecanismos organizados pa
 
 #### 5.2.7. Team Collaboration Insights
 
+**TB1:**
+
+Para esta primera entrega, se ha conseguido desplegar la la nding page gracias a GitHub Pages. Las analiticas del repositorio se muestran a continuacion:
+
+- Usuario: Chaomeum (Jhon Galvez)
+
+  <p align="center">
+    <img src="./assets/landing-analitica.png" alt="analitica landing" />
+  </p>
+
+  <p align="center">
+    <img src="./assets/landing-network.png" alt="network landing" />
+  </p>
+
 ### 5.3. Video About-the-Product
 
+
 ### 6.1. Conclusiones
+
+
 ### 6.2. Bibliografía
+
+
 ### 6.3. Anexos
