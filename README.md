@@ -1504,13 +1504,107 @@ Cada sección está pensada para responder directamente a los objetivos primario
 
 ### 4.9. Software Object-Oriented Design
 
+El diseño orientado a objetos del software será esencial para nuestro proyecto. Estructuramos nuestro software de acuerdo a nuestras reglas de
+negocio para poder crear componentes que puedan ser entendibles para su desarrollo en un sistema real, y sean fáciles de modificar para
+nosotros.
+
 #### 4.9.1. Class Diagrams
+
+<p align="center">
+  <img src="./assets/DiagramaClasesDise.png" alt="DiagramaClasesDise" />
+</p>
 
 #### 4.9.2. Class Dictionary
 
+| Clase               | Atributo              | Descripción                                                      | Tipo de Dato               |
+|---------------------|------------------------|------------------------------------------------------------------|----------------------------|
+| **User**            | id                     | Identificador único del usuario                                  | int                        |
+| **User**            | name                   | Nombre del usuario                                               | String                     |
+| **User**            | email                  | Correo electrónico                                               | String                     |
+| **User**            | password               | Contraseña del usuario                                           | String                     |
+| **User**            | dateOfBirth            | Fecha de nacimiento                                              | Date                       |
+| **User**            | gender                 | Género del usuario                                               | String                     |
+| **User**            | height                 | Altura del usuario                                               | int                        |
+| **User**            | weight                 | Peso del usuario                                                 | int                        |\
+| **User**            | authId                 | Autenticación del usuario                                        | int                        |
+| **User**            | activityLevel          | Nivel de actividad física                                        | String                     |
+| **User**            | subscriptionPlan       | Plan de suscripción activo                                       | bool                       |
+| **Goal**            | id                     | Identificador del objetivo                                       | int                        |
+| **Goal**            | userId                 | ID del usuario asociado                                          | int                        |
+| **Goal**            | title                  | Título del objetivo                                              | String                     |
+| **Goal**            | description            | Descripción del objetivo                                         | String                     |
+| **Goal**            | targetDate             | Fecha límite del objetivo                                        | Date                       |
+| **Goal**            | isAchieved             | Indicador de logro del objetivo                                  | bool                       |
+| **Goal**            | progressPercentage     | Progreso en porcentaje                                           | int                        |
+| **ProgressTracker** | id                     | Identificador del registro de progreso                           | int                        |
+| **ProgressTracker** | userId                 | ID del usuario asociado                                          | int                        |
+| **ProgressTracker** | date                   | Fecha del registro                                               | Date                       |
+| **ProgressTracker** | weight                 | Peso del usuario ese día                                         | int                        |
+| **ProgressTracker** | bodyFatPercentage      | Porcentaje de grasa corporal                                     | int                        |
+| **ProgressTracker** | workoutsCompleted      | Cantidad de rutinas completadas                                  | int                        |
+| **Notification**    | id                     | Identificador de la notificación                                 | int                        |
+| **Notification**    | content                | Contenido del mensaje                                            | String                     |
+| **Notification**    | date                   | Fecha de envío                                                   | Date                       |
+| **Notification**    | read                   | Indicador de lectura                                             | bool                       |
+| **Notification**    | type                   | Tipo de notificación                                             | String                     |
+| **Notification**    | priority               | Prioridad (alta/media/baja)                                      | String                     |
+| **Notification**    | relatedEntityId        | ID de entidad relacionada                                        | int                        |
+| **SubscriptionPlan**| id                     | Identificador del plan                                           | int                        |
+| **SubscriptionPlan**| name                   | Nombre del plan                                                  | String                     |
+| **SubscriptionPlan**| price                  | Precio del plan                                                  | int                        |
+| **SubscriptionPlan**| durationInMonths       | Duración del plan en meses                                       | int                        |
+| **SubscriptionPlan**| features               | Características incluidas                                        | String                     |
+| **PaymentMethod**   | id                     | Identificador del método de pago                                 | int                        |
+| **PaymentMethod**   | type                   | Tipo de tarjeta                                                  | String                     |
+| **PaymentMethod**   | cardNumber             | Número de tarjeta                                                | String                     |
+| **PaymentMethod**   | expiryDate             | Fecha de vencimiento                                             | Date                       |
+| **Trainer**         | id                     | Identificador del entrenador                                     | int                        |
+| **Trainer**         | name                   | Nombre del entrenador                                            | String                     |
+| **Trainer**         | speciality             | Especialidad del entrenador                                      | String                     |
+| **Trainer**         | available              | Disponibilidad actual                                            | bool                       |
+| **Trainer**         | email                  | Correo electrónico                                               | String                     |
+| **Trainer**         | password               | Contraseña del entrenador                                        | String                     |
+| **Trainer**         | authId                 | Autenticación del entrenador                                        | int                     |
+| **TrainerAssignment**| id                    | ID del registro de asignación                                    | int                        |
+| **TrainerAssignment**| trainerId             | ID del entrenador asignado                                       | int                        |
+| **TrainerAssignment**| userId                | ID del usuario asignado                                          | int                        |
+| **TrainerAssignment**| assignedDate          | Fecha de asignación                                              | Date                       |
+| **TrainerAssignment**| workoutId             | ID del entrenamiento asignado                                    | int                        |
+| **TrainerAssignment**| dietId                | ID de la dieta asignada                                          | int                        |
+| **Workout**         | id                     | Identificador del entrenamiento                                  | int                        |
+| **Workout**         | title                  | Nombre o título del workout                                      | String                     |
+| **Workout**         | description            | Descripción de la rutina                                         | String                     |
+| **Workout**         | difficultyLevel        | Nivel de dificultad                                              | String                     |
+| **Workout**         | duration               | Duración estimada                                                | String                     |
+| **Workout**         | exercises              | Lista de ejercicios incluidos                                    | List<Exercise>             |
+| **Exercise**        | id                     | Identificador del ejercicio                                      | int                        |
+| **Exercise**        | name                   | Nombre del ejercicio                                             | String                     |
+| **Exercise**        | type                   | Tipo de ejercicio (cardio, fuerza, etc.)                         | String                     |
+| **Exercise**        | repetitions            | Número de repeticiones                                           | int                        |
+| **Exercise**        | sets                   | Número de sets                                                   | int                        |
+| **Exercise**        | duration               | Duración del ejercicio                                           | String                     |
+| **Diet**            | id                     | Identificador de la dieta                                        | int                        |
+| **Diet**            | mealPlan               | Lista de comidas incluidas                                       | List<Meal>                 |
+| **Diet**            | calories               | Calorías totales                                                 | int                        |
+| **Diet**            | macros                 | Información de macronutrientes                                   | String                     |
+| **Meal**            | id                     | Identificador de la comida                                       | int                        |
+| **Meal**            | mealType               | Tipo de comida (desayuno, almuerzo, etc.)                        | String                     |
+| **Meal**            | calories               | Calorías por comida                                              | int                        |
+| **Meal**            | ingredients            | Ingredientes de la comida                                        | String                     |
+| **Meal**            | instructions           | Instrucciones de preparación                                     | String                     |
+
+
 ### 4.10. Database Design
 
+El diseño de la base de datos será fundamental para nuestro proyecto, ya que proporcionará la estructura subyacente para almacenar y gestionar
+los datos de manera eficiente y segura. Esto nos permitirá organizar los datos de manera lógica y coherente, facilitando su recuperación y
+manipulación en respuesta a las solicitudes de los usuarios.
+
 #### 4.10.1. Relational/Non-Relational Database Diagram
+
+<p align="center">
+  <img src="./assets/DiagramaDBWeb.png" alt="DiagramaDBWeb" />
+</p>
 
 ## Capítulo V: Product Implementation
 
