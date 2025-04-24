@@ -473,86 +473,143 @@ Hombres y mujeres entre 18 y 40 años que viven en zonas urbanas como Lima Metro
 ---
 
 #### 2.2.2. Registro de entrevistas
+
 **Entrevista para el Segmento Objetivo 1 - Adultos jóvenes urbanos en búsqueda activa de bienestar (18 - 40 años) :**
 
 - **Entrevista 1:**
-**Entrevistador:** 
-**Entrevistado:** 
-**Sexo:** 
-**Edad:** 
-**Domicilio:** 
-**Inicio de la Entrevista:** 0:00
-**Duración de la Entrevista:** 5:30<br>
-<img src="./assets/entrevista1.png" alt="Entrevista con ...." style="width: 600px; height: auto;"><br>
 
-- **Resumen:** 
-Resumen aqui
+  **Entrevistador:** Jhon Alexander Galvez Chambi
 
-Enlace al video: [https://link.com](https://link.com)
+  **Entrevistado:** Sebastian Rodriguez Macedo
+
+  **Sexo:** Masculino
+
+  **Edad:** 18
+
+  **Domicilio:** La Perla, Callao
+
+  **Inicio de la Entrevista:** 0:00
+
+  **Duración de la Entrevista:** 7:09
+
+  <img src="./assets/entrevista1.png" alt="Entrevista con Sebastian" style="width: 600px; height: auto;">
+
+  - **Resumen:** 
+  Sebastián es estudiante de la Universidad Peruana de Ciencias Aplicadas. Su rutina diaria comienza temprano, dedicando tiempo a estudiar, planificar su alimentación y hacer algo de ejercicio. Aunque intenta mantener un equilibrio, siente que no tiene suficiente tiempo para organizar todas las actividades que le gustaría realizar. Para él, una vida saludable implica estar bien tanto física como mentalmente. Su mayor desafío para lograrlo es la alimentación. Aunque actualmente no utiliza ninguna aplicación para mantenerse en forma, le gustaría encontrar una que le permita hacer un seguimiento de su progreso en función de los objetivos físicos que establezca.
+
+  Enlace al video: [Entrevista Sebastian](https://youtu.be/tBXV1LA4RdA)
 
 
 - **Entrevista 2:**
-**Entrevistador:** Ramiro Alexander Guzman Chavez
-**Entrevistado:** Christopher Adrián Carlos Urcia Tardío
-**Sexo:** Masculino
-**Edad:** 27
-**Domicilio:** Bellavista Lima Peru
-**Inicio de la Entrevista:** 4:00
-**Duración de la Entrevista:** 5:22<br>
-<img src="./assets/Urcia.png" alt="Entrevista con Urcia" style="width: 600px; height: auto;"><br>
 
-- **Resumen:** 
-Christopher trabaja como asistente en oficina, con una jornada de 9 a 5. Su rutina diaria incluye organizar reuniones, responder correos y colaborar en pequeños proyectos. Luego del trabajo, dedica tiempo al estudio y procura mantenerse activo a través del ejercicio, lectura o actividades recreativas. Considera muy importante llevar un estilo de vida saludable, aunque a veces enfrenta obstáculos como la falta de tiempo y motivación. Utiliza una aplicación para registrar su actividad física y alimentación, lo que le ayuda a mantenerse enfocado. Ha probado diferentes dietas, pero lo que más le ha funcionado es mantener hábitos sostenibles. Cree que la tecnología puede ser una gran aliada para organizar sus rutinas, reducir el estrés con herramientas como meditación, y recibir recordatorios personalizados. Le gustaría una app que se adapte a sus horarios, personalice entrenamientos y planes alimenticios, y que incluya funciones de comunidad, retos y seguimiento personalizado. Está dispuesto a pagar por una app que cumpla con estas expectativas.
+  **Entrevistador:** Ramiro Alexander Guzman Chavez
 
-Enlace al video: [https://drive.google.com/file/d/1CefdfzctUQmsBDRiMwWRxyFM35zNvKiG/view?usp=sharing](https://drive.google.com/file/d/1CefdfzctUQmsBDRiMwWRxyFM35zNvKiG/view?usp=sharing)
+  **Entrevistado:** Christopher Adrián Carlos Urcia Tardío
+
+  **Sexo:** Masculino
+
+  **Edad:** 27
+
+  **Domicilio:** Bellavista Lima Peru
+
+  **Inicio de la Entrevista:** 4:00
+
+  **Duración de la Entrevista:** 5:22
+
+  <img src="./assets/Urcia.png" alt="Entrevista con Urcia" style="width: 600px; height: auto;">
+
+  - **Resumen:** 
+  Christopher trabaja como asistente en oficina, con una jornada de 9 a 5. Su rutina diaria incluye organizar reuniones, responder correos y colaborar en pequeños proyectos. Luego del trabajo, dedica tiempo al estudio y procura mantenerse activo a través del ejercicio, lectura o actividades recreativas. Considera muy importante llevar un estilo de vida saludable, aunque a veces enfrenta obstáculos como la falta de tiempo y motivación. Utiliza una aplicación para registrar su actividad física y alimentación, lo que le ayuda a mantenerse enfocado. Ha probado diferentes dietas, pero lo que más le ha funcionado es mantener hábitos sostenibles. Cree que la tecnología puede ser una gran aliada para organizar sus rutinas, reducir el estrés con herramientas como meditación, y recibir recordatorios personalizados. Le gustaría una app que se adapte a sus horarios, personalice entrenamientos y planes alimenticios, y que incluya funciones de comunidad, retos y seguimiento personalizado. Está dispuesto a pagar por una app que cumpla con estas expectativas.
+
+  Enlace al video: [Entrevista Christopher](https://drive.google.com/file/d/1CefdfzctUQmsBDRiMwWRxyFM35zNvKiG/view?usp=sharing)
+
 
 - **Entrevista 3:**
-**Entrevistador:** 
-**Entrevistado:** 
-**Sexo:** 
-**Edad:** 
-**Domicilio:** 
-**Inicio de la Entrevista:** 0:00
-**Duración de la Entrevista:** 5:30<br>
-<img src="./assets/entrevista3.png" alt="Entrevista con ...." style="width: 600px; height: auto;"><br>
 
-- **Resumen:** 
-Resumen aqui
+  **Entrevistador:** Jhon Alexander Galvez Chambi
 
-Enlace al video: [https://link.com](https://link.com)
+  **Entrevistado:** Fabrizio Alberto Paredes Santos
+
+  **Sexo:** Masculino
+
+  **Edad:** 18
+
+  **Domicilio:** San Miguel, Lima
+
+  **Inicio de la Entrevista:** 0:00
+
+  **Duración de la Entrevista:** 08:41
+
+  <img src="./assets/entrevista3.png" alt="Entrevista con Fabrizio" style="width: 600px; height: auto;">
+
+  - **Resumen:** 
+  Fabrizio es estudiante de la Universidad Peruana de Ciencias Aplicadas. Su rutina diaria incluye asistir a clases, realizar sus tareas y aprovechar su tiempo libre realizando actividades recreativas, como ir al gimnasio. Sin embargo, considera que cuando la carga académica es alta, le resulta difícil mantener los hábitos saludables que tiene, como comer de manera sana. Para él, una vida saludable implica estar bien tanto física como mentalmente. Su principal desafío para llevar un estilo de vida saludable es la alimentación, ya que contar con la orientación de un profesional suele ser costoso. Actualmente, utiliza la aplicación Fitia para mejorar sus hábitos alimenticios. Además, considera que una aplicación intuitiva que muestre el progreso del usuario es clave para mantenerse motivado y alcanzar los objetivos establecidos. Fabrizio cree que una aplicación que combine el aspecto nutricional de Fitia con un plan de rutinas de ejercicio sería una propuesta innovadora que estaría dispuesto a probar.
+
+  Enlace al video: [Entrevista Fabrizio](https://youtu.be/tp0VYYkMdFQ)
 
 
 - **Entrevista 4:**
-**Entrevistador:** 
-**Entrevistado:** 
-**Sexo:** 
-**Edad:** 
-**Domicilio:** 
-**Inicio de la Entrevista:** 0:00
-**Duración de la Entrevista:** 5:30<br>
-<img src="./assets/entrevista4.png" alt="Entrevista con ...." style="width: 600px; height: auto;"><br>
 
-- **Resumen:** 
-Resumen aqui
+  **Entrevistador:** Jhon Alexander Galvez Chambi
 
-Enlace al video: [https://link.com](https://link.com)
+  **Entrevistado:** Ivan Vilca Chambi
+
+  **Sexo:** Masculino
+
+  **Edad:** 29
+
+  **Domicilio:** Callao, Callo
+
+  **Inicio de la Entrevista:** 0:00
+
+  **Duración de la Entrevista:** 5:30
+
+  <img src="./assets/entrevista4.png" alt="Entrevista con Ivan" style="width: 600px; height: auto;">
+
+  - **Resumen:** 
+  Iván es un joven estudiante que vive en la ciudad del Callao. Siente que su rutina académica complica la planificación de actividades orientadas a su bienestar, el cual ha quedado relegado a un segundo plano en su estilo de vida. A pesar de esto, considera que tanto el deporte como una alimentación adecuada son fundamentales para mantener una vida sana. En el pasado, ha intentado incorporar rutinas de ejercicio, pero suele perder la motivación después de unos días. Actualmente, no utiliza ninguna aplicación para organizar sus actividades de bienestar, pero le gustaría encontrar una que sea fácil de usar, motivadora, que le permita seguir su progreso hacia los objetivos que se proponga y que se adapte a sus preferencias. Además, lo que más le interesaría de una aplicación de este tipo sería la posibilidad de realizar un seguimiento real de su progreso físico. No obstante, también le preocupa la seguridad e integridad de sus datos dentro de la aplicación.
+
+  Enlace al video: [Entrevista Ivan](https://youtu.be/QHWPDbnKUhE)
+
 
 - **Entrevista 5:**
-**Entrevistador:** David Alexander Pérez García
-**Entrevistado:** Sujey García
-**Sexo:** Femenina
-**Edad:** 30 años
-**Domicilio:** Comas Lima Peru
-**Inicio de la Entrevista:** 0:00
-**Duración de la Entrevista:** 3:30<br>
-<img src="./assets/entrevista5.png" alt="Entrevista con Sujey" style="width: 600px; height: auto;"><br>
+
+  **Entrevistador:** David Alexander Pérez García
+
+  **Entrevistado:** Sujey García
+
+  **Sexo:** Femenina
+
+  **Edad:** 30 años
+
+  **Domicilio:** Comas Lima Peru
+
+  **Inicio de la Entrevista:** 0:00
+
+  **Duración de la Entrevista:** 3:30
+
+  <img src="./assets/entrevista5.png" alt="Entrevista con Sujey" style="width: 600px; height: auto;">
 
 - **Resumen:** 
 En esta entrevista  para el segmento “adultos jóvenes urbanos en búsqueda activa de bienestar”, Sujei García, una mujer de 33 años que trabaja como asistente en psicología y vive en Lima, comparte su experiencia diaria marcada por una agenda ocupada entre el trabajo, el cuidado de su hija y las tareas del hogar, lo cual le impide priorizar su bienestar físico y mental. Aunque intenta mantener una alimentación saludable, no realiza actividad física por falta de tiempo. No utiliza actualmente ninguna aplicación de bienestar, pero considera ideal una plataforma que le ofrezca rutinas personalizadas, recordatorios, y acompañamiento virtual. Valora especialmente el seguimiento del progreso en tiempo real y estaría dispuesta a pagar por una herramienta que le ayude a mantenerse motivada y organizada en sus hábitos de salud
 
-Enlace al video: [https://drive.google.com/file/d/113316BTQESZ3BF_1MPrYAFdxl9qdo4mX/view](https://drive.google.com/file/d/113316BTQESZ3BF_1MPrYAFdxl9qdo4mX/view)
+Enlace al video: [Entrevista Sujei](https://drive.google.com/file/d/113316BTQESZ3BF_1MPrYAFdxl9qdo4mX/view)
 
 #### 2.2.3. Análisis de entrevistas
+
+- Perfil del segmento entrevistado: La mayoría de los entrevistados son estudiantes universitarios (3 de 5), mientras que el resto trabaja en oficinas o como asistentes (2 de 5). La edad promedio estimada es de aproximadamente 25 años. Todos viven en Lima Metropolitana o Callao.
+
+- Percepción del bienestar: El 100% de los entrevistados consideran que una vida saludable debe integrar tanto el bienestar físico como mental. Destacan la importancia de reducir el estrés, cuidar la alimentación y mantenerse activos. Se percibe un interés claro por herramientas que promuevan un enfoque holístico de la salud.
+
+- Principales obstáculos: El 80% de los entrevistados mencionaron la falta de tiempo como principal barrera para cuidar su bienestar. El 60% reconoció perder la motivación fácilmente y el mismo porcentaje indicó que les resulta difícil mantener una alimentación saludable, especialmente por la carga académica o laboral. Solo un entrevistado mencionó que acceder a un profesional de salud o nutrición resulta costoso.
+
+- Uso actual de aplicaciones de bienestar: El 60% de los entrevistados no utilizan actualmente ninguna aplicación de bienestar, aunque mostraron un alto interés en adoptar una. El 40% restante sí ha utilizado aplicaciones, como Fitia o apps de seguimiento de actividad física.
+
+- Funcionalidades más deseadas: El 80% desea rutinas personalizadas que se adapten a sus horarios y objetivos. El mismo porcentaje busca realizar un seguimiento visual y real de su progreso físico. El 40% valoró los recordatorios inteligentes y el acompañamiento virtual, mientras que el 40% también mostró interés en combinar nutrición y ejercicio en una sola plataforma. Solo un entrevistado mencionó funciones sociales como retos o comunidad, y otro expresó preocupación por la seguridad de sus datos.
+
+- Disposición a pagar: El 40% de los entrevistados afirmó estar dispuesto a pagar por una aplicación que cumpla con sus expectativas en cuanto a personalización, seguimiento y organización.
+
+- Conclusión general para FitWise: El segmento muestra una necesidad real de una solución tecnológica que les ayude a organizar sus rutinas de bienestar de forma simple, motivadora y personalizada. Existe una oportunidad clara para diseñar una plataforma que combine aspectos nutricionales, rutinas de ejercicio, seguimiento de progreso y acompañamiento virtual. Además, es importante considerar una experiencia de usuario que se adapte a su estilo de vida dinámico y que transmita confianza respecto a la privacidad de sus datos. También se sugiere explorar un modelo freemium con funciones premium, dado que parte del segmento estaría dispuesto a pagar por un servicio completo.
 
 ### 2.3. Needfinding
 
@@ -634,6 +691,24 @@ Aunque la salud mental es relevante, Andre no la prioriza de forma activa, lo qu
 <img src="./assets/As-is_Scenario_Map.png" alt="aism"/>
 
 ### 2.4. Ubiquitous Language
+
+| Término              | Definición                                                                                     |
+|----------------------|-----------------------------------------------------------------------------------------------|
+| Rutina Personalizada | Conjunto de ejercicios adaptados al nivel, disponibilidad horaria y objetivos del usuario.    |
+| Plan Nutricional     | Guía de alimentación ajustada a los objetivos físicos, preferencias alimenticias y estilo de vida del usuario. |
+| Objetivo             | Meta personal del usuario, como bajar de peso, ganar masa muscular, o mejorar condición física. |
+| Onboarding           | Proceso inicial donde el usuario define sus metas, horarios, nivel físico y preferencias.     |
+| Seguimiento Visual   | Visualización del progreso a través de gráficos, badges, historial y feedback semanal.        |
+| Badges               | Insignias otorgadas como recompensa por completar rutinas, cumplir objetivos o mantener constancia. |
+| Break Fit            | Microentrenamientos diseñados para realizarse en espacios cortos durante el día (ej. en una pausa laboral). |
+| Check-in Diario      | Registro automático/manual de la actividad del día (rutina completada, alimentación, estado físico). |
+| Panel de Progreso    | Vista donde el usuario visualiza su evolución, logros y áreas a mejorar en tiempo real.        |
+| Recompensas          | Beneficios que se obtienen al cumplir metas (descuentos, puntos, acceso a contenido premium).  |
+| Coach Virtual        | Asistente inteligente que brinda recomendaciones y ajustes personalizados a las rutinas.      |
+| Nivel de Experiencia | Clasificación del usuario según su condición física actual: principiante, intermedio, avanzado. |
+| Motivadores          | Elementos dentro de la app que refuerzan el compromiso del usuario (notificaciones, mensajes personalizados, comunidad). |
+| Adherencia           | Grado en el que el usuario sigue de forma constante su plan personalizado.                    |
+| Feedback Inteligente | Retroalimentación automática basada en el progreso registrado, para reforzar o ajustar el plan. |
 
 ## Capítulo III: Requirements Specification
 
