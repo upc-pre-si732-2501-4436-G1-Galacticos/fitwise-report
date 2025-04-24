@@ -635,6 +635,24 @@ Aunque la salud mental es relevante, Andre no la prioriza de forma activa, lo qu
 
 ### 2.4. Ubiquitous Language
 
+| Término              | Definición                                                                                     |
+|----------------------|-----------------------------------------------------------------------------------------------|
+| Rutina Personalizada | Conjunto de ejercicios adaptados al nivel, disponibilidad horaria y objetivos del usuario.    |
+| Plan Nutricional     | Guía de alimentación ajustada a los objetivos físicos, preferencias alimenticias y estilo de vida del usuario. |
+| Objetivo             | Meta personal del usuario, como bajar de peso, ganar masa muscular, o mejorar condición física. |
+| Onboarding           | Proceso inicial donde el usuario define sus metas, horarios, nivel físico y preferencias.     |
+| Seguimiento Visual   | Visualización del progreso a través de gráficos, badges, historial y feedback semanal.        |
+| Badges               | Insignias otorgadas como recompensa por completar rutinas, cumplir objetivos o mantener constancia. |
+| Break Fit            | Microentrenamientos diseñados para realizarse en espacios cortos durante el día (ej. en una pausa laboral). |
+| Check-in Diario      | Registro automático/manual de la actividad del día (rutina completada, alimentación, estado físico). |
+| Panel de Progreso    | Vista donde el usuario visualiza su evolución, logros y áreas a mejorar en tiempo real.        |
+| Recompensas          | Beneficios que se obtienen al cumplir metas (descuentos, puntos, acceso a contenido premium).  |
+| Coach Virtual        | Asistente inteligente que brinda recomendaciones y ajustes personalizados a las rutinas.      |
+| Nivel de Experiencia | Clasificación del usuario según su condición física actual: principiante, intermedio, avanzado. |
+| Motivadores          | Elementos dentro de la app que refuerzan el compromiso del usuario (notificaciones, mensajes personalizados, comunidad). |
+| Adherencia           | Grado en el que el usuario sigue de forma constante su plan personalizado.                    |
+| Feedback Inteligente | Retroalimentación automática basada en el progreso registrado, para reforzar o ajustar el plan. |
+
 ## Capítulo III: Requirements Specification
 
 ### 3.1. To-Be Scenario Mapping
