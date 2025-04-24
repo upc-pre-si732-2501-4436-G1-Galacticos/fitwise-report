@@ -209,7 +209,7 @@ VibeFit nace para transformar la manera en que las personas se relacionan con su
   <img src="https://github.com/user-attachments/assets/0b23f8bd-a5e9-4244-96da-64adf16ce924" alt="Muñoz Vilcapoma Mauricio" height="200"/>
 </p>
 
-Soy xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
+Soy Muñoz Vilcapoma Mauricio, estudiante de Ingeniería de Software. Deseo desempeñar un papel fundamental en el mundo de la tecnología, creando soluciones innovadoras y avanzadas como desarrollador de Software. Estoy comprometido con mi desarrollo profesional y con hacer una diferencia en el campo de la ingeniería de software.
 
 ---
 
