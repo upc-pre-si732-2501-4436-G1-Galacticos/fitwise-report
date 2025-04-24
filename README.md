@@ -176,10 +176,10 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 **Criterio:**  
 La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.
 
-| Criterio específico                                                                                                                                          | Acciones realizadas | Conclusiones |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------- | ------------ |
-| 4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software                                                                  |                     |              |
-| 4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales |
+| <div style="width:100px">Criterio específico</div> | <div align="center" style="width:250px">Acciones Realizadas</div> | <div align="center" style="width:250px">Conclusiones</div> |
+|:-------------------:|-------------------|------------|
+|4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software  | **- Ramiro Guzman** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Farid Briceño** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Jhon Galvez** <br> **TB1:**  <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Mauricio Muñoz** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- David Perez** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br>| **TB1:** Cada miembro participó en sus actividades asignadas, manteniendo una comunicación activa y eficaz que fortaleció la confianza mutua. Esto mejoró el trabajo en equipo, un valor crucial para proyectos colaborativos |
+|4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales| **- Ramiro Guzman** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Farid Briceño** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Jhon Galvez** <br> **TB1:**  <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- Mauricio Muñoz** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> **- David Perez** <br> **TB1:** <br> **TP:** <br> **TB2:** <br> **TF:** <br> <br> | **TB1:** Cada miembro participó en sus actividades asignadas, manteniendo una comunicación activa y eficaz que fortaleció la confianza mutua. Esto mejoró el trabajo en equipo, un valor crucial para proyectos colaborativos |
 
 ---
 
@@ -195,9 +195,10 @@ Su producto principal, FitWise, es una aplicación disponible en versión web y 
 
 La propuesta de valor de VibeFit se centra en tres pilares clave:
 
-Adaptabilidad, para ajustarse a las necesidades individuales.
-Personalización, para ofrecer soluciones únicas y efectivas.
-Acompañamiento constante, mediante tecnología que guía, motiva y mide el progreso del usuario.
+- Adaptabilidad, para ajustarse a las necesidades individuales.
+- Personalización, para ofrecer soluciones únicas y efectivas.
+- Acompañamiento constante, mediante tecnología que guía, motiva y mide el progreso del usuario.
+
 VibeFit nace para transformar la manera en que las personas se relacionan con su salud, derribando los obstáculos más comunes y convirtiendo el bienestar en una experiencia accesible, flexible y sostenible.
 
 #### 1.1.2. Perfiles de integrantes del equipo
@@ -205,6 +206,7 @@ VibeFit nace para transformar la manera en que las personas se relacionan con su
 ---
 
 #### **Muñoz Vilcapoma Mauricio – Ingeniería de Software – U202217212**  
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0b23f8bd-a5e9-4244-96da-64adf16ce924" alt="Muñoz Vilcapoma Mauricio" height="200"/>
 </p>
@@ -214,6 +216,7 @@ Soy Muñoz Vilcapoma Mauricio, estudiante de Ingeniería de Software. Deseo dese
 ---
 
 #### **Ramiro Alexander Guzman Chavez – Ingeniería de Software – U202217062**  
+
 <p align="center">
   <img src="./assets/RAMIROGUZMAN.png" alt="RAMIROGUZMAN" height="200"/>
 </p>
@@ -224,16 +227,17 @@ Además, cuento con conocimientos en lenguajes de programación como Java y Java
 
 ---
 
-#### **Farid Sebastian Briceño De La Cruz – Ingeniería de Software – U20211F211**  
-<*(Sin imagen disponible)*
+#### **Farid Sebastian Briceño De La Cruz – Ingeniería de Software – U20211F211** 
+
+<p align="center">
+    <img src="assets/faridfoto.jpg" alt="foto-farid" height="200px"/>
+</p>
 
 Soy estudiante de Ingeniería de Software con un fuerte interés en el desarrollo de productos digitales y la tecnología. En mi tiempo libre, me gusta jugar videojuegos. También tengo un interés especial en la música, lo que me ayuda a equilibrar mi vida académica y personal. Cuento con habilidades en gestión de bases de datos y tengo experiencia en análisis de datos, lo que me ayuda a tomar decisiones informadas y crear soluciones efectivas.
 
 ---
 
 #### **David Alexander Perez Garcia – Ingeniería de Software – U202222942**
-
-- David Alexander Pérez Garía - u202222942 (Ingeniería de Software)
 
 <p align="center">
     <img src="assets/davidfoto.jpg" alt="foto-david" height="200px"/>
@@ -244,8 +248,6 @@ Mi nombre es David, actualmente soy estudiante de Ingeniería de Software (7mo c
 ---
 
 #### **Jhon Alexander Galvez Chambi – Ingeniería de Software – U202323270**  
-
-- Jhon Alexander Galvez Chambi - u202323270 (Ingeniería de Software)
 
 <p align="center">
     <img src="assets/jhonfoto.jpg" alt="foto-jhon" height="200px"/>
@@ -347,7 +349,7 @@ _¿Cómo podríamos mejorar FitWise para que los usuarios mantengan una adherenc
 ##### 1.2.2.4. Lean UX Canvas
 
 <p align="center">
-    <img src="assets/recursos/LeanUX_Canvas.jpg" alt="lean-ux-canvas"/>
+    <img src="assets/LeanUX_Canvas.png" alt="lean-ux-canvas"/>
 </p>
 
 ### 1.3. Segmentos objetivo
