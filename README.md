@@ -1134,34 +1134,27 @@ US010
 **Descripción:** Como usuario, quiero recomendaciones diarias de ejercicios.  
 **Puntaje asignado:** 5  
 
-| # ORDEN | USER STORY ID | TÍTULO  | DESCRIPCIÓN     | PRIORIDAD | STORY POINTS (1/2/3/5/8) |
-| ------- | ------------- | ------- | --------------- | --------- | ------------------------ |
-| 1       | US001         | Registro desde la Landing Page  | Como usuario nuevo, quiero ver botones de registro en la landing page, para acceder a FitWise. | Alta      | 3                         |
-| 2       | US002         | Registro con correo electrónico | Como usuario nuevo, quiero registrarme con mi correo y contraseña, para acceder a la plataforma. | Alta      | 3                         |
-| 3       | US003         | Uso de tokens para validación   | Como developer, quiero implementar un servicio de autenticación JWT para manejar sesiones seguras. | Alta      | 5                         |
-| 4       | US004         | Login con autenticación OAuth   | Como usuario frecuente, quiero iniciar sesión con Google, para acceder rápidamente. | Alta      | 3                         |
-| 5       | US005         | Recuperación de contraseña      | Como usuario, quiero recuperar mi contraseña si la olvido, para poder seguir usando la app. | Media     | 5                         |
-| 6       | US006         | Ingreso de datos físicos        | Como usuario nuevo, quiero ingresar mi peso, altura y sexo, para que las rutinas se ajusten. | Alta      | 3                         |
-| 7       | US007         | Selección de zonas a trabajar   | Como usuario, quiero seleccionar las zonas del cuerpo que deseo mejorar, para obtener mejores resultados. | Media     | 5                         |
-| 8       | US008         | Ingreso de nivel de experiencia | Como usuario, quiero indicar mi nivel de experiencia física, para realizar los ejercicios sin mucha dificultad. | Media     | 3                         |
-| 9       | US009         | Definir objetivo principal      | Como usuario, quiero establecer un objetivo principal, para que el sistema sugiera una rutina de ejercicios y una dieta adecuadas. | Alta      | 5                         |
-| 10      | US010         | Recibir ejercicios recomendados | Como usuario, quiero recomendaciones diarias de ejercicios, para agregarlos a mis rutinas. | Alta      | 5                         |
-| 11      | US011         | Visualizar progreso semanal     | Como usuario, quiero ver mi progreso semanal en el dashboard, para no descuidar mis objetivos planteados. | Alta      | 5                         |
-| 12      | US012         | Visualizar progreso diario      | Como usuario, quiero ver mi progreso diario, para saber si estoy cumpliendo mis metas. | Media     | 5                         |
-| 13      | US013         | Ver rutinas y dietas similares  | Como usuario, quiero ver rutinas y dietas de usuarios con objetivos similares, para motivarme. | Media     | 5                         |
-| 14      | US014         | Ver IMC en gráfico              | Como usuario, quiero ver una gráfica de mi IMC, para saber si me encuentro en mi rango adecuado. | Media     | 3                         |
-| 15      | US015         | Actualizar peso y altura        | Como usuario, quiero actualizar mis datos físicos, para que mis rutinas se ajusten a mis cambios físicos. | Media     | 3                         |
-| 16      | US016         | Exportar informe en PDF         | Como usuario, quiero exportar mi progreso en PDF, para tener un consolidado de mi progreso. | Baja      | 8                         |
-| 17      | US017         | Recibir mensajes motivacionales | Como usuario, quiero recibir frases motivacionales diarias, para mantener el ánimo alto. | Baja      | 3                         |
-| 18      | US018         | Personalizar colores de la app  | Como usuario, quiero poder elegir el tema visual de la app, para que sea más atractiva para mí. | Baja      | 2                         |
-| 19      | US019         | Ver testimonios de usuarios     | Como visitante, quiero ver un carrusel con testimonios reales, para sentirme inspirado a registrarme. | Baja      | 3                         |
-| 20      | US020         | Recibir plan nutricional semanal| Como usuario, quiero recibir sugerencias de comidas semanales, para complementar mi rutina de ejercicio. | Media     | 5                         |
-| 21      | US021         | Filtrar recetas por dificultad  | Como usuario, quiero elegir recetas fáciles según mi tiempo libre, para poder cocinarlas sin complicaciones. | Baja      | 3                         |
-| 22      | US022         | Ver recetas saludables peruanas | Como usuario, quiero ver recetas saludables locales, para mantenerme sano sin salir de mi cultura. | Baja      | 3                         |
-| 23      | US023         | Cambiar datos de cuenta         | Como usuario, quiero editar mi nombre y correo electrónico, para mantener mis datos actualizados. | Baja      | 3                         |
-| 24      | US024         | Contactar al soporte técnico    | Como usuario, quiero enviar un mensaje al soporte si tengo problemas, para recibir ayuda rápida. | Baja      | 2                         |
-| 25      | US025         | Eliminar cuenta                 | Como usuario, quiero poder eliminar mi cuenta si ya no deseo usar la app, para proteger mis datos personales. | Baja      | 3                         |
-| 26      | US026         | Establecer objetivos personales        | CComo usuario, quiero establecer un objetivo de dias por semana de actividad para que el sistema registre mi progreso |  Media     | 5                     |
+
+
+| # ORDEN | USER STORY ID | TÍTULO                             | DESCRIPCIÓN                                                                                                      | PRIORIDAD | STORY POINTS |
+| ------: | ------------- | ---------------------------------- | ---------------------------------------------------------------------------------------------------------------- | --------- | ------------ |
+|       1 | US001         | Registro desde la landing page     | Como visitante, quiero ver botones de registro visibles en la landing page para acceder a FitWise.               | Alta      | 3            |
+|       2 | US002         | Registro con correo electrónico    | Como nuevo usuario, quiero registrarme con correo y contraseña para comenzar a usar la plataforma.               | Alta      | 3            |
+|       3 | US003         | Autenticación JWT                  | Como desarrollador, quiero implementar autenticación JWT para sesiones seguras.                                  | Alta      | 5            |
+|       4 | US004         | Login con cuenta de Google         | Como usuario frecuente, quiero iniciar sesión con Google para entrar rápidamente.                                | Alta      | 3            |
+|       5 | US005         | Recuperar contraseña               | Como usuario, quiero recuperar mi contraseña para no perder el acceso a mi cuenta.                               | Media     | 5            |
+|       6 | US006         | Ingreso de datos físicos iniciales | Como nuevo usuario, quiero ingresar peso, altura y sexo para personalizar mis rutinas.                           | Alta      | 3            |
+|       7 | US008         | Selección de nivel de actividad    | Como usuario, quiero indicar mi nivel de actividad física para recibir ejercicios acordes.                       | Media     | 3            |
+|       8 | US009         | Definir objetivo principal         | Como usuario, quiero establecer un objetivo (ganar músculo, bajar de peso, etc.) para recibir rutinas adecuadas. | Alta      | 5            |
+|       9 | US010         | Recibir recomendaciones FitWise    | Como usuario, quiero recibir planes recomendados con base en mi perfil para alcanzar mis objetivos.              | Alta      | 8            |
+|      10 | US013         | Ver rutinas y dietas similares     | Como usuario, quiero ver rutinas y dietas existentes para comparar y actualizar mi plan.                         | Media     | 5            |
+|      11 | US014         | Ver FitWise Score en gráfico       | Como usuario, quiero visualizar mi FitWise Score en una gráfica para monitorear mi progreso.                     | Media     | 3            |
+|      12 | US015         | Actualizar datos físicos           | Como usuario, quiero actualizar peso y altura para mantener mis rutinas personalizadas.                          | Media     | 3            |
+|      13 | US019         | Ver testimonios en carrusel        | Como visitante, quiero ver testimonios de otros usuarios en un carrusel para motivarme a registrarme.            | Baja      | 3            |
+|      14 | US023         | Editar datos de cuenta             | Como usuario, quiero editar mi nombre y correo para mantener mi información actualizada.                         | Baja      | 3            |
+|      15 | US025         | Eliminar cuenta                    | Como usuario, quiero eliminar mi cuenta para proteger mis datos si ya no uso la app.                             | Baja      | 3            |
+|      16 | US026         | Establecer objetivos semanales     | Como usuario, quiero definir cuántos días por semana deseo entrenar para llevar un control de progreso.          | Media     | 5            |
+
 
 **Enlace del Product Backlog en la herramienta Jira: [https://fitwise-si732.atlassian.net/jira/software/projects/SCRUM/summary](https://fitwise-si732.atlassian.net/jira/software/projects/SCRUM/summary)**
 
