@@ -1656,9 +1656,9 @@ Progreso
 
 ### 4.5. Mobile Applications Prototyping
 
-#### 4.5.1. Android Mobile Applications Prototyping
+<img src="assets/figma_mobile_prototype_screenshot.png" alt="figma_mobile_prototype_screenshot"/>
 
-#### 4.5.2. iOS Mobile Applications Prototyping
+Enlace de demostración: [https://youtu.be/fzMJ2iLMTYE](https://youtu.be/fzMJ2iLMTYE)
 
 ### 4.6. Web Applications UX/UI Design
 En esta sección, te presentamos nuestra propuesta visual y de interacción para las aplicaciones que son el núcleo de la experiencia de usuario en nuestros productos digitales. Con un enfoque fresco y detallado en el diseño UX/UI, buscamos crear interfaces intuitivas y atractivas que mejoren la usabilidad y proporcionen una experiencia satisfactoria. Cada componente del diseño ha sido cuidadosamente elaborado para garantizar una interacción fluida y coherente. A continuación, compartimos nuestra propuesta para las aplicaciones, resaltando los aspectos visuales y de interacción que hacen única la experiencia del usuario
