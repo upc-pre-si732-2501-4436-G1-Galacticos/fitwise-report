@@ -2394,7 +2394,7 @@ Para esta primera entrega, se ha conseguido desplegar la la nding page gracias a
 
 #### 6.1.1. Core Entities Unit Tests
 
-#### 6.1.2. Core Entities Unit Tests
+#### 6.1.2. Core Integration Tests
 
 #### 6.1.3. Core Behavior-Driven Development
 
