@@ -2397,7 +2397,6 @@ Para esta primera entrega, se ha conseguido desplegar la la nding page gracias a
 En esta sección se presentan capturas de pantalla de la implementación de pruebas unitarias realizadas sobre los servicios principales de las entidades del sistema.  
 Estas pruebas fueron desarrolladas utilizando **JUnit**, y cubren todos los métodos definidos en las clases de servicio correspondientes.  
 Se incluyen ejemplos visuales tanto del código de las pruebas como de su ejecución exitosa, con el objetivo de validar el correcto funcionamiento lógico de cada unidad de código.
-
 <br><br>
 <p align="center">
   <img src="./assets/EntitieUnit1.jpg" alt="EUT1" />
@@ -2422,7 +2421,6 @@ Se incluyen ejemplos visuales tanto del código de las pruebas como de su ejecuc
 A continuación, se muestran evidencias gráficas del desarrollo y ejecución de pruebas de integración para los componentes centrales del sistema.  
 Estas pruebas permiten verificar que diferentes módulos del sistema interactúan correctamente entre sí, asegurando la integridad funcional del flujo de trabajo conjunto.  
 También fueron realizadas con **JUnit**, complementadas con herramientas de inyección de dependencias y contextos de prueba para simular un entorno más realista.
-
 <br><br>
 <p align="center">
   <img src="./assets/CoreIntegration1.jpg" alt="CI1" />
@@ -2437,7 +2435,27 @@ También fueron realizadas con **JUnit**, complementadas con herramientas de iny
 </p>
 
 
-#### 6.1.3. Core Behavior-Driven Development
+#### 6.1.3. Core Behavior-Driven Development\
+
+En esta sección se presentan capturas relacionadas con la implementación de pruebas basadas en el comportamiento (**Behavior-Driven Development**, BDD) aplicadas al núcleo del sistema.  
+Se utilizó una combinación de herramientas como **Cucumber** junto con **JUnit** para definir escenarios de prueba en lenguaje natural (Gherkin), permitiendo validar funcionalidades desde la perspectiva del usuario final.  
+Estas pruebas ayudan a garantizar que el sistema se comporte de acuerdo con los requisitos funcionales definidos previamente.
+<br><br>
+<p align="center">
+  <img src="./assets/Core1.jpg" alt="CORE1" />
+</p>
+<br><br>
+<p align="center">
+  <img src="./assets/Core2.jpg" alt="CORE2" />
+</p>
+<br><br>
+<p align="center">
+  <img src="./assets/Core3.jpg" alt="CORE3" />
+</p>
+<br><br>
+<p align="center">
+  <img src="./assets/Core4.jpg" alt="CORE4" />
+</p>
 
 #### 6.1.4. Core System Tests
 
