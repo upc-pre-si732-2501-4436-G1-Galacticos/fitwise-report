@@ -154,10 +154,11 @@
   - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
   - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
   - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
-  - [5.2.4. Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
-  - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
-  - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
-  - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
+  - [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio-saas)
+  - [5.2.5. Implemented Native-Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)
+  - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
+  - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
+  - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
 
 ## Capítulo VI: Product Verification & Validation
 
@@ -2391,13 +2392,35 @@ Durante la primera iteración de desarrollo, implementamos los componentes esenc
 
 #### 5.2.3. Implemented Frontend-Web Application Evidence
 
-#### 5.2.4. Implemented Native-Mobile Application Evidence
+#### 5.2.4. Acuerdo de Servicio - SaaS
 
-#### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+Esta sección establece los derechos, obligaciones y restricciones aplicables a los usuarios de la plataforma, garantizando transparencia en el uso del servicio SaaS. Debe integrarse públicamente en la sección "Terms and Conditions" del website, cumpliendo con los criterios de claridad, accesibilidad y cumplimiento normativo.
 
-#### 5.2.6. RESTful API documentation
+Derechos del Usuario:
 
-#### 5.2.7. Team Collaboration Insights
+-Derecho al uso de la plataforma FitWise durante el horario de atención estándar (8 horas al día, 5 días a la semana) mientras la startup esté activa.
+-Acceso a soporte técnico gratuito durante la vigencia operativa de la plataforma.
+-Acceso continuo a mejoras y actualizaciones de la plataforma, sin costo adicional, mientras el servicio esté activo.
+
+Obligaciones del Usuario:
+
+-El usuario es responsable de resguardar y mantener la confidencialidad de sus credenciales de acceso.
+-Toda la información registrada en la plataforma es de entera responsabilidad del usuario.
+-El uso de la plataforma debe realizarse conforme a la normativa vigente aplicable y con fines lícitos.
+
+Restricciones:
+
+-La plataforma de escritorio solo está disponible para sistemas operativos Windows 10 y Windows 11.
+-La aplicación móvil de FitWise es compatible únicamente con dispositivos Android.
+-Queda prohibida la distribución, reproducción, sublicenciamiento o uso comercial no autorizado de la plataforma o sus componentes.
+
+#### 5.2.5. Implemented Native-Mobile Application Evidence
+
+#### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
+
+#### 5.2.7. RESTful API documentation
+
+#### 5.2.8. Team Collaboration Insights
 
 **TB1:**
 
