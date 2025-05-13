@@ -1154,22 +1154,17 @@ US010
 
 | # ORDEN | USER STORY ID | TÍTULO                             | DESCRIPCIÓN                                                                                                      | PRIORIDAD | STORY POINTS |
 | ------: | ------------- | ---------------------------------- | ---------------------------------------------------------------------------------------------------------------- | --------- | ------------ |
-|       1 | US001         | Registro desde la landing page     | Como visitante, quiero ver botones de registro visibles en la landing page para acceder a FitWise.               | Alta      | 3            |
-|       2 | US002         | Registro con correo electrónico    | Como nuevo usuario, quiero registrarme con correo y contraseña para comenzar a usar la plataforma.               | Alta      | 3            |
-|       3 | US003         | Autenticación JWT                  | Como desarrollador, quiero implementar autenticación JWT para sesiones seguras.                                  | Alta      | 5            |
-|       4 | US004         | Login con cuenta de Google         | Como usuario frecuente, quiero iniciar sesión con Google para entrar rápidamente.                                | Alta      | 3            |
-|       5 | US005         | Recuperar contraseña               | Como usuario, quiero recuperar mi contraseña para no perder el acceso a mi cuenta.                               | Media     | 5            |
-|       6 | US006         | Ingreso de datos físicos iniciales | Como nuevo usuario, quiero ingresar peso, altura y sexo para personalizar mis rutinas.                           | Alta      | 3            |
-|       7 | US008         | Selección de nivel de actividad    | Como usuario, quiero indicar mi nivel de actividad física para recibir ejercicios acordes.                       | Media     | 3            |
-|       8 | US009         | Definir objetivo principal         | Como usuario, quiero establecer un objetivo (ganar músculo, bajar de peso, etc.) para recibir rutinas adecuadas. | Alta      | 5            |
-|       9 | US010         | Recibir recomendaciones FitWise    | Como usuario, quiero recibir planes recomendados con base en mi perfil para alcanzar mis objetivos.              | Alta      | 8            |
-|      10 | US013         | Ver rutinas y dietas similares     | Como usuario, quiero ver rutinas y dietas existentes para comparar y actualizar mi plan.                         | Media     | 5            |
-|      11 | US014         | Ver FitWise Score en gráfico       | Como usuario, quiero visualizar mi FitWise Score en una gráfica para monitorear mi progreso.                     | Media     | 3            |
-|      12 | US015         | Actualizar datos físicos           | Como usuario, quiero actualizar peso y altura para mantener mis rutinas personalizadas.                          | Media     | 3            |
-|      13 | US019         | Ver testimonios en carrusel        | Como visitante, quiero ver testimonios de otros usuarios en un carrusel para motivarme a registrarme.            | Baja      | 3            |
-|      14 | US023         | Editar datos de cuenta             | Como usuario, quiero editar mi nombre y correo para mantener mi información actualizada.                         | Baja      | 3            |
-|      15 | US025         | Eliminar cuenta                    | Como usuario, quiero eliminar mi cuenta para proteger mis datos si ya no uso la app.                             | Baja      | 3            |
-|      16 | US026         | Establecer objetivos semanales     | Como usuario, quiero definir cuántos días por semana deseo entrenar para llevar un control de progreso.          | Media     | 5            |
+|       1 | US002         | Registro con correo electrónico    | Como nuevo usuario, quiero registrarme con correo y contraseña para comenzar a usar la plataforma.               | Alta      | 3            |
+|       2 | US003         | Autenticación JWT                  | Como desarrollador, quiero implementar autenticación JWT para sesiones seguras.                                  | Alta      | 5            |
+|       3 | US005         | Recuperar contraseña               | Como usuario, quiero recuperar mi contraseña para no perder el acceso a mi cuenta.                               | Media     | 5            |
+|       4 | US006         | Ingreso de datos físicos iniciales | Como nuevo usuario, quiero ingresar peso, altura y sexo para personalizar mis rutinas.                           | Alta      | 3            |
+|       5 | US008         | Selección de nivel de actividad    | Como usuario, quiero indicar mi nivel de actividad física para recibir ejercicios acordes.                       | Media     | 3            |
+|       6 | US009         | Definir objetivo principal         | Como usuario, quiero establecer un objetivo (ganar músculo, bajar de peso, etc.) para recibir rutinas adecuadas. | Alta      | 5            |
+|       (DEVELOP)7 | US010         | Recibir recomendaciones FitWise    | Como usuario, quiero recibir planes recomendados con base en mi perfil para alcanzar mis objetivos.              | Alta      | 8            |
+|     {IN DEVELOP} 8 | US013         | Ver rutinas y dietas similares     | Como usuario, quiero ver rutinas y dietas existentes para comparar y actualizar mi plan.                         | Media     | 5            |
+|      9 | US015         | Actualizar datos físicos           | Como usuario, quiero actualizar peso y altura para mantener mis rutinas personalizadas.                          | Media     | 3            |
+|      10 | US025         | Log out de cuenta                    | Como usuario, quiero salirme de mi cuenta para proteger mis datos si ya no uso la app.                             | Baja      | 3            |
+|      11 | US026         | Establecer objetivos semanales     | Como usuario, quiero definir cuántos días por semana deseo entrenar para llevar un control de progreso.          | Media     | 5            |
 
 
 **Enlace del Product Backlog en la herramienta Jira: [https://fitwise-si732.atlassian.net/jira/software/projects/SCRUM/summary](https://fitwise-si732.atlassian.net/jira/software/projects/SCRUM/summary)**
