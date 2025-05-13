@@ -1612,10 +1612,10 @@ Progreso
 
 #### 4.4.2. Mobile Applications Wireflow Diagrams
 
-<img src="assets/MobileApp-Wireflow1.jpg" alt="MobileApp-Wireflow1"/>
-<img src="assets/MobileApp-Wireflow2.jpg" alt="MobileApp-Wireflow2"/>
-<img src="assets/MobileApp-Wireflow3.jpg" alt="MobileApp-Wireflow3"/>
-<img src="assets/MobileApp-Wireflow4.jpg" alt="MobileApp-Wireflow4"/>
+<img src="assets/MobileApp-Wireflow1.png" alt="MobileApp-Wireflow1"/>
+<img src="assets/MobileApp-Wireflow2.png" alt="MobileApp-Wireflow2"/>
+<img src="assets/MobileApp-Wireflow3.png" alt="MobileApp-Wireflow3"/>
+<img src="assets/MobileApp-Wireflow4.png" alt="MobileApp-Wireflow4"/>
 
 #### 4.4.3. Mobile Applications Mock-ups
 
@@ -1649,10 +1649,10 @@ Progreso
 
 #### 4.4.4. Mobile Applications User Flow Diagrams
 
-<img src="assets/MobileApp-Userflow1.jpg" alt="MobileApp-Userflow2"/>
-<img src="assets/MobileApp-Userflow2.jpg" alt="MobileApp-Userflow2"/>
-<img src="assets/MobileApp-Userflow3.jpg" alt="MobileApp-Userflow3"/>
-<img src="assets/MobileApp-Userflow4.jpg" alt="MobileApp-Userflow4"/>
+<img src="assets/MobileApp-Userflow1.png" alt="MobileApp-Userflow1"/>
+<img src="assets/MobileApp-Userflow2.png" alt="MobileApp-Userflow2"/>
+<img src="assets/MobileApp-Userflow3.png" alt="MobileApp-Userflow3"/>
+<img src="assets/MobileApp-Userflow4.png" alt="MobileApp-Userflow4"/>
 
 ### 4.5. Mobile Applications Prototyping
 
