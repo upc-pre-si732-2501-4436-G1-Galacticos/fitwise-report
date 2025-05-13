@@ -1581,52 +1581,78 @@ Este diseño refleja:
 ### 4.4. Mobile Applications UX/UI Design
 
 #### 4.4.1. Mobile Applications Wireframes
+
 Sign in/up
-<img src="./assets/Wireframe - Mobile Aplication - Sign in-up.png" alt="Sign_in-up" height="200"/>
+
+<img src="./assets/Wireframe - Mobile Aplication - Sign in-up.png" alt="Sign_in-up"/>
 
 Menu
-<img src="./assets/Wireframe - Mobile Aplication - Menu.png" alt="Menu" height="200"/>
+
+<img src="./assets/Wireframe - Mobile Aplication - Menu.png" alt="Menu"/>
 
 Rutinas
-<img src="./assets/Wireframe - Mobile Application - Rutinas.png" alt="Rutinas" height="200"/>
+
+<img src="./assets/Wireframe - Mobile Application - Rutinas.png" alt="Rutinas"/>
 
 Dietas
-<img src="./assets/Wireframe - Mobile Application - Dietas.png" alt="Dietas" height="200"/>
+
+<img src="./assets/Wireframe - Mobile Application - Dietas.png" alt="Dietas"/>
 
 Comunidad
-<img src="./assets/Wireframe - Mobile Application - Comunidad.png" alt="Comunidad" height="200"/>
+
+<img src="./assets/Wireframe - Mobile Application - Comunidad.png" alt="Comunidad"/>
 
 Perfil
-<img src="./assets/Wireframe - Mobile Application - Perfil.png" alt="Perfil" height="200"/>
+
+<img src="./assets/Wireframe - Mobile Application - Perfil.png" alt="Perfil"/>
 
 Progreso
-<img src="./assets/Wireframe - Mobile Application - Progreso.png" alt="Progreso" height="200"/>
+
+<img src="./assets/Wireframe - Mobile Application - Progreso.png" alt="Progreso"/>
 
 #### 4.4.2. Mobile Applications Wireflow Diagrams
 
+<img src="assets/MobileApp-Wireflow1.jpg" alt="MobileApp-Wireflow1"/>
+<img src="assets/MobileApp-Wireflow2.jpg" alt="MobileApp-Wireflow2"/>
+<img src="assets/MobileApp-Wireflow3.jpg" alt="MobileApp-Wireflow3"/>
+<img src="assets/MobileApp-Wireflow4.jpg" alt="MobileApp-Wireflow4"/>
+
 #### 4.4.3. Mobile Applications Mock-ups
+
 Sign in/up
-<img src="./assets/Mockup - Mobile Aplication - Sign in-up.png" alt="Sign_in-up" height="200"/>
+
+<img src="./assets/Mockup - Mobile Aplication - Sign in-up.png" alt="Sign_in-up"/>
 
 Menu
-<img src="./assets/Mockup - Mobile Application - Menu.png" alt="Menu" height="200"/>
+
+<img src="./assets/Mockup - Mobile Application - Menu.png" alt="Menu"/>
 
 Rutinas
-<img src="./assets/Mockup - Mobile Application - Rutinas.png" alt="Rutinas" height="200"/>
+
+<img src="./assets/Mockup - Mobile Application - Rutinas.png" alt="Rutinas"/>
 
 Dietas
-<img src="./assets/Mockup - Mobile Application - Dietas.png" alt="Dietas" height="200"/>
+
+<img src="./assets/Mockup - Mobile Application - Dietas.png" alt="Dietas"/>
 
 Comunidad
-<img src="./assets/Mockup - Mobile Application - Comunidad.png" alt="Comunidad" height="200"/>
+
+<img src="./assets/Mockup - Mobile Application - Comunidad.png" alt="Comunidad"/>
 
 Perfil
-<img src="./assets/Mockup - Mobile Application - Perfil.png" alt="Perfil" height="200"/>
+
+<img src="./assets/Mockup - Mobile Application - Perfil.png" alt="Perfil"/>
 
 Progreso
-<img src="./assets/Mockup - Mobile Application - Progreso.png" alt="Progreso" height="200"/>
+
+<img src="./assets/Mockup - Mobile Application - Progreso.png" alt="Progreso"/>
 
 #### 4.4.4. Mobile Applications User Flow Diagrams
+
+<img src="assets/MobileApp-Userflow1.jpg" alt="MobileApp-Userflow2"/>
+<img src="assets/MobileApp-Userflow2.jpg" alt="MobileApp-Userflow2"/>
+<img src="assets/MobileApp-Userflow3.jpg" alt="MobileApp-Userflow3"/>
+<img src="assets/MobileApp-Userflow4.jpg" alt="MobileApp-Userflow4"/>
 
 ### 4.5. Mobile Applications Prototyping
 
