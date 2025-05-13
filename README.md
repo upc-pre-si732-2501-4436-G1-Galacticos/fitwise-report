@@ -1582,10 +1582,50 @@ Este diseño refleja:
 ### 4.4. Mobile Applications UX/UI Design
 
 #### 4.4.1. Mobile Applications Wireframes
+Sign in/up
+<img src="./assets/Wireframe - Mobile Aplication - Sign in-up.png" alt="Sign_in-up" height="200"/>
+
+Menu
+<img src="./assets/Wireframe - Mobile Aplication - Menu.png" alt="Menu" height="200"/>
+
+Rutinas
+<img src="./assets/Wireframe - Mobile Aplication - Rutinas.png" alt="Rutinas" height="200"/>
+
+Dietas
+<img src="./assets/Wireframe - Mobile Aplication - Dietas.png" alt="Dietas" height="200"/>
+
+Comunidad
+<img src="./assets/Wireframe - Mobile Aplication - Comunidad.png" alt="Comunidad" height="200"/>
+
+Perfil
+<img src="./assets/Wireframe - Mobile Aplication - Perfil.png" alt="Perfil" height="200"/>
+
+Progreso
+<img src="./assets/Wireframe - Mobile Aplication - Progreso.png" alt="Progreso" height="200"/>
 
 #### 4.4.2. Mobile Applications Wireflow Diagrams
 
 #### 4.4.3. Mobile Applications Mock-ups
+Sign in/up
+<img src="./assets/Mockup - Mobile Aplication - Sign in-up.png" alt="Sign_in-up" height="200"/>
+
+Menu
+<img src="./assets/Mockup - Mobile Aplication - Menu.png" alt="Menu" height="200"/>
+
+Rutinas
+<img src="./assets/Mockup - Mobile Aplication - Rutinas.png" alt="Rutinas" height="200"/>
+
+Dietas
+<img src="./assets/Mockup - Mobile Aplication - Dietas.png" alt="Dietas" height="200"/>
+
+Comunidad
+<img src="./assets/Mockup - Mobile Aplication - Comunidad.png" alt="Comunidad" height="200"/>
+
+Perfil
+<img src="./assets/Mockup - Mobile Aplication - Perfil.png" alt="Perfil" height="200"/>
+
+Progreso
+<img src="./assets/Mockup - Mobile Aplication - Progreso.png" alt="Progreso" height="200"/>
 
 #### 4.4.4. Mobile Applications User Flow Diagrams
 
