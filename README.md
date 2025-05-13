@@ -2393,6 +2393,27 @@ Para esta primera entrega, se ha conseguido desplegar la la nding page gracias a
 ### 6.1. Testing Suites & Validation
 
 #### 6.1.1. Core Entities Unit Tests
+En esta sección se colocará imágenes de la implementación de los unit testings, además
+de ejemplos de unit testings funcionando correctamente.
+Services Tests : En este caso para los unit testings se utilizó JUnit para su desarrollo y se
+realizó de todos los métodos de los servicios de las entidades correspondientes.
+Ahora se mostrará ejemplos de unit testings en este caso son los testings:
+<br><br>
+  <p align="center">
+    <img src="./assets/EntitieUnit1.jpg" alt="EUT1" />
+  </p>
+<br><br>
+  <p align="center">
+    <img src="./assets/EntitieUnit2.jpg" alt="EUT2" />
+  </p>
+<br><br>
+  <p align="center">
+    <img src="./assets/EntitieUnit3.jpg" alt="EUT3" />
+  </p>
+<br><br>
+  <p align="center">
+    <img src="./assets/EntitieUnit4.jpg" alt="EUT4" />
+  </p>
 
 #### 6.1.2. Core Integration Tests
 
