@@ -2396,19 +2396,19 @@ Durante la primera iteración de desarrollo, implementamos los componentes esenc
 
 Esta sección establece los derechos, obligaciones y restricciones aplicables a los usuarios de la plataforma, garantizando transparencia en el uso del servicio SaaS. Debe integrarse públicamente en la sección "Terms and Conditions" del website, cumpliendo con los criterios de claridad, accesibilidad y cumplimiento normativo.
 
-Derechos del Usuario:
+**Derechos del Usuario:**
 
 -Derecho al uso de la plataforma FitWise durante el horario de atención estándar (8 horas al día, 5 días a la semana) mientras la startup esté activa.
 -Acceso a soporte técnico gratuito durante la vigencia operativa de la plataforma.
 -Acceso continuo a mejoras y actualizaciones de la plataforma, sin costo adicional, mientras el servicio esté activo.
 
-Obligaciones del Usuario:
+**Obligaciones del Usuario:**
 
 -El usuario es responsable de resguardar y mantener la confidencialidad de sus credenciales de acceso.
 -Toda la información registrada en la plataforma es de entera responsabilidad del usuario.
 -El uso de la plataforma debe realizarse conforme a la normativa vigente aplicable y con fines lícitos.
 
-Restricciones:
+**Restricciones:**
 
 -La plataforma de escritorio solo está disponible para sistemas operativos Windows 10 y Windows 11.
 -La aplicación móvil de FitWise es compatible únicamente con dispositivos Android.
