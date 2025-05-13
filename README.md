@@ -2393,29 +2393,49 @@ Para esta primera entrega, se ha conseguido desplegar la la nding page gracias a
 ### 6.1. Testing Suites & Validation
 
 #### 6.1.1. Core Entities Unit Tests
-En esta sección se colocará imágenes de la implementación de los unit testings, además
-de ejemplos de unit testings funcionando correctamente.
-Services Tests : En este caso para los unit testings se utilizó JUnit para su desarrollo y se
-realizó de todos los métodos de los servicios de las entidades correspondientes.
-Ahora se mostrará ejemplos de unit testings en este caso son los testings:
+
+En esta sección se presentan capturas de pantalla de la implementación de pruebas unitarias realizadas sobre los servicios principales de las entidades del sistema.  
+Estas pruebas fueron desarrolladas utilizando **JUnit**, y cubren todos los métodos definidos en las clases de servicio correspondientes.  
+Se incluyen ejemplos visuales tanto del código de las pruebas como de su ejecución exitosa, con el objetivo de validar el correcto funcionamiento lógico de cada unidad de código.
+
 <br><br>
-  <p align="center">
-    <img src="./assets/EntitieUnit1.jpg" alt="EUT1" />
-  </p>
+<p align="center">
+  <img src="./assets/EntitieUnit1.jpg" alt="EUT1" />
+</p>
 <br><br>
-  <p align="center">
-    <img src="./assets/EntitieUnit2.jpg" alt="EUT2" />
-  </p>
+<p align="center">
+  <img src="./assets/EntitieUnit2.jpg" alt="EUT2" />
+</p>
 <br><br>
-  <p align="center">
-    <img src="./assets/EntitieUnit3.jpg" alt="EUT3" />
-  </p>
+<p align="center">
+  <img src="./assets/EntitieUnit3.jpg" alt="EUT3" />
+</p>
 <br><br>
-  <p align="center">
-    <img src="./assets/EntitieUnit4.jpg" alt="EUT4" />
-  </p>
+<p align="center">
+  <img src="./assets/EntitieUnit4.jpg" alt="EUT4" />
+</p>
+
+---
 
 #### 6.1.2. Core Integration Tests
+
+A continuación, se muestran evidencias gráficas del desarrollo y ejecución de pruebas de integración para los componentes centrales del sistema.  
+Estas pruebas permiten verificar que diferentes módulos del sistema interactúan correctamente entre sí, asegurando la integridad funcional del flujo de trabajo conjunto.  
+También fueron realizadas con **JUnit**, complementadas con herramientas de inyección de dependencias y contextos de prueba para simular un entorno más realista.
+
+<br><br>
+<p align="center">
+  <img src="./assets/CoreIntegration1.jpg" alt="CI1" />
+</p>
+<br><br>
+<p align="center">
+  <img src="./assets/CoreIntegration2.jpg" alt="CI2" />
+</p>
+<br><br>
+<p align="center">
+  <img src="./assets/CoreIntegration3.jpg" alt="CI3" />
+</p>
+
 
 #### 6.1.3. Core Behavior-Driven Development
 
