@@ -1607,7 +1607,7 @@ Progreso
 
 #### 4.4.3. Mobile Applications Mock-ups
 Sign in/up
-<img src="./assets/Mockup - Mobile Application - Sign in-up.png" alt="Sign_in-up" height="200"/>
+<img src="./assets/Mockup - Mobile Aplication - Sign in-up.png" alt="Sign_in-up" height="200"/>
 
 Menu
 <img src="./assets/Mockup - Mobile Application - Menu.png" alt="Menu" height="200"/>
