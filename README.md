@@ -2459,25 +2459,106 @@ Estas pruebas ayudan a garantizar que el sistema se comporte de acuerdo con los 
 
 #### 6.1.4. Core System Tests
 
+Esta sección aborda las pruebas de sistema realizadas sobre el núcleo de la aplicación.  
+Estas pruebas permiten validar la funcionalidad completa del sistema en un entorno controlado, simulando el uso real de la aplicación desde una perspectiva de extremo a extremo.  
+Se evalúan tanto la interacción de los distintos componentes como la respuesta del sistema ante diferentes escenarios funcionales.  
+Las herramientas utilizadas incluyen entornos de prueba automatizados, scripts de ejecución y validación de datos esperados.
+
+---
+
 ## Capítulo VII: DevOps Practices
 
 ### 7.1. Continuous Integration
 
+La integración continua (CI) es una práctica fundamental del proceso DevOps que permite integrar código frecuentemente en un repositorio compartido.  
+Este capítulo describe las herramientas y procesos implementados para garantizar que cada nueva incorporación al código base sea verificada automáticamente, minimizando errores de integración.
+
 #### 7.1.1. Tools and Practices
+
+En esta sección se detallan las herramientas utilizadas para implementar CI, incluyendo **Git**, **GitHub Actions**, **JUnit**, y **SonarQube** para análisis estático de código.  
+También se describen las mejores prácticas adoptadas, como el uso de ramas feature, la revisión de código mediante pull requests, y la ejecución automática de pruebas al hacer push o merge.
 
 #### 7.1.2. Build & Test Suite Pipeline Components
 
+Aquí se desglosan los componentes del pipeline de CI relacionados con el proceso de construcción y ejecución de pruebas.  
+Esto incluye:
+- Compilación del código fuente.
+- Ejecución de pruebas unitarias y de integración.
+- Generación de reportes de cobertura.
+- Validación de calidad del código.
+  
+El objetivo es asegurar que cada commit mantenga la estabilidad del sistema.
+
+---
+
 ### 7.2. Continuous Delivery
+
+La entrega continua (CD) se enfoca en mantener la aplicación en un estado desplegable en todo momento, permitiendo liberaciones frecuentes y controladas.
 
 #### 7.2.1. Tools and Practices
 
+A medida que el código fuente de un proyecto va creciendo, es esencial gestionarlo adecuadamente para evitar futuros inconvenientes para los desarrolladores.  
+En la actualidad, las prácticas modernas de **Integración Continua (CI)** y **Entrega Continua (CD)** permiten agilizar este proceso mediante la automatización. Esto se logra enviando el código a un repositorio compartido donde, gracias a pruebas automatizadas, los desarrolladores pueden detectar defectos a tiempo y corregirlos eficientemente.
+
+Herramientas como **Jenkins**, **GitLab CI/CD**, **CircleCI** o **Azure DevOps** permiten automatizar los procesos de compilación y validación del código. Estas herramientas ejecutan tareas como:
+
+- Compilación automática del proyecto.
+- Generación de artefactos desplegables.
+- Ejecución de pruebas unitarias, de integración y funcionales.
+- Verificación de calidad del código.
+- Preparación para despliegues en entornos de staging o producción.
+
+A continuación, se presenta una tabla comparativa con algunas de las herramientas de CI/CD más utilizadas en el mercado:
+
+| Herramienta     | Opciones de Hosting                         | Compatibilidad e Integraciones                                     | Soporte Docker                              | Plugins y Extensiones      | Interfaz y Curva de Aprendizaje                   | Precio y Funcionalidades Gratuitas                          |
+|------------------|---------------------------------------------|---------------------------------------------------------------------|----------------------------------------------|-----------------------------|---------------------------------------------------|-------------------------------------------------------------|
+| **Azure DevOps** | En la nube de Azure                         | GitHub, GitLab, .NET, Java, y más                                   | Completo, con registro Docker y Kubernetes   | Amplia variedad             | Intuitiva para usuarios avanzados e iniciales      | Gratis para 5 usuarios; planes desde $5/usuario             |
+| **Jenkins**      | Instalación en servidores propios           | Gran cantidad de plugins para casi cualquier tecnología             | Soporte total mediante plugins               | Muy amplia                  | Personalizable pero con curva de aprendizaje alta | Completamente gratuito y open source                        |
+| **GitLab CI/CD** | Servidor propio o proveedor en la nube      | GitLab y repositorios de terceros                                   | Amplio soporte mediante integraciones        | Variada                    | Intuitiva y fácil de aprender                     | Gratis para 5 usuarios; planes desde $18/usuario/mes        |
+| **CircleCI**     | Solo en la nube de CircleCI                 | Alta compatibilidad con múltiples plataformas                       | Soporte Docker limitado                      | Menos opciones que otros   | Intuitiva pero con menor personalización          | Hasta 50 minutos gratis para repos públicos de GitHub       |
+
+Teniendo en cuenta estas características, se ha optado por utilizar **Azure DevOps** como herramienta principal de CI/CD. Azure ofrece una solución robusta y confiable, ideal para entornos académicos, debido a:
+
+- Su gran capacidad de integración con plataformas y lenguajes.
+- Soporte nativo de contenedores Docker.
+- Amplia gama de extensiones disponibles.
+- Interfaz amigable con curva de aprendizaje accesible.
+- Plan gratuito para pequeños equipos y opciones asequibles para escalar.
+
+Esta elección facilita la gestión eficiente del flujo de trabajo de desarrollo y asegura un proceso de entrega más ágil y seguro.
+
+
 #### 7.2.2. Stages Deployment Pipeline Components
+
+Se explican los distintos componentes del pipeline de despliegue en entornos intermedios (staging):
+- Creación de contenedores.
+- Despliegue en entornos aislados.
+- Pruebas funcionales automáticas.
+- Validación manual previa al paso a producción.
+
+---
 
 ### 7.3. Continuous Deployment
 
+El despliegue continuo es la fase final del proceso DevOps, donde cada cambio aprobado es desplegado automáticamente en producción.
+
 #### 7.3.1. Tools and Practices
 
+Se describen las herramientas utilizadas para automatizar completamente el paso a producción, como **GitHub Actions**, **Kubernetes**, o **AWS/GCP** (según sea aplicable).  
+También se destacan buenas prácticas como:
+- Canarios de despliegue.
+- Monitoreo activo con alertas.
+- Rollback automático en caso de fallos.
+
 #### 7.3.2. Production Deployment Pipeline Components
+
+Aquí se describen los elementos específicos del pipeline de producción:
+- Validaciones finales del entorno.
+- Despliegue automático tras aprobación de staging.
+- Monitoreo de logs y métricas post-despliegue.
+- Seguridad en el acceso y auditoría de cambios.
+
+
 
 
 
@@ -2485,6 +2566,17 @@ Estas pruebas ayudan a garantizar que el sistema se comporte de acuerdo con los 
 
 ## Conclusiones
 
+El desarrollo de VibeFit ha sido un proceso integral que abarca desde la investigación de mercado hasta la implementación final del producto. Las conclusiones de este proyecto reflejan el impacto positivo que la startup puede tener en la vida de los usuarios, proporcionando una solución accesible, personalizada y eficaz para mejorar el bienestar físico y mental. La colaboración constante, la validación de las soluciones a través de pruebas y feedback, y el enfoque centrado en el usuario son aspectos clave que garantizan el éxito y la sostenibilidad de la plataforma.
+
+Además, el uso del enfoque Lean UX permitió que el equipo iterara rápidamente y tomara decisiones informadas basadas en datos reales de usuarios, lo que resultó en una mejor adaptación de la solución a las necesidades de los clientes. La implementación de las entrevistas y el análisis de competencia proporcionaron información valiosa que ayudó a definir las características y funcionalidades que realmente tienen un valor para los usuarios.
+
+La segmentación clara de los objetivos y la identificación precisa de los perfiles de usuario ayudaron a orientar el diseño de la plataforma hacia las necesidades específicas de los grupos objetivo. Esto, sumado a un diseño de interfaz coherente y accesible, permite que VibeFit no solo sea una herramienta útil, sino también fácil de usar para personas con diferentes niveles de experiencia tecnológica.
+
+Por otro lado, el análisis de la competencia y la diferenciación de la propuesta de valor han sido aspectos clave para posicionar a VibeFit de manera efectiva en el mercado. Al identificar las brechas de los competidores, VibeFit ha logrado crear una solución que no solo es innovadora, sino que también tiene un enfoque ético en cuanto a la privacidad, seguridad y accesibilidad para todos los usuarios.
+
+En cuanto a la implementación técnica, se utilizó una arquitectura de software modular que permite la escalabilidad y el mantenimiento del producto a largo plazo. La integración de herramientas como el prototipado y la validación continua a través de prototipos interactivos aseguró que cada funcionalidad se construyera con el usuario en mente, garantizando una experiencia de alta calidad.
+
+Finalmente, el trabajo en equipo y la comunicación constante entre los miembros del equipo fueron fundamentales para alcanzar los objetivos establecidos. La capacidad de adaptarse a los cambios, compartir conocimientos y mantener una visión común permitió que el proyecto se desarrollara de manera eficiente y exitosa, cumpliendo con los estándares técnicos y éticos requeridos.
 
 ## Bibliografia
 
