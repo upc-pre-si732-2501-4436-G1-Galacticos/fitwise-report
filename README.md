@@ -154,7 +154,7 @@
   - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
   - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
   - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
-  - [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio-saas)
+  - [5.2.4. Acuerdo de Servicio SaaS](#524-acuerdo-de-servicio-saas)
   - [5.2.5. Implemented Native-Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)
   - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
   - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
@@ -167,6 +167,15 @@
   - [6.1.2. Core Integration Tests](#612-core-integration-tests)
   - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
   - [6.1.4. Core System Tests](#614-core-system-tests)
+- [6.2. Static Testing & Verification](#62-static-testing--verification)
+  - [6.2.1. Static Code Analysis](#621-static-code-analysis)
+    - [6.2.1.1. Coding Standard & Code Conventions](#6211-coding-standard--code-conventions)
+    - [6.2.1.2. Code Quality & Code Security](#6212-code-quality--code-security)
+  - [6.2.2. Reviews](#622-reviews)
+- [6.3. Validation Interviews](#63-validation-interviews)
+  - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+  - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+  - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
 
 ## Capítulo VII: DevOps Practices
 
@@ -179,6 +188,31 @@
 - [7.3. Continuous Deployment](#73-continuous-deployment)
   - [7.3.1. Tools and Practices](#731-tools-and-practices)
   - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
+- [7.4. Continuous Monitoring](#74-continuous-monitoring)
+  - [7.4.1. Tools and Practices](#741-tools-and-practices)
+  - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)
+  - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)
+  - [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)
+
+## Capítulo VIII: Experiment-Driven Development
+
+- [8.1. Experiment Planning](#81-experiment-planning)
+  - [8.1.1. As-Is Summary](#811-as-is-summary)
+  - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)
+  - [8.1.3. Experiment-Ready Questions](#813-experiment-ready-questions)
+  - [8.1.4. Question Backlog](#814-question-backlog)
+  - [8.1.5. Experiment Cards](#815-experiment-cards)
+- [8.2. Experiment Design](#82-experiment-design)
+  - [8.2.1. Hypotheses](#821-hypotheses)
+  - [8.2.2. Measures](#822-measures)
+  - [8.2.3. Conditions](#823-conditions)
+  - [8.2.4. Scale Calculations and Decisions](#824-scale-calculations-and-decisions)
+  - [8.2.5. Methods Selection](#825-methods-selection)
+  - [8.2.6. Data Analytics: Goals, KPIs and Metrics Selection](#826-data-analytics-goals-kpis-and-metrics-selection)
+  - [8.2.7. Web and Mobile Tracking Plan](#827-web-and-mobile-tracking-plan)
+- [8.3. Experimentation](#83-experimentation)
+  - [8.3.1. To-Be User Stories](#831-to-be-user-stories)
+  - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
 
 ## Avance de Conclusiones, Bibliografía y Anexos
 
@@ -2392,7 +2426,7 @@ Durante la primera iteración de desarrollo, implementamos los componentes esenc
 
 #### 5.2.3. Implemented Frontend-Web Application Evidence
 
-#### 5.2.4. Acuerdo de Servicio - SaaS
+#### 5.2.4. Acuerdo de Servicio SaaS
 
 Esta sección establece los derechos, obligaciones y restricciones aplicables a los usuarios de la plataforma, garantizando transparencia en el uso del servicio SaaS. Debe integrarse públicamente en la sección "Terms and Conditions" del website, cumpliendo con los criterios de claridad, accesibilidad y cumplimiento normativo.
 
@@ -2513,6 +2547,17 @@ Estas pruebas permiten validar la funcionalidad completa del sistema en un entor
 Se evalúan tanto la interacción de los distintos componentes como la respuesta del sistema ante diferentes escenarios funcionales.  
 Las herramientas utilizadas incluyen entornos de prueba automatizados, scripts de ejecución y validación de datos esperados.
 
+### 6.2. Static Testing & Verification
+
+#### 6.2.1. Static Code Analysis
+##### 6.2.1.1. Coding standard & Code conventions
+##### 6.2.1.2. Code Quality & Code Security
+#### 6.2.2. Reviews
+
+### 6.3. Validation Interviews
+#### 6.3.1. Diseño de Entrevistas
+#### 6.3.2. Registro de Entrevistas
+#### 6.3.3. Evaluaciones según heurísticas
 ---
 
 ## Capítulo VII: DevOps Practices
@@ -2607,11 +2652,31 @@ Aquí se describen los elementos específicos del pipeline de producción:
 - Monitoreo de logs y métricas post-despliegue.
 - Seguridad en el acceso y auditoría de cambios.
 
+### 7.4. Continuous Monitoring
+#### 7.4.1. Tools and Practices
+#### 7.4.2. Monitoring Pipeline Components
+#### 7.4.3. Alerting Pipeline Components
+#### 7.4.4. Notification Pipeline Components.
 
+## Capítulo VIII: Experiment-Driven Development
 
-
-
-
+### 8.1. Experiment Planning
+#### 8.1.1. As-Is Summary
+#### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+#### 8.1.3. Experiment-Ready Questions
+#### 8.1.4. Question Backlog
+#### 8.1.5. Experiment Cards
+### 8.2. Experiment Design
+#### 8.2.1. Hypotheses
+#### 8.2.2. Measures
+#### 8.2.3. Conditions
+#### 8.2.4. Scale Calculations and Decisions
+#### 8.2.5. Methods Selection
+#### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
+#### 8.2.7. Web and Mobile Tracking Plan
+### 8.3. Experimentation
+#### 8.3.1. To-Be User Stories
+#### 8.3.2. To-Be Product Backlog
 
 ## Conclusiones
 
