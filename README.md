@@ -2660,16 +2660,391 @@ Aquí se describen los elementos específicos del pipeline de producción:
 
 ## Capítulo VIII: Experiment-Driven Development
 
-### 8.1. Experiment Planning
-#### 8.1.1. As-Is Summary
-#### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
-#### 8.1.3. Experiment-Ready Questions
+## 8.1. Experiment Planning
+
+### 8.1.1. As-Is Summary
+
+**VibeFit** es una startup tecnológica que desarrolla **FitWise**, una aplicación web y móvil diseñada para mejorar el bienestar físico y mental de los usuarios mediante rutinas de entrenamiento y planes nutricionales personalizados.
+
+#### Proceso principal del usuario en FitWise:
+
+1. **Registro o inicio de sesión**  
+   El usuario puede crear una cuenta o ingresar con credenciales previamente registradas. Se recopilan datos personales básicos y preferencias de bienestar.
+
+2. **Evaluación inicial**  
+   Se realiza un cuestionario para conocer el nivel físico, estilo de vida, metas (bajar de peso, ganar masa muscular, mejorar salud general) y restricciones alimenticias.
+
+3. **Generación automática del plan personalizado**  
+   En base a los datos del usuario, FitWise genera una rutina de entrenamiento y un plan nutricional adecuados a sus características.
+
+4. **Seguimiento diario del progreso**  
+   El usuario puede registrar la finalización de actividades, recibir recordatorios inteligentes, y consultar su progreso mediante gráficos de desempeño y métricas.
+
+5. **Ajustes al plan**  
+   El usuario puede modificar su objetivo, nivel de intensidad o disponibilidad horaria en cualquier momento, y la plataforma reajusta el plan automáticamente.
+
+6. **Acompañamiento y motivación**  
+   La app utiliza tecnología de notificaciones, mensajes motivacionales, y herramientas de gamificación para mantener al usuario comprometido.
+
+#### Funcionalidades secundarias:
+
+- **Visualización del progreso con métricas y gráficas**  
+- **Interacción con un asistente virtual para resolver dudas sobre ejercicios o alimentación**
+- **Posibilidad de recibir feedback de un coach humano en versiones premium**
+- **Configuración de recordatorios diarios y notificaciones según comportamiento de uso**
+
+
+---
+
+### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+
+#### Assumptions
+
+- Los usuarios valoran la personalización en rutinas y dietas como factor motivador principal.
+- El acompañamiento digital (recordatorios y seguimiento) mejora la adherencia a los planes.
+- Las notificaciones deben ser frecuentes pero no invasivas para mantener la motivación.
+- Los usuarios están dispuestos a compartir datos personales si eso mejora la experiencia.
+- Un diseño simple y visual favorece la constancia de uso en usuarios sin experiencia.
+- La gamificación aumenta la frecuencia de uso semanal.
+- La mayoría de los usuarios quieren ver resultados visuales de su progreso.
+- El seguimiento del estado de ánimo es útil para adaptar el nivel de intensidad.
+
+#### Knowledge Gaps
+
+- ¿Qué elementos de acompañamiento tienen mayor impacto en la motivación?
+- ¿Cuál es la frecuencia ideal para enviar notificaciones sin generar fatiga digital?
+- ¿Qué tipo de personalización (nutricional vs. física) genera mayor adherencia?
+- ¿Qué perfil de usuario tiene mayor tasa de abandono y por qué?
+- ¿Cuáles son las métricas de éxito que los usuarios consideran más relevantes?
+- ¿Qué tan efectivo es el contenido educativo dentro de la app en el cambio de hábitos?
+- ¿Qué canales generan mayor conversión en usuarios nuevos?
+- ¿Cuánta diferencia genera la intervención de un coach humano en comparación con el asistente digital?
+
+#### Ideas
+
+- Integrar un **sistema de seguimiento del estado de ánimo** diario para adaptar entrenamientos.
+- Implementar una **IA generativa** para explicar y sugerir cambios en rutinas.
+- Desarrollar un **ranking entre usuarios** para fomentar competitividad saludable.
+- Agregar **videos personalizados** para corrección postural según desempeño.
+- Habilitar un sistema de **recompensas** por metas alcanzadas semanalmente.
+- Mostrar datos comparativos (“Personas con tu perfil lograron X en Y semanas”).
+- Generar **notificaciones adaptativas** según el tipo de usuario (proactivo, reactivo, inconstante).
+- Expandir el sistema de recomendación con contenido educativo personalizado.
+
+#### Claims
+
+- La personalización algorítmica mejora la adherencia semanal en un 30%.
+- La integración de notificaciones adaptativas aumenta la tasa de sesiones por semana.
+- Usuarios que visualizan métricas de progreso completan 2 veces más rutinas.
+- El acompañamiento motivacional es percibido como valioso por más del 70% de usuarios frecuentes.
+- Un diseño claro y simple reduce el abandono durante los primeros 7 días de uso.
+- Incluir rutinas de “mini-hábitos” genera mayor retención en usuarios con poca experiencia.
+- El uso de IA para feedback genera mayor percepción de personalización y cercanía.
+- Mostrar estadísticas comunitarias (ranking, progreso promedio) incrementa el compromiso.
+
+---
+
+### 8.1.3. Experiment-Ready Questions
+
+1. ¿Aumenta la adherencia a planes si los usuarios reciben notificaciones adaptativas?
+2. ¿Qué tipo de contenido (texto motivacional, tips, logros visuales) genera más interacción diaria?
+3. ¿La personalización en base al estado de ánimo mejora la retención semanal?
+4. ¿La integración de mini-retos o gamificación aumenta la frecuencia de uso?
+5. ¿Un rediseño de interfaz más visual mejora la tasa de finalización de rutina?
+6. ¿Mostrar estadísticas comparativas (ranking, comunidad) influye en la motivación?
+7. ¿Agregar recompensas por consistencia diaria incrementa la adherencia?
+8. ¿El feedback de IA es percibido como más útil que el texto estático?
+9. ¿Los usuarios prefieren rutinas guiadas con video sobre rutinas por texto?
+10. ¿La posibilidad de contactar a un coach humano mejora la percepción de apoyo?
+
+| Pregunta | Confianza | Riesgo | Impacto | Interés | Total Score |
+|---------|-----------|--------|---------|---------|-------------|
+| ¿Aumenta la adherencia con notificaciones adaptativas? | 8 | 4 | 8 | 8 | **28** |
+| ¿Qué tipo de contenido genera más interacción diaria? | 7 | 5 | 7 | 8 | **27** |
+| ¿Personalizar según estado de ánimo mejora retención? | 6 | 6 | 8 | 7 | **27** |
+| ¿Gamificación aumenta frecuencia de uso? | 7 | 5 | 8 | 8 | **28** |
+| ¿Rediseño visual mejora finalización de rutina? | 7 | 4 | 7 | 7 | **25** |
+| ¿Estadísticas comparativas influyen en motivación? | 6 | 5 | 7 | 7 | **25** |
+| ¿Recompensas por consistencia mejoran adherencia? | 7 | 5 | 8 | 8 | **28** |
+| ¿Feedback de IA es más útil que texto estático? | 6 | 6 | 6 | 7 | **25** |
+| ¿Rutinas guiadas en video son preferidas? | 7 | 4 | 7 | 7 | **25** |
+| ¿Coach humano mejora percepción de apoyo? | 6 | 6 | 7 | 8 | **27** |
+
 #### 8.1.4. Question Backlog
+
+| Prioridad | Pregunta                                                                                   |
+|-----------|--------------------------------------------------------------------------------------------|
+| 5         | ¿Crecerá la audiencia agregando traducciones de la app a otros idiomas como inglés y francés? |
+| 3         | ¿Aumentará la participación si habilitamos calificaciones y comentarios por rutina y entrenamiento? |
+| 4         | ¿Aumentará la participación habilitando comentarios públicos bajo identidad verdadera?     |
+| 2         | ¿Mejorará la experiencia del usuario incluyendo varios temas de diseño para personalizar la app? |
+| 8         | ¿Crecerá la base de usuarios si nos expandimos a más países de habla hispana?              |
+| 7         | ¿Incrementará el porcentaje de visitas y uso si rediseñamos la app para ser más amigable en móviles? |
+| 2         | ¿Tendrá efecto positivo en las visitas del sitio web incluir testimonios destacados de usuarios satisfechos? |
+| 2         | ¿Aumentará la base de usuarios si indicamos la certificación y experiencia de los entrenadores? |
+| 1         | ¿Crecerá la audiencia incluyendo estadísticas claras sobre la comunidad FitWise?           |
+| 5         | ¿Aumentará la interacción entre usuarios agregando una función de mensajes directos?       |
+
+---
 #### 8.1.5. Experiment Cards
+
+---
+
+### Question  
+¿Crecerá la audiencia agregando traducciones de la app a otros idiomas como inglés y francés?
+
+**Why**  
+Porque al ofrecer la app en inglés y francés, podemos atraer a usuarios que no hablan español, ampliando el alcance global de FitWise y aumentando su base de usuarios.
+
+**What**  
+Implementar traducciones de toda la app y contenido principal a inglés y francés para facilitar el acceso a nuevos usuarios.
+
+**Hypothesis**  
+Si agregamos estas traducciones, la base de usuarios aumentará al menos un 15% en los próximos 6 meses.
+
+---
+
+### Question  
+¿Aumentará la participación si habilitamos calificaciones y comentarios por rutina y entrenamiento?
+
+**Why**  
+Porque permitir que los usuarios valoren y comenten cada rutina genera mayor interacción y retroalimentación, lo que fortalece la comunidad.
+
+**What**  
+Agregar la función para calificar y comentar cada rutina o entrenamiento dentro de la app.
+
+**Hypothesis**  
+Con esta función, la interacción aumentará un 20% en los próximos 2 meses.
+
+---
+
+### Question  
+¿Aumentará la participación habilitando comentarios públicos bajo identidad verdadera?
+
+**Why**  
+Porque los comentarios con identidad real fomentan la responsabilidad y reducen contenido tóxico, mejorando la calidad de la comunidad.
+
+**What**  
+Implementar comentarios públicos que requieran autenticación con perfil verificado mostrando nombre real.
+
+**Hypothesis**  
+Esto reducirá comentarios ofensivos y aumentará la participación positiva en un 25% durante los próximos 3 meses.
+
+---
+
+### Question  
+¿Mejorará la experiencia del usuario incluyendo varios temas de diseño para personalizar la app?
+
+**Why**  
+Porque ofrecer opciones de personalización visual permite a los usuarios adaptar la app a sus preferencias, aumentando su satisfacción.
+
+**What**  
+Agregar distintos temas visuales para que el usuario elija cómo se ve la app (modo claro, oscuro, colores personalizados).
+
+**Hypothesis**  
+Esto incrementará el tiempo de uso y satisfacción del usuario en al menos un 15% en 2 meses.
+
+---
+
+### Question  
+¿Crecerá la base de usuarios si nos expandimos a más países de habla hispana?
+
+**Why**  
+Porque ampliar el mercado a más países con idioma español incrementará el alcance y atraerá nuevos usuarios interesados en fitness.
+
+**What**  
+Lanzar FitWise en nuevos países hispanohablantes y adaptar contenido y promociones locales.
+
+**Hypothesis**  
+Se obtendrán al menos 10,000 usuarios nuevos en 7 meses tras la expansión.
+
+---
+
+### Question  
+¿Incrementará el porcentaje de visitas y uso si rediseñamos la app para ser más amigable en móviles?
+
+**Why**  
+Porque la mayoría de usuarios acceden desde dispositivos móviles; un diseño más amigable aumenta la retención y el uso.
+
+**What**  
+Rediseñar la app para optimizar la experiencia en móviles, mejorando navegación y velocidad.
+
+**Hypothesis**  
+La tasa de conversión y visitas aumentará en un 15% durante los próximos 10 meses.
+
+---
+
+### Question  
+¿Tendrá efecto positivo en las visitas del sitio web incluir testimonios destacados de usuarios satisfechos?
+
+**Why**  
+Porque testimonios reales generan confianza y motivan a nuevos usuarios a explorar y unirse a FitWise.
+
+**What**  
+Mostrar testimonios destacados con mayor impacto en la página principal del sitio web.
+
+**Hypothesis**  
+Esto incrementará las visitas en un 10% en 5 meses.
+
+---
+
+### Question  
+¿Aumentará la base de usuarios si indicamos la certificación y experiencia de los entrenadores?
+
+**Why**  
+Porque mostrar credenciales y certificaciones genera confianza y seguridad para los usuarios al elegir entrenadores.
+
+**What**  
+Mostrar certificaciones y experiencia profesional en los perfiles de entrenadores.
+
+**Hypothesis**  
+Aumentará el número de usuarios activos en un 5% durante los próximos 5 meses.
+
+---
+
+### Question  
+¿Crecerá la audiencia incluyendo estadísticas claras sobre la comunidad FitWise?
+
+**Why**  
+Porque mostrar datos objetivos de la comunidad (número de usuarios, entrenamientos completados) genera confianza y atrae nuevos usuarios.
+
+**What**  
+Incluir estadísticas en la app y sitio web que reflejen el crecimiento y actividad de la comunidad.
+
+**Hypothesis**  
+La audiencia crecerá en un 10% en 4 meses.
+
+---
+
+### Question  
+¿Aumentará la interacción entre usuarios agregando una función de mensajes directos?
+
+**Why**  
+Porque permitir comunicación privada facilita colaboración, apoyo y construcción de comunidad entre usuarios.
+
+**What**  
+Agregar función de mensajes directos para usuarios registrados.
+
+**Hypothesis**  
+La interacción aumentará en un 15% en el próximo trimestre.
+
 ### 8.2. Experiment Design
 #### 8.2.1. Hypotheses
+
+### Hypothesis 1  
+**Question:** ¿Cómo afectará la implementación de nuevas funcionalidades en la satisfacción de los usuarios?  
+**Belief:** Creemos que al agregar nuevas funcionalidades que ayuden al usuario a encontrar lo que desea más rápido, mejoraremos la experiencia del usuario.  
+**Hypothesis:** Si se agregan las funcionalidades de calificar contenido y seguir a los autores de las publicaciones, el 75% de usuarios tendrán mejor experiencia en la aplicación.  
+**Null Hypothesis:** Que las nuevas funcionalidades no impacten significativamente la satisfacción de los usuarios.
+
+---
+
+### Hypothesis 2  
+**Question:** ¿Impacto de mejoras visuales en la retención de usuarios?  
+**Belief:** Rediseño que siga estándares visuales modernos que atraigan y retengan a los usuarios.  
+**Hypothesis:** Al implementar los cambios propuestos, el número de usuarios incrementará un 20% en dos meses.  
+**Null Hypothesis:** Que las mejoras visuales no generen el incremento de usuarios esperado.
+
+---
+
+### Hypothesis 3  
+**Question:** ¿Mejorar el proceso de testeo?  
+**Belief:** Definir los casos de pruebas automatizables para reducir bugs en producción.  
+**Hypothesis:** Definiendo los casos de prueba y automatizando la mayoría de ellos, los bugs en producción disminuirán en 30%.  
+**Null Hypothesis:** Que las mejoras en los testing no impacten la métrica de bugs reportados.
+
+---
+
+### Hypothesis 4  
+**Question:** ¿Cómo afectará la expansión a nuevos países el crecimiento de usuarios?  
+**Belief:** Expandirnos geográficamente aumentará nuestra base de usuarios.  
+**Hypothesis:** Al lanzar la aplicación en más países de habla hispana en los próximos 7 meses, obtendremos al menos 10,000 usuarios nuevos en total.  
+**Null Hypothesis:** Que la expansión geográfica no genere el aumento significativo que hemos planteado.
+
+---
+
+### Hypothesis 5  
+**Question:** ¿Mejorará la tasa de conversión con un nuevo diseño para móvil?  
+**Belief:** Adaptar mejor la app para dispositivos móviles aumentará su acogida entre los usuarios.  
+**Hypothesis:** Al complementar la app para que se vea mejor en la parte móvil, la tasa de conversión de visitas aumentará en al menos 15% en los próximos 10 meses.  
+**Null Hypothesis:** Que el rediseño móvil no impacte positivamente la cantidad de visitas por parte de los usuarios.
+
+---
+
+### Hypothesis 6  
+**Question:** ¿Tendrá impacto en las visitas al añadir testimonios de los usuarios?  
+**Belief:** Los testimonios positivos motivarán a otros usuarios a usar la app para alcanzar sus metas fitness.  
+**Hypothesis:** Agregando 5 testimonios con más likes y usando un paginador para los demás testimonios, aumentarán las visitas en al menos un 10% en los próximos 5 meses.  
+**Null Hypothesis:** Que los testimonios de los usuarios no aumenten las métricas de visitas.
+
+---
+
+### Hypothesis 7  
+**Question:** ¿Habilitar diferentes idiomas en la aplicación?  
+**Belief:** Ampliar el alcance lingüístico para ampliar nuestra base de usuarios.  
+**Hypothesis:** Al traducir el contenido a más de 2 idiomas, el número de usuarios se incrementará en al menos un 10%.  
+**Null Hypothesis:** Que ofrecer más idiomas en la app no mejore el porcentaje de consumo o usuarios activos.
+
+---
+
+### Hypothesis 8  
+**Question:** ¿Aumentará la base de usuarios si colocamos en los perfiles de los entrenadores sus certificaciones y experiencia?  
+**Belief:** Los usuarios se sentirán más seguros al saber que los entrenadores cuentan con certificaciones y experiencia comprobada.  
+**Hypothesis:** Al indicar en cada perfil que el entrenador cuenta con certificación, el número de usuarios activos aumentará un 5% en los próximos 5 meses.  
+**Null Hypothesis:** Que la mención de certificación y experiencia no genere impacto en los usuarios.
+
+---
+
+### Hypothesis 9  
+**Question:** ¿Aumentará el tiempo en el que están los usuarios si agregamos más fotos y videos en las rutinas y entrenamientos?  
+**Belief:** Al promover contenido visual más rico, el tiempo promedio de los usuarios mejorará en más de un 10% en los siguientes 2 meses.  
+**Hypothesis:** Implementando la opción de incluir hasta 5 fotos o videos por rutina, el tiempo promedio de los usuarios aumentará en al menos un 15% para el próximo bimestre.  
+**Null Hypothesis:** Que el aumento en contenido visual no influya significativamente en la métrica de permanencia de los usuarios.
+
+---
+
+### Hypothesis 10  
+**Question:** ¿Crecerá la base de usuarios si ampliamos el alcance a otras regiones o países?  
+**Belief:** Mayores oportunidades para que los usuarios encuentren contenido relevante y haya más usuarios interesados en FitWise.  
+**Hypothesis:** Extendiendo la aplicación a 2 nuevas regiones, la cantidad de usuarios aumentará en más de 10% para el próximo trimestre.  
+**Null Hypothesis:** Que ampliar la cobertura geográfica no impacte significativamente el número total de usuarios registrados.
+
+---
+
 #### 8.2.2. Measures
-#### 8.2.3. Conditions
+
+| Pregunta                                                                                           | Medida                                                                                             |
+|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| ¿Cómo afectará la implementación de nuevas funcionalidades en la satisfacción de los usuarios?  | Medir % de usuarios satisfechos antes y después mediante encuestas o evaluaciones de satisfacción.|
+| ¿Impacto de mejoras visuales en la retención de usuarios?                                        | Seguimiento del % de usuarios que regresan tras la implementación de mejoras visuales.            |
+| ¿Mejorar el proceso de testeo?                                                                   | Medir la disminución en número de bugs reportados tras mejorar y automatizar pruebas.             |
+| ¿Cómo afectará la expansión a nuevos países el crecimiento de usuarios?                          | Seguimiento del aumento en usuarios registrados o activos en los nuevos países comparado con base.|
+| ¿Mejorará la tasa de conversión de un nuevo diseño para móvil?                                   | Comparar tasa de conversión antes y después del nuevo diseño móvil.                               |
+| ¿Tendrá impacto en las visitas al añadir testimonios de los usuarios?                            | Seguimiento del aumento en visitas a la sección de testimonios tras su implementación.           |
+| ¿Habilitar diferentes idiomas en la aplicación?                                                  | Medir aumento en usuarios o visitas desde países que hablan los nuevos idiomas agregados.         |
+| ¿Aumentará la base de usuarios si mostramos certificaciones y experiencia de entrenadores?      | Seguimiento del aumento en usuarios registrados tras mostrar certificaciones en perfiles.        |
+| ¿Aumentará el tiempo que los usuarios pasan en la app al agregar más fotos y videos?             | Comparar tiempo promedio en app antes y después de aumentar el contenido visual.                  |
+| ¿Crecerá la base de usuarios si ampliamos el alcance geográfico?                                | Seguimiento del aumento en usuarios activos tras ampliar cobertura a nuevas regiones.            |
+
+---
+
+## 8.2.3 Conditions
+
+| Pregunta                                                                                        | Condición Experimental                                                                                 | Condición de Control                                                                         |
+|------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| ¿Cómo afectará la implementación de nuevas funcionalidades en la satisfacción de los usuarios?| Incremento del 10% en encuestas positivas de satisfacción tras implementación.                         | No aumenta la cantidad de encuestas positivas tras implementación.                          |
+| ¿Impacto de mejoras visuales en la retención de usuarios?                                      | Usuarios que vuelven después de un mes sin usar la app aumentan 20%.                                 | No hay variación significativa en usuarios que vuelven.                                   |
+| ¿Mejorar el proceso de testeo en reducir bugs?                                                | Errores reportados disminuyen 20% tras mejoras en testing y automatización.                          | Errores reportados no cambian significativamente.                                         |
+| ¿Cómo afectará la expansión a nuevos países el crecimiento de usuarios?                       | Aumento de usuarios totales en 15% tras lanzamiento en nuevo país en menos de un mes.                | No hay aumento significativo tras expansión.                                              |
+| ¿Mejorará la tasa de conversión con nuevo diseño móvil?                                       | Tasa de conversión aumenta en 8% tras actualización móvil.                                          | No hay aumento significativo en tasa de conversión.                                       |
+| ¿Tendrá impacto en visitas al añadir testimonios?                                            | Tiempo que usuarios pasan en la app aumenta 20% tras agregar testimonios.                            | Tiempo que usuarios pasan en la app no cambia significativamente.                          |
+| ¿Habilitar diferentes idiomas en la aplicación?                                              | Usuarios aumentan 10% tras agregar nuevo idioma.                                                    | No hay variación significativa en usuarios tras agregar idiomas.                          |
+| ¿Mostrar certificaciones de entrenadores aumenta usuarios?                                   | Usuarios que solicitan entrenamientos con entrenadores certificados aumentan 20%.                   | No hay aumento significativo en solicitudes tras mostrar certificaciones.                 |
+| ¿Agregar más fotos/videos aumenta tiempo en app?                                            | Tiempo en app aumenta 15% tras aumentar número de imágenes/videos por rutina.                       | Tiempo en app no aumenta significativamente tras cambio.                                 |
+| ¿Crecerá base de usuarios ampliando alcance geográfico?                                     | Usuarios activos aumentan 20% tras ampliar cobertura a nuevas regiones.                             | No hay impacto significativo en usuarios activos.                                        |
+
+---
+
 #### 8.2.4. Scale Calculations and Decisions
 #### 8.2.5. Methods Selection
 #### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
