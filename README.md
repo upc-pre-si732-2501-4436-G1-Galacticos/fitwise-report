@@ -2551,11 +2551,50 @@ Las herramientas utilizadas incluyen entornos de prueba automatizados, scripts d
 
 #### 6.2.1. Static Code Analysis
 ##### 6.2.1.1. Coding standard & Code conventions
+
+
+Durante el desarrollo de FitWise, se establecieron convenciones de codificación para garantizar consistencia, mantenibilidad y colaboración efectiva entre desarrolladores. Se implementaron las siguientes prácticas:
+
+- Uso de `ESLint` y `Prettier` para el formato y análisis estático de código frontend.
+- Estilo `camelCase` para variables y funciones, `PascalCase` para componentes.
+- Comentarios descriptivos en inglés para funciones complejas.
+- Indentación de 2 espacios y longitud máxima de línea de 120 caracteres.
+- Validación automática de estilo en los pull requests mediante GitHub Actions.
+
 ##### 6.2.1.2. Code Quality & Code Security
+
+
+Se aplicaron buenas prácticas para asegurar calidad y seguridad del código fuente:
+
+- Integración con `SonarCloud` para análisis de *bugs*, *code smells* y *vulnerabilidades*.
+- Uso de `npm audit` y `OWASP Dependency-Check` para revisar paquetes inseguros.
+- Refactorización de código duplicado y eliminación de dependencias obsoletas.
+- Implementación de autenticación JWT y control de acceso por roles para prevenir accesos no autorizados.
+
+
 #### 6.2.2. Reviews
+
+Se realizaron revisiones de código para asegurar calidad técnica y cumplimiento de estándares:
+
+- **Peer Reviews:** Todo código fue revisado por al menos un miembro del equipo antes del merge.
+- **Checklist de revisión:** Verificación de buenas prácticas, legibilidad, uso de pruebas y ausencia de código innecesario.
+- **Revisiones semanales grupales:** Se identificaron áreas de mejora en backend y frontend, con especial enfoque en refactorización.
+
 
 ### 6.3. Validation Interviews
 #### 6.3.1. Diseño de Entrevistas
+
+Las entrevistas de validación se diseñaron para evaluar la percepción del producto, motivaciones de uso y disposición de los usuarios a pagar por una versión premium de FitWise.
+
+**Preguntas clave:**
+
+1. ¿Qué impresión te dio el diseño general de la app?
+2. ¿Las funciones propuestas te parecen útiles y fáciles de usar?
+3. ¿Sientes que la app se adapta a tu estilo de vida?
+4. ¿Te sentirías motivado/a a usarla por más de una semana? ¿Por qué?
+5. ¿Qué te gustaría mejorar o agregar?
+6. ¿Pagarías por una versión premium? ¿Qué precio te parecería justo?
+
 #### 6.3.2. Registro de Entrevistas
 #### 6.3.3. Evaluaciones según heurísticas
 ---
@@ -3046,9 +3085,64 @@ La interacción aumentará en un 15% en el próximo trimestre.
 ---
 
 #### 8.2.4. Scale Calculations and Decisions
+
+Se calculó el tamaño mínimo de muestra para validar hipótesis de producto:
+
+- **Nivel de confianza:** 95%
+- **Margen de error:** 10%
+- **Tamaño poblacional estimado:** 10,000 usuarios
+- **Muestra mínima recomendada:** 96 usuarios
+
+**Decisión tomada:** realizar una prueba piloto con al menos 20 usuarios, como paso previo a una validación más amplia.
+
 #### 8.2.5. Methods Selection
+
+Se utilizaron métodos mixtos de recolección de datos:
+
+- **Cuantitativos:** encuestas con escala Likert para evaluar satisfacción, motivación y utilidad.
+- **Cualitativos:** entrevistas semiestructuradas para recoger opiniones en profundidad.
+- **Test de usabilidad:** pruebas observadas con prototipos navegables.
+
 #### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
+
+### Objetivos
+
+- Validar la propuesta de valor.
+- Medir adherencia a rutinas y motivación del usuario.
+
+### KPIs seleccionados
+
+- Tasa de completitud del onboarding.
+- N° de rutinas completadas semanalmente.
+- Retención a 7 días.
+- Net Promoter Score (NPS).
+
+
+### Métricas adicionales
+
+- Tiempo promedio en la app.
+- N° de interacciones por sesión.
+- % de usuarios activos semanales.
+
+  
 #### 8.2.7. Web and Mobile Tracking Plan
+
+Se definió un plan de seguimiento utilizando Google Analytics y Firebase:
+
+**Eventos clave:**
+
+- Registro y login.
+- Finalización de onboarding.
+- Inicio y término de rutina.
+- Interacción con el panel de progreso.
+- Visualización de recompensas.
+
+**Conversiones objetivo:**
+
+- Activación en los primeros 3 días.
+- 3 rutinas completadas durante la primera semana.
+- Usuarios que personalizan sus metas y zonas a trabajar.
+
 ### 8.3. Experimentation
 #### 8.3.1. To-Be User Stories
 #### 8.3.2. To-Be Product Backlog
