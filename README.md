@@ -3607,8 +3607,8 @@ Comidas:
 Extra:
 
 
-<img src="./assets/lhexcel.png" alt="lhexcel" />
-<img src="./assets/lhgraph.png" alt="lhgraph" />
+<img src="./assets/lhexcel.jpg" alt="lhexcel" />
+<img src="./assets/lhgraph.jpg" alt="lhgraph" />
 
 
   
