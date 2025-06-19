@@ -1,4 +1,4 @@
-# VibeFit
+![image](https://github.com/user-attachments/assets/85c42ee1-c558-4f89-83c4-69d2d91782ca)# VibeFit
 
 **Producto: FitWise**
 
@@ -3584,18 +3584,34 @@ Para validar las hipótesis planteadas en los experimentos seleccionados, se emp
   - Validar la propuesta de valor.
   - Medir adherencia a rutinas y motivación del usuario.
 
-- KPIs seleccionados
+Se llevaron a cabo pruebas de rendimiento, accesibilidad y mejores prácticas con Lighthouse en nuestra aplicación para evaluar su desempeño y optimizar la experiencia de usuario. A continuación mostramos los test realizados.
 
-  - Tasa de completitud del onboarding.
-  - N° de rutinas completadas semanalmente.
-  - Retención a 7 días.
-  - Net Promoter Score (NPS).
+Dietas:
 
-- Métricas adicionales
+<img src="./assets/lh1.png" alt="lh1" />
 
-  - Tiempo promedio en la app.
-  - N° de interacciones por sesión.
-  - % de usuarios activos semanales.
+Rutinas:
+
+<img src="./assets/lh2.png" alt="lh2" />
+
+Planificar:
+
+<img src="./assets/lh3.png" alt="lh3" />
+
+Ejercicios:
+
+<img src="./assets/lh4.png" alt="lh4" />
+
+Comidas:
+
+<img src="./assets/lh5.png" alt="lh5" />
+
+Extra:
+
+
+<img src="./assets/lhexcel.png" alt="lhexcel" />
+<img src="./assets/lhgraph.png" alt="lhgraph" />
+
 
   
 #### 8.2.7. Web and Mobile Tracking Plan
