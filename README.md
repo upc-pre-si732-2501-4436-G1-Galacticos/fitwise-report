@@ -31,7 +31,7 @@
 - **David Alexander Perez Garcia** - U202222942
 - **Jhon Alexander Galvez Chambi** - U202323270
 
-**Fecha:** Abril 2025  
+**Fecha:** Junio 2025
 
 **URL del proyecto:** [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos)
 
@@ -39,21 +39,12 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha       | Autor | Descripción |
-|---------|-------------|-------|-------------|
-| TB1     | 12/04/2025  |  Ramiro Guzman     |   Desarrollé la carátula, la tabla de contenidos, la descripción de la Startup, la Solution Profile que abarca los Antecedentes y Problemática, definí los Segmentos Objetivos y el Diseño de las entrevistas.          |
-| TB1     | 24/04/2025  |   Jhon Galvez  | Me enfoqué en el desarrollo de las historias de usuario, el backlog del producto, la guía de estilos, los lineamientos para el desarrollo del código fuente y las configuraciones para el despliegue de la landing page.    |
-| TB1     | 24/04/2025  |  Ramiro Guzman     |   Diseñé el class diagrams, class dictionary y el database design.           |
-| TB1     | XX/XX/XXXX  |       |             |
-| TB1     | XX/XX/XXXX  |       |             |
-| TB1     | XX/XX/XXXX  |       |             |
-| TB1     | XX/XX/XXXX  |       |             |
-| TB1     | XX/XX/XXXX  |       |             |
-| TB1     | XX/XX/XXXX  |       |             |
-| TB1     | XX/XX/XXXX  |       |             | 
-| TB1     | XX/XX/XXXX  |       |             |
-| TB1     | XX/XX/XXXX  |       |             |
-| TB1     | XX/XX/XXXX  |       |             |
+| Versión | Fecha       | <div style="width:250px">Autor(es)</div> | <div align="center" style="width:400px">Descripción de la modificación</div> |
+|:-------:|:-----------:|:-----------------------------------------:|:---------------------------------------------------------------------------------|
+| TB1     | 24/04/2025  | - Briceño De La Cruz, Farid<br>- Galvez Chambi, Jhon<br>- Guzman Chavez, Ramiro<br>- Muñoz Vilcapoma, Mauricio<br>- Perez Garcia, David | Para esta entrega se han desarrollado los siguientes capítulos:<br>- Carátula<br>- Registro de Versiones del Informe<br>- Project Report Collaboration Insights<br>- Contenido<br>- Student Outcome<br>- Capítulo I: Introducción<br>- Capítulo II: Requirements Elicitation & Analysis<br>- Capítulo III: Requirements Specification<br>- Capítulo IV: Product Design<br>- Capítulo V: Product Implementation<br>&nbsp;&nbsp;- 5.1. Software Configuration Management<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.1.1. Software Development Environment Configuration<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.1.2. Source Code Management<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.1.3. Source Code Style Guide & Conventions<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.1.4. Software Deployment Configuration<br>&nbsp;&nbsp;- 5.2. Product Implementation & Deployment<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.1. Sprint Backlogs<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.2. Implemented Landing Page Evidence<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.3. Implemented Frontend-Web Application Evidence<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.4. Implemented Native-Mobile Application Evidence<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.6. RESTful API documentation<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.7. Team Collaboration Insights<br>- 5.3. Video About-the-Product<br>- Avance de Conclusiones, Bibliografía y Anexos |
+| TP1     | 13/05/2025  | - Briceño De La Cruz, Farid<br>- Galvez Chambi, Jhon<br>- Guzman Chavez, Ramiro<br>- Muñoz Vilcapoma, Mauricio<br>- Perez Garcia, David | Para esta entrega se han desarrollado los siguientes capítulos:<br>- Capítulo V: Product Implementation & Deployment<br>&nbsp;&nbsp;- 5.1.4. Software Deployment Configuration<br>&nbsp;&nbsp;- 5.2. Product Implementation & Deployment<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.1. Sprint Backlogs<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.2. Implemented Landing Page Evidence<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.3. Implemented Frontend-Web Application Evidence<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.4. Acuerdo de Servicio - SaaS<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.5. Implemented Native-Mobile Application Evidence<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.7. RESTful API documentation<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.8. Team Collaboration Insights<br>- 5.3. Video About-the-Product<br>- Capítulo VI: Product Verification & Validation<br>&nbsp;&nbsp;- 6.1. Testing Suites & Validation<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.1.1. Core Entities Unit Tests<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.1.2. Core Integration Tests<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.1.3. Core Behavior-Driven Development<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.1.4. Core System Tests<br>- Capítulo VII: DevOps Practices<br>&nbsp;&nbsp;- 7.1. Continuous Integration<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.1.1. Tools and Practices<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.1.2. Build & Test Suite Pipeline Components<br>&nbsp;&nbsp;- 7.2. Continuous Delivery<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.2.1. Tools and Practices<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.2.2. Stages Deployment Pipeline Components<br>&nbsp;&nbsp;- 7.3. Continuous Deployment<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.3.1. Tools and Practices<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.3.2. Production Deployment Pipeline Components<br>- Avance de Conclusiones, Bibliografía y Anexos |
+| TB2     | 19/06/2025  | - Briceño De La Cruz, Farid<br>- Galvez Chambi, Jhon<br>- Guzman Chavez, Ramiro<br>- Muñoz Vilcapoma, Mauricio<br>- Perez Garcia, David | Para esta entrega se han desarrollado los siguientes capítulos:<br>- Capítulo VI: Product Verification & Validation<br>&nbsp;&nbsp;- 6.1. Testing Suites & Validation<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.1.1. Core Entities Unit Tests<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.1.2. Core Integration Tests<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.1.3. Core Behavior-Driven Development<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.1.4. Core System Tests<br>&nbsp;&nbsp;- 6.2. Static Testing & Verification<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.2.1. Static Code Analysis<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 6.2.1.1. Coding Standard & Code Conventions<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 6.2.1.2. Code Quality & Code Security<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.2.2. Reviews<br>&nbsp;&nbsp;- 6.3. Validation Interviews<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.3.1. Diseño de Entrevistas<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.3.2. Registro de Entrevistas<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.3.3. Evaluaciones según heurísticas<br>&nbsp;&nbsp;- 6.4. Auditoría de Experiencias de Usuario<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.4.1. Auditoría realizada<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 6.4.1.1. Información del grupo auditado<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 6.4.1.2. Cronograma de auditoría realizada<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 6.4.1.3. Contenido de auditoría realizada<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.4.2. Auditoría recibida<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 6.4.2.1. Información del grupo auditor<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 6.4.2.2. Cronograma de auditoría recibida<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 6.4.2.3. Contenido de auditoría recibida<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 6.4.2.4. Resumen de modificaciones para subsanar hallazgos<br>- Capítulo VII: DevOps Practices<br>&nbsp;&nbsp;- 7.1. Continuous Integration<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.1.1. Tools and Practices<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.1.2. Build & Test Suite Pipeline Components<br>&nbsp;&nbsp;- 7.2. Continuous Delivery<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.2.1. Tools and Practices<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.2.2. Stages Deployment Pipeline Components<br>&nbsp;&nbsp;- 7.3. Continuous Deployment<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.3.1. Tools and Practices<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.3.2. Production Deployment Pipeline Components<br>&nbsp;&nbsp;- 7.4. Continuous Monitoring<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.4.1. Tools and Practices<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.4.2. Monitoring Pipeline Components<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.4.3. Alerting Pipeline Components<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.4.4. Notification Pipeline Components<br>- Capítulo VIII: Experiment-Driven Development<br>&nbsp;&nbsp;- 8.1. Experiment Planning<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.1.1. As-Is Summary<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.1.3. Experiment-Ready Questions<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.1.4. Question Backlog<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.1.5. Experiment Cards<br>&nbsp;&nbsp;- 8.2. Experiment Design<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.2.1. Hypotheses<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.2.2. Measures<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.2.3. Conditions<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.2.4. Scale Calculations and Decisions<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.2.5. Methods Selection<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.2.7. Web and Mobile Tracking Plan<br>&nbsp;&nbsp;- 8.3. Experimentation<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.3.1. To-Be User Stories<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.3.2. To-Be Product Backlog<br>- Avance de Conclusiones, Bibliografía y Anexos |
+
 
 # Contenido
 
@@ -233,9 +224,8 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
 
 | **Criterio específico** | **Acciones Realizadas** | **Conclusiones** |
 |:-----------------------:|-------------------------|-------------------|
-| **4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software** | **- Ramiro Guzman** <br> **TB1:** Como parte del equipo, me enfoqué en asegurar que todas las soluciones tecnológicas respetaran los principios éticos de privacidad y seguridad. Analicé y discutí las implicaciones éticas de cada decisión técnica para garantizar que nuestro proyecto no sólo fuera funcional, sino también responsable. <br> <br> **- Farid Briceño** <br> **TB1:** Durante este primer tramo del proyecto, me comprometí a entender y aplicar las mejores prácticas relacionadas con la seguridad de los usuarios y la confidencialidad de la información. <br> <br> **- Jhon Galvez** <br> **TB1:** A lo largo de esta primera fase, asimilé el código de conducta y la ética fundamentales para un desarrollador. Esto me impulsó a colaborar activamente en la recopilación de la información requerida para nuestra aplicación, con la meta clara de generar un impacto significativo en la salud y el bienestar de las personas. <br> <br> **- Mauricio Muñoz** <br> **TB1:** Contribuí al análisis de las necesidades del usuario y busqué formas en que la solución pudiera mejorar la calidad de vida sin comprometer valores fundamentales de privacidad y equidad. <br> <br> **- David Perez** <br> **TB1:** Trabajé en la implementación de medidas de accesibilidad y seguridad, entendiendo que los usuarios deben sentirse protegidos y respaldados en todo momento. <br> <br> | **TB1:** Cada miembro participó en sus actividades asignadas, manteniendo una comunicación activa y eficaz que fortaleció la confianza mutua. Esto mejoró el trabajo en equipo, un valor crucial para proyectos colaborativos. |
-| **4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales** | **- Ramiro Guzman** <br> **TB1:** En esta fase, evalué el impacto potencial de nuestra aplicación en distintos contextos. Consideré factores como la accesibilidad global y la sostenibilidad económica del proyecto. <br> <br> **- Farid Briceño** <br> **TB1:** Durante este proceso, me aseguré de que nuestras decisiones fueran informadas por un análisis exhaustivo del entorno global y las implicaciones sociales de la solución. <br> <br> **- Jhon Galvez** <br> **TB1:** He tomado conciencia de la crucial importancia de la salud en la sociedad contemporánea. El anhelo por el bienestar físico y mental es evidente, pero las dinámicas de la vida en la ciudad a menudo se interponen en la consecución de estos objetivos. En este sentido, considero que la propuesta que hemos concebido aborda esta problemática desde una perspectiva integral. <br> <br> **- Mauricio Muñoz** <br> **TB1:** Consideré el impacto económico y social de las decisiones que tomamos, buscando siempre soluciones que fueran viables tanto económicamente como socialmente. <br> <br> **- David Perez** <br> **TB1:** Me aseguré de que nuestras decisiones fueran lo más inclusivas posibles, considerando que el impacto de nuestro trabajo podría ir más allá de nuestras fronteras. <br> <br> | **TB1:** Cada miembro participó en sus actividades asignadas, manteniendo una comunicación activa y eficaz que fortaleció la confianza mutua. Esto mejoró el trabajo en equipo, un valor crucial para proyectos colaborativos. |
-
+| **4.c.1**<br>Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software | **- Ramiro Guzman**<br>**TB1:** Como parte del equipo, me enfoqué en asegurar que todas las soluciones tecnológicas respetaran los principios éticos de privacidad y seguridad. Analicé y discutí las implicaciones éticas de cada decisión técnica para garantizar que nuestro proyecto no sólo fuera funcional, sino también responsable.<br>**TP1:** Revisé que las nuevas implementaciones respetaran los principios de confidencialidad y privacidad. Además, evalué la configuración de despliegue para evitar posibles vulnerabilidades en los entornos de producción.<br>**TB2:** Participé activamente en la auditoría de la experiencia del usuario, asegurándome de que el diseño respetara la equidad y accesibilidad para distintos perfiles de usuarios, incluyendo aquellos con discapacidades.<br><br>**- Farid Briceño**<br>**TB1:** Durante este primer tramo del proyecto, me comprometí a entender y aplicar las mejores prácticas relacionadas con la seguridad de los usuarios y la confidencialidad de la información.<br>**TP1:** Me aseguré de que las pruebas unitarias e integradas fueran desarrolladas con principios de calidad ética, garantizando que los servicios no violaran estándares de equidad o inclusión.<br>**TB2:** Participé en la revisión estática del código, promoviendo buenas prácticas que eviten consecuencias negativas no intencionadas y fomenten una cultura de responsabilidad profesional.<br><br>**- Jhon Galvez**<br>**TB1:** Asimilé el código de conducta y la ética fundamentales para un desarrollador. Esto me impulsó a colaborar activamente en la recopilación de la información requerida para nuestra aplicación, con la meta clara de generar un impacto significativo en la salud y el bienestar de las personas.<br>**TP1:** Reflexioné sobre cómo nuestras decisiones técnicas podían afectar la salud mental de los usuarios. Con ello, propuse mejoras a la interfaz para minimizar sobrecargas cognitivas y promover una experiencia saludable.<br>**TB2:** Durante el diseño de entrevistas de validación, me aseguré de que las preguntas respetaran la privacidad del encuestado y promovieran una interacción ética entre usuario y sistema.<br><br>**- Mauricio Muñoz**<br>**TB1:** Contribuí al análisis de las necesidades del usuario y busqué formas en que la solución pudiera mejorar la calidad de vida sin comprometer valores fundamentales de privacidad y equidad.<br>**TP1:** Validé que la documentación técnica cumpliera con estándares de responsabilidad, revisando que las decisiones fueran transparentes y comunicadas de forma ética al equipo y stakeholders.<br>**TB2:** Evalué prácticas de monitoreo continuo, para que las alertas del sistema no invadieran la privacidad de los usuarios ni provocaran decisiones automatizadas no justificadas.<br><br>**- David Perez**<br>**TB1:** Trabajé en la implementación de medidas de accesibilidad y seguridad, entendiendo que los usuarios deben sentirse protegidos y respaldados en todo momento.<br>**TP1:** Me aseguré de que el backend cumpliera con los estándares de seguridad y tratara adecuadamente la gestión de datos sensibles.<br>**TB2:** Supervisé la auditoría recibida por otro grupo, garantizando una respuesta profesional y ética ante los hallazgos, priorizando la mejora continua con base en la retroalimentación. | **TB1:** Cada miembro participó en sus actividades asignadas, manteniendo una comunicación activa y eficaz que fortaleció la confianza mutua. Esto mejoró el trabajo en equipo, un valor crucial para proyectos colaborativos.<br><br>**TP1:** En esta fase, el equipo reafirmó su compromiso ético mediante la aplicación de buenas prácticas de validación, pruebas y despliegue seguro. La discusión constante sobre implicancias éticas fortaleció el criterio técnico y la responsabilidad compartida.<br><br>**TB2:** La inclusión de auditorías, entrevistas y prácticas de monitoreo continuo permitió aplicar los principios éticos a un nivel avanzado, reafirmando el compromiso del equipo con la responsabilidad profesional, accesibilidad e integridad del producto. |
+| **4.c.2**<br>Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | **- Ramiro Guzman**<br>**TB1:** Evalué el impacto potencial de nuestra aplicación en distintos contextos. Consideré factores como la accesibilidad global y la sostenibilidad económica del proyecto.<br>**TP1:** Analicé los costos asociados al despliegue del software y su impacto en usuarios con recursos limitados. Promoví alternativas económicas para maximizar el alcance global.<br>**TB2:** Participé en la definición de indicadores de validación, considerando cómo nuestras decisiones podían beneficiar comunidades urbanas con problemas de salud pública y acceso limitado a tecnología.<br><br>**- Farid Briceño**<br>**TB1:** Me aseguré de que nuestras decisiones fueran informadas por un análisis exhaustivo del entorno global y las implicaciones sociales de la solución.<br>**TP1:** Evalué la inclusión de usuarios en zonas rurales, y sugerí funcionalidades que ampliaran el acceso a la plataforma desde dispositivos de gama baja.<br>**TB2:** Consideré el impacto ambiental de nuestras decisiones tecnológicas, optimizando recursos del servidor y prácticas de despliegue para reducir el consumo innecesario.<br><br>**- Jhon Galvez**<br>**TB1:** Considero que la propuesta que hemos concebido aborda la problemática de salud desde una perspectiva integral.<br>**TP1:** Reflexioné sobre cómo la solución podía integrarse en el estilo de vida urbano y propuse que el producto contemplara escalabilidad en diferentes ciudades del país.<br>**TB2:** Analicé los datos obtenidos en entrevistas y sugerí mejoras que alinearan la experiencia con las realidades sociales y económicas del público objetivo.<br><br>**- Mauricio Muñoz**<br>**TB1:** Consideré el impacto económico y social de las decisiones que tomamos, buscando siempre soluciones que fueran viables tanto económicamente como socialmente.<br>**TP1:** Analicé la viabilidad económica del backend, proponiendo soluciones con servicios gratuitos u open-source que reduzcan los costos a futuro.<br>**TB2:** Estudié la retroalimentación del grupo auditor y ajusté partes de la solución para asegurar su adaptabilidad en distintos contextos socioeconómicos.<br><br>**- David Perez**<br>**TB1:** Me aseguré de que nuestras decisiones fueran lo más inclusivas posibles, considerando que el impacto de nuestro trabajo podría ir más allá de nuestras fronteras.<br>**TP1:** Evalué cómo la solución podía responder a problemáticas emergentes en la sociedad, como el estrés digital, proponiendo funcionalidades más amigables.<br>**TB2:** Participé en el diseño de experimentos, buscando medir el impacto social real de nuestras decisiones con métricas de bienestar y calidad de vida.<br><br> | **TB1:** Cada miembro participó en sus actividades asignadas, manteniendo una comunicación activa y eficaz que fortaleció la confianza mutua. Esto mejoró el trabajo en equipo, un valor crucial para proyectos colaborativos.<br><br>**TP1:** El equipo avanzó en la toma de decisiones informadas, considerando el contexto de los usuarios y el entorno. Se priorizó el diseño accesible, el uso eficiente de recursos y el impacto social, reflejando madurez ética y técnica.<br><br>**TB2:** Las decisiones estuvieron guiadas por experimentación y retroalimentación. Se consolidó un enfoque de ingeniería responsable que valoró el impacto ambiental, la equidad y la adaptabilidad de la solución a diversos escenarios sociales. |
 
 ---
 
@@ -2426,50 +2416,161 @@ Durante la primera iteración de desarrollo, implementamos los componentes esenc
 
 #### 5.2.3. Implemented Frontend-Web Application Evidence
 
+- Deploy: https://fitwise-app-77eaf.web.app/
+
+- Repositorio: https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/frontend
+
+Vistas Implementadas:
+
+- Autenticacion de usuario
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px;">
+  <img src="./assets/frontend-web-sign-up.png" alt="Frontend Sign Up View" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+  <img src="./assets/frontend-web-sign-in.png" alt="Frontend Sign In View" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+  <img src="./assets/frontend-web-two-factor.png" alt="Frontend 2FA View" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+</div>
+
+- Vistas Home y Profile
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-top: 30px;">
+  <img src="./assets/frontend-web-home.png" alt="Frontend Home View" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+  <img src="./assets/frontend-web-profile.png" alt="Frontend Profile" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+</div>
+
+- Vistas Core (Diets, Routines, Planner)
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-top: 30px;">
+  <img src="./assets/frontend-web-diets.png" alt="Frontend Diets View" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+  <img src="./assets/frontend-web-routines.png" alt="Frontend Routines View" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+  <img src="./assets/frontend-web-planner.png" alt="Frontend Fitwise Planner View" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+</div>
+
 #### 5.2.4. Acuerdo de Servicio SaaS
 
 Esta sección establece los derechos, obligaciones y restricciones aplicables a los usuarios de la plataforma, garantizando transparencia en el uso del servicio SaaS. Debe integrarse públicamente en la sección "Terms and Conditions" del website, cumpliendo con los criterios de claridad, accesibilidad y cumplimiento normativo.
 
 **Derechos del Usuario:**
 
--Derecho al uso de la plataforma FitWise durante el horario de atención estándar (8 horas al día, 5 días a la semana) mientras la startup esté activa.
--Acceso a soporte técnico gratuito durante la vigencia operativa de la plataforma.
--Acceso continuo a mejoras y actualizaciones de la plataforma, sin costo adicional, mientras el servicio esté activo.
+- Derecho al uso de la plataforma FitWise durante el horario de atención estándar (8 horas al día, 5 días a la semana) mientras la startup esté activa.
+- Acceso a soporte técnico gratuito durante la vigencia operativa de la plataforma.
+- Acceso continuo a mejoras y actualizaciones de la plataforma, sin costo adicional, mientras el servicio esté activo.
 
 **Obligaciones del Usuario:**
 
--El usuario es responsable de resguardar y mantener la confidencialidad de sus credenciales de acceso.
--Toda la información registrada en la plataforma es de entera responsabilidad del usuario.
--El uso de la plataforma debe realizarse conforme a la normativa vigente aplicable y con fines lícitos.
+- El usuario es responsable de resguardar y mantener la confidencialidad de sus credenciales de acceso.
+- Toda la información registrada en la plataforma es de entera responsabilidad del usuario.
+- El uso de la plataforma debe realizarse conforme a la normativa vigente aplicable y con fines lícitos.
 
 **Restricciones:**
 
--La plataforma de escritorio solo está disponible para sistemas operativos Windows 10 y Windows 11.
--La aplicación móvil de FitWise es compatible únicamente con dispositivos Android.
--Queda prohibida la distribución, reproducción, sublicenciamiento o uso comercial no autorizado de la plataforma o sus componentes.
+- La plataforma de escritorio solo está disponible para sistemas operativos Windows 10 y Windows 11.
+- La aplicación móvil de FitWise es compatible únicamente con dispositivos Android.
+- Queda prohibida la distribución, reproducción, sublicenciamiento o uso comercial no autorizado de la plataforma o sus componentes.
 
 #### 5.2.5. Implemented Native-Mobile Application Evidence
 
+La implementación de la aplicación móvil nativa de FitWise se logró mediante la configuración de la aplicación web desarrollada con Angular para funcionar como una Progressive Web App (PWA). Esta estrategia nos permitió ofrecer una experiencia similar a la de una aplicación nativa, directamente desde el navegador, y con la capacidad de ser instalada en dispositivos móviles. Para ello, se realizaron ajustes clave en la configuración del proyecto, incluyendo la adición de manifiestos y la modificación del archivo angular.json, habilitando características como el acceso sin conexión y notificaciones push. Esta aproximación garantiza que los usuarios de FitWise puedan acceder a sus rutinas y planes nutricionales personalizados desde cualquier dispositivo, con una interfaz adaptada y una experiencia de usuario fluida, sin necesidad de descargas de tiendas de aplicaciones.
+
+- manifest.webmanifest
+  <p align="center">
+    <img src="./assets/manifest.png" alt="Webmanifest" />
+  </p>
+
+- nsgw-config.json:
+  <p align="center">
+    <img src="./assets/nsgw-config.png" alt="NSGW Config" />
+  </p>
+
+- Vistas implementadas:
+
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px;">
+  <img src="./assets/native_mobile_1.jpg" alt="Login Mobile" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+  <img src="./assets/native_mobile_2.jpg" alt="2FA Access" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+  <img src="./assets/native_mobile_3.jpg" alt="2FA Access" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+</div>
+
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-top: 30px;">
+  <img src="./assets/native_mobile_4.jpg" alt="Another View" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+  <img src="./assets/native_mobile_5.jpg" alt="Yet Another View" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+  <img src="./assets/native_mobile_6.jpg" alt="Final View" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+</div>
+
 #### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
+
+El backend de FitWise se construyó utilizando Java Spring Boot, lo que nos permitió desarrollar una API RESTful robusta y escalable. Esta API es el corazón de la lógica de negocio de FitWise, gestionando la creación y personalización de rutinas de entrenamiento, planes nutricionales, autenticación de usuarios y la persistencia de datos. La elección de Spring Boot facilitó la implementación de servicios web eficientes y seguros, optimizados para soportar la carga de usuarios y las interacciones complejas de la aplicación. Para el almacenamiento de datos, se utilizó PostgreSQL, una base de datos relacional potente y confiable, que asegura la integridad y disponibilidad de la información de los usuarios. El despliegue de nuestro backend y base de datos se realizó en Azure, garantizando alta disponibilidad y rendimiento.
+
+- Evidencia de los principales endpoints de la aplicacion con Postman:
+
+  - IAM:
+    <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px;">
+      <img src="./assets/restful-api-1.png" alt="Sign Up" style="flex-grow: 1; flex-basis: 0; max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+      <img src="./assets/restful-api-2.png" alt="Sign In" style="flex-grow: 1; flex-basis: 0; max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+      <img src="./assets/restful-api-3.png" alt="Sign In Two Factor" style="flex-grow: 1; flex-basis: 0; max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+    </div>
+
+  - Fitwise Plans:
+    <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-top: 30px;">
+      <img src="./assets/restful-api-4.png" alt="Get All Fitwise Plans" style="flex-grow: 1; flex-basis: 0; max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+      <img src="./assets/restful-api-5.png" alt="Create a Fitwise Plan" style="flex-grow: 1; flex-basis: 0; max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+    </div>
+
+  - User Profile:
+    <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-top: 30px;">
+      <img src="./assets/restful-api-6.png" alt="Create a User Profile" style="flex-grow: 1; flex-basis: 0; max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+      <img src="./assets/restful-api-8.png" alt="Get a User Profile" style="flex-grow: 1; flex-basis: 0; max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+      <img src="./assets/restful-api-9.png" alt="Update a User Profile" style="flex-grow: 1; flex-basis: 0; max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+    </div>
+
+  - Recommendations:
+    <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-top: 30px;">
+      <img src="./assets/restful-api-7.png" alt="Get Recommended Fitwise Plans based on the User Profile" style="flex-grow: 1; flex-basis: 0; max-width: 600px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+    </div>
+
+  - Subscriptions to Fitwise Plans:
+    <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-top: 30px;">
+      <img src="./assets/restful-api-10.png" alt="Create a Plan Subscription" style="flex-grow: 1; flex-basis: 0; max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+      <img src="./assets/restful-api-11.png" alt="Get a Plan Subscription" style="flex-grow: 1; flex-basis: 0; max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+    </div>
+
 
 #### 5.2.7. RESTful API documentation
 
+- Deploy: https://fitwisebackend-gfaehmgxfhhjhff6.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/
+
+La API RESTful de FitWise está completamente documentada utilizando OpenAPI. Esta documentación detalla todos los endpoints disponibles, los parámetros de solicitud, los formatos de respuesta y los códigos de estado, facilitando la integración y el consumo de nuestros servicios tanto por el frontend web como por la PWA. La documentación OpenAPI es crucial para el desarrollo colaborativo y para futuras expansiones del sistema, sirviendo como una referencia clara y concisa de las capacidades de nuestra API. Hemos priorizado la consistencia y la claridad en la definición de cada recurso y operación, lo que permite a los desarrolladores comprender rápidamente cómo interactuar con nuestra plataforma para crear y gestionar las experiencias personalizadas de los usuarios de FitWise.
+
+- Endpoints documentados mediante OpenAPI:
+  <p align="center">
+    <img src="./assets/openapi.png" alt="OpenAPI Swagger" />
+  </p>
+
 #### 5.2.8. Team Collaboration Insights
 
-**TB1:**
+En esta sección, el equipo presenta un resumen de las actividades de implementación y la colaboración de los miembros durante el sprint actual. Aquí, verán capturas de los análisis de colaboración y los commits en GitHub para cada uno de los productos clave, demostrando la participación activa de todos los miembros del equipo en la implementación de la Landing Page, las Web Applications y los Web Services. 
 
-Para esta primera entrega, se ha conseguido desplegar la la nding page gracias a GitHub Pages. Las analiticas del repositorio se muestran a continuacion:
+- Landing Page
 
-- Usuario: Chaomeum (Jhon Galvez)
+  Aquí se muestran las analíticas de colaboración y la actividad de la red para el repositorio de la Landing Page.
 
-  <p align="center">
-    <img src="./assets/landing-analitica.png" alt="analitica landing" />
-  </p>
+  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px;">
+    <img src="./assets/landing-analitica.png" alt="Análisis de Contribución del Repositorio de la Landing Page" style="flex-grow: 1; flex-basis: 0; max-width: 600px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+    <img src="./assets/landing-network.png" alt="Red de Colaboración del Repositorio de la Landing Page" style="flex-grow: 1; flex-basis: 0; max-width: 600px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;"> 
+  </div> 
 
-  <p align="center">
-    <img src="./assets/landing-network.png" alt="network landing" />
-  </p>
+- Frontend Web App
 
+  A continuación, se presentan las estadísticas de colaboración y la red de desarrollo para la aplicación web frontend.
+
+  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-top: 30px;">
+    <img src="./assets/frontend-repo-insights.png" alt="Análisis de Contribución del Repositorio Frontend Web App" style="flex-grow: 1; flex-basis: 0; max-width: 600px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+    <img src="./assets/frontend-repo-network.png" alt="Red de Colaboración del Repositorio Frontend Web App" style="flex-grow: 1; flex-basis: 0; max-width: 600px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;"> 
+  </div> 
+
+- Backend Web Services
+
+  Por último, pueden ver las métricas de colaboración y la actividad de la red para los servicios web del backend.
+
+  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-top: 30px;">
+    <img src="./assets/backend-repo-insights.png" alt="Análisis de Contribución del Repositorio Backend Web Services" style="flex-grow: 1; flex-basis: 0; max-width: 600px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+    <img src="./assets/backend-repo-network.png" alt="Red de Colaboración del Repositorio Backend Web Services" style="flex-grow: 1; flex-basis: 0; max-width: 600px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;"> 
+  </div>
 
 ## Capítulo VI: Product Verification & Validation
 
@@ -2518,7 +2619,7 @@ También fueron realizadas con **JUnit**, complementadas con herramientas de iny
 </p>
 
 
-#### 6.1.3. Core Behavior-Driven Development\
+#### 6.1.3. Core Behavior-Driven Development
 
 En esta sección se presentan capturas relacionadas con la implementación de pruebas basadas en el comportamiento (**Behavior-Driven Development**, BDD) aplicadas al núcleo del sistema.  
 Se utilizó una combinación de herramientas como **Cucumber** junto con **JUnit** para definir escenarios de prueba en lenguaje natural (Gherkin), permitiendo validar funcionalidades desde la perspectiva del usuario final.  
@@ -2590,26 +2691,75 @@ Las herramientas utilizadas incluyen entornos de prueba automatizados, scripts d
 ### 6.2. Static Testing & Verification
 
 #### 6.2.1. Static Code Analysis
+
 ##### 6.2.1.1. Coding standard & Code conventions
 
+Durante el desarrollo de **FitWise**, se definieron y aplicaron convenciones de codificación específicas para cada tecnología utilizada, con el objetivo de asegurar la calidad, legibilidad y mantenibilidad del código, así como facilitar la colaboración entre los miembros del equipo. A continuación, se detallan las principales convenciones y herramientas empleadas:
 
-Durante el desarrollo de FitWise, se establecieron convenciones de codificación para garantizar consistencia, mantenibilidad y colaboración efectiva entre desarrolladores. Se implementaron las siguientes prácticas:
+- **Frontend (Angular Web y Angular PWA)**
+  * Se utilizó **ESLint** en conjunto con **Prettier** para aplicar reglas de estilo y análisis estático de código.
+  * Se adoptó la convención de nombres:
 
-- Uso de `ESLint` y `Prettier` para el formato y análisis estático de código frontend.
-- Estilo `camelCase` para variables y funciones, `PascalCase` para componentes.
-- Comentarios descriptivos en inglés para funciones complejas.
-- Indentación de 2 espacios y longitud máxima de línea de 120 caracteres.
-- Validación automática de estilo en los pull requests mediante GitHub Actions.
+    * `camelCase` para variables, funciones y métodos.
+    * `PascalCase` para componentes, clases y archivos de Angular.
+  * Se implementó una indentación de **2 espacios** y una **longitud máxima de línea de 120 caracteres**.
+  * Los comentarios se redactaron en **inglés técnico**, especialmente en funciones con lógica compleja o no trivial.
+  * Se estructuraron los módulos y componentes según las buenas prácticas recomendadas por Angular, manteniendo una separación clara entre `core`, `shared`, `public`, e `iam`.
+
+- **Backend (Java Spring Boot)**
+
+  * Se siguieron las convenciones estándar de **Java** y **Spring Boot**, incluyendo:
+    * Nomenclatura `camelCase` para variables y métodos, `PascalCase` para clases.
+    * Uso de anotaciones de Spring (@RestController, @Service, @Entity, etc.) conforme a los principios de diseño limpio.
+  * Se aplicaron reglas de estilo compatibles con **Google Java Style Guide**, validadas mediante herramientas como **Checkstyle**.
+  * Se promovió el uso de comentarios JavaDoc en clases públicas, controladores y servicios.
+  * Las pruebas unitarias se implementaron utilizando **JUnit 5**, manteniendo una cobertura mínima aceptable y pruebas por módulo funcional.
+
+- **Control de versiones y CI/CD**
+
+  * Todo el código fue gestionado mediante **Git** y alojado en **GitHub**.
+  * Se configuraron **GitHub Actions** para ejecutar validaciones automáticas de estilo y pruebas unitarias en cada `pull request`.
+  * Se revisaron manualmente los `pull requests` bajo la política de *code review obligatorio* antes de hacer merge a la rama principal (`main`).
+
+- **Pruebas y documentación**
+
+  * Las APIs fueron documentadas y validadas con **Postman**, asegurando consistencia en los contratos de servicios REST.
+  * Se mantuvieron colecciones de pruebas de endpoints con variables de entorno para entornos `dev`, `test` y `prod`.
+
+Estas convenciones fueron revisadas periódicamente durante las iteraciones del proyecto y adaptadas según las necesidades del equipo y la evolución de la arquitectura.
+
 
 ##### 6.2.1.2. Code Quality & Code Security
 
 
-Se aplicaron buenas prácticas para asegurar calidad y seguridad del código fuente:
+Con el fin de garantizar la calidad y seguridad del código fuente en el proyecto **FitWise**, el equipo adoptó un enfoque proactivo basado en herramientas automatizadas, revisiones manuales y buenas prácticas de desarrollo seguro. Se aplicaron las siguientes estrategias:
 
-- Integración con `SonarCloud` para análisis de *bugs*, *code smells* y *vulnerabilidades*.
-- Uso de `npm audit` y `OWASP Dependency-Check` para revisar paquetes inseguros.
-- Refactorización de código duplicado y eliminación de dependencias obsoletas.
-- Implementación de autenticación JWT y control de acceso por roles para prevenir accesos no autorizados.
+- **Calidad del Código**
+
+  * **SonarCloud** fue integrado al pipeline de integración continua para analizar métricas clave como:
+
+    * **Bugs** potenciales.
+    * **Code smells** que afectan la mantenibilidad.
+    * **Duplicación de código** y complejidad ciclomática.
+  * Se realizaron tareas periódicas de **refactorización**, eliminando código duplicado y mejorando la legibilidad y estructura de componentes y servicios.
+  * Se definieron **reglas de calidad mínima** para permitir el merge de cambios, priorizando un *code health score* adecuado por módulo.
+  * Se promovió el principio **DRY** (Don’t Repeat Yourself) y la modularización del código tanto en el frontend como en el backend.
+
+- **Seguridad del Código**
+
+  * Se emplearon herramientas de análisis de vulnerabilidades para dependencias:
+
+    * `**Snyk**` y `**npm audit**` para escanear paquetes del frontend (Angular).
+    * `**OWASP Dependency-Check**` para detectar riesgos en dependencias Java.
+  * Se configuró **Snyk** con GitHub para escaneos automáticos en cada `pull request`, generando alertas tempranas sobre librerías con vulnerabilidades conocidas.
+  * Se implementaron mecanismos de protección en el backend:
+
+    * **Autenticación basada en JWT** con expiración de tokens.
+    * **Autorización basada en roles** para restringir el acceso según permisos definidos.
+    * Validaciones estrictas de entrada y sanitización para prevenir **inyecciones SQL**, **XSS** y otras amenazas OWASP Top 10.
+  * Se evitaron prácticas inseguras como el almacenamiento de contraseñas en texto plano, utilizando **bcrypt** para su hash y salting.
+
+  Estas prácticas permitieron mantener un código confiable, fácil de mantener y alineado con los estándares actuales de ciberseguridad en aplicaciones web modernas.
 
 
 #### 6.2.2. Reviews
@@ -2628,14 +2778,121 @@ Las entrevistas de validación se diseñaron para evaluar la percepción del pro
 
 **Preguntas clave:**
 
-1. ¿Qué impresión te dio el diseño general de la app?
-2. ¿Las funciones propuestas te parecen útiles y fáciles de usar?
-3. ¿Sientes que la app se adapta a tu estilo de vida?
-4. ¿Te sentirías motivado/a a usarla por más de una semana? ¿Por qué?
-5. ¿Qué te gustaría mejorar o agregar?
-6. ¿Pagarías por una versión premium? ¿Qué precio te parecería justo?
+1. Funcionalidad Core
+*¿La aplicación permite registrar entrenamientos de forma intuitiva?*
+- Evalúa la función principal de la app
+
+2. Usabilidad Inicial
+*¿Un usuario nuevo puede completar su primer entrenamiento sin ayuda?*
+- Mide la curva de aprendizaje y accesibilidad
+
+3. Experiencia de Usuario
+*¿La navegación entre pantallas es fluida y lógica?*
+- Evalúa la arquitectura de información
+
+4. Valor Percibido
+*¿La aplicación mejora tu motivación para hacer ejercicio?*
+- Mide el impacto real en el comportamiento del usuario
+
+5. Confiabilidad
+*¿Los datos se guardan correctamente sin pérdidas?*
+- Evalúa la integridad y confianza del sistema
+
+6. Rendimiento
+*¿Los tiempos de carga son aceptables para el usuario?*
+- Mide la satisfacción con el rendimiento técnico
+
+7. Personalización
+*¿La personalización de rutinas cumple con las expectativas?*
+- Evalúa la adaptabilidad a necesidades individuales
+
+8. Satisfacción General
+*¿Recomendarías esta aplicación a otros usuarios?*
+- Indicador clave de satisfacción (Net Promoter Score)
+
+9. Retención
+*¿Continuarías usando la aplicación a largo plazo?*
+- Mide la intención de uso sostenido
+
+10. Cumplimiento de Expectativas
+*¿La aplicación cumple con tus expectativas iniciales?*
+- Evalúa el gap entre promesa y entrega del producto
 
 #### 6.3.2. Registro de Entrevistas
+
+Entrevista 1: 
+ - Nombres: Fabrizio Alberto
+ - Apellidos: Paredes Santos
+ - Edad: 18
+ - Distrito: San Miguel, Lima
+ - Enlace de la entrevista: https://youtu.be/QSBorteqYcA
+ - Evidencia de la reunion:
+  <p align="center">
+    <img src="./assets/Entrevista-Fabrizio.png" alt="Entrevista Fabrizio" />
+  </p>
+  - Resumen:
+    Fabrizio encontró la aplicación intuitiva y fácil de usar para registrar entrenamientos, apreciando la función de comunidad que le permite ver o crear rutinas. Un usuario nuevo podría completar su primer entrenamiento sin ayuda gracias a los planes completos y recomendaciones personalizadas para principiantes. La navegación es fluida, aunque notó la necesidad de recargar para visualizar nuevas adiciones.
+    La aplicación mejora su motivación al simplificar la organización de ejercicios y dietas. Los datos se guardan correctamente y los tiempos de carga son aceptables. La personalización de rutinas es útil, especialmente las recomendaciones para principiantes, aunque la creación de rutinas personalizadas le pareció más compleja para usuarios nuevos. Finalmente, Fabrizio recomendaría la aplicación a otros usuarios, especialmente a principiantes, y considera que cumple con sus expectativas iniciales.
+  
+
+Entrevista 2:
+  - Nombres: Sebastian
+  - Apellidos: Rodriguez Macedo
+  - Edad: 18
+  - Distrito: La Perla, Callao
+  - Enlace de la entrevista: https://youtu.be/z6OEto6wttg
+  - Evidencia de la reunion: 
+  <p align="center">
+    <img src="./assets/Entrevista-Sebastian.png" alt="Entrevista Sebastian" />
+  </p>
+  - Resumen:
+    Sebastián encontró la aplicación intuitiva para registrar entrenamientos y dietas. Un usuario nuevo podría completar su primer entrenamiento sin ayuda, gracias a la navegación clara. La navegación es fluida. La aplicación mejora su motivación por la planificación y la función de comunidad. Los datos se guardan correctamente y los tiempos de carga son aceptables.
+    La personalización de rutinas cumple con las expectativas, aunque la creación directa es más para usuarios avanzados, las rutinas de la comunidad son muy útiles para principiantes. Recomendaría la aplicación por sus opciones innovadoras y la usaría a largo plazo por su seguimiento y capacidad de actualización. Finalmente, cumplió totalmente sus expectativas iniciales.
+
+Entrevista 3:
+  - Nombres: Anthony
+  - Apellidos: Lara
+  - Edad: 20
+  - Distrito: San Miguel, Lima
+  - Enlace de la entrevista: https://youtu.be/PQKhQSDOoXk   
+  - Evidencia de la reunion:
+  <p align="center">
+    <img src="./assets/Entrevista-Anthony.png" alt="Entrevista Anthony" />
+  </p>
+  - Resumen:
+    Tony considera que la aplicación es intuitiva para registrar entrenamientos, y un usuario nuevo podría completar su primer entrenamiento sin ayuda por su facilidad de uso. La navegación entre pantallas es fluida y lógica. La aplicación mejora su motivación al resumir eficientemente los ejercicios y comidas.
+    Los datos se guardan correctamente y los tiempos de carga son aceptables, siendo muy rápidos y fluidos. La personalización de rutinas cumple totalmente con sus expectativas y se adapta a sus necesidades. Tony recomendaría la aplicación a personas que se inician en la vida fitness o saludable. Continuaría usándola a largo plazo por su facilidad de navegación, fluidez, intuición y dinamismo. Finalmente, la aplicación cumple con todas sus expectativas iniciales.
+
+Entrevista 4:
+  - Nombres: Paul
+  - Apellidos: Hoffman
+  - Edad: 20
+  - Distrito: Callao, Callao
+  - Enlace de la entrevista: https://youtu.be/4MsAx0J5SeY
+  - Evidencia de la reunion:
+  <p align="center">
+    <img src="./assets/Entrevista-Paul.png" alt="Entrevista Paul" />
+  </p>
+  - Resumen:
+    Paul considera que la aplicación permite registrar entrenamientos de forma intuitiva. Sin embargo, tuvo dudas sobre si un usuario nuevo podría completar su primer entrenamiento sin ayuda, indicando un posible punto de mejora en la usabilidad para principiantes. La navegación entre pantallas es fluida y lógica.
+    La aplicación mejora su motivación al facilitar la creación y seguimiento de planes de rutina. Los datos se guardan correctamente sin pérdidas, y los tiempos de carga son aceptables. La personalización de rutinas cumple con sus expectativas.
+    Paul recomendaría la aplicación por su buen plan de rutinas. Sobre la retención a largo plazo, señaló que dependerá de la motivación personal del usuario y no de fallas de la aplicación. Finalmente, la aplicación cumple con sus expectativas iniciales al ofrecer una buena opción para editar y seguir rutinas.
+
+Entrevista 5:
+  - Nombres: Julio
+  - Apellidos: Guillen
+  - Edad: 20
+  - Distrito: San Miguel, Lima
+  - Enlace de la entrevista: https://youtu.be/f5w96gHyI00
+  - Evidencia de la reunion:
+  <p align="center">
+    <img src="./assets/Entrevista-Julio.png" alt="Entrevista Julio" />
+  </p>
+  - Resumen:
+    Julio considera que la aplicación es intuitiva para registrar entrenamientos, ofreciendo una variedad de opciones para elegir o crear. Un usuario nuevo puede completar su primer entrenamiento sin ayuda, ya que la aplicación muestra claramente las rutinas y días correspondientes. La navegación entre pantallas es intuitiva y fluida.
+    La aplicación mejora su motivación gracias a los colores vibrantes y la guía visual que proporciona. Destaca que todos los datos se guardan correctamente en cada interfaz. Los tiempos de carga son bastante aceptables, siendo casi instantáneos.
+    En cuanto a la personalización de rutinas, la aplicación le ofrece una guía clara sobre qué hacer. Julio recomendaría la aplicación a sus amigos o familiares, especialmente a aquellos con sobrepeso. Afirmaría que continuaría usándola a largo plazo, dependiendo de la información que se vaya agregando a la plataforma. Finalmente, la aplicación cumple con sus expectativas iniciales, brindándole gran libertad para elegir entre planes saludables o crear los propios.
+
 #### 6.3.3. Evaluaciones según heurísticas
 
 Basado en el feedback de los usuarios, brindado en las entrevistas de validación, se pudieron identificar/confirmar las siguientes heurísticas.
@@ -2652,24 +2909,43 @@ Basado en el feedback de los usuarios, brindado en las entrevistas de validació
 
 ### 7.1. Continuous Integration
 
-La integración continua (CI) es una práctica fundamental del proceso DevOps que permite integrar código frecuentemente en un repositorio compartido.  
-Este capítulo describe las herramientas y procesos implementados para garantizar que cada nueva incorporación al código base sea verificada automáticamente, minimizando errores de integración.
+La **Integración Continua (CI)** es una práctica esencial dentro del enfoque DevOps que permite incorporar cambios de código frecuentemente en un repositorio central, asegurando que estos sean verificados de manera automática.  
+El objetivo principal es detectar errores tempranamente, mejorar la calidad del software y reducir los tiempos de entrega.
+
+Este capítulo describe las herramientas, estrategias y procesos implementados para garantizar que cada nuevo commit o pull request pase por un conjunto de validaciones automatizadas antes de ser fusionado con la rama principal.
+
+---
 
 #### 7.1.1. Tools and Practices
 
-En esta sección se detallan las herramientas utilizadas para implementar CI, incluyendo **Git**, **GitHub Actions**, **JUnit**, y **SonarQube** para análisis estático de código.  
-También se describen las mejores prácticas adoptadas, como el uso de ramas feature, la revisión de código mediante pull requests, y la ejecución automática de pruebas al hacer push o merge.
+Para implementar una estrategia efectiva de CI, se utilizaron las siguientes herramientas:
+
+- **Git**: Sistema de control de versiones distribuido para la gestión del código fuente.
+- **GitHub**: Plataforma de alojamiento de repositorios que soporta colaboración mediante pull requests y revisiones de código.
+- **GitHub Actions**: Servicio de automatización utilizado para definir y ejecutar *workflows* que compilan, prueban y analizan el código en cada push o PR.
+- **JUnit**: Framework de pruebas unitarias para asegurar el correcto funcionamiento de los componentes del backend.
+- **SonarCloud** (SonarQube Cloud): Herramienta de análisis estático utilizada para evaluar la calidad, seguridad, mantenibilidad y cobertura del código fuente.
+
+Además, el equipo adoptó las siguientes prácticas de desarrollo colaborativo:
+
+- Uso de ramas `feature`, `bugfix`, `hotfix` y `release`, basadas en Git Flow.
+- Creación de **pull requests obligatorias** antes de fusionar cambios a la rama `main`.
+- Revisión de código entre pares para asegurar calidad y coherencia técnica.
+- Ejecución automática de pruebas y análisis de calidad en cada `push` o `merge`.
+
+---
 
 #### 7.1.2. Build & Test Suite Pipeline Components
 
-Aquí se desglosan los componentes del pipeline de CI relacionados con el proceso de construcción y ejecución de pruebas.  
-Esto incluye:
-- Compilación del código fuente.
-- Ejecución de pruebas unitarias y de integración.
-- Generación de reportes de cobertura.
-- Validación de calidad del código.
-  
-El objetivo es asegurar que cada commit mantenga la estabilidad del sistema.
+El pipeline de CI fue diseñado para validar de forma integral cada nueva versión del código. Sus principales componentes son:
+
+- 🔧 **Compilación**: Validación de que el código puede compilarse correctamente usando `Maven` para el backend y `npm` para el frontend.
+- ✅ **Ejecución de pruebas unitarias**: Pruebas automatizadas desarrolladas con `JUnit` (backend) y `Jest/Karma` (frontend), ejecutadas automáticamente en cada integración.
+- 📊 **Generación de reportes de cobertura**: Uso de `JaCoCo` en el backend para medir la cobertura de pruebas y reportarla a SonarCloud.
+- 🧪 **Análisis de calidad y seguridad**: Evaluación automática con `SonarCloud`, identificando code smells, bugs, duplicaciones y vulnerabilidades potenciales.
+- 🚦 **Quality Gates**: Validación de que el código cumple con los umbrales mínimos definidos (por ejemplo, 0 bugs críticos, cobertura mínima, sin duplicaciones).
+
+Este pipeline permite asegurar que **cada commit o pull request mantenga la estabilidad, calidad y seguridad del sistema**, minimizando el riesgo de introducir errores en producción.
 
 ---
 
@@ -2712,530 +2988,684 @@ Esta elección facilita la gestión eficiente del flujo de trabajo de desarrollo
 
 #### 7.2.2. Stages Deployment Pipeline Components
 
-Se explican los distintos componentes del pipeline de despliegue en entornos intermedios (staging):
-- Creación de contenedores.
-- Despliegue en entornos aislados.
-- Pruebas funcionales automáticas.
-- Validación manual previa al paso a producción.
+El pipeline de entrega continua fue diseñado para desplegar el sistema en entornos controlados antes de llegar a producción. Cada etapa del pipeline cumple una función clave para asegurar la calidad y confiabilidad del software:
+
+- 🐳 **Construcción de contenedores**: El backend y frontend se empacan en imágenes Docker versionadas. Estas imágenes se almacenan en un registro privado para facilitar su reutilización y despliegue.
+
+- 🚀 **Despliegue en entornos intermedios (staging)**: Las imágenes se ejecutan en entornos de staging controlados, configurados para simular el ambiente de producción y permitir pruebas realistas sin riesgos.
+
+- 🧪 **Pruebas funcionales automatizadas**: Se ejecutan pruebas end-to-end o de integración contra los servicios desplegados, validando flujos críticos del sistema antes de pasar al siguiente entorno.
+
+- 🧍 **Validación manual previa al paso a producción**: Una vez que las pruebas automáticas han pasado, se realiza una revisión manual o validación por parte del equipo, que incluye verificación visual o validación por stakeholders si corresponde.
+
+- 🔐 **Control de versiones y despliegue aprobado**: Sólo si se cumplen todas las condiciones anteriores, se autoriza manualmente el paso a producción, lo cual garantiza trazabilidad y evita liberaciones accidentales.
+
+Este enfoque por etapas permitió mantener una alta confianza en cada entrega, reducir errores en producción y facilitar ciclos de liberación más cortos y seguros.
 
 ---
 
 ### 7.3. Continuous Deployment
 
-El despliegue continuo es la fase final del proceso DevOps, donde cada cambio aprobado es desplegado automáticamente en producción.
+El **Despliegue Continuo (CD)** representa la fase final del ciclo DevOps, en la que cada cambio validado y aprobado desde los entornos de staging es desplegado automáticamente en producción, sin intervención manual.  
+Este enfoque permite acelerar los ciclos de entrega, minimizar errores humanos y mantener un flujo constante de valor hacia los usuarios finales.
+
+---
 
 #### 7.3.1. Tools and Practices
 
-Se describen las herramientas utilizadas para automatizar completamente el paso a producción, como **GitHub Actions**, **Kubernetes**, o **AWS/GCP** (según sea aplicable).  
-También se destacan buenas prácticas como:
-- Canarios de despliegue.
-- Monitoreo activo con alertas.
-- Rollback automático en caso de fallos.
+Para implementar un pipeline de despliegue continuo confiable y seguro, se adoptaron diversas herramientas y prácticas del ecosistema DevOps:
+
+- **GitHub Actions**: Plataforma de automatización utilizada para coordinar los pasos finales del despliegue hacia producción, basándose en validaciones previas y aprobaciones manuales.
+- **Docker**: Tecnología de contenedores utilizada para empaquetar la aplicación y asegurar la portabilidad entre entornos.
+- **Kubernetes (simulado o local)**: Orquestador de contenedores que permite gestionar el despliegue, escalado y alta disponibilidad de los servicios.
+- **Azure App Services** (o alternativa según el entorno): Plataforma usada para la exposición del sistema en producción, con integración continua y despliegue automatizado desde contenedores.
+
+Además, se aplicaron las siguientes buenas prácticas:
+
+- 🐦 **Despliegues canarios**: Liberación progresiva de nuevas versiones a un subconjunto de usuarios para detectar errores tempranos sin afectar a toda la base de usuarios.
+- 📈 **Monitoreo activo y alertas**: Supervisión del comportamiento de la aplicación en tiempo real, utilizando herramientas de logging, trazabilidad y métricas.
+- 🔁 **Rollback automático**: En caso de fallos críticos post-despliegue, se desencadena un proceso automatizado de reversión a la versión anterior estable.
+- 🔒 **Control de acceso y aprobación final**: Para evitar despliegues accidentales, se exige una validación manual previa por parte del equipo de desarrollo o líderes del proyecto.
+
+---
 
 #### 7.3.2. Production Deployment Pipeline Components
 
-Aquí se describen los elementos específicos del pipeline de producción:
-- Validaciones finales del entorno.
-- Despliegue automático tras aprobación de staging.
-- Monitoreo de logs y métricas post-despliegue.
-- Seguridad en el acceso y auditoría de cambios.
+El pipeline de producción fue diseñado para garantizar la seguridad, estabilidad y trazabilidad en cada entrega. A continuación, se detallan sus componentes clave:
+
+- ✅ **Validaciones finales del entorno**: Antes del despliegue, se realiza una verificación de que la infraestructura esté operativa, el registro de contenedores actualizado y las variables de entorno correctamente configuradas.
+
+- 🚀 **Despliegue automatizado tras aprobación de staging**: Una vez superadas todas las validaciones del entorno de pruebas, y tras una aprobación manual, el sistema ejecuta automáticamente el despliegue en producción.
+
+- 📊 **Monitoreo post-despliegue**: Tras la publicación, se activa el monitoreo de logs, consumo de recursos, tráfico y errores. Esto permite detectar anomalías y responder rápidamente en caso de incidentes.
+
+- 🔐 **Seguridad en el acceso y auditoría de cambios**: Se limita el acceso al entorno productivo mediante autenticación de múltiples factores (MFA) y se registra toda acción realizada en los pipelines para auditorías posteriores.
+
+Este proceso garantiza que cada despliegue en producción sea **predecible, auditable y reversible**, alineado con las mejores prácticas modernas de DevOps y con enfoque en la seguridad y estabilidad del servicio.
+
+---
+
+Aquí tienes la documentación completa y detallada para la sección **7.4. Continuous Monitoring**, adaptada a tu stack tecnológico (Spring Boot, Angular, Azure DevOps), siguiendo un estilo profesional y coherente con las secciones anteriores del capítulo DevOps. Lista para copiar y pegar en tu documentación técnica en formato Markdown:
+
+---
 
 ### 7.4. Continuous Monitoring
+
+El **Monitoreo Continuo** es una práctica clave del ciclo DevOps orientada a asegurar la observabilidad, trazabilidad y estabilidad del sistema en producción.  
+Permite detectar anomalías, analizar el rendimiento y tomar decisiones proactivas mediante el análisis de métricas, logs y trazas. Esta sección documenta las herramientas, configuraciones y componentes implementados para mantener una supervisión eficaz del sistema desplegado.
+
+---
+
 #### 7.4.1. Tools and Practices
 
-***_Pruebas de Carga y Estrés:_***  Para pruebas se utilizará Apache JMeter, que es una herramienta especializada para realizar pruebas de carga, estrés y rendimiento en aplicaciones web y servicios. Permite simular múltiples usuarios concurrentes enviando peticiones al servidor, lo que ayuda a identificar cuellos de botella, tiempos de respuesta inestables y posibles fallos bajo condiciones de alta demanda. Además, su capacidad para generar reportes gráficos detallados facilita el análisis del comportamiento del sistema y la toma de decisiones para optimizar su escalabilidad y robustez.
+Para lograr una estrategia de monitoreo completa, se integraron herramientas que cubren los tres pilares de la observabilidad: **métricas**, **logs** y **trazas**. Las herramientas elegidas se integran de forma natural con aplicaciones Spring Boot y Angular, y son compatibles con entornos cloud como Azure.
 
-***_Monitoreo de Experiencia del Usuario:_*** Para el monitoreo se utilizará Google Analytics, que permite analizar en profundidad cómo los usuarios interactúan con un sitio web, proporcionando métricas clave como duración de sesiones, tasa de rebote, flujo de navegación y páginas más visitadas. Esta información es crucial para identificar patrones de comportamiento, detectar puntos de fricción en la interfaz y tomar decisiones basadas en datos reales. Al integrar objetivos y eventos personalizados, los equipos pueden evaluar la efectividad de la experiencia de usuario y optimizarla de forma continua para lograr una mayor retención y conversión.
+**Herramientas principales utilizadas:**
 
-***_Supervisión de APIs:_*** Para la supervisión de APIs se utilizará Postman, que permite configurar monitores que ejecutan colecciones de peticiones en intervalos definidos, con el objetivo de evaluar la disponibilidad y el rendimiento de una API. Estos monitores pueden simular llamadas desde distintas ubicaciones geográficas y registrar métricas como el tiempo de respuesta, códigos de estado y validaciones personalizadas mediante scripts.
+- **Spring Boot Actuator**  
+  Exposición de endpoints para métricas, salud y trazas. Proporciona integración directa con Prometheus y otras soluciones.
+  
+- **Prometheus**  
+  Sistema de monitoreo de series temporales. Se utilizó para recolectar métricas de la aplicación backend y del entorno de ejecución.
+  
+- **Grafana**  
+  Plataforma de visualización de datos. Se usó para construir dashboards con métricas del backend (tiempo de respuesta, uso de memoria, tráfico HTTP, etc.) y métricas del pipeline CI/CD.
+  
+- **Azure Monitor + Application Insights**  
+  Solución nativa de Azure que centraliza el monitoreo de recursos, disponibilidad y rendimiento. Se utilizó para monitorear el frontend Angular y los servicios desplegados en Azure App Services.
 
-***_Auditorías de Calidad Web:_*** Para las auditorías se utilizará Google Lighthouse, que es una herramienta automatizada de código abierto que permite evaluar la calidad de aplicaciones web mediante una serie de auditorías enfocadas en aspectos clave como rendimiento, accesibilidad, buenas prácticas, SEO y experiencia en dispositivos móviles. Al generar un informe detallado con puntuaciones y recomendaciones específicas, Lighthouse ayuda a los desarrolladores a identificar cuellos de botella y áreas de mejora, optimizando así tanto la eficiencia técnica del sitio como la experiencia final del usuario.
+**Buenas prácticas adoptadas:**
+
+- Instrumentación de servicios Spring Boot mediante `Micrometer` con integración a Prometheus.
+- Uso de `HttpTrace`, `Health`, `Metrics` y `Env` de Spring Boot Actuator.
+- Uso del agente de `Application Insights` en el frontend Angular para recopilar errores de cliente y telemetría del navegador.
+- Dashboards compartidos en Grafana para análisis en tiempo real de la infraestructura y el comportamiento de las aplicaciones.
+- Configuración de alertas automáticas basadas en métricas definidas (latencia, errores 5xx, tiempo de despliegue, etc.).
+
+---
 
 #### 7.4.2. Monitoring Pipeline Components
 
-Un sistema de monitoreo eficaz se compone de múltiples etapas interconectadas que permiten evaluar y mantener el rendimiento y la calidad de una aplicación web. Este pipeline abarca desde la recopilación de datos hasta su análisis e interpretación visual, facilitando una visión completa del estado de la aplicación.
+El pipeline de CI/CD también está sujeto a monitoreo para asegurar tiempos de ejecución óptimos, detectar fallas recurrentes y mejorar la confiabilidad del proceso de entrega.
 
-Dentro de este flujo, Google Lighthouse se posiciona como una herramienta esencial para la etapa de auditoría técnica. Al integrarse en el pipeline, Lighthouse ejecuta evaluaciones automáticas que abarcan aspectos críticos como el rendimiento, la accesibilidad, el SEO y el cumplimiento de buenas prácticas. Sus informes detallados ayudan a detectar deficiencias que pueden afectar directamente la experiencia del usuario, como tiempos de carga elevados, inestabilidad visual (cambios de diseño inesperados) o problemas de navegación en dispositivos móviles. Incorporar Lighthouse de forma regular dentro del proceso de monitoreo permite a los equipos técnicos actuar de manera proactiva, optimizando continuamente la interfaz y el comportamiento de la aplicación.
+**Componentes monitoreados del pipeline (Azure DevOps):**
+
+- ⏱️ **Tiempo de ejecución por etapa** (build, test, deploy).
+- 📦 **Estado del build** (exitoso, fallido, cancelado).
+- 🧪 **Resultados de pruebas** (cantidad de tests pasados/fallidos).
+- 🚀 **Historial de despliegues** (tiempos, frecuencia, duración).
+- 📈 **Tiempo promedio entre entregas (MTTD)** y **fallas (MTTR)**.
+
+**Implementación técnica:**
+
+- Uso de extensiones de Azure DevOps para exportar datos de ejecución hacia **Application Insights** o Prometheus.
+- Integración de resultados del pipeline con **Grafana** para visualizar patrones de ejecución y detectar cuellos de botella.
+
+**Ejemplo de visualización:**
+
+```yaml
+# Ejemplo de anotación en Prometheus desde un job de Azure DevOps
+- name: Push custom metric to Prometheus PushGateway
+  run: |
+    echo "ci_build_duration_seconds{pipeline='fitwise-backend'} 145" | curl --data-binary @- http://localhost:9091/metrics/job/build    
+```
+
+---
 
 #### 7.4.3. Alerting Pipeline Components
 
-El componente de alertas en un pipeline de monitoreo es responsable de identificar de forma automática problemas de rendimiento o disponibilidad en una aplicación y notificar inmediatamente al equipo correspondiente. Este proceso es clave para mantener la estabilidad del sistema y ofrecer una experiencia de usuario continua y sin interrupciones.
+El sistema de alertas permite detectar desviaciones en el comportamiento del sistema o del pipeline y responder de forma proactiva. Se implementaron alertas automáticas y configurables sobre métricas clave del entorno y del software.
 
-Para implementar este componente de forma práctica y efectiva, se pueden utilizar dos herramientas ampliamente adoptadas y fáciles de integrar: Prometheus y Grafana.
+**Alertas configuradas:**
 
-**Prometheus**
-Prometheus es una herramienta de monitoreo centrada en la recopilación de métricas. Su uso es sencillo: se configura para que obtenga datos periódicos desde aplicaciones, servidores o servicios, y luego permite establecer reglas de alerta basadas en esos datos. Por ejemplo, puedes configurar una alerta para cuando el uso de CPU supere cierto umbral o cuando una API deje de responder.
+* 🔥 **Errores 5xx** sostenidos en el backend.
+* 🕑 **Aumento de latencia** en endpoints críticos.
+* ❌ **Fallos consecutivos de despliegue** o builds.
+* ⚠️ **Uso de CPU o memoria fuera del umbral** en el entorno de staging/producción.
+* 🧪 **Cobertura de pruebas por debajo del mínimo aceptable** (detectado por SonarCloud).
 
-Además, Prometheus se integra con **Alertmanager**, una herramienta que permite gestionar y distribuir esas alertas por diferentes canales como correo electrónico, Slack o Microsoft Teams.
+**Herramientas utilizadas para alertas:**
 
-**Grafana**
-Grafana se utiliza para visualizar las métricas que Prometheus recopila. Además, Grafana permite configurar alertas visuales directamente desde sus paneles, sin necesidad de escribir reglas complejas. Puedes crear dashboards personalizados con indicadores clave (como tiempo de respuesta, errores por segundo, etc.) y configurar umbrales visuales que disparen notificaciones cuando algo se sale de lo normal.
+* **Prometheus Alertmanager**: Motor centralizado para la evaluación y envío de alertas.
+* **Azure Monitor Alerts**: Configuración de reglas de alertas desde métricas de App Services y Application Insights.
+* **Grafana Alerting**: Alertas configurables desde dashboards con reglas sobre métricas y comportamiento histórico.
 
-Grafana se complementa con Prometheus porque se conecta fácilmente a su base de datos de métricas y ofrece una interfaz mucho más amigable para analizar y reaccionar a la información.
+**Ejemplo de alerta Prometheus:**
 
-Usar Prometheus para la recolección de métricas y Grafana para la visualización y configuración de alertas ofrece una solución completa, intuitiva y eficiente para implementar el componente de alertas dentro de un pipeline de monitoreo. Esta combinación permite reaccionar rápidamente ante incidentes, mejorar la capacidad de respuesta del equipo técnico y garantizar la disponibilidad continua de los servicios.
+```yaml
+groups:
+  - name: spring-boot-rules
+    rules:
+      - alert: HighHttpErrorRate
+        expr: rate(http_server_errors_total[1m]) > 0.05
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Tasa alta de errores HTTP 5xx detectada"
+          description: "Más del 5% de las peticiones están fallando."
+```
+
+---
 
 #### 7.4.4. Notification Pipeline Components
 
-El componente de notificaciones en un pipeline de desarrollo o pruebas tiene como objetivo informar automáticamente al equipo sobre eventos clave, como el resultado de una prueba, el fallo de una compilación o la finalización de un despliegue. Esta comunicación inmediata permite detectar errores de forma temprana y responder rápidamente, evitando que los problemas pasen desapercibidos.
+Una vez detectadas las condiciones de alerta, el sistema debe notificar al equipo de desarrollo de manera oportuna, clara y efectiva.
 
-Una de las formas más accesibles y prácticas de implementar este componente es mediante Slack, una plataforma de mensajería muy usada en entornos de desarrollo. Gracias a sus integraciones con herramientas como GitHub Actions, Jenkins o incluso scripts personalizados con Webhooks, es posible enviar mensajes automáticos directamente a canales específicos del equipo.
+**Mecanismos de notificación implementados:**
 
-Por ejemplo:
+* 📧 **Correo electrónico** (Azure Alerts y Alertmanager).
+* 💬 **Slack**: Integración directa con canales del equipo para avisos críticos.
+* 📱 **Notificaciones móviles** (opcional) mediante integración con apps como Microsoft Teams, Opsgenie o PagerDuty.
 
-- Cuando un pipeline falla, Slack puede enviar un mensaje con el nombre del proyecto, el error ocurrido y un enlace al log detallado.
-- Si todas las pruebas pasan correctamente, puede notificarse el éxito del build con el tiempo total de ejecución.
-- También se pueden programar reportes diarios o semanales con resúmenes del estado del proyecto.
+**Pasos de integración destacados:**
 
-Implementar el Notification Pipeline Component con Slack es una forma sencilla, eficaz y rápida de mantener informado al equipo, mejorar la coordinación y garantizar una respuesta oportuna ante cualquier incidencia en el proceso de desarrollo.
+* En Azure Monitor:
+
+  * Crear una regla de alerta → seleccionar condición → definir grupo de acción → agregar destino (correo, webhook, etc.).
+
+* En Prometheus + Alertmanager:
+
+  * Configurar `alertmanager.yml` para el canal de notificación:
+
+    ```yaml
+    receivers:
+      - name: 'slack-notifications'
+        slack_configs:
+          - channel: '#devops-alerts'
+            send_resolved: true
+            username: 'PrometheusBot'
+            text: "{{ .CommonAnnotations.summary }}"
+    ```
+
+* En Grafana:
+
+  * Crear una alerta desde un panel → configurar umbral → conectar notificador (Slack, Teams, email, etc.).
+
+Estas notificaciones permiten que el equipo responda de inmediato a incidentes críticos o fallos del pipeline, mejorando la **resiliencia operativa** del sistema.
+
+---
 
 ## Capítulo VIII: Experiment-Driven Development
 
-## 8.1. Experiment Planning
+### 8.1. Experiment Planning
 
-### 8.1.1. As-Is Summary
+#### 8.1.1. As-Is Summary
 
-**VibeFit** es una startup tecnológica que desarrolla **FitWise**, una aplicación web y móvil diseñada para mejorar el bienestar físico y mental de los usuarios mediante rutinas de entrenamiento y planes nutricionales personalizados.
+**VibeFit** es una startup tecnológica orientada a la innovación en el sector del bienestar digital. Su producto principal, **FitWise**, es una aplicación web y móvil diseñada para mejorar la salud física y mental de los usuarios a través de planes personalizados de entrenamiento físico y nutrición.
 
-#### Proceso principal del usuario en FitWise:
+**Flujo principal del usuario en FitWise:**
 
-1. **Registro o inicio de sesión**  
-   El usuario puede crear una cuenta o ingresar con credenciales previamente registradas. Se recopilan datos personales básicos y preferencias de bienestar.
+1. **Registro e inicio de sesión**  
+   El usuario puede registrarse mediante correo electrónico o ingresar con credenciales previamente creadas. Durante el proceso, se recopilan datos personales y preferencias generales relacionadas con el bienestar.
 
 2. **Evaluación inicial**  
-   Se realiza un cuestionario para conocer el nivel físico, estilo de vida, metas (bajar de peso, ganar masa muscular, mejorar salud general) y restricciones alimenticias.
+   A través de un cuestionario estructurado, la aplicación obtiene información clave como nivel de actividad física, estilo de vida, objetivos (pérdida de peso, ganancia muscular, mantenimiento de salud), y restricciones alimenticias. Con esta información se construye el perfil inicial del usuario.
 
-3. **Generación automática del plan personalizado**  
-   En base a los datos del usuario, FitWise genera una rutina de entrenamiento y un plan nutricional adecuados a sus características.
+3. **Generación automática de planes personalizados**  
+   Utilizando reglas y algoritmos definidos, FitWise genera una rutina de entrenamiento y un plan nutricional adaptado a las características, objetivos y restricciones del usuario.
 
-4. **Seguimiento diario del progreso**  
-   El usuario puede registrar la finalización de actividades, recibir recordatorios inteligentes, y consultar su progreso mediante gráficos de desempeño y métricas.
+4. **Seguimiento y retroalimentación diaria**  
+   Los usuarios pueden registrar su progreso diario (actividades completadas, cumplimiento nutricional), visualizar métricas e indicadores mediante gráficos, y recibir recordatorios inteligentes para fomentar la adherencia al plan.
 
-5. **Ajustes al plan**  
-   El usuario puede modificar su objetivo, nivel de intensidad o disponibilidad horaria en cualquier momento, y la plataforma reajusta el plan automáticamente.
-
-6. **Acompañamiento y motivación**  
-   La app utiliza tecnología de notificaciones, mensajes motivacionales, y herramientas de gamificación para mantener al usuario comprometido.
-
-#### Funcionalidades secundarias:
-
-- **Visualización del progreso con métricas y gráficas**  
-- **Interacción con un asistente virtual para resolver dudas sobre ejercicios o alimentación**
-- **Posibilidad de recibir feedback de un coach humano en versiones premium**
-- **Configuración de recordatorios diarios y notificaciones según comportamiento de uso**
-
+5. **Reconfiguración dinámica del plan**  
+   Los usuarios pueden modificar su objetivo, nivel de exigencia o disponibilidad horaria en cualquier momento. La aplicación se encarga de recalcular el plan de forma automática para mantener su alineación con las nuevas preferencias.
 
 ---
 
-### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+**Oportunidades identificadas para mejora futura:**
 
-#### Assumptions
+- ⚙️ **Rendimiento durante la generación del plan**  
+  El proceso de generación automática puede demorar varios segundos, lo que podría generar frustración y afectar la experiencia de usuario, especialmente en dispositivos móviles con recursos limitados.
 
-- Los usuarios valoran la personalización en rutinas y dietas como factor motivador principal.
-- El acompañamiento digital (recordatorios y seguimiento) mejora la adherencia a los planes.
-- Las notificaciones deben ser frecuentes pero no invasivas para mantener la motivación.
-- Los usuarios están dispuestos a compartir datos personales si eso mejora la experiencia.
-- Un diseño simple y visual favorece la constancia de uso en usuarios sin experiencia.
-- La gamificación aumenta la frecuencia de uso semanal.
-- La mayoría de los usuarios quieren ver resultados visuales de su progreso.
-- El seguimiento del estado de ánimo es útil para adaptar el nivel de intensidad.
+- 🌍 **Falta de soporte para múltiples idiomas**  
+  Actualmente, la interfaz y contenidos están disponibles únicamente en español, limitando la expansión internacional de la aplicación y dificultando su adopción por usuarios no hispanohablantes.
 
-#### Knowledge Gaps
+- 🔔 **Preferencias personalizadas de notificaciones y recordatorios**  
+  La aplicación no cuenta con una sección donde el usuario pueda configurar cómo, cuándo y con qué frecuencia desea recibir notificaciones, recordatorios o mensajes de seguimiento.
 
-- ¿Qué elementos de acompañamiento tienen mayor impacto en la motivación?
-- ¿Cuál es la frecuencia ideal para enviar notificaciones sin generar fatiga digital?
-- ¿Qué tipo de personalización (nutricional vs. física) genera mayor adherencia?
-- ¿Qué perfil de usuario tiene mayor tasa de abandono y por qué?
-- ¿Cuáles son las métricas de éxito que los usuarios consideran más relevantes?
-- ¿Qué tan efectivo es el contenido educativo dentro de la app en el cambio de hábitos?
-- ¿Qué canales generan mayor conversión en usuarios nuevos?
-- ¿Cuánta diferencia genera la intervención de un coach humano en comparación con el asistente digital?
+- 🌙 **Modo oscuro**  
+  No se ofrece la posibilidad de cambiar al modo oscuro, una funcionalidad valorada por usuarios que utilizan la app en entornos de poca luz o durante la noche. Su ausencia afecta la usabilidad y accesibilidad visual.
 
-#### Ideas
-
-- Integrar un **sistema de seguimiento del estado de ánimo** diario para adaptar entrenamientos.
-- Implementar una **IA generativa** para explicar y sugerir cambios en rutinas.
-- Desarrollar un **ranking entre usuarios** para fomentar competitividad saludable.
-- Agregar **videos personalizados** para corrección postural según desempeño.
-- Habilitar un sistema de **recompensas** por metas alcanzadas semanalmente.
-- Mostrar datos comparativos (“Personas con tu perfil lograron X en Y semanas”).
-- Generar **notificaciones adaptativas** según el tipo de usuario (proactivo, reactivo, inconstante).
-- Expandir el sistema de recomendación con contenido educativo personalizado.
-
-#### Claims
-
-- La personalización algorítmica mejora la adherencia semanal en un 30%.
-- La integración de notificaciones adaptativas aumenta la tasa de sesiones por semana.
-- Usuarios que visualizan métricas de progreso completan 2 veces más rutinas.
-- El acompañamiento motivacional es percibido como valioso por más del 70% de usuarios frecuentes.
-- Un diseño claro y simple reduce el abandono durante los primeros 7 días de uso.
-- Incluir rutinas de “mini-hábitos” genera mayor retención en usuarios con poca experiencia.
-- El uso de IA para feedback genera mayor percepción de personalización y cercanía.
-- Mostrar estadísticas comunitarias (ranking, progreso promedio) incrementa el compromiso.
+- 💬 **Motivación y acompañamiento continuo**  
+  FitWise no incorpora actualmente elementos de gamificación, mensajes motivacionales o recompensas virtuales, los cuales son efectivos para aumentar la retención y el compromiso del usuario con su plan de bienestar.
 
 ---
 
-### 8.1.3. Experiment-Ready Questions
+Este resumen del estado actual permite establecer una línea base clara desde la cual identificar hipótesis, formular preguntas y diseñar experimentos que orienten el crecimiento futuro de la aplicación en función de necesidades reales de los usuarios.
 
-1. ¿Aumenta la adherencia a planes si los usuarios reciben notificaciones adaptativas?
-2. ¿Qué tipo de contenido (texto motivacional, tips, logros visuales) genera más interacción diaria?
-3. ¿La personalización en base al estado de ánimo mejora la retención semanal?
-4. ¿La integración de mini-retos o gamificación aumenta la frecuencia de uso?
-5. ¿Un rediseño de interfaz más visual mejora la tasa de finalización de rutina?
-6. ¿Mostrar estadísticas comparativas (ranking, comunidad) influye en la motivación?
-7. ¿Agregar recompensas por consistencia diaria incrementa la adherencia?
-8. ¿El feedback de IA es percibido como más útil que el texto estático?
-9. ¿Los usuarios prefieren rutinas guiadas con video sobre rutinas por texto?
-10. ¿La posibilidad de contactar a un coach humano mejora la percepción de apoyo?
+#### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
 
-| Pregunta | Confianza | Riesgo | Impacto | Interés | Total Score |
-|---------|-----------|--------|---------|---------|-------------|
-| ¿Aumenta la adherencia con notificaciones adaptativas? | 8 | 4 | 8 | 8 | **28** |
-| ¿Qué tipo de contenido genera más interacción diaria? | 7 | 5 | 7 | 8 | **27** |
-| ¿Personalizar según estado de ánimo mejora retención? | 6 | 6 | 8 | 7 | **27** |
-| ¿Gamificación aumenta frecuencia de uso? | 7 | 5 | 8 | 8 | **28** |
-| ¿Rediseño visual mejora finalización de rutina? | 7 | 4 | 7 | 7 | **25** |
-| ¿Estadísticas comparativas influyen en motivación? | 6 | 5 | 7 | 7 | **25** |
-| ¿Recompensas por consistencia mejoran adherencia? | 7 | 5 | 8 | 8 | **28** |
-| ¿Feedback de IA es más útil que texto estático? | 6 | 6 | 6 | 7 | **25** |
-| ¿Rutinas guiadas en video son preferidas? | 7 | 4 | 7 | 7 | **25** |
-| ¿Coach humano mejora percepción de apoyo? | 6 | 6 | 7 | 8 | **27** |
+Esta sección recopila el material base que servirá como punto de partida para formular hipótesis experimentales. Incluye supuestos que guían las decisiones actuales, vacíos de conocimiento que requieren validación, ideas potenciales de mejora, y afirmaciones que pueden ponerse a prueba mediante experimentación.
+
+---
+
+#### Assumptions (Supuestos actuales)
+
+- Los usuarios valoran la personalización de rutinas y planes nutricionales como un factor clave para iniciar y mantener el uso de la aplicación.
+- El acompañamiento digital (recordatorios y retroalimentación) mejora la adherencia diaria al plan.
+- Las notificaciones frecuentes, pero no invasivas, contribuyen positivamente a la motivación del usuario.
+- Los usuarios están dispuestos a compartir información personal si eso se traduce en una experiencia más útil y adaptada.
+- Un diseño visual claro y sencillo favorece la retención de usuarios con poca experiencia tecnológica.
+- La inclusión de elementos de gamificación puede aumentar la frecuencia de uso semanal.
+- La mayoría de los usuarios valora la visualización del progreso como refuerzo positivo.
+- El estado emocional del usuario puede influir en su rendimiento y constancia, y debe considerarse en la planificación personalizada.
+
+---
+
+#### Knowledge Gaps (Vacíos de conocimiento)
+
+- ¿Qué tipos de acompañamiento (notificaciones, consejos, seguimiento de logros) tienen mayor impacto en la motivación y adherencia?
+- ¿Cuál es la frecuencia ideal de notificaciones para fomentar el uso sin generar fatiga digital?
+- ¿Qué dimensión de personalización (entrenamiento físico vs. nutrición) resulta más significativa para los distintos tipos de usuario?
+- ¿Qué perfiles de usuario presentan mayores tasas de abandono y qué factores contribuyen a ello?
+- ¿Qué métricas de progreso (calorías, tiempo, rutinas completadas, peso corporal, bienestar percibido) resultan más relevantes para el usuario?
+- ¿Cuánto valor perciben los usuarios en contenidos educativos breves dentro de la app?
+- ¿Qué tan efectivas son las recomendaciones automatizadas en comparación con ajustes manuales del usuario?
+
+---
+
+#### Ideas (Ideas viables a corto plazo)
+
+- Incorporar un **registro emocional diario básico** (feliz, neutro, estresado, desmotivado) para adaptar la carga de entrenamiento.
+- Desarrollar un **sistema de recompensas simples** (badges o insignias) por metas semanales alcanzadas.
+- Mostrar comparaciones anónimas del tipo: *"El 68% de personas con tu perfil completó al menos 4 rutinas esta semana"*, como elemento motivador.
+- Implementar **notificaciones adaptativas** (por ejemplo, más insistentes con usuarios inconstantes, menos con los proactivos).
+- Añadir un panel de **progreso visual simplificado** accesible desde la pantalla principal para fomentar la constancia.
+- Integrar un sistema para que el usuario **personalice la frecuencia y tipo de notificaciones** (entrenamiento, motivación, nutrición).
+- Introducir una sección con **tips de bienestar personalizados** basada en la actividad registrada por el usuario.
+
+---
+
+#### Claims (Afirmaciones a validar)
+
+- La personalización basada en datos mejora la adherencia semanal de los usuarios en al menos un 30%.
+- La inclusión de notificaciones adaptativas aumenta la tasa de sesiones activas por semana.
+- Los usuarios que visualizan gráficos de progreso completan el doble de rutinas que aquellos que no lo hacen.
+- Más del 70% de los usuarios percibe como útil el acompañamiento motivacional automatizado (mensajes, logros, comparativas).
+- Un diseño claro y sin sobrecarga visual reduce la tasa de abandono durante la primera semana de uso.
+- La introducción de rutinas breves o de “mini-hábitos” mejora la retención en usuarios con nivel principiante o baja disponibilidad horaria.
+- Mostrar estadísticas comunitarias (por ejemplo, "ranking de constancia semanal") refuerza el sentido de progreso y pertenencia.
+
+---
+
+Este conjunto de supuestos, vacíos, ideas y afirmaciones servirá como base para la planificación de experimentos controlados orientados a validar qué funcionalidades aportan mayor valor al usuario final y optimizan la experiencia de uso en FitWise.
+
+
+#### 8.1.3. Experiment-Ready Questions
+
+1. ¿El uso de notificaciones adaptativas mejora la frecuencia de interacción semanal?
+2. ¿Permitir al usuario configurar sus preferencias de notificación reduce el abandono en los primeros 7 días?
+3. ¿Visualizar el progreso mediante gráficos incrementa la finalización de rutinas semanales?
+4. ¿La inclusión de mensajes motivacionales personalizados aumenta la percepción de acompañamiento?
+5. ¿Un rediseño visual más claro y simplificado mejora la tasa de retención en usuarios novatos?
+6. ¿La incorporación de recompensas semanales (badges) mejora la constancia en los usuarios?
+7. ¿Mostrar estadísticas anónimas comparativas (por perfil) motiva a completar más rutinas?
+8. ¿La personalización de la carga de entrenamiento según estado de ánimo mejora la adherencia semanal?
+9. ¿Agregar tips de bienestar breves y contextualizados mejora la percepción de valor de la app?
+10. ¿Qué tipo de personalización (nutricional vs. entrenamiento) es más valorada por usuarios activos?
+
+---
+
+| Pregunta                                            | Confianza |   Riesgo  |  Impacto  |   Interés | Total Score |
+|:---------------------------------------------------:|:---------:|:---------:|:---------:|:---------:|:-----------:|
+| ¿Notificaciones adaptativas mejoran interacción semanal?                            | 8 | 4 | 8 | 8 |  **28**     |
+| ¿Configuración de notificaciones reduce abandono inicial?                           | 7 | 5 | 8 | 7 |  **27**     |
+| ¿Progreso visual incrementa finalización de rutinas?                                | 7 | 4 | 8 | 8 |  **27**     |
+| ¿Mensajes motivacionales aumentan percepción de acompañamiento?                     | 7 | 5 | 7 | 7 |  **26**     |
+| ¿Rediseño visual mejora retención en usuarios novatos?                              | 6 | 5 | 7 | 7 |  **25**     |
+| ¿Recompensas semanales aumentan constancia?                                         | 7 | 4 | 8 | 8 |  **27**     |
+| ¿Estadísticas comparativas motivan mayor cumplimiento?                              | 6 | 5 | 7 | 7 |  **25**     |
+| ¿Personalizar según estado de ánimo mejora adherencia semanal?                      | 6 | 6 | 8 | 7 |  **27**     |
+| ¿Tips de bienestar breves mejoran percepción de valor?                              | 7 | 4 | 6 | 6 |  **23**     |
+| ¿Personalización nutricional vs. entrenamiento: cuál genera mayor valor percibido?  | 6 | 5 | 7 | 7 |  **25**     |
+
 
 #### 8.1.4. Question Backlog
 
-| Prioridad | Pregunta                                                                                   |
-|-----------|--------------------------------------------------------------------------------------------|
-| 5         | ¿Crecerá la audiencia agregando traducciones de la app a otros idiomas como inglés y francés? |
-| 3         | ¿Aumentará la participación si habilitamos calificaciones y comentarios por rutina y entrenamiento? |
-| 4         | ¿Aumentará la participación habilitando comentarios públicos bajo identidad verdadera?     |
-| 2         | ¿Mejorará la experiencia del usuario incluyendo varios temas de diseño para personalizar la app? |
-| 8         | ¿Crecerá la base de usuarios si nos expandimos a más países de habla hispana?              |
-| 7         | ¿Incrementará el porcentaje de visitas y uso si rediseñamos la app para ser más amigable en móviles? |
-| 2         | ¿Tendrá efecto positivo en las visitas del sitio web incluir testimonios destacados de usuarios satisfechos? |
-| 2         | ¿Aumentará la base de usuarios si indicamos la certificación y experiencia de los entrenadores? |
-| 1         | ¿Crecerá la audiencia incluyendo estadísticas claras sobre la comunidad FitWise?           |
-| 5         | ¿Aumentará la interacción entre usuarios agregando una función de mensajes directos?       |
+Esta sección presenta el conjunto de preguntas experimentales priorizadas para su futura validación, utilizando la escala de Fibonacci para estimar su valor/impacto dentro del roadmap de mejoras. La priorización considera viabilidad técnica, impacto en la experiencia de usuario y alineación con los objetivos de corto y mediano plazo del proyecto.
 
----
+| # | Pregunta                                                               | Prioridad (Fibonacci) | Estado     | Justificación                                                                 |
+|---|--------------------------------------------------------------------------------------------|-------------------|--------------|-------------------------------------------------------------------------------|
+| 1 | ¿Notificaciones adaptativas mejoran interacción semanal?                                  | **21**            | Priorizada   | Alta alineación con objetivos de retención y factible de implementar pronto. |
+| 2 | ¿Recompensas semanales aumentan constancia?                                                | **21**            | Priorizada   | Elemento de gamificación fácil de implementar con alto impacto motivacional. |
+| 3 | ¿Progreso visual incrementa finalización de rutinas?                                       | **13**            | Priorizada   | Refuerzo visual ya solicitado por usuarios; impacto directo en adherencia.   |
+| 4 | ¿Configuración de notificaciones reduce abandono inicial?                                 | **13**            | Priorizada   | Personalización mejora experiencia; requiere cambios menores en frontend.    |
+| 5 | ¿Personalizar según estado de ánimo mejora adherencia semanal?                            | **13**            | En evaluación| Alineado con enfoque holístico; requiere pruebas de UX adicionales.          |
+| 6 | ¿Mensajes motivacionales aumentan percepción de acompañamiento?                           | **8**             | Priorizada   | Mejora percepción emocional sin gran complejidad técnica.                    |
+| 7 | ¿Rediseño visual mejora retención en usuarios novatos?                                    | **8**             | En evaluación| Iniciativa de mayor alcance, pero potencialmente muy efectiva.               |
+| 8 | ¿Estadísticas comparativas motivan mayor cumplimiento?                                    | **5**             | En evaluación| Interesante como gamificación ligera; validable rápidamente.                 |
+| 9 | ¿Tips de bienestar breves mejoran percepción de valor?                                    | **3**             | En evaluación| Valor añadido bajo esfuerzo, pero con efecto limitado.                       |
+|10 | ¿Personalización nutricional vs. entrenamiento: cuál genera mayor valor percibido?        | **2**             | Pendiente    | Requiere segmentación avanzada y mayor volumen de usuarios.                  |
+
+
 #### 8.1.5. Experiment Cards
 
 ---
 
-### Question  
-¿Crecerá la audiencia agregando traducciones de la app a otros idiomas como inglés y francés?
-
-**Why**  
-Porque al ofrecer la app en inglés y francés, podemos atraer a usuarios que no hablan español, ampliando el alcance global de FitWise y aumentando su base de usuarios.
-
-**What**  
-Implementar traducciones de toda la app y contenido principal a inglés y francés para facilitar el acceso a nuevos usuarios.
-
-**Hypothesis**  
-Si agregamos estas traducciones, la base de usuarios aumentará al menos un 15% en los próximos 6 meses.
+| **Question** | ¿El uso de notificaciones adaptativas mejora la frecuencia de interacción semanal? |
+|--------------|-----------------------------------------------------------|
+| **Why**      | Para validar si adaptar la frecuencia y el tipo de notificaciones según el comportamiento del usuario aumenta su participación continua en la app. |
+| **What**     | Implementar una lógica de envío de notificaciones personalizada según el perfil del usuario (proactivo, inconstante, reactivo) y comparar su actividad semanal frente a un grupo de control con notificaciones estándar. |
+| **Hypothesis** | Creemos que las notificaciones adaptativas incrementarán en al menos un 25% la cantidad de sesiones semanales por usuario, ya que se ajustan mejor al ritmo y estilo de cada perfil. |
 
 ---
 
-### Question  
-¿Aumentará la participación si habilitamos calificaciones y comentarios por rutina y entrenamiento?
-
-**Why**  
-Porque permitir que los usuarios valoren y comenten cada rutina genera mayor interacción y retroalimentación, lo que fortalece la comunidad.
-
-**What**  
-Agregar la función para calificar y comentar cada rutina o entrenamiento dentro de la app.
-
-**Hypothesis**  
-Con esta función, la interacción aumentará un 20% en los próximos 2 meses.
+| **Question** | ¿La incorporación de recompensas semanales (badges) mejora la constancia en los usuarios? |
+|--------------|---------------------------------------------|
+| **Why**      | Para validar si los incentivos simbólicos semanales (badges, insignias) generan mayor compromiso con el cumplimiento del plan asignado. |
+| **What**     | Desplegar un sistema básico de recompensas visuales por completar al menos 4 rutinas por semana. Medir la diferencia en adherencia respecto a usuarios sin recompensas visibles. |
+| **Hypothesis** | Creemos que los usuarios que reciben recompensas visuales tendrán una tasa de cumplimiento de planes semanales un 30% mayor, ya que se sienten reconocidos por sus logros. |
 
 ---
 
-### Question  
-¿Aumentará la participación habilitando comentarios públicos bajo identidad verdadera?
-
-**Why**  
-Porque los comentarios con identidad real fomentan la responsabilidad y reducen contenido tóxico, mejorando la calidad de la comunidad.
-
-**What**  
-Implementar comentarios públicos que requieran autenticación con perfil verificado mostrando nombre real.
-
-**Hypothesis**  
-Esto reducirá comentarios ofensivos y aumentará la participación positiva en un 25% durante los próximos 3 meses.
+| **Question** | ¿Visualizar el progreso mediante gráficos incrementa la finalización de rutinas semanales? |
+|--------------|--------------------------------------------------------|
+| **Why**      | Para verificar si mostrar gráficamente el avance del usuario actúa como motivador adicional para mantener su constancia. |
+| **What**     | Incorporar un módulo visual con gráficos de progreso (rutinas completadas, metas semanales, días activos) y medir su impacto sobre la tasa de finalización de rutinas semanales. |
+| **Hypothesis** | Creemos que la visualización del progreso aumentará en al menos 20% la tasa de finalización de rutinas semanales, al reforzar la sensación de avance. |
 
 ---
 
-### Question  
-¿Mejorará la experiencia del usuario incluyendo varios temas de diseño para personalizar la app?
-
-**Why**  
-Porque ofrecer opciones de personalización visual permite a los usuarios adaptar la app a sus preferencias, aumentando su satisfacción.
-
-**What**  
-Agregar distintos temas visuales para que el usuario elija cómo se ve la app (modo claro, oscuro, colores personalizados).
-
-**Hypothesis**  
-Esto incrementará el tiempo de uso y satisfacción del usuario en al menos un 15% en 2 meses.
+| **Question** | ¿Permitir al usuario configurar sus preferencias de notificación reduce el abandono en los primeros 7 días? |
+|--------------|------------------------------------------------------------|
+| **Why**      | Para determinar si ofrecer a los usuarios control sobre el tipo y la frecuencia de notificaciones durante su primera semana de uso mejora la retención inicial. |
+| **What**     | Habilitar una opción de configuración de preferencias de notificación durante el onboarding y comparar la tasa de abandono en los primeros 7 días respecto al flujo estándar sin personalización. |
+| **Hypothesis** | Creemos que permitir al usuario definir su experiencia notificacional reducirá el abandono inicial en al menos un 15%, al disminuir la sensación de intrusión y aumentar la percepción de control. |
 
 ---
 
-### Question  
-¿Crecerá la base de usuarios si nos expandimos a más países de habla hispana?
+| **Question** | ¿La inclusión de mensajes motivacionales personalizados aumenta la percepción de acompañamiento? |
+|--------------|------------------------------------------------------------------|
+| **Why**      | Para analizar si el envío de mensajes motivacionales breves genera una mayor percepción de apoyo digital, lo que podría mejorar la experiencia de uso. |
+| **What**     | Enviar mensajes motivacionales diarios a un subconjunto de usuarios durante 14 días y aplicar una encuesta de percepción al final del periodo. Comparar con grupo de control sin mensajes. |
+| **Hypothesis** | Creemos que los usuarios que reciben mensajes motivacionales reportarán al menos un 25% más de percepción positiva sobre el acompañamiento de la app. |
 
-**Why**  
-Porque ampliar el mercado a más países con idioma español incrementará el alcance y atraerá nuevos usuarios interesados en fitness.
-
-**What**  
-Lanzar FitWise en nuevos países hispanohablantes y adaptar contenido y promociones locales.
-
-**Hypothesis**  
-Se obtendrán al menos 10,000 usuarios nuevos en 7 meses tras la expansión.
-
----
-
-### Question  
-¿Incrementará el porcentaje de visitas y uso si rediseñamos la app para ser más amigable en móviles?
-
-**Why**  
-Porque la mayoría de usuarios acceden desde dispositivos móviles; un diseño más amigable aumenta la retención y el uso.
-
-**What**  
-Rediseñar la app para optimizar la experiencia en móviles, mejorando navegación y velocidad.
-
-**Hypothesis**  
-La tasa de conversión y visitas aumentará en un 15% durante los próximos 10 meses.
-
----
-
-### Question  
-¿Tendrá efecto positivo en las visitas del sitio web incluir testimonios destacados de usuarios satisfechos?
-
-**Why**  
-Porque testimonios reales generan confianza y motivan a nuevos usuarios a explorar y unirse a FitWise.
-
-**What**  
-Mostrar testimonios destacados con mayor impacto en la página principal del sitio web.
-
-**Hypothesis**  
-Esto incrementará las visitas en un 10% en 5 meses.
-
----
-
-### Question  
-¿Aumentará la base de usuarios si indicamos la certificación y experiencia de los entrenadores?
-
-**Why**  
-Porque mostrar credenciales y certificaciones genera confianza y seguridad para los usuarios al elegir entrenadores.
-
-**What**  
-Mostrar certificaciones y experiencia profesional en los perfiles de entrenadores.
-
-**Hypothesis**  
-Aumentará el número de usuarios activos en un 5% durante los próximos 5 meses.
-
----
-
-### Question  
-¿Crecerá la audiencia incluyendo estadísticas claras sobre la comunidad FitWise?
-
-**Why**  
-Porque mostrar datos objetivos de la comunidad (número de usuarios, entrenamientos completados) genera confianza y atrae nuevos usuarios.
-
-**What**  
-Incluir estadísticas en la app y sitio web que reflejen el crecimiento y actividad de la comunidad.
-
-**Hypothesis**  
-La audiencia crecerá en un 10% en 4 meses.
-
----
-
-### Question  
-¿Aumentará la interacción entre usuarios agregando una función de mensajes directos?
-
-**Why**  
-Porque permitir comunicación privada facilita colaboración, apoyo y construcción de comunidad entre usuarios.
-
-**What**  
-Agregar función de mensajes directos para usuarios registrados.
-
-**Hypothesis**  
-La interacción aumentará en un 15% en el próximo trimestre.
 
 ### 8.2. Experiment Design
+
 #### 8.2.1. Hypotheses
 
-### Hypothesis 1  
-**Question:** ¿Cómo afectará la implementación de nuevas funcionalidades en la satisfacción de los usuarios?  
-**Belief:** Creemos que al agregar nuevas funcionalidades que ayuden al usuario a encontrar lo que desea más rápido, mejoraremos la experiencia del usuario.  
-**Hypothesis:** Si se agregan las funcionalidades de calificar contenido y seguir a los autores de las publicaciones, el 75% de usuarios tendrán mejor experiencia en la aplicación.  
-**Null Hypothesis:** Que las nuevas funcionalidades no impacten significativamente la satisfacción de los usuarios.
+| **Question** | ¿El uso de notificaciones adaptativas mejora la frecuencia de interacción semanal? |
+|--------------|------------------------------------------------------------|
+| **Belief** | Las notificaciones personalizadas según comportamiento aumentarán la frecuencia de interacción semanal de los usuarios en FitWise. |
+| **Hypothesis** | Creemos que los usuarios que reciban notificaciones adaptativas tendrán al menos un 25% más de sesiones semanales en comparación con los que reciben notificaciones estándar. |
+| **Null Hypothesis** | Las notificaciones adaptativas no tendrán ningún efecto significativo sobre la frecuencia de interacción semanal. |
 
 ---
 
-### Hypothesis 2  
-**Question:** ¿Impacto de mejoras visuales en la retención de usuarios?  
-**Belief:** Rediseño que siga estándares visuales modernos que atraigan y retengan a los usuarios.  
-**Hypothesis:** Al implementar los cambios propuestos, el número de usuarios incrementará un 20% en dos meses.  
-**Null Hypothesis:** Que las mejoras visuales no generen el incremento de usuarios esperado.
+| **Question** | ¿La incorporación de recompensas semanales (badges) mejora la constancia en los usuarios? |
+|--------------|---------------------------------------------|
+| **Belief** | Las recompensas visuales por constancia semanal aumentarán el compromiso del usuario con su plan de entrenamiento y nutrición. |
+| **Hypothesis** | Creemos que los usuarios que reciben recompensas por completar 4 o más rutinas semanales mostrarán al menos un 30% más de adherencia semanal en comparación con aquellos que no reciben recompensas. |
+| **Null Hypothesis** | Las recompensas semanales no generarán cambios significativos en la constancia de los usuarios. |
 
 ---
 
-### Hypothesis 3  
-**Question:** ¿Mejorar el proceso de testeo?  
-**Belief:** Definir los casos de pruebas automatizables para reducir bugs en producción.  
-**Hypothesis:** Definiendo los casos de prueba y automatizando la mayoría de ellos, los bugs en producción disminuirán en 30%.  
-**Null Hypothesis:** Que las mejoras en los testing no impacten la métrica de bugs reportados.
+| **Question** | ¿Visualizar el progreso mediante gráficos incrementa la finalización de rutinas semanales? |
+|--------------|--------------------------------------------------------|
+| **Belief** | Mostrar visualmente el avance del usuario aumentará la motivación para completar rutinas asignadas. |
+| **Hypothesis** | Creemos que los usuarios que visualizan su progreso mediante gráficos completarán al menos un 20% más de rutinas semanales que los usuarios que no tienen acceso a dichos gráficos. |
+| **Null Hypothesis** | Visualizar el progreso no tendrá efecto significativo en la finalización de rutinas. |
 
 ---
 
-### Hypothesis 4  
-**Question:** ¿Cómo afectará la expansión a nuevos países el crecimiento de usuarios?  
-**Belief:** Expandirnos geográficamente aumentará nuestra base de usuarios.  
-**Hypothesis:** Al lanzar la aplicación en más países de habla hispana en los próximos 7 meses, obtendremos al menos 10,000 usuarios nuevos en total.  
-**Null Hypothesis:** Que la expansión geográfica no genere el aumento significativo que hemos planteado.
+| **Question** | ¿Permitir al usuario configurar sus preferencias de notificación reduce el abandono en los primeros 7 días? |
+|--------------|-------------------------------------------------------------|
+| **Belief** | Permitir que el usuario configure sus notificaciones desde el primer uso reducirá el abandono durante la primera semana. |
+| **Hypothesis** | Creemos que ofrecer configuración personalizada de notificaciones reducirá en al menos un 15% el abandono en los primeros 7 días en comparación con el grupo que usa la app con notificaciones por defecto. |
+| **Null Hypothesis** | La configuración personalizada de notificaciones no tendrá ningún impacto significativo en la tasa de abandono inicial. |
 
 ---
 
-### Hypothesis 5  
-**Question:** ¿Mejorará la tasa de conversión con un nuevo diseño para móvil?  
-**Belief:** Adaptar mejor la app para dispositivos móviles aumentará su acogida entre los usuarios.  
-**Hypothesis:** Al complementar la app para que se vea mejor en la parte móvil, la tasa de conversión de visitas aumentará en al menos 15% en los próximos 10 meses.  
-**Null Hypothesis:** Que el rediseño móvil no impacte positivamente la cantidad de visitas por parte de los usuarios.
+| **Question** | ¿La inclusión de mensajes motivacionales personalizados aumenta la percepción de acompañamiento? |
+|--------------|------------------------------------------------------------------|
+| **Belief** | El envío de mensajes motivacionales breves generará una mayor sensación de acompañamiento digital en los usuarios. |
+| **Hypothesis** | Creemos que los usuarios que reciben mensajes motivacionales diarios reportarán al menos un 25% más de percepción positiva sobre el acompañamiento en comparación con el grupo de control. |
+| **Null Hypothesis** | El envío de mensajes motivacionales no influirá significativamente en la percepción de acompañamiento por parte de los usuarios. |
 
----
-
-### Hypothesis 6  
-**Question:** ¿Tendrá impacto en las visitas al añadir testimonios de los usuarios?  
-**Belief:** Los testimonios positivos motivarán a otros usuarios a usar la app para alcanzar sus metas fitness.  
-**Hypothesis:** Agregando 5 testimonios con más likes y usando un paginador para los demás testimonios, aumentarán las visitas en al menos un 10% en los próximos 5 meses.  
-**Null Hypothesis:** Que los testimonios de los usuarios no aumenten las métricas de visitas.
-
----
-
-### Hypothesis 7  
-**Question:** ¿Habilitar diferentes idiomas en la aplicación?  
-**Belief:** Ampliar el alcance lingüístico para ampliar nuestra base de usuarios.  
-**Hypothesis:** Al traducir el contenido a más de 2 idiomas, el número de usuarios se incrementará en al menos un 10%.  
-**Null Hypothesis:** Que ofrecer más idiomas en la app no mejore el porcentaje de consumo o usuarios activos.
-
----
-
-### Hypothesis 8  
-**Question:** ¿Aumentará la base de usuarios si colocamos en los perfiles de los entrenadores sus certificaciones y experiencia?  
-**Belief:** Los usuarios se sentirán más seguros al saber que los entrenadores cuentan con certificaciones y experiencia comprobada.  
-**Hypothesis:** Al indicar en cada perfil que el entrenador cuenta con certificación, el número de usuarios activos aumentará un 5% en los próximos 5 meses.  
-**Null Hypothesis:** Que la mención de certificación y experiencia no genere impacto en los usuarios.
-
----
-
-### Hypothesis 9  
-**Question:** ¿Aumentará el tiempo en el que están los usuarios si agregamos más fotos y videos en las rutinas y entrenamientos?  
-**Belief:** Al promover contenido visual más rico, el tiempo promedio de los usuarios mejorará en más de un 10% en los siguientes 2 meses.  
-**Hypothesis:** Implementando la opción de incluir hasta 5 fotos o videos por rutina, el tiempo promedio de los usuarios aumentará en al menos un 15% para el próximo bimestre.  
-**Null Hypothesis:** Que el aumento en contenido visual no influya significativamente en la métrica de permanencia de los usuarios.
-
----
-
-### Hypothesis 10  
-**Question:** ¿Crecerá la base de usuarios si ampliamos el alcance a otras regiones o países?  
-**Belief:** Mayores oportunidades para que los usuarios encuentren contenido relevante y haya más usuarios interesados en FitWise.  
-**Hypothesis:** Extendiendo la aplicación a 2 nuevas regiones, la cantidad de usuarios aumentará en más de 10% para el próximo trimestre.  
-**Null Hypothesis:** Que ampliar la cobertura geográfica no impacte significativamente el número total de usuarios registrados.
-
----
 
 #### 8.2.2. Measures
 
-| Pregunta                                                                                           | Medida                                                                                             |
-|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| ¿Cómo afectará la implementación de nuevas funcionalidades en la satisfacción de los usuarios?  | Medir % de usuarios satisfechos antes y después mediante encuestas o evaluaciones de satisfacción.|
-| ¿Impacto de mejoras visuales en la retención de usuarios?                                        | Seguimiento del % de usuarios que regresan tras la implementación de mejoras visuales.            |
-| ¿Mejorar el proceso de testeo?                                                                   | Medir la disminución en número de bugs reportados tras mejorar y automatizar pruebas.             |
-| ¿Cómo afectará la expansión a nuevos países el crecimiento de usuarios?                          | Seguimiento del aumento en usuarios registrados o activos en los nuevos países comparado con base.|
-| ¿Mejorará la tasa de conversión de un nuevo diseño para móvil?                                   | Comparar tasa de conversión antes y después del nuevo diseño móvil.                               |
-| ¿Tendrá impacto en las visitas al añadir testimonios de los usuarios?                            | Seguimiento del aumento en visitas a la sección de testimonios tras su implementación.           |
-| ¿Habilitar diferentes idiomas en la aplicación?                                                  | Medir aumento en usuarios o visitas desde países que hablan los nuevos idiomas agregados.         |
-| ¿Aumentará la base de usuarios si mostramos certificaciones y experiencia de entrenadores?      | Seguimiento del aumento en usuarios registrados tras mostrar certificaciones en perfiles.        |
-| ¿Aumentará el tiempo que los usuarios pasan en la app al agregar más fotos y videos?             | Comparar tiempo promedio en app antes y después de aumentar el contenido visual.                  |
-| ¿Crecerá la base de usuarios si ampliamos el alcance geográfico?                                | Seguimiento del aumento en usuarios activos tras ampliar cobertura a nuevas regiones.            |
+
+| **Question** | ¿Notificaciones adaptativas mejoran interacción semanal? |
+|--------------|-----------------------------------------------------------|
+| **Hypothesis** | Creemos que los usuarios que reciban notificaciones adaptativas tendrán al menos un 25% más de sesiones semanales en comparación con los que reciben notificaciones estándar. |
+| **Measure** |  
+- **Métrica principal**: Número de sesiones por semana por usuario.  
+- **Métricas secundarias**:  
+   - Tiempo medio por sesión.  
+   - % de usuarios que vuelven dentro de 24/48h tras recibir notificación.
 
 ---
 
-## 8.2.3 Conditions
-
-| Pregunta                                                                                        | Condición Experimental                                                                                 | Condición de Control                                                                         |
-|------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| ¿Cómo afectará la implementación de nuevas funcionalidades en la satisfacción de los usuarios?| Incremento del 10% en encuestas positivas de satisfacción tras implementación.                         | No aumenta la cantidad de encuestas positivas tras implementación.                          |
-| ¿Impacto de mejoras visuales en la retención de usuarios?                                      | Usuarios que vuelven después de un mes sin usar la app aumentan 20%.                                 | No hay variación significativa en usuarios que vuelven.                                   |
-| ¿Mejorar el proceso de testeo en reducir bugs?                                                | Errores reportados disminuyen 20% tras mejoras en testing y automatización.                          | Errores reportados no cambian significativamente.                                         |
-| ¿Cómo afectará la expansión a nuevos países el crecimiento de usuarios?                       | Aumento de usuarios totales en 15% tras lanzamiento en nuevo país en menos de un mes.                | No hay aumento significativo tras expansión.                                              |
-| ¿Mejorará la tasa de conversión con nuevo diseño móvil?                                       | Tasa de conversión aumenta en 8% tras actualización móvil.                                          | No hay aumento significativo en tasa de conversión.                                       |
-| ¿Tendrá impacto en visitas al añadir testimonios?                                            | Tiempo que usuarios pasan en la app aumenta 20% tras agregar testimonios.                            | Tiempo que usuarios pasan en la app no cambia significativamente.                          |
-| ¿Habilitar diferentes idiomas en la aplicación?                                              | Usuarios aumentan 10% tras agregar nuevo idioma.                                                    | No hay variación significativa en usuarios tras agregar idiomas.                          |
-| ¿Mostrar certificaciones de entrenadores aumenta usuarios?                                   | Usuarios que solicitan entrenamientos con entrenadores certificados aumentan 20%.                   | No hay aumento significativo en solicitudes tras mostrar certificaciones.                 |
-| ¿Agregar más fotos/videos aumenta tiempo en app?                                            | Tiempo en app aumenta 15% tras aumentar número de imágenes/videos por rutina.                       | Tiempo en app no aumenta significativamente tras cambio.                                 |
-| ¿Crecerá base de usuarios ampliando alcance geográfico?                                     | Usuarios activos aumentan 20% tras ampliar cobertura a nuevas regiones.                             | No hay impacto significativo en usuarios activos.                                        |
+| **Question** | ¿Recompensas semanales aumentan constancia? |
+|--------------|---------------------------------------------|
+| **Hypothesis** | Creemos que los usuarios que reciben recompensas por completar 4 o más rutinas semanales mostrarán al menos un 30% más de adherencia semanal en comparación con aquellos que no reciben recompensas. |
+| **Measure** |  
+- **Métrica principal**: Porcentaje de usuarios que completan al menos 4 rutinas por semana.  
+- **Métricas secundarias**:  
+   - Retención semanal.  
+   - Tasa de abandono de plan.  
 
 ---
+
+| **Question** | ¿Progreso visual incrementa finalización de rutinas? |
+|--------------|--------------------------------------------------------|
+| **Hypothesis** | Creemos que los usuarios que visualizan su progreso mediante gráficos completarán al menos un 20% más de rutinas semanales que los usuarios que no tienen acceso a dichos gráficos. |
+| **Measure** |  
+- **Métrica principal**: Número de rutinas completadas por semana por usuario.  
+- **Métricas secundarias**:  
+   - % de usuarios activos que usan la sección de progreso.  
+   - Tiempo medio de uso en pantalla de progreso.  
+
+---
+
+| **Question** | ¿Configuración de notificaciones reduce abandono inicial? |
+|--------------|-------------------------------------------------------------|
+| **Hypothesis** | Creemos que ofrecer configuración personalizada de notificaciones reducirá en al menos un 15% el abandono en los primeros 7 días en comparación con el grupo que usa la app con notificaciones por defecto. |
+| **Measure** |  
+- **Métrica principal**: Tasa de abandono en los primeros 7 días.  
+- **Métricas secundarias**:  
+   - Tasa de activación de notificaciones configuradas.  
+   - Cantidad de sesiones durante la primera semana.  
+
+---
+
+| **Question** | ¿Mensajes motivacionales aumentan percepción de acompañamiento? |
+|--------------|------------------------------------------------------------------|
+| **Hypothesis** | Creemos que los usuarios que reciben mensajes motivacionales diarios reportarán al menos un 25% más de percepción positiva sobre el acompañamiento en comparación con el grupo de control. |
+| **Measure** |  
+- **Métrica principal**: Resultado promedio de la encuesta de percepción de acompañamiento (escala Likert 1–5).  
+- **Métricas secundarias**:  
+   - % de usuarios que interactúan con los mensajes.  
+   - Frecuencia de uso diario durante el periodo de exposición.
+
+
+#### 8.2.3. Conditions
+
+| **Question** | ¿Notificaciones adaptativas mejoran interacción semanal? |
+|--------------|-----------------------------------------------------------|
+| **Group A (Experimental)** | Usuarios que reciben notificaciones adaptadas según su comportamiento (frecuencia de uso, respuesta previa a notificaciones). |
+| **Group B (Control)** | Usuarios que reciben notificaciones predeterminadas estándar una vez al día. |
+| **Entorno** | Producción con feature flag; segmentación aleatoria del 50% de nuevos usuarios. |
+| **Duración** | 2 semanas.
+
+---
+
+| **Question** | ¿Recompensas semanales aumentan constancia? |
+|--------------|---------------------------------------------|
+| **Group A (Experimental)** | Usuarios que reciben una insignia digital cada vez que completan al menos 4 rutinas en una semana. |
+| **Group B (Control)** | Usuarios que no reciben retroalimentación ni recompensas visuales. |
+| **Entorno** | Producción con cohortes controladas; aplicación a usuarios activos con al menos 1 rutina en la semana previa. |
+| **Duración** | 3 semanas.
+
+---
+
+| **Question** | ¿Progreso visual incrementa finalización de rutinas? |
+|--------------|--------------------------------------------------------|
+| **Group A (Experimental)** | Usuarios que pueden visualizar su progreso semanal mediante gráficos de rutinas completadas y calorías estimadas. |
+| **Group B (Control)** | Usuarios sin acceso a la sección de progreso visual; visualización desactivada. |
+| **Entorno** | Beta cerrada (usuarios recurrentes que acepten participar en el experimento). |
+| **Duración** | 2 semanas.
+
+---
+
+| **Question** | ¿Configuración de notificaciones reduce abandono inicial? |
+|--------------|-------------------------------------------------------------|
+| **Group A (Experimental)** | Nuevos usuarios que configuran sus preferencias de notificación en el onboarding. |
+| **Group B (Control)** | Nuevos usuarios que reciben notificaciones predeterminadas sin opción de configuración inicial. |
+| **Entorno** | Producción limitada; se activa según cohortes de usuarios nuevos por semana. |
+| **Duración** | 1 semana (se analiza comportamiento en primeros 7 días).
+
+---
+
+| **Question** | ¿Mensajes motivacionales aumentan percepción de acompañamiento? |
+|--------------|------------------------------------------------------------------|
+| **Group A (Experimental)** | Usuarios que reciben mensajes motivacionales diarios personalizados. |
+| **Group B (Control)** | Usuarios sin mensajes motivacionales; solo reciben notificaciones funcionales. |
+| **Entorno** | Producción con asignación aleatoria entre usuarios activos semanales. |
+| **Duración** | 14 días con encuesta final al día 15.
+
 
 #### 8.2.4. Scale Calculations and Decisions
 
-Se calculó el tamaño mínimo de muestra para validar hipótesis de producto:
-
-- **Nivel de confianza:** 95%
-- **Margen de error:** 10%
-- **Tamaño poblacional estimado:** 10,000 usuarios
-- **Muestra mínima recomendada:** 96 usuarios
-
-**Decisión tomada:** realizar una prueba piloto con al menos 20 usuarios, como paso previo a una validación más amplia.
+| Scale Calculation | Decision | Factor | | | |
+|-------------------|----------|--------|--------|--------|--------|
+| | | **Desfavorable** | **Aceptable** | **Ideal** | **Excelente** |
+| Creemos que las notificaciones adaptativas aumentarán en al menos un **25%** la frecuencia semanal de uso. Sabremos que esto es cierto si el grupo experimental muestra 3 o más sesiones semanales sostenidas durante 2 semanas consecutivas. | Integrar sistema de notificaciones adaptativas según comportamiento de uso. | | X | | |
+| Creemos que las recompensas visuales semanales por completar 4 rutinas aumentarán la adherencia en un **30%**. Esto se validará si el 70% o más de los usuarios en el grupo experimental mantienen esa constancia por 2 semanas. | Incorporar lógica de recompensas semanales con insignias y refuerzo positivo. | | | X | |
+| Creemos que mostrar el progreso visual aumentará en un **20%** la finalización de rutinas. Se validará si el grupo experimental completa al menos 1 rutina más por semana que el grupo control. | Habilitar sección de progreso con gráficos e indicadores visuales. | | X | | |
+| Creemos que permitir la configuración de notificaciones reducirá en un **15%** el abandono en la primera semana. Esto se confirmará si la tasa de retención a 7 días mejora de 55% a 70% o más. | Añadir opción de personalización de notificaciones en onboarding. | X | | | |
+| Creemos que los mensajes motivacionales diarios aumentarán en un **25%** la percepción de acompañamiento. Se validará si la puntuación promedio en la encuesta de satisfacción emocional sube de 3.0 a 3.8 o más (escala 1–5). | Automatizar envío de mensajes motivacionales basados en objetivos y logros del usuario. | | X | | |
 
 #### 8.2.5. Methods Selection
 
-Se utilizaron métodos mixtos de recolección de datos:
+Para validar las hipótesis planteadas en los experimentos seleccionados, se emplearán métodos mixtos que combinan pruebas A/B, análisis de comportamiento, y encuestas cuantitativas. La elección del método se alinea con los objetivos de cada experimento, priorizando la precisión de los datos, la viabilidad técnica y el costo.
 
-- **Cuantitativos:** encuestas con escala Likert para evaluar satisfacción, motivación y utilidad.
-- **Cualitativos:** entrevistas semiestructuradas para recoger opiniones en profundidad.
-- **Test de usabilidad:** pruebas observadas con prototipos navegables.
+- Métodos aplicados por hipótesis:
+
+| Pregunta | Método de Validación | Justificación |
+|---------|----------------------|---------------|
+| ¿Notificaciones adaptativas mejoran interacción semanal? | **A/B Testing con métricas de sesiones** | Comparar frecuencia de uso entre usuarios con notificaciones adaptadas vs. estándar. |
+| ¿Recompensas semanales aumentan constancia? | **Análisis cuantitativo + cohortes** | Medir adherencia semanal mediante comportamiento agrupado por semana. |
+| ¿Progreso visual incrementa finalización de rutinas? | **A/B Testing con eventos de completitud** | Observar impacto visual en la tasa de finalización con respecto al grupo control. |
+| ¿Configuración de notificaciones reduce abandono inicial? | **Experimento de onboarding controlado** | Segmentar onboarding con y sin configuración personalizada, y medir retención. |
+| ¿Mensajes motivacionales aumentan percepción de acompañamiento? | **Encuesta + seguimiento de interacción** | Evaluar la percepción emocional post-intervención con escala Likert. |
+
+---
+
+- Herramientas para ejecución y análisis experimental
+
+| Herramienta         | Tipo de Métricas                       | Fácil Integración | Coste        | Casos de Uso Más Adecuados                            | Ventajas Clave                                     |
+|---------------------|----------------------------------------|-------------------|--------------|-------------------------------------------------------|----------------------------------------------------|
+| **Google Analytics 4** | Métricas de usuario, sesiones, conversión | Alta              | Gratuita     | Seguimiento de sesiones, funnels, comportamiento      | Integración rápida con Angular + soporte web/móvil |
+| **Firebase Analytics** | Eventos personalizados en móviles       | Alta              | Gratuita     | Monitoreo y análisis de uso en PWA y apps móviles     | Ideal para apps híbridas o PWA                     |
+| **Hotjar**          | Mapas de calor, encuestas, feedback     | Media             | Gratuito (limitado) | Experimentos UX, percepción y comportamiento visual   | Feedback visual rápido                             |
+| **Redline13**       | Pruebas de carga                       | Baja              | Pago (según uso) | Validar escalabilidad de backend bajo carga real      | Muy útil para pruebas antes de despliegue masivo   |
+| **Lighthouse**      | Desempeño y accesibilidad (frontend)    | Alta              | Gratuito     | Análisis técnico de rendimiento visual y UX           | Ideal para evaluar experiencia antes de experimentar |
+| **Catchpoint**      | Rendimiento, tiempo de carga y errores | Media             | Pago         | Comparación de rendimiento en distintos puntos del mundo | Alta precisión de datos técnicos                   |
+| **PostHog**         | Analítica de producto                  | Alta              | Gratuito (open-source) | Seguimiento de eventos, retención y funnels            | Control total sobre datos (self-hosted)            |
+
+---
+
+- Recomendación final:
+
+  Para los experimentos definidos en FitWise, se recomienda emplear:
+
+  - **Google Analytics 4 + Firebase Analytics**: Para capturar comportamiento, eventos clave y retención en Angular y PWA.
+  - **Lighthouse**: Para medir el impacto en rendimiento y accesibilidad tras los cambios visuales.
+  - **Encuestas internas** (modal in-app o Google Forms embebido): Para recoger la percepción del usuario sobre acompañamiento y experiencia.
 
 #### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
 
-### Objetivos
+- Objetivos
 
-- Validar la propuesta de valor.
-- Medir adherencia a rutinas y motivación del usuario.
+  - Validar la propuesta de valor.
+  - Medir adherencia a rutinas y motivación del usuario.
 
-### KPIs seleccionados
+- KPIs seleccionados
 
-- Tasa de completitud del onboarding.
-- N° de rutinas completadas semanalmente.
-- Retención a 7 días.
-- Net Promoter Score (NPS).
+  - Tasa de completitud del onboarding.
+  - N° de rutinas completadas semanalmente.
+  - Retención a 7 días.
+  - Net Promoter Score (NPS).
 
+- Métricas adicionales
 
-### Métricas adicionales
-
-- Tiempo promedio en la app.
-- N° de interacciones por sesión.
-- % de usuarios activos semanales.
+  - Tiempo promedio en la app.
+  - N° de interacciones por sesión.
+  - % de usuarios activos semanales.
 
   
 #### 8.2.7. Web and Mobile Tracking Plan
 
-Se definió un plan de seguimiento utilizando Google Analytics y Firebase:
+Para validar los experimentos planteados y medir el comportamiento de los usuarios, se definió un plan de tracking estructurado por etapas del flujo de uso. Este plan será implementado en la aplicación web (Angular) y móvil (Angular PWA), utilizando herramientas como **Google Analytics 4**, **Firebase Analytics** y **eventos personalizados** registrados desde el backend (Spring Boot).
 
-**Eventos clave:**
+---
 
-- Registro y login.
-- Finalización de onboarding.
-- Inicio y término de rutina.
-- Interacción con el panel de progreso.
-- Visualización de recompensas.
+- 🟢 Etapa 1: Onboarding & Registro
 
-**Conversiones objetivo:**
+| Evento                  | Descripción | Atributos | Herramienta |
+|-------------------------|-------------|-----------|-------------|
+| `user_signup`           | Usuario completa el proceso de registro | método (email, Google), fecha, edad, género | Firebase / Backend |
+| `user_onboarding_start` | Se inicia el onboarding posterior al registro | user_id | Angular + GA4 |
+| `onboarding_step_completed` | Paso completado (perfil, objetivos, disponibilidad, nivel físico) | paso_id, timestamp | GA4 |
+| `notification_pref_set` | Usuario configura notificaciones al registrarse | tipo, frecuencia, hora_preferida | Angular / Firebase |
+| `onboarding_completed`  | Se finaliza el onboarding completo | duración, pasos personalizados | Firebase / GA4 |
 
-- Activación en los primeros 3 días.
-- 3 rutinas completadas durante la primera semana.
-- Usuarios que personalizan sus metas y zonas a trabajar.
+---
+
+- 🟡 Etapa 2: Uso Diario / Seguimiento
+
+| Evento                   | Descripción | Atributos | Herramienta |
+|--------------------------|-------------|-----------|-------------|
+| `routine_started`        | El usuario inicia una rutina | rutina_id, duración estimada | GA4 |
+| `routine_completed`      | Rutina completada exitosamente | rutina_id, duración real, dificultad | Firebase / Backend |
+| `mood_logged`            | Registro del estado de ánimo diario | estado (feliz, cansado, estresado, etc.), hora | Angular |
+| `reminder_received`      | Notificación enviada al usuario | tipo (motivacional, rutina, nutrición), leída (bool) | Firebase Messaging |
+| `reward_unlocked`        | Usuario desbloquea recompensa semanal | tipo, fecha, nivel alcanzado | Backend |
+| `progress_viewed`        | Usuario visualiza su progreso semanal | duración vista, secciones consultadas | Angular / GA4 |
+
+---
+
+- 🔵 Etapa 3: Interacción con UI / Experimentos
+
+| Evento                      | Descripción | Atributos | Herramienta |
+|-----------------------------|-------------|-----------|-------------|
+| `experiment_variant_exposed` | Usuario entra a un grupo experimental (A o B) | experimento_id, variante | Backend |
+| `motivation_msg_read`      | Usuario lee un mensaje motivacional | mensaje_id, tiempo respuesta | Firebase / Angular |
+| `feedback_prompt_answered` | Usuario responde a pregunta de percepción emocional | puntaje, feedback libre | Encuesta integrada / Forms |
+| `video_viewed`             | Visualización de contenido audiovisual (tutorial, feedback) | duración, completado (bool) | GA4 |
+| `notification_settings_changed` | Usuario modifica sus preferencias de notificación | nueva_frecuencia, silencioso | Angular UI |
+
+---
+
+- 🔴 Etapa 4: Retención y Abandono
+
+| Evento                  | Descripción | Atributos | Herramienta |
+|-------------------------|-------------|-----------|-------------|
+| `last_active_session`   | Última sesión antes de abandono (sin volver en 7 días) | duración, acciones realizadas | Backend |
+| `inactive_flagged`      | Usuario etiquetado como inactivo tras X días sin actividad | días_inactivo, último_evento | Firebase |
+| `reengagement_sent`     | Notificación o correo para retomar actividad | tipo de mensaje, abierto (bool) | Firebase / SendGrid |
+| `return_after_inactive` | Usuario vuelve luego de inactividad | tiempo_ausente | Firebase / GA4 |
+
+---
+
+- Consideraciones Técnicas:
+
+  - **Etiquetado uniforme** de eventos usando `snake_case`.
+  - Uso de **custom dimensions** en GA4 para agrupar por tipo de usuario (principiante, intermedio, avanzado).
+  - Todos los eventos críticos serán registrados tanto en **Firebase** como en el backend para redundancia y validación cruzada.
+  - Las **encuestas post-interacción** serán opcionales pero incentivadas con recompensas visuales o feedback personalizado.
+
+---
+
+Este tracking plan permitirá evaluar las hipótesis con métricas confiables, generar dashboards analíticos útiles para la toma de decisiones, y mejorar la experiencia del usuario de manera continua.
+
 
 ### 8.3. Experimentation
+
 #### 8.3.1. To-Be User Stories
 
 | User Story ID | Título                                         | Descripción                                                                                                                                                     | Criterios de Aceptación                                                                                                                                                                                                                                                                                        | Relacionado con (Epic ID) |
@@ -3252,7 +3682,35 @@ Se definió un plan de seguimiento utilizando Google Analytics y Firebase:
 | UA10          | Cambio de correo electrónico                   | Como usuario, quiero poder cambiar el correo asociado a mi cuenta para mantener mi información actualizada.                                                    | **Escenario 1: Cambio exitoso de correo**<br>Given el usuario entra a configuración<br>When modifica su correo y lo confirma<br>Then se actualiza en la base de datos.<br><br>**Escenario 2: Validación de formato de email**<br>Given el usuario introduce un correo inválido<br>When intenta guardar cambios<br>Then se le notifica el error con instrucciones claras. | EP007                     |
 
 
+
+| User Story ID | Título                                         | Descripción                                                                                                                                                     | Criterios de Aceptación                                                                                                                                                                                                                                                                                        | Relacionado con (Epic ID) |
+|---------------|------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+| UA01          | Registro con email seguro                      | Como nuevo usuario, quiero registrarme usando mi correo electrónico y contraseña, para acceder de forma segura a FitWise.                                      | **Escenario 1: Registro exitoso**<br>Given un usuario no registrado<br>When introduce un email y contraseña válidos<br>Then su cuenta es creada con autenticación segura.<br><br>**Escenario 2: Validación de campos**<br>Given el usuario comete errores<br>When el sistema detecta email inválido o clave corta<br>Then se muestran mensajes de error. | EP001                     |
+| UA02          | Inicio de sesión persistente                   | Como usuario, quiero mantener mi sesión iniciada para evitar ingresar mis credenciales constantemente.                                                         | **Escenario 1: Sesión persistente activa**<br>Given el usuario ha iniciado sesión previamente<br>When reabre la app<br>Then accede directamente al dashboard.<br><br>**Escenario 2: Cierre de sesión**<br>Given el usuario cierra sesión manualmente<br>When reingresa<br>Then debe volver a autenticarse.      | EP001                     |
+| UA03          | Personalización con objetivos físicos          | Como usuario nuevo, quiero configurar mis metas físicas y nivel de experiencia para recibir contenido adecuado.                                                | **Escenario 1: Configuración inicial completa**<br>Given el usuario está en onboarding<br>When selecciona su nivel y metas<br>Then se genera un perfil personalizado.<br><br>**Escenario 2: Validación de campos obligatorios**<br>Given el usuario omite algún dato<br>When intenta continuar<br>Then el sistema solicita completar los campos obligatorios. | EP002                     |
+| UA04          | Selección de intereses                         | Como usuario, quiero elegir mis áreas de interés (salud mental, fuerza, cardio, etc.) para recibir rutinas relevantes.                                         | **Escenario 1: Selección de intereses**<br>Given el usuario está en onboarding<br>When selecciona sus preferencias<br>Then se registran para personalizar el contenido.<br><br>**Escenario 2: Validación mínima de selección**<br>Given el usuario selecciona al menos una opción<br>When continúa<br>Then la configuración se guarda exitosamente. | EP002                     |
+| UA05          | Vista de progreso resumido en dashboard        | Como usuario activo, quiero ver un resumen de mis avances en el dashboard para mantenerme informado fácilmente.                                                | **Escenario 1: Visualización de resumen**<br>Given el usuario abre el dashboard<br>When accede a la sección principal<br>Then se muestra resumen de progreso semanal.<br><br>**Escenario 2: Visualización sin actividad**<br>Given el usuario aún no registra actividad<br>When accede al dashboard<br>Then se muestra mensaje motivacional para empezar. | EP003                     |
+| UA06          | Recomendaciones dinámicas en dashboard         | Como usuario, quiero recibir sugerencias de ejercicios o recetas según mi actividad reciente en el dashboard.                                                  | **Escenario 1: Recomendación basada en actividad reciente**<br>Given el usuario ha completado una rutina<br>When vuelve al dashboard<br>Then se le sugiere una actividad relacionada.<br><br>**Escenario 2: Recomendación por inactividad**<br>Given el usuario no interactúa por días<br>When accede al dashboard<br>Then se le recomienda contenido para retomar el hábito. | EP003                     |
+| UA07          | Gráficas de evolución en informe de progreso   | Como usuario comprometido, quiero ver gráficos que muestren mi evolución para evaluar mis avances a lo largo del tiempo.                                      | **Escenario 1: Gráfico con datos suficientes**<br>Given el usuario ha registrado actividad por más de una semana<br>When accede al informe de progreso<br>Then ve líneas de tendencia por tipo de actividad.<br><br>**Escenario 2: Gráfico vacío con mensaje**<br>Given el usuario no tiene datos<br>When accede<br>Then se muestra un mensaje motivador para empezar. | EP004                     |
+| UA08          | Recompensas por metas cumplidas                | Como usuario disciplinado, quiero recibir medallas al cumplir mis metas semanales para sentirme reconocido y motivado.                                         | **Escenario 1: Medalla desbloqueada**<br>Given el usuario completa sus metas semanales<br>When accede al dashboard<br>Then se muestra una medalla desbloqueada.<br><br>**Escenario 2: Visualización de logros**<br>Given se acumulan recompensas<br>When el usuario entra a su perfil<br>Then puede ver todas sus insignias. | EP005                     |
+| UA09          | Planes de nutrición según preferencias         | Como usuario, quiero recibir sugerencias de alimentación de acuerdo con mis gustos y objetivos para mantenerme saludable.                                      | **Escenario 1: Plan nutricional personalizado**<br>Given el usuario completó el onboarding<br>When abre la sección de nutrición<br>Then se muestran recetas y planes adaptados.<br><br>**Escenario 2: Actualización de preferencias**<br>Given el usuario cambia su preferencia alimentaria<br>When actualiza su perfil<br>Then el plan de alimentación se actualiza automáticamente. | EP006                     |
+| UA10          | Cambio de correo electrónico                   | Como usuario, quiero poder cambiar el correo asociado a mi cuenta para mantener mi información actualizada.                                                    | **Escenario 1: Cambio exitoso de correo**<br>Given el usuario entra a configuración<br>When modifica su correo y lo confirma<br>Then se actualiza en la base de datos.<br><br>**Escenario 2: Validación de formato de email**<br>Given el usuario introduce un correo inválido<br>When intenta guardar cambios<br>Then se le notifica el error con instrucciones claras. | EP007                     |
+
+
 #### 8.3.2. To-Be Product Backlog
+
+| # Orden | User Story ID | Título                                        | Story Points (1 / 2 / 3 / 5 / 8) |
+|---------|----------------|----------------------------------------------|----------------------------------|
+| 1       | UA01           | Registro con email seguro                    | 3                                |
+| 2       | UA02           | Inicio de sesión persistente                 | 3                                |
+| 3       | UA03           | Personalización con objetivos físicos        | 5                                |
+| 4       | UA04           | Selección de intereses                       | 2                                |
+| 5       | UA05           | Vista de progreso resumido en dashboard      | 3                                |
+| 6       | UA06           | Recomendaciones dinámicas en dashboard       | 8                                |
+| 7       | UA07           | Gráficas de evolución en informe de progreso | 5                                |
+| 8       | UA08           | Recompensas por metas cumplidas              | 3                                |
+| 9       | UA09           | Planes de nutrición según preferencias       | 8                                |
+| 10      | UA10           | Cambio de correo electrónico                 | 5                                |
 
 | # Orden | User Story ID | Título                                        | Story Points (1 / 2 / 3 / 5 / 8) |
 |---------|----------------|----------------------------------------------|----------------------------------|
