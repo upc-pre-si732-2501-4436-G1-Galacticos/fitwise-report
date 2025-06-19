@@ -2648,6 +2648,46 @@ Estas pruebas permiten validar la funcionalidad completa del sistema en un entor
 Se evalúan tanto la interacción de los distintos componentes como la respuesta del sistema ante diferentes escenarios funcionales.  
 Las herramientas utilizadas incluyen entornos de prueba automatizados, scripts de ejecución y validación de datos esperados.
 
+| **US002** | **Registro con correo electrónico** | **Como nuevo usuario, quiero registrarme con correo y contraseña para comenzar a usar la plataforma.** |
+
+<img src="./assets/se02.png" alt="se02" />
+
+| **US003** | **Autenticación JWT** | **Como desarrollador, quiero implementar autenticación JWT para sesiones seguras.** |
+
+<img src="./assets/se03.png" alt="se03" />
+
+| **US005** | **Recuperar contraseña** | **Como usuario, quiero recuperar mi contraseña para no perder el acceso a mi cuenta.** |
+
+<img src="./assets/se05.png" alt="se05" />
+
+| **US006** | **Ingreso de datos físicos iniciales** | **Como nuevo usuario, quiero ingresar peso, altura y sexo para personalizar mis rutinas.** |
+
+<img src="./assets/se06.png" alt="se06" />
+
+| **US008** | **Selección de nivel de actividad** | **Como usuario, quiero indicar mi nivel de actividad física para recibir ejercicios acordes.** |
+
+<img src="./assets/se08.png" alt="se08" /> 
+
+| **US009** | **Definir objetivo principal** | **Como usuario, quiero establecer un objetivo (ganar músculo, bajar de peso, etc.) para recibir rutinas adecuadas.** |
+
+<img src="./assets/se09.png" alt="se09" />
+
+| **US010** | **Recibir recomendaciones FitWise** | **Como usuario, quiero recibir planes recomendados con base en mi perfil para alcanzar mis objetivos.** |
+
+<img src="./assets/se10.png" alt="se10" />
+
+| **US013** | **Ver rutinas y dietas similares** | **Como usuario, quiero ver rutinas y dietas existentes para comparar y actualizar mi plan.** |
+
+<img src="./assets/se13.png" alt="se13" />
+
+| **US015** | **Actualizar datos físicos** | **Como usuario, quiero actualizar peso y altura para mantener mis rutinas personalizadas.** |
+
+<img src="./assets/se15.png" alt="se15" />
+
+| **US025** | **Log out de cuenta** | **Como usuario, quiero salirme de mi cuenta para proteger mis datos si ya no uso la app.** |
+
+<img src="./assets/se25.png" alt="se25" />
+
 ### 6.2. Static Testing & Verification
 
 #### 6.2.1. Static Code Analysis
@@ -3635,7 +3675,35 @@ Este tracking plan permitirá evaluar las hipótesis con métricas confiables, g
 | UA10          | Cambio de correo electrónico                   | Como usuario, quiero poder cambiar el correo asociado a mi cuenta para mantener mi información actualizada.                                                    | **Escenario 1: Cambio exitoso de correo**<br>Given el usuario entra a configuración<br>When modifica su correo y lo confirma<br>Then se actualiza en la base de datos.<br><br>**Escenario 2: Validación de formato de email**<br>Given el usuario introduce un correo inválido<br>When intenta guardar cambios<br>Then se le notifica el error con instrucciones claras. | EP007                     |
 
 
+
+| User Story ID | Título                                         | Descripción                                                                                                                                                     | Criterios de Aceptación                                                                                                                                                                                                                                                                                        | Relacionado con (Epic ID) |
+|---------------|------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+| UA01          | Registro con email seguro                      | Como nuevo usuario, quiero registrarme usando mi correo electrónico y contraseña, para acceder de forma segura a FitWise.                                      | **Escenario 1: Registro exitoso**<br>Given un usuario no registrado<br>When introduce un email y contraseña válidos<br>Then su cuenta es creada con autenticación segura.<br><br>**Escenario 2: Validación de campos**<br>Given el usuario comete errores<br>When el sistema detecta email inválido o clave corta<br>Then se muestran mensajes de error. | EP001                     |
+| UA02          | Inicio de sesión persistente                   | Como usuario, quiero mantener mi sesión iniciada para evitar ingresar mis credenciales constantemente.                                                         | **Escenario 1: Sesión persistente activa**<br>Given el usuario ha iniciado sesión previamente<br>When reabre la app<br>Then accede directamente al dashboard.<br><br>**Escenario 2: Cierre de sesión**<br>Given el usuario cierra sesión manualmente<br>When reingresa<br>Then debe volver a autenticarse.      | EP001                     |
+| UA03          | Personalización con objetivos físicos          | Como usuario nuevo, quiero configurar mis metas físicas y nivel de experiencia para recibir contenido adecuado.                                                | **Escenario 1: Configuración inicial completa**<br>Given el usuario está en onboarding<br>When selecciona su nivel y metas<br>Then se genera un perfil personalizado.<br><br>**Escenario 2: Validación de campos obligatorios**<br>Given el usuario omite algún dato<br>When intenta continuar<br>Then el sistema solicita completar los campos obligatorios. | EP002                     |
+| UA04          | Selección de intereses                         | Como usuario, quiero elegir mis áreas de interés (salud mental, fuerza, cardio, etc.) para recibir rutinas relevantes.                                         | **Escenario 1: Selección de intereses**<br>Given el usuario está en onboarding<br>When selecciona sus preferencias<br>Then se registran para personalizar el contenido.<br><br>**Escenario 2: Validación mínima de selección**<br>Given el usuario selecciona al menos una opción<br>When continúa<br>Then la configuración se guarda exitosamente. | EP002                     |
+| UA05          | Vista de progreso resumido en dashboard        | Como usuario activo, quiero ver un resumen de mis avances en el dashboard para mantenerme informado fácilmente.                                                | **Escenario 1: Visualización de resumen**<br>Given el usuario abre el dashboard<br>When accede a la sección principal<br>Then se muestra resumen de progreso semanal.<br><br>**Escenario 2: Visualización sin actividad**<br>Given el usuario aún no registra actividad<br>When accede al dashboard<br>Then se muestra mensaje motivacional para empezar. | EP003                     |
+| UA06          | Recomendaciones dinámicas en dashboard         | Como usuario, quiero recibir sugerencias de ejercicios o recetas según mi actividad reciente en el dashboard.                                                  | **Escenario 1: Recomendación basada en actividad reciente**<br>Given el usuario ha completado una rutina<br>When vuelve al dashboard<br>Then se le sugiere una actividad relacionada.<br><br>**Escenario 2: Recomendación por inactividad**<br>Given el usuario no interactúa por días<br>When accede al dashboard<br>Then se le recomienda contenido para retomar el hábito. | EP003                     |
+| UA07          | Gráficas de evolución en informe de progreso   | Como usuario comprometido, quiero ver gráficos que muestren mi evolución para evaluar mis avances a lo largo del tiempo.                                      | **Escenario 1: Gráfico con datos suficientes**<br>Given el usuario ha registrado actividad por más de una semana<br>When accede al informe de progreso<br>Then ve líneas de tendencia por tipo de actividad.<br><br>**Escenario 2: Gráfico vacío con mensaje**<br>Given el usuario no tiene datos<br>When accede<br>Then se muestra un mensaje motivador para empezar. | EP004                     |
+| UA08          | Recompensas por metas cumplidas                | Como usuario disciplinado, quiero recibir medallas al cumplir mis metas semanales para sentirme reconocido y motivado.                                         | **Escenario 1: Medalla desbloqueada**<br>Given el usuario completa sus metas semanales<br>When accede al dashboard<br>Then se muestra una medalla desbloqueada.<br><br>**Escenario 2: Visualización de logros**<br>Given se acumulan recompensas<br>When el usuario entra a su perfil<br>Then puede ver todas sus insignias. | EP005                     |
+| UA09          | Planes de nutrición según preferencias         | Como usuario, quiero recibir sugerencias de alimentación de acuerdo con mis gustos y objetivos para mantenerme saludable.                                      | **Escenario 1: Plan nutricional personalizado**<br>Given el usuario completó el onboarding<br>When abre la sección de nutrición<br>Then se muestran recetas y planes adaptados.<br><br>**Escenario 2: Actualización de preferencias**<br>Given el usuario cambia su preferencia alimentaria<br>When actualiza su perfil<br>Then el plan de alimentación se actualiza automáticamente. | EP006                     |
+| UA10          | Cambio de correo electrónico                   | Como usuario, quiero poder cambiar el correo asociado a mi cuenta para mantener mi información actualizada.                                                    | **Escenario 1: Cambio exitoso de correo**<br>Given el usuario entra a configuración<br>When modifica su correo y lo confirma<br>Then se actualiza en la base de datos.<br><br>**Escenario 2: Validación de formato de email**<br>Given el usuario introduce un correo inválido<br>When intenta guardar cambios<br>Then se le notifica el error con instrucciones claras. | EP007                     |
+
+
 #### 8.3.2. To-Be Product Backlog
+
+| # Orden | User Story ID | Título                                        | Story Points (1 / 2 / 3 / 5 / 8) |
+|---------|----------------|----------------------------------------------|----------------------------------|
+| 1       | UA01           | Registro con email seguro                    | 3                                |
+| 2       | UA02           | Inicio de sesión persistente                 | 3                                |
+| 3       | UA03           | Personalización con objetivos físicos        | 5                                |
+| 4       | UA04           | Selección de intereses                       | 2                                |
+| 5       | UA05           | Vista de progreso resumido en dashboard      | 3                                |
+| 6       | UA06           | Recomendaciones dinámicas en dashboard       | 8                                |
+| 7       | UA07           | Gráficas de evolución en informe de progreso | 5                                |
+| 8       | UA08           | Recompensas por metas cumplidas              | 3                                |
+| 9       | UA09           | Planes de nutrición según preferencias       | 8                                |
+| 10      | UA10           | Cambio de correo electrónico                 | 5                                |
 
 | # Orden | User Story ID | Título                                        | Story Points (1 / 2 / 3 / 5 / 8) |
 |---------|----------------|----------------------------------------------|----------------------------------|
