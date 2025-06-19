@@ -2547,6 +2547,50 @@ Estas pruebas permiten validar la funcionalidad completa del sistema en un entor
 Se evalúan tanto la interacción de los distintos componentes como la respuesta del sistema ante diferentes escenarios funcionales.  
 Las herramientas utilizadas incluyen entornos de prueba automatizados, scripts de ejecución y validación de datos esperados.
 
+| **US002** | **Registro con correo electrónico** | **Como nuevo usuario, quiero registrarme con correo y contraseña para comenzar a usar la plataforma.** |
+
+<img src="./assets/se02.png" alt="se02" />
+
+| **US003** | **Autenticación JWT** | **Como desarrollador, quiero implementar autenticación JWT para sesiones seguras.** |
+
+<img src="./assets/se03.png" alt="se03" />
+
+| **US005** | **Recuperar contraseña** | **Como usuario, quiero recuperar mi contraseña para no perder el acceso a mi cuenta.** |
+
+<img src="./assets/se05.png" alt="se05" />
+
+| **US006** | **Ingreso de datos físicos iniciales** | **Como nuevo usuario, quiero ingresar peso, altura y sexo para personalizar mis rutinas.** |
+
+<img src="./assets/se06.png" alt="se06" />
+
+| **US008** | **Selección de nivel de actividad** | **Como usuario, quiero indicar mi nivel de actividad física para recibir ejercicios acordes.** |
+
+<img src="./assets/se08.png" alt="se08" /> 
+
+| **US009** | **Definir objetivo principal** | **Como usuario, quiero establecer un objetivo (ganar músculo, bajar de peso, etc.) para recibir rutinas adecuadas.** |
+
+<img src="./assets/se09.png" alt="se09" />
+
+| **US010** | **Recibir recomendaciones FitWise** | **Como usuario, quiero recibir planes recomendados con base en mi perfil para alcanzar mis objetivos.** |
+
+<img src="./assets/se10.png" alt="se10" />
+
+| **US013** | **Ver rutinas y dietas similares** | **Como usuario, quiero ver rutinas y dietas existentes para comparar y actualizar mi plan.** |
+
+<img src="./assets/se13.png" alt="se13" />
+
+| **US015** | **Actualizar datos físicos** | **Como usuario, quiero actualizar peso y altura para mantener mis rutinas personalizadas.** |
+
+<img src="./assets/se15.png" alt="se15" />
+
+| **US025** | **Log out de cuenta** | **Como usuario, quiero salirme de mi cuenta para proteger mis datos si ya no uso la app.** |
+
+<img src="./assets/se25.png" alt="se25" />
+
+| **US026** | **Establecer objetivos semanales** | **Como usuario, quiero definir cuántos días por semana deseo entrenar para llevar un control de progreso.** |
+
+<img src="./assets/se26.png" alt="se26" />
+
 ### 6.2. Static Testing & Verification
 
 #### 6.2.1. Static Code Analysis
