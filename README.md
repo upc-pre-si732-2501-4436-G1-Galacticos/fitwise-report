@@ -31,7 +31,7 @@
 - **David Alexander Perez Garcia** - U202222942
 - **Jhon Alexander Galvez Chambi** - U202323270
 
-**Fecha:** Abril 2025  
+**Fecha:** Junio 2025
 
 **URL del proyecto:** [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos)
 
@@ -39,21 +39,12 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha       | Autor | Descripción |
-|---------|-------------|-------|-------------|
-| TB1     | 12/04/2025  |  Ramiro Guzman     |   Desarrollé la carátula, la tabla de contenidos, la descripción de la Startup, la Solution Profile que abarca los Antecedentes y Problemática, definí los Segmentos Objetivos y el Diseño de las entrevistas.          |
-| TB1     | 24/04/2025  |   Jhon Galvez  | Me enfoqué en el desarrollo de las historias de usuario, el backlog del producto, la guía de estilos, los lineamientos para el desarrollo del código fuente y las configuraciones para el despliegue de la landing page.    |
-| TB1     | 24/04/2025  |  Ramiro Guzman     |   Diseñé el class diagrams, class dictionary y el database design.           |
-| TB1     | XX/XX/XXXX  |       |             |
-| TB1     | XX/XX/XXXX  |       |             |
-| TB1     | XX/XX/XXXX  |       |             |
-| TB1     | XX/XX/XXXX  |       |             |
-| TB1     | XX/XX/XXXX  |       |             |
-| TB1     | XX/XX/XXXX  |       |             |
-| TB1     | XX/XX/XXXX  |       |             | 
-| TB1     | XX/XX/XXXX  |       |             |
-| TB1     | XX/XX/XXXX  |       |             |
-| TB1     | XX/XX/XXXX  |       |             |
+| Versión | Fecha       | <div style="width:250px">Autor(es)</div> | <div align="center" style="width:400px">Descripción de la modificación</div> |
+|:-------:|:-----------:|:-----------------------------------------:|:---------------------------------------------------------------------------------|
+| TB1     | 24/04/2025  | - Briceño De La Cruz, Farid<br>- Galvez Chambi, Jhon<br>- Guzman Chavez, Ramiro<br>- Muñoz Vilcapoma, Mauricio<br>- Perez Garcia, David | Para esta entrega se han desarrollado los siguientes capítulos:<br>- Carátula<br>- Registro de Versiones del Informe<br>- Project Report Collaboration Insights<br>- Contenido<br>- Student Outcome<br>- Capítulo I: Introducción<br>- Capítulo II: Requirements Elicitation & Analysis<br>- Capítulo III: Requirements Specification<br>- Capítulo IV: Product Design<br>- Capítulo V: Product Implementation<br>&nbsp;&nbsp;- 5.1. Software Configuration Management<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.1.1. Software Development Environment Configuration<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.1.2. Source Code Management<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.1.3. Source Code Style Guide & Conventions<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.1.4. Software Deployment Configuration<br>&nbsp;&nbsp;- 5.2. Product Implementation & Deployment<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.1. Sprint Backlogs<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.2. Implemented Landing Page Evidence<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.3. Implemented Frontend-Web Application Evidence<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.4. Implemented Native-Mobile Application Evidence<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.6. RESTful API documentation<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.7. Team Collaboration Insights<br>- 5.3. Video About-the-Product<br>- Avance de Conclusiones, Bibliografía y Anexos |
+| TP1     | 13/05/2025  | - Briceño De La Cruz, Farid<br>- Galvez Chambi, Jhon<br>- Guzman Chavez, Ramiro<br>- Muñoz Vilcapoma, Mauricio<br>- Perez Garcia, David | Para esta entrega se han desarrollado los siguientes capítulos:<br>- Capítulo V: Product Implementation & Deployment<br>&nbsp;&nbsp;- 5.1.4. Software Deployment Configuration<br>&nbsp;&nbsp;- 5.2. Product Implementation & Deployment<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.1. Sprint Backlogs<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.2. Implemented Landing Page Evidence<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.3. Implemented Frontend-Web Application Evidence<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.4. Acuerdo de Servicio - SaaS<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.5. Implemented Native-Mobile Application Evidence<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.7. RESTful API documentation<br>&nbsp;&nbsp;&nbsp;&nbsp;- 5.2.8. Team Collaboration Insights<br>- 5.3. Video About-the-Product<br>- Capítulo VI: Product Verification & Validation<br>&nbsp;&nbsp;- 6.1. Testing Suites & Validation<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.1.1. Core Entities Unit Tests<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.1.2. Core Integration Tests<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.1.3. Core Behavior-Driven Development<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.1.4. Core System Tests<br>- Capítulo VII: DevOps Practices<br>&nbsp;&nbsp;- 7.1. Continuous Integration<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.1.1. Tools and Practices<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.1.2. Build & Test Suite Pipeline Components<br>&nbsp;&nbsp;- 7.2. Continuous Delivery<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.2.1. Tools and Practices<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.2.2. Stages Deployment Pipeline Components<br>&nbsp;&nbsp;- 7.3. Continuous Deployment<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.3.1. Tools and Practices<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.3.2. Production Deployment Pipeline Components<br>- Avance de Conclusiones, Bibliografía y Anexos |
+| TB2     | 19/06/2025  | - Briceño De La Cruz, Farid<br>- Galvez Chambi, Jhon<br>- Guzman Chavez, Ramiro<br>- Muñoz Vilcapoma, Mauricio<br>- Perez Garcia, David | Para esta entrega se han desarrollado los siguientes capítulos:<br>- Capítulo VI: Product Verification & Validation<br>&nbsp;&nbsp;- 6.1. Testing Suites & Validation<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.1.1. Core Entities Unit Tests<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.1.2. Core Integration Tests<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.1.3. Core Behavior-Driven Development<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.1.4. Core System Tests<br>&nbsp;&nbsp;- 6.2. Static Testing & Verification<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.2.1. Static Code Analysis<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 6.2.1.1. Coding Standard & Code Conventions<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 6.2.1.2. Code Quality & Code Security<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.2.2. Reviews<br>&nbsp;&nbsp;- 6.3. Validation Interviews<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.3.1. Diseño de Entrevistas<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.3.2. Registro de Entrevistas<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.3.3. Evaluaciones según heurísticas<br>&nbsp;&nbsp;- 6.4. Auditoría de Experiencias de Usuario<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.4.1. Auditoría realizada<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 6.4.1.1. Información del grupo auditado<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 6.4.1.2. Cronograma de auditoría realizada<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 6.4.1.3. Contenido de auditoría realizada<br>&nbsp;&nbsp;&nbsp;&nbsp;- 6.4.2. Auditoría recibida<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 6.4.2.1. Información del grupo auditor<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 6.4.2.2. Cronograma de auditoría recibida<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 6.4.2.3. Contenido de auditoría recibida<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 6.4.2.4. Resumen de modificaciones para subsanar hallazgos<br>- Capítulo VII: DevOps Practices<br>&nbsp;&nbsp;- 7.1. Continuous Integration<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.1.1. Tools and Practices<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.1.2. Build & Test Suite Pipeline Components<br>&nbsp;&nbsp;- 7.2. Continuous Delivery<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.2.1. Tools and Practices<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.2.2. Stages Deployment Pipeline Components<br>&nbsp;&nbsp;- 7.3. Continuous Deployment<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.3.1. Tools and Practices<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.3.2. Production Deployment Pipeline Components<br>&nbsp;&nbsp;- 7.4. Continuous Monitoring<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.4.1. Tools and Practices<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.4.2. Monitoring Pipeline Components<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.4.3. Alerting Pipeline Components<br>&nbsp;&nbsp;&nbsp;&nbsp;- 7.4.4. Notification Pipeline Components<br>- Capítulo VIII: Experiment-Driven Development<br>&nbsp;&nbsp;- 8.1. Experiment Planning<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.1.1. As-Is Summary<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.1.3. Experiment-Ready Questions<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.1.4. Question Backlog<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.1.5. Experiment Cards<br>&nbsp;&nbsp;- 8.2. Experiment Design<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.2.1. Hypotheses<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.2.2. Measures<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.2.3. Conditions<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.2.4. Scale Calculations and Decisions<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.2.5. Methods Selection<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.2.7. Web and Mobile Tracking Plan<br>&nbsp;&nbsp;- 8.3. Experimentation<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.3.1. To-Be User Stories<br>&nbsp;&nbsp;&nbsp;&nbsp;- 8.3.2. To-Be Product Backlog<br>- Avance de Conclusiones, Bibliografía y Anexos |
+
 
 # Contenido
 
@@ -233,9 +224,8 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
 
 | **Criterio específico** | **Acciones Realizadas** | **Conclusiones** |
 |:-----------------------:|-------------------------|-------------------|
-| **4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software** | **- Ramiro Guzman** <br> **TB1:** Como parte del equipo, me enfoqué en asegurar que todas las soluciones tecnológicas respetaran los principios éticos de privacidad y seguridad. Analicé y discutí las implicaciones éticas de cada decisión técnica para garantizar que nuestro proyecto no sólo fuera funcional, sino también responsable. <br> <br> **- Farid Briceño** <br> **TB1:** Durante este primer tramo del proyecto, me comprometí a entender y aplicar las mejores prácticas relacionadas con la seguridad de los usuarios y la confidencialidad de la información. <br> <br> **- Jhon Galvez** <br> **TB1:** A lo largo de esta primera fase, asimilé el código de conducta y la ética fundamentales para un desarrollador. Esto me impulsó a colaborar activamente en la recopilación de la información requerida para nuestra aplicación, con la meta clara de generar un impacto significativo en la salud y el bienestar de las personas. <br> <br> **- Mauricio Muñoz** <br> **TB1:** Contribuí al análisis de las necesidades del usuario y busqué formas en que la solución pudiera mejorar la calidad de vida sin comprometer valores fundamentales de privacidad y equidad. <br> <br> **- David Perez** <br> **TB1:** Trabajé en la implementación de medidas de accesibilidad y seguridad, entendiendo que los usuarios deben sentirse protegidos y respaldados en todo momento. <br> <br> | **TB1:** Cada miembro participó en sus actividades asignadas, manteniendo una comunicación activa y eficaz que fortaleció la confianza mutua. Esto mejoró el trabajo en equipo, un valor crucial para proyectos colaborativos. |
-| **4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales** | **- Ramiro Guzman** <br> **TB1:** En esta fase, evalué el impacto potencial de nuestra aplicación en distintos contextos. Consideré factores como la accesibilidad global y la sostenibilidad económica del proyecto. <br> <br> **- Farid Briceño** <br> **TB1:** Durante este proceso, me aseguré de que nuestras decisiones fueran informadas por un análisis exhaustivo del entorno global y las implicaciones sociales de la solución. <br> <br> **- Jhon Galvez** <br> **TB1:** He tomado conciencia de la crucial importancia de la salud en la sociedad contemporánea. El anhelo por el bienestar físico y mental es evidente, pero las dinámicas de la vida en la ciudad a menudo se interponen en la consecución de estos objetivos. En este sentido, considero que la propuesta que hemos concebido aborda esta problemática desde una perspectiva integral. <br> <br> **- Mauricio Muñoz** <br> **TB1:** Consideré el impacto económico y social de las decisiones que tomamos, buscando siempre soluciones que fueran viables tanto económicamente como socialmente. <br> <br> **- David Perez** <br> **TB1:** Me aseguré de que nuestras decisiones fueran lo más inclusivas posibles, considerando que el impacto de nuestro trabajo podría ir más allá de nuestras fronteras. <br> <br> | **TB1:** Cada miembro participó en sus actividades asignadas, manteniendo una comunicación activa y eficaz que fortaleció la confianza mutua. Esto mejoró el trabajo en equipo, un valor crucial para proyectos colaborativos. |
-
+| **4.c.1**<br>Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software | **- Ramiro Guzman**<br>**TB1:** Como parte del equipo, me enfoqué en asegurar que todas las soluciones tecnológicas respetaran los principios éticos de privacidad y seguridad. Analicé y discutí las implicaciones éticas de cada decisión técnica para garantizar que nuestro proyecto no sólo fuera funcional, sino también responsable.<br>**TP1:** Revisé que las nuevas implementaciones respetaran los principios de confidencialidad y privacidad. Además, evalué la configuración de despliegue para evitar posibles vulnerabilidades en los entornos de producción.<br>**TB2:** Participé activamente en la auditoría de la experiencia del usuario, asegurándome de que el diseño respetara la equidad y accesibilidad para distintos perfiles de usuarios, incluyendo aquellos con discapacidades.<br><br>**- Farid Briceño**<br>**TB1:** Durante este primer tramo del proyecto, me comprometí a entender y aplicar las mejores prácticas relacionadas con la seguridad de los usuarios y la confidencialidad de la información.<br>**TP1:** Me aseguré de que las pruebas unitarias e integradas fueran desarrolladas con principios de calidad ética, garantizando que los servicios no violaran estándares de equidad o inclusión.<br>**TB2:** Participé en la revisión estática del código, promoviendo buenas prácticas que eviten consecuencias negativas no intencionadas y fomenten una cultura de responsabilidad profesional.<br><br>**- Jhon Galvez**<br>**TB1:** Asimilé el código de conducta y la ética fundamentales para un desarrollador. Esto me impulsó a colaborar activamente en la recopilación de la información requerida para nuestra aplicación, con la meta clara de generar un impacto significativo en la salud y el bienestar de las personas.<br>**TP1:** Reflexioné sobre cómo nuestras decisiones técnicas podían afectar la salud mental de los usuarios. Con ello, propuse mejoras a la interfaz para minimizar sobrecargas cognitivas y promover una experiencia saludable.<br>**TB2:** Durante el diseño de entrevistas de validación, me aseguré de que las preguntas respetaran la privacidad del encuestado y promovieran una interacción ética entre usuario y sistema.<br><br>**- Mauricio Muñoz**<br>**TB1:** Contribuí al análisis de las necesidades del usuario y busqué formas en que la solución pudiera mejorar la calidad de vida sin comprometer valores fundamentales de privacidad y equidad.<br>**TP1:** Validé que la documentación técnica cumpliera con estándares de responsabilidad, revisando que las decisiones fueran transparentes y comunicadas de forma ética al equipo y stakeholders.<br>**TB2:** Evalué prácticas de monitoreo continuo, para que las alertas del sistema no invadieran la privacidad de los usuarios ni provocaran decisiones automatizadas no justificadas.<br><br>**- David Perez**<br>**TB1:** Trabajé en la implementación de medidas de accesibilidad y seguridad, entendiendo que los usuarios deben sentirse protegidos y respaldados en todo momento.<br>**TP1:** Me aseguré de que el backend cumpliera con los estándares de seguridad y tratara adecuadamente la gestión de datos sensibles.<br>**TB2:** Supervisé la auditoría recibida por otro grupo, garantizando una respuesta profesional y ética ante los hallazgos, priorizando la mejora continua con base en la retroalimentación. | **TB1:** Cada miembro participó en sus actividades asignadas, manteniendo una comunicación activa y eficaz que fortaleció la confianza mutua. Esto mejoró el trabajo en equipo, un valor crucial para proyectos colaborativos.<br><br>**TP1:** En esta fase, el equipo reafirmó su compromiso ético mediante la aplicación de buenas prácticas de validación, pruebas y despliegue seguro. La discusión constante sobre implicancias éticas fortaleció el criterio técnico y la responsabilidad compartida.<br><br>**TB2:** La inclusión de auditorías, entrevistas y prácticas de monitoreo continuo permitió aplicar los principios éticos a un nivel avanzado, reafirmando el compromiso del equipo con la responsabilidad profesional, accesibilidad e integridad del producto. |
+| **4.c.2**<br>Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | **- Ramiro Guzman**<br>**TB1:** Evalué el impacto potencial de nuestra aplicación en distintos contextos. Consideré factores como la accesibilidad global y la sostenibilidad económica del proyecto.<br>**TP1:** Analicé los costos asociados al despliegue del software y su impacto en usuarios con recursos limitados. Promoví alternativas económicas para maximizar el alcance global.<br>**TB2:** Participé en la definición de indicadores de validación, considerando cómo nuestras decisiones podían beneficiar comunidades urbanas con problemas de salud pública y acceso limitado a tecnología.<br><br>**- Farid Briceño**<br>**TB1:** Me aseguré de que nuestras decisiones fueran informadas por un análisis exhaustivo del entorno global y las implicaciones sociales de la solución.<br>**TP1:** Evalué la inclusión de usuarios en zonas rurales, y sugerí funcionalidades que ampliaran el acceso a la plataforma desde dispositivos de gama baja.<br>**TB2:** Consideré el impacto ambiental de nuestras decisiones tecnológicas, optimizando recursos del servidor y prácticas de despliegue para reducir el consumo innecesario.<br><br>**- Jhon Galvez**<br>**TB1:** Considero que la propuesta que hemos concebido aborda la problemática de salud desde una perspectiva integral.<br>**TP1:** Reflexioné sobre cómo la solución podía integrarse en el estilo de vida urbano y propuse que el producto contemplara escalabilidad en diferentes ciudades del país.<br>**TB2:** Analicé los datos obtenidos en entrevistas y sugerí mejoras que alinearan la experiencia con las realidades sociales y económicas del público objetivo.<br><br>**- Mauricio Muñoz**<br>**TB1:** Consideré el impacto económico y social de las decisiones que tomamos, buscando siempre soluciones que fueran viables tanto económicamente como socialmente.<br>**TP1:** Analicé la viabilidad económica del backend, proponiendo soluciones con servicios gratuitos u open-source que reduzcan los costos a futuro.<br>**TB2:** Estudié la retroalimentación del grupo auditor y ajusté partes de la solución para asegurar su adaptabilidad en distintos contextos socioeconómicos.<br><br>**- David Perez**<br>**TB1:** Me aseguré de que nuestras decisiones fueran lo más inclusivas posibles, considerando que el impacto de nuestro trabajo podría ir más allá de nuestras fronteras.<br>**TP1:** Evalué cómo la solución podía responder a problemáticas emergentes en la sociedad, como el estrés digital, proponiendo funcionalidades más amigables.<br>**TB2:** Participé en el diseño de experimentos, buscando medir el impacto social real de nuestras decisiones con métricas de bienestar y calidad de vida.<br><br> | **TB1:** Cada miembro participó en sus actividades asignadas, manteniendo una comunicación activa y eficaz que fortaleció la confianza mutua. Esto mejoró el trabajo en equipo, un valor crucial para proyectos colaborativos.<br><br>**TP1:** El equipo avanzó en la toma de decisiones informadas, considerando el contexto de los usuarios y el entorno. Se priorizó el diseño accesible, el uso eficiente de recursos y el impacto social, reflejando madurez ética y técnica.<br><br>**TB2:** Las decisiones estuvieron guiadas por experimentación y retroalimentación. Se consolidó un enfoque de ingeniería responsable que valoró el impacto ambiental, la equidad y la adaptabilidad de la solución a diversos escenarios sociales. |
 
 ---
 
@@ -2426,50 +2416,161 @@ Durante la primera iteración de desarrollo, implementamos los componentes esenc
 
 #### 5.2.3. Implemented Frontend-Web Application Evidence
 
+- Deploy: https://fitwise-app-77eaf.web.app/
+
+- Repositorio: https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/frontend
+
+Vistas Implementadas:
+
+- Autenticacion de usuario
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px;">
+  <img src="./assets/frontend-web-sign-up.png" alt="Frontend Sign Up View" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+  <img src="./assets/frontend-web-sign-in.png" alt="Frontend Sign In View" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+  <img src="./assets/frontend-web-two-factor.png" alt="Frontend 2FA View" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+</div>
+
+- Vistas Home y Profile
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-top: 30px;">
+  <img src="./assets/frontend-web-home.png" alt="Frontend Home View" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+  <img src="./assets/frontend-web-profile.png" alt="Frontend Profile" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+</div>
+
+- Vistas Core (Diets, Routines, Planner)
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-top: 30px;">
+  <img src="./assets/frontend-web-diets.png" alt="Frontend Diets View" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+  <img src="./assets/frontend-web-routines.png" alt="Frontend Routines View" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+  <img src="./assets/frontend-web-planner.png" alt="Frontend Fitwise Planner View" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+</div>
+
 #### 5.2.4. Acuerdo de Servicio SaaS
 
 Esta sección establece los derechos, obligaciones y restricciones aplicables a los usuarios de la plataforma, garantizando transparencia en el uso del servicio SaaS. Debe integrarse públicamente en la sección "Terms and Conditions" del website, cumpliendo con los criterios de claridad, accesibilidad y cumplimiento normativo.
 
 **Derechos del Usuario:**
 
--Derecho al uso de la plataforma FitWise durante el horario de atención estándar (8 horas al día, 5 días a la semana) mientras la startup esté activa.
--Acceso a soporte técnico gratuito durante la vigencia operativa de la plataforma.
--Acceso continuo a mejoras y actualizaciones de la plataforma, sin costo adicional, mientras el servicio esté activo.
+- Derecho al uso de la plataforma FitWise durante el horario de atención estándar (8 horas al día, 5 días a la semana) mientras la startup esté activa.
+- Acceso a soporte técnico gratuito durante la vigencia operativa de la plataforma.
+- Acceso continuo a mejoras y actualizaciones de la plataforma, sin costo adicional, mientras el servicio esté activo.
 
 **Obligaciones del Usuario:**
 
--El usuario es responsable de resguardar y mantener la confidencialidad de sus credenciales de acceso.
--Toda la información registrada en la plataforma es de entera responsabilidad del usuario.
--El uso de la plataforma debe realizarse conforme a la normativa vigente aplicable y con fines lícitos.
+- El usuario es responsable de resguardar y mantener la confidencialidad de sus credenciales de acceso.
+- Toda la información registrada en la plataforma es de entera responsabilidad del usuario.
+- El uso de la plataforma debe realizarse conforme a la normativa vigente aplicable y con fines lícitos.
 
 **Restricciones:**
 
--La plataforma de escritorio solo está disponible para sistemas operativos Windows 10 y Windows 11.
--La aplicación móvil de FitWise es compatible únicamente con dispositivos Android.
--Queda prohibida la distribución, reproducción, sublicenciamiento o uso comercial no autorizado de la plataforma o sus componentes.
+- La plataforma de escritorio solo está disponible para sistemas operativos Windows 10 y Windows 11.
+- La aplicación móvil de FitWise es compatible únicamente con dispositivos Android.
+- Queda prohibida la distribución, reproducción, sublicenciamiento o uso comercial no autorizado de la plataforma o sus componentes.
 
 #### 5.2.5. Implemented Native-Mobile Application Evidence
 
+La implementación de la aplicación móvil nativa de FitWise se logró mediante la configuración de la aplicación web desarrollada con Angular para funcionar como una Progressive Web App (PWA). Esta estrategia nos permitió ofrecer una experiencia similar a la de una aplicación nativa, directamente desde el navegador, y con la capacidad de ser instalada en dispositivos móviles. Para ello, se realizaron ajustes clave en la configuración del proyecto, incluyendo la adición de manifiestos y la modificación del archivo angular.json, habilitando características como el acceso sin conexión y notificaciones push. Esta aproximación garantiza que los usuarios de FitWise puedan acceder a sus rutinas y planes nutricionales personalizados desde cualquier dispositivo, con una interfaz adaptada y una experiencia de usuario fluida, sin necesidad de descargas de tiendas de aplicaciones.
+
+- manifest.webmanifest
+  <p align="center">
+    <img src="./assets/manifest.png" alt="Webmanifest" />
+  </p>
+
+- nsgw-config.json:
+  <p align="center">
+    <img src="./assets/nsgw-config.png" alt="NSGW Config" />
+  </p>
+
+- Vistas implementadas:
+
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px;">
+  <img src="./assets/native_mobile_1.jpg" alt="Login Mobile" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+  <img src="./assets/native_mobile_2.jpg" alt="2FA Access" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+  <img src="./assets/native_mobile_3.jpg" alt="2FA Access" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+</div>
+
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-top: 30px;">
+  <img src="./assets/native_mobile_4.jpg" alt="Another View" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+  <img src="./assets/native_mobile_5.jpg" alt="Yet Another View" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+  <img src="./assets/native_mobile_6.jpg" alt="Final View" style="max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+</div>
+
 #### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
+
+El backend de FitWise se construyó utilizando Java Spring Boot, lo que nos permitió desarrollar una API RESTful robusta y escalable. Esta API es el corazón de la lógica de negocio de FitWise, gestionando la creación y personalización de rutinas de entrenamiento, planes nutricionales, autenticación de usuarios y la persistencia de datos. La elección de Spring Boot facilitó la implementación de servicios web eficientes y seguros, optimizados para soportar la carga de usuarios y las interacciones complejas de la aplicación. Para el almacenamiento de datos, se utilizó PostgreSQL, una base de datos relacional potente y confiable, que asegura la integridad y disponibilidad de la información de los usuarios. El despliegue de nuestro backend y base de datos se realizó en Azure, garantizando alta disponibilidad y rendimiento.
+
+- Evidencia de los principales endpoints de la aplicacion con Postman:
+
+  - IAM:
+    <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px;">
+      <img src="./assets/restful-api-1.png" alt="Sign Up" style="flex-grow: 1; flex-basis: 0; max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+      <img src="./assets/restful-api-2.png" alt="Sign In" style="flex-grow: 1; flex-basis: 0; max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+      <img src="./assets/restful-api-3.png" alt="Sign In Two Factor" style="flex-grow: 1; flex-basis: 0; max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+    </div>
+
+  - Fitwise Plans:
+    <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-top: 30px;">
+      <img src="./assets/restful-api-4.png" alt="Get All Fitwise Plans" style="flex-grow: 1; flex-basis: 0; max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+      <img src="./assets/restful-api-5.png" alt="Create a Fitwise Plan" style="flex-grow: 1; flex-basis: 0; max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+    </div>
+
+  - User Profile:
+    <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-top: 30px;">
+      <img src="./assets/restful-api-6.png" alt="Create a User Profile" style="flex-grow: 1; flex-basis: 0; max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+      <img src="./assets/restful-api-8.png" alt="Get a User Profile" style="flex-grow: 1; flex-basis: 0; max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+      <img src="./assets/restful-api-9.png" alt="Update a User Profile" style="flex-grow: 1; flex-basis: 0; max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+    </div>
+
+  - Recommendations:
+    <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-top: 30px;">
+      <img src="./assets/restful-api-7.png" alt="Get Recommended Fitwise Plans based on the User Profile" style="flex-grow: 1; flex-basis: 0; max-width: 600px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+    </div>
+
+  - Subscriptions to Fitwise Plans:
+    <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-top: 30px;">
+      <img src="./assets/restful-api-10.png" alt="Create a Plan Subscription" style="flex-grow: 1; flex-basis: 0; max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+      <img src="./assets/restful-api-11.png" alt="Get a Plan Subscription" style="flex-grow: 1; flex-basis: 0; max-width: 300px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+    </div>
+
 
 #### 5.2.7. RESTful API documentation
 
+- Deploy: https://fitwisebackend-gfaehmgxfhhjhff6.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/
+
+La API RESTful de FitWise está completamente documentada utilizando OpenAPI. Esta documentación detalla todos los endpoints disponibles, los parámetros de solicitud, los formatos de respuesta y los códigos de estado, facilitando la integración y el consumo de nuestros servicios tanto por el frontend web como por la PWA. La documentación OpenAPI es crucial para el desarrollo colaborativo y para futuras expansiones del sistema, sirviendo como una referencia clara y concisa de las capacidades de nuestra API. Hemos priorizado la consistencia y la claridad en la definición de cada recurso y operación, lo que permite a los desarrolladores comprender rápidamente cómo interactuar con nuestra plataforma para crear y gestionar las experiencias personalizadas de los usuarios de FitWise.
+
+- Endpoints documentados mediante OpenAPI:
+  <p align="center">
+    <img src="./assets/openapi.png" alt="OpenAPI Swagger" />
+  </p>
+
 #### 5.2.8. Team Collaboration Insights
 
-**TB1:**
+En esta sección, el equipo presenta un resumen de las actividades de implementación y la colaboración de los miembros durante el sprint actual. Aquí, verán capturas de los análisis de colaboración y los commits en GitHub para cada uno de los productos clave, demostrando la participación activa de todos los miembros del equipo en la implementación de la Landing Page, las Web Applications y los Web Services. 
 
-Para esta primera entrega, se ha conseguido desplegar la la nding page gracias a GitHub Pages. Las analiticas del repositorio se muestran a continuacion:
+- Landing Page
 
-- Usuario: Chaomeum (Jhon Galvez)
+  Aquí se muestran las analíticas de colaboración y la actividad de la red para el repositorio de la Landing Page.
 
-  <p align="center">
-    <img src="./assets/landing-analitica.png" alt="analitica landing" />
-  </p>
+  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px;">
+    <img src="./assets/landing-analitica.png" alt="Análisis de Contribución del Repositorio de la Landing Page" style="flex-grow: 1; flex-basis: 0; max-width: 600px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+    <img src="./assets/landing-network.png" alt="Red de Colaboración del Repositorio de la Landing Page" style="flex-grow: 1; flex-basis: 0; max-width: 600px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;"> 
+  </div> 
 
-  <p align="center">
-    <img src="./assets/landing-network.png" alt="network landing" />
-  </p>
+- Frontend Web App
 
+  A continuación, se presentan las estadísticas de colaboración y la red de desarrollo para la aplicación web frontend.
+
+  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-top: 30px;">
+    <img src="./assets/frontend-repo-insights.png" alt="Análisis de Contribución del Repositorio Frontend Web App" style="flex-grow: 1; flex-basis: 0; max-width: 600px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+    <img src="./assets/frontend-repo-network.png" alt="Red de Colaboración del Repositorio Frontend Web App" style="flex-grow: 1; flex-basis: 0; max-width: 600px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;"> 
+  </div> 
+
+- Backend Web Services
+
+  Por último, pueden ver las métricas de colaboración y la actividad de la red para los servicios web del backend.
+
+  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-top: 30px;">
+    <img src="./assets/backend-repo-insights.png" alt="Análisis de Contribución del Repositorio Backend Web Services" style="flex-grow: 1; flex-basis: 0; max-width: 600px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;">
+    <img src="./assets/backend-repo-network.png" alt="Red de Colaboración del Repositorio Backend Web Services" style="flex-grow: 1; flex-basis: 0; max-width: 600px; height: auto; border: 1px solid #ddd; border-radius: 4px; padding: 5px;"> 
+  </div>
 
 ## Capítulo VI: Product Verification & Validation
 
