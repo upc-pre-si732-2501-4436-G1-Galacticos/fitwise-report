@@ -3205,6 +3205,19 @@ Se definió un plan de seguimiento utilizando Google Analytics y Firebase:
 
 #### 8.3.2. To-Be Product Backlog
 
+| # Orden | User Story ID | Título                                        | Story Points (1 / 2 / 3 / 5 / 8) |
+|---------|----------------|----------------------------------------------|----------------------------------|
+| 1       | UA01           | Registro con email seguro                    | 3                                |
+| 2       | UA02           | Inicio de sesión persistente                 | 2                                |
+| 3       | UA03           | Personalización con objetivos físicos        | 5                                |
+| 4       | UA04           | Selección de intereses                       | 2                                |
+| 5       | UA05           | Vista de progreso resumido en dashboard      | 5                                |
+| 6       | UA06           | Recomendaciones dinámicas en dashboard       | 5                                |
+| 7       | UA07           | Gráficas de evolución en informe de progreso | 3                                |
+| 8       | UA08           | Recompensas por metas cumplidas              | 2                                |
+| 9       | UA09           | Planes de nutrición según preferencias       | 5                                |
+| 10      | UA10           | Cambio de correo electrónico                 | 8                                |
+
 ## Conclusiones
 
 El desarrollo de VibeFit ha sido un proceso integral que abarca desde la investigación de mercado hasta la implementación final del producto. Las conclusiones de este proyecto reflejan el impacto positivo que la startup puede tener en la vida de los usuarios, proporcionando una solución accesible, personalizada y eficaz para mejorar el bienestar físico y mental. La colaboración constante, la validación de las soluciones a través de pruebas y feedback, y el enfoque centrado en el usuario son aspectos clave que garantizan el éxito y la sostenibilidad de la plataforma.
