@@ -2587,10 +2587,6 @@ Las herramientas utilizadas incluyen entornos de prueba automatizados, scripts d
 
 <img src="./assets/se25.png" alt="se25" />
 
-| **US026** | **Establecer objetivos semanales** | **Como usuario, quiero definir cuántos días por semana deseo entrenar para llevar un control de progreso.** |
-
-<img src="./assets/se26.png" alt="se26" />
-
 ### 6.2. Static Testing & Verification
 
 #### 6.2.1. Static Code Analysis
