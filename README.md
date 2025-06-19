@@ -2693,6 +2693,17 @@ Aquí se describen los elementos específicos del pipeline de producción:
 
 ### 7.4. Continuous Monitoring
 #### 7.4.1. Tools and Practices
+
+***_Pruebas de Carga y Estrés:_***  Para pruebas se utilizará Apache JMeter, que es una herramienta especializada para realizar pruebas de carga, estrés y rendimiento en aplicaciones web y servicios. Permite simular múltiples usuarios concurrentes enviando peticiones al servidor, lo que ayuda a identificar cuellos de botella, tiempos de respuesta inestables y posibles fallos bajo condiciones de alta demanda. Además, su capacidad para generar reportes gráficos detallados facilita el análisis del comportamiento del sistema y la toma de decisiones para optimizar su escalabilidad y robustez.
+
+***_Monitoreo de Experiencia del Usuario:_*** Para el monitoreo se utilizará Google Analytics, que permite analizar en profundidad cómo los usuarios interactúan con un sitio web, proporcionando métricas clave como duración de sesiones, tasa de rebote, flujo de navegación y páginas más visitadas. Esta información es crucial para identificar patrones de comportamiento, detectar puntos de fricción en la interfaz y tomar decisiones basadas en datos reales. Al integrar objetivos y eventos personalizados, los equipos pueden evaluar la efectividad de la experiencia de usuario y optimizarla de forma continua para lograr una mayor retención y conversión.
+
+***_Supervisión de APIs:_*** Para la supervisión de APIs se utilizará Postman, que permite configurar monitores que ejecutan colecciones de peticiones en intervalos definidos, con el objetivo de evaluar la disponibilidad y el rendimiento de una API. Estos monitores pueden simular llamadas desde distintas ubicaciones geográficas y registrar métricas como el tiempo de respuesta, códigos de estado y validaciones personalizadas mediante scripts.
+
+***_Auditorías de Calidad Web:_*** Para las auditorías se utilizará Google Lighthouse, que es una herramienta automatizada de código abierto que permite evaluar la calidad de aplicaciones web mediante una serie de auditorías enfocadas en aspectos clave como rendimiento, accesibilidad, buenas prácticas, SEO y experiencia en dispositivos móviles. Al generar un informe detallado con puntuaciones y recomendaciones específicas, Lighthouse ayuda a los desarrolladores a identificar cuellos de botella y áreas de mejora, optimizando así tanto la eficiencia técnica del sitio como la experiencia final del usuario.
+
+
+
 #### 7.4.2. Monitoring Pipeline Components
 #### 7.4.3. Alerting Pipeline Components
 #### 7.4.4. Notification Pipeline Components.
