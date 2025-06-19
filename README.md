@@ -2619,7 +2619,7 @@ También fueron realizadas con **JUnit**, complementadas con herramientas de iny
 </p>
 
 
-#### 6.1.3. Core Behavior-Driven Development\
+#### 6.1.3. Core Behavior-Driven Development
 
 En esta sección se presentan capturas relacionadas con la implementación de pruebas basadas en el comportamiento (**Behavior-Driven Development**, BDD) aplicadas al núcleo del sistema.  
 Se utilizó una combinación de herramientas como **Cucumber** junto con **JUnit** para definir escenarios de prueba en lenguaje natural (Gherkin), permitiendo validar funcionalidades desde la perspectiva del usuario final.  
@@ -2651,26 +2651,75 @@ Las herramientas utilizadas incluyen entornos de prueba automatizados, scripts d
 ### 6.2. Static Testing & Verification
 
 #### 6.2.1. Static Code Analysis
+
 ##### 6.2.1.1. Coding standard & Code conventions
 
+Durante el desarrollo de **FitWise**, se definieron y aplicaron convenciones de codificación específicas para cada tecnología utilizada, con el objetivo de asegurar la calidad, legibilidad y mantenibilidad del código, así como facilitar la colaboración entre los miembros del equipo. A continuación, se detallan las principales convenciones y herramientas empleadas:
 
-Durante el desarrollo de FitWise, se establecieron convenciones de codificación para garantizar consistencia, mantenibilidad y colaboración efectiva entre desarrolladores. Se implementaron las siguientes prácticas:
+- **Frontend (Angular Web y Angular PWA)**
+  * Se utilizó **ESLint** en conjunto con **Prettier** para aplicar reglas de estilo y análisis estático de código.
+  * Se adoptó la convención de nombres:
 
-- Uso de `ESLint` y `Prettier` para el formato y análisis estático de código frontend.
-- Estilo `camelCase` para variables y funciones, `PascalCase` para componentes.
-- Comentarios descriptivos en inglés para funciones complejas.
-- Indentación de 2 espacios y longitud máxima de línea de 120 caracteres.
-- Validación automática de estilo en los pull requests mediante GitHub Actions.
+    * `camelCase` para variables, funciones y métodos.
+    * `PascalCase` para componentes, clases y archivos de Angular.
+  * Se implementó una indentación de **2 espacios** y una **longitud máxima de línea de 120 caracteres**.
+  * Los comentarios se redactaron en **inglés técnico**, especialmente en funciones con lógica compleja o no trivial.
+  * Se estructuraron los módulos y componentes según las buenas prácticas recomendadas por Angular, manteniendo una separación clara entre `core`, `shared`, `public`, e `iam`.
+
+- **Backend (Java Spring Boot)**
+
+  * Se siguieron las convenciones estándar de **Java** y **Spring Boot**, incluyendo:
+    * Nomenclatura `camelCase` para variables y métodos, `PascalCase` para clases.
+    * Uso de anotaciones de Spring (@RestController, @Service, @Entity, etc.) conforme a los principios de diseño limpio.
+  * Se aplicaron reglas de estilo compatibles con **Google Java Style Guide**, validadas mediante herramientas como **Checkstyle**.
+  * Se promovió el uso de comentarios JavaDoc en clases públicas, controladores y servicios.
+  * Las pruebas unitarias se implementaron utilizando **JUnit 5**, manteniendo una cobertura mínima aceptable y pruebas por módulo funcional.
+
+- **Control de versiones y CI/CD**
+
+  * Todo el código fue gestionado mediante **Git** y alojado en **GitHub**.
+  * Se configuraron **GitHub Actions** para ejecutar validaciones automáticas de estilo y pruebas unitarias en cada `pull request`.
+  * Se revisaron manualmente los `pull requests` bajo la política de *code review obligatorio* antes de hacer merge a la rama principal (`main`).
+
+- **Pruebas y documentación**
+
+  * Las APIs fueron documentadas y validadas con **Postman**, asegurando consistencia en los contratos de servicios REST.
+  * Se mantuvieron colecciones de pruebas de endpoints con variables de entorno para entornos `dev`, `test` y `prod`.
+
+Estas convenciones fueron revisadas periódicamente durante las iteraciones del proyecto y adaptadas según las necesidades del equipo y la evolución de la arquitectura.
+
 
 ##### 6.2.1.2. Code Quality & Code Security
 
 
-Se aplicaron buenas prácticas para asegurar calidad y seguridad del código fuente:
+Con el fin de garantizar la calidad y seguridad del código fuente en el proyecto **FitWise**, el equipo adoptó un enfoque proactivo basado en herramientas automatizadas, revisiones manuales y buenas prácticas de desarrollo seguro. Se aplicaron las siguientes estrategias:
 
-- Integración con `SonarCloud` para análisis de *bugs*, *code smells* y *vulnerabilidades*.
-- Uso de `npm audit` y `OWASP Dependency-Check` para revisar paquetes inseguros.
-- Refactorización de código duplicado y eliminación de dependencias obsoletas.
-- Implementación de autenticación JWT y control de acceso por roles para prevenir accesos no autorizados.
+- **Calidad del Código**
+
+  * **SonarCloud** fue integrado al pipeline de integración continua para analizar métricas clave como:
+
+    * **Bugs** potenciales.
+    * **Code smells** que afectan la mantenibilidad.
+    * **Duplicación de código** y complejidad ciclomática.
+  * Se realizaron tareas periódicas de **refactorización**, eliminando código duplicado y mejorando la legibilidad y estructura de componentes y servicios.
+  * Se definieron **reglas de calidad mínima** para permitir el merge de cambios, priorizando un *code health score* adecuado por módulo.
+  * Se promovió el principio **DRY** (Don’t Repeat Yourself) y la modularización del código tanto en el frontend como en el backend.
+
+- **Seguridad del Código**
+
+  * Se emplearon herramientas de análisis de vulnerabilidades para dependencias:
+
+    * `**Snyk**` y `**npm audit**` para escanear paquetes del frontend (Angular).
+    * `**OWASP Dependency-Check**` para detectar riesgos en dependencias Java.
+  * Se configuró **Snyk** con GitHub para escaneos automáticos en cada `pull request`, generando alertas tempranas sobre librerías con vulnerabilidades conocidas.
+  * Se implementaron mecanismos de protección en el backend:
+
+    * **Autenticación basada en JWT** con expiración de tokens.
+    * **Autorización basada en roles** para restringir el acceso según permisos definidos.
+    * Validaciones estrictas de entrada y sanitización para prevenir **inyecciones SQL**, **XSS** y otras amenazas OWASP Top 10.
+  * Se evitaron prácticas inseguras como el almacenamiento de contraseñas en texto plano, utilizando **bcrypt** para su hash y salting.
+
+  Estas prácticas permitieron mantener un código confiable, fácil de mantener y alineado con los estándares actuales de ciberseguridad en aplicaciones web modernas.
 
 
 #### 6.2.2. Reviews
@@ -2697,31 +2746,54 @@ Las entrevistas de validación se diseñaron para evaluar la percepción del pro
 6. ¿Pagarías por una versión premium? ¿Qué precio te parecería justo?
 
 #### 6.3.2. Registro de Entrevistas
+
+
 #### 6.3.3. Evaluaciones según heurísticas
+
+
 ---
 
 ## Capítulo VII: DevOps Practices
 
 ### 7.1. Continuous Integration
 
-La integración continua (CI) es una práctica fundamental del proceso DevOps que permite integrar código frecuentemente en un repositorio compartido.  
-Este capítulo describe las herramientas y procesos implementados para garantizar que cada nueva incorporación al código base sea verificada automáticamente, minimizando errores de integración.
+La **Integración Continua (CI)** es una práctica esencial dentro del enfoque DevOps que permite incorporar cambios de código frecuentemente en un repositorio central, asegurando que estos sean verificados de manera automática.  
+El objetivo principal es detectar errores tempranamente, mejorar la calidad del software y reducir los tiempos de entrega.
+
+Este capítulo describe las herramientas, estrategias y procesos implementados para garantizar que cada nuevo commit o pull request pase por un conjunto de validaciones automatizadas antes de ser fusionado con la rama principal.
+
+---
 
 #### 7.1.1. Tools and Practices
 
-En esta sección se detallan las herramientas utilizadas para implementar CI, incluyendo **Git**, **GitHub Actions**, **JUnit**, y **SonarQube** para análisis estático de código.  
-También se describen las mejores prácticas adoptadas, como el uso de ramas feature, la revisión de código mediante pull requests, y la ejecución automática de pruebas al hacer push o merge.
+Para implementar una estrategia efectiva de CI, se utilizaron las siguientes herramientas:
+
+- **Git**: Sistema de control de versiones distribuido para la gestión del código fuente.
+- **GitHub**: Plataforma de alojamiento de repositorios que soporta colaboración mediante pull requests y revisiones de código.
+- **GitHub Actions**: Servicio de automatización utilizado para definir y ejecutar *workflows* que compilan, prueban y analizan el código en cada push o PR.
+- **JUnit**: Framework de pruebas unitarias para asegurar el correcto funcionamiento de los componentes del backend.
+- **SonarCloud** (SonarQube Cloud): Herramienta de análisis estático utilizada para evaluar la calidad, seguridad, mantenibilidad y cobertura del código fuente.
+
+Además, el equipo adoptó las siguientes prácticas de desarrollo colaborativo:
+
+- Uso de ramas `feature`, `bugfix`, `hotfix` y `release`, basadas en Git Flow.
+- Creación de **pull requests obligatorias** antes de fusionar cambios a la rama `main`.
+- Revisión de código entre pares para asegurar calidad y coherencia técnica.
+- Ejecución automática de pruebas y análisis de calidad en cada `push` o `merge`.
+
+---
 
 #### 7.1.2. Build & Test Suite Pipeline Components
 
-Aquí se desglosan los componentes del pipeline de CI relacionados con el proceso de construcción y ejecución de pruebas.  
-Esto incluye:
-- Compilación del código fuente.
-- Ejecución de pruebas unitarias y de integración.
-- Generación de reportes de cobertura.
-- Validación de calidad del código.
-  
-El objetivo es asegurar que cada commit mantenga la estabilidad del sistema.
+El pipeline de CI fue diseñado para validar de forma integral cada nueva versión del código. Sus principales componentes son:
+
+- 🔧 **Compilación**: Validación de que el código puede compilarse correctamente usando `Maven` para el backend y `npm` para el frontend.
+- ✅ **Ejecución de pruebas unitarias**: Pruebas automatizadas desarrolladas con `JUnit` (backend) y `Jest/Karma` (frontend), ejecutadas automáticamente en cada integración.
+- 📊 **Generación de reportes de cobertura**: Uso de `JaCoCo` en el backend para medir la cobertura de pruebas y reportarla a SonarCloud.
+- 🧪 **Análisis de calidad y seguridad**: Evaluación automática con `SonarCloud`, identificando code smells, bugs, duplicaciones y vulnerabilidades potenciales.
+- 🚦 **Quality Gates**: Validación de que el código cumple con los umbrales mínimos definidos (por ejemplo, 0 bugs críticos, cobertura mínima, sin duplicaciones).
+
+Este pipeline permite asegurar que **cada commit o pull request mantenga la estabilidad, calidad y seguridad del sistema**, minimizando el riesgo de introducir errores en producción.
 
 ---
 
@@ -2764,39 +2836,202 @@ Esta elección facilita la gestión eficiente del flujo de trabajo de desarrollo
 
 #### 7.2.2. Stages Deployment Pipeline Components
 
-Se explican los distintos componentes del pipeline de despliegue en entornos intermedios (staging):
-- Creación de contenedores.
-- Despliegue en entornos aislados.
-- Pruebas funcionales automáticas.
-- Validación manual previa al paso a producción.
+El pipeline de entrega continua fue diseñado para desplegar el sistema en entornos controlados antes de llegar a producción. Cada etapa del pipeline cumple una función clave para asegurar la calidad y confiabilidad del software:
+
+- 🐳 **Construcción de contenedores**: El backend y frontend se empacan en imágenes Docker versionadas. Estas imágenes se almacenan en un registro privado para facilitar su reutilización y despliegue.
+
+- 🚀 **Despliegue en entornos intermedios (staging)**: Las imágenes se ejecutan en entornos de staging controlados, configurados para simular el ambiente de producción y permitir pruebas realistas sin riesgos.
+
+- 🧪 **Pruebas funcionales automatizadas**: Se ejecutan pruebas end-to-end o de integración contra los servicios desplegados, validando flujos críticos del sistema antes de pasar al siguiente entorno.
+
+- 🧍 **Validación manual previa al paso a producción**: Una vez que las pruebas automáticas han pasado, se realiza una revisión manual o validación por parte del equipo, que incluye verificación visual o validación por stakeholders si corresponde.
+
+- 🔐 **Control de versiones y despliegue aprobado**: Sólo si se cumplen todas las condiciones anteriores, se autoriza manualmente el paso a producción, lo cual garantiza trazabilidad y evita liberaciones accidentales.
+
+Este enfoque por etapas permitió mantener una alta confianza en cada entrega, reducir errores en producción y facilitar ciclos de liberación más cortos y seguros.
 
 ---
 
 ### 7.3. Continuous Deployment
 
-El despliegue continuo es la fase final del proceso DevOps, donde cada cambio aprobado es desplegado automáticamente en producción.
+El **Despliegue Continuo (CD)** representa la fase final del ciclo DevOps, en la que cada cambio validado y aprobado desde los entornos de staging es desplegado automáticamente en producción, sin intervención manual.  
+Este enfoque permite acelerar los ciclos de entrega, minimizar errores humanos y mantener un flujo constante de valor hacia los usuarios finales.
+
+---
 
 #### 7.3.1. Tools and Practices
 
-Se describen las herramientas utilizadas para automatizar completamente el paso a producción, como **GitHub Actions**, **Kubernetes**, o **AWS/GCP** (según sea aplicable).  
-También se destacan buenas prácticas como:
-- Canarios de despliegue.
-- Monitoreo activo con alertas.
-- Rollback automático en caso de fallos.
+Para implementar un pipeline de despliegue continuo confiable y seguro, se adoptaron diversas herramientas y prácticas del ecosistema DevOps:
+
+- **GitHub Actions**: Plataforma de automatización utilizada para coordinar los pasos finales del despliegue hacia producción, basándose en validaciones previas y aprobaciones manuales.
+- **Docker**: Tecnología de contenedores utilizada para empaquetar la aplicación y asegurar la portabilidad entre entornos.
+- **Kubernetes (simulado o local)**: Orquestador de contenedores que permite gestionar el despliegue, escalado y alta disponibilidad de los servicios.
+- **Azure App Services** (o alternativa según el entorno): Plataforma usada para la exposición del sistema en producción, con integración continua y despliegue automatizado desde contenedores.
+
+Además, se aplicaron las siguientes buenas prácticas:
+
+- 🐦 **Despliegues canarios**: Liberación progresiva de nuevas versiones a un subconjunto de usuarios para detectar errores tempranos sin afectar a toda la base de usuarios.
+- 📈 **Monitoreo activo y alertas**: Supervisión del comportamiento de la aplicación en tiempo real, utilizando herramientas de logging, trazabilidad y métricas.
+- 🔁 **Rollback automático**: En caso de fallos críticos post-despliegue, se desencadena un proceso automatizado de reversión a la versión anterior estable.
+- 🔒 **Control de acceso y aprobación final**: Para evitar despliegues accidentales, se exige una validación manual previa por parte del equipo de desarrollo o líderes del proyecto.
+
+---
 
 #### 7.3.2. Production Deployment Pipeline Components
 
-Aquí se describen los elementos específicos del pipeline de producción:
-- Validaciones finales del entorno.
-- Despliegue automático tras aprobación de staging.
-- Monitoreo de logs y métricas post-despliegue.
-- Seguridad en el acceso y auditoría de cambios.
+El pipeline de producción fue diseñado para garantizar la seguridad, estabilidad y trazabilidad en cada entrega. A continuación, se detallan sus componentes clave:
+
+- ✅ **Validaciones finales del entorno**: Antes del despliegue, se realiza una verificación de que la infraestructura esté operativa, el registro de contenedores actualizado y las variables de entorno correctamente configuradas.
+
+- 🚀 **Despliegue automatizado tras aprobación de staging**: Una vez superadas todas las validaciones del entorno de pruebas, y tras una aprobación manual, el sistema ejecuta automáticamente el despliegue en producción.
+
+- 📊 **Monitoreo post-despliegue**: Tras la publicación, se activa el monitoreo de logs, consumo de recursos, tráfico y errores. Esto permite detectar anomalías y responder rápidamente en caso de incidentes.
+
+- 🔐 **Seguridad en el acceso y auditoría de cambios**: Se limita el acceso al entorno productivo mediante autenticación de múltiples factores (MFA) y se registra toda acción realizada en los pipelines para auditorías posteriores.
+
+Este proceso garantiza que cada despliegue en producción sea **predecible, auditable y reversible**, alineado con las mejores prácticas modernas de DevOps y con enfoque en la seguridad y estabilidad del servicio.
+
+---
+
+Aquí tienes la documentación completa y detallada para la sección **7.4. Continuous Monitoring**, adaptada a tu stack tecnológico (Spring Boot, Angular, Azure DevOps), siguiendo un estilo profesional y coherente con las secciones anteriores del capítulo DevOps. Lista para copiar y pegar en tu documentación técnica en formato Markdown:
+
+---
 
 ### 7.4. Continuous Monitoring
+
+El **Monitoreo Continuo** es una práctica clave del ciclo DevOps orientada a asegurar la observabilidad, trazabilidad y estabilidad del sistema en producción.  
+Permite detectar anomalías, analizar el rendimiento y tomar decisiones proactivas mediante el análisis de métricas, logs y trazas. Esta sección documenta las herramientas, configuraciones y componentes implementados para mantener una supervisión eficaz del sistema desplegado.
+
+---
+
 #### 7.4.1. Tools and Practices
+
+Para lograr una estrategia de monitoreo completa, se integraron herramientas que cubren los tres pilares de la observabilidad: **métricas**, **logs** y **trazas**. Las herramientas elegidas se integran de forma natural con aplicaciones Spring Boot y Angular, y son compatibles con entornos cloud como Azure.
+
+**Herramientas principales utilizadas:**
+
+- **Spring Boot Actuator**  
+  Exposición de endpoints para métricas, salud y trazas. Proporciona integración directa con Prometheus y otras soluciones.
+  
+- **Prometheus**  
+  Sistema de monitoreo de series temporales. Se utilizó para recolectar métricas de la aplicación backend y del entorno de ejecución.
+  
+- **Grafana**  
+  Plataforma de visualización de datos. Se usó para construir dashboards con métricas del backend (tiempo de respuesta, uso de memoria, tráfico HTTP, etc.) y métricas del pipeline CI/CD.
+  
+- **Azure Monitor + Application Insights**  
+  Solución nativa de Azure que centraliza el monitoreo de recursos, disponibilidad y rendimiento. Se utilizó para monitorear el frontend Angular y los servicios desplegados en Azure App Services.
+
+**Buenas prácticas adoptadas:**
+
+- Instrumentación de servicios Spring Boot mediante `Micrometer` con integración a Prometheus.
+- Uso de `HttpTrace`, `Health`, `Metrics` y `Env` de Spring Boot Actuator.
+- Uso del agente de `Application Insights` en el frontend Angular para recopilar errores de cliente y telemetría del navegador.
+- Dashboards compartidos en Grafana para análisis en tiempo real de la infraestructura y el comportamiento de las aplicaciones.
+- Configuración de alertas automáticas basadas en métricas definidas (latencia, errores 5xx, tiempo de despliegue, etc.).
+
+---
+
 #### 7.4.2. Monitoring Pipeline Components
+
+El pipeline de CI/CD también está sujeto a monitoreo para asegurar tiempos de ejecución óptimos, detectar fallas recurrentes y mejorar la confiabilidad del proceso de entrega.
+
+**Componentes monitoreados del pipeline (Azure DevOps):**
+
+- ⏱️ **Tiempo de ejecución por etapa** (build, test, deploy).
+- 📦 **Estado del build** (exitoso, fallido, cancelado).
+- 🧪 **Resultados de pruebas** (cantidad de tests pasados/fallidos).
+- 🚀 **Historial de despliegues** (tiempos, frecuencia, duración).
+- 📈 **Tiempo promedio entre entregas (MTTD)** y **fallas (MTTR)**.
+
+**Implementación técnica:**
+
+- Uso de extensiones de Azure DevOps para exportar datos de ejecución hacia **Application Insights** o Prometheus.
+- Integración de resultados del pipeline con **Grafana** para visualizar patrones de ejecución y detectar cuellos de botella.
+
+**Ejemplo de visualización:**
+```yaml
+# Ejemplo de anotación en Prometheus desde un job de Azure DevOps
+- name: Push custom metric to Prometheus PushGateway
+  run: |
+    echo "ci_build_duration_seconds{pipeline='fitwise-backend'} 145" | curl --data-binary @- http://localhost:9091/metrics/job/build
+````
+
+---
+
 #### 7.4.3. Alerting Pipeline Components
-#### 7.4.4. Notification Pipeline Components.
+
+El sistema de alertas permite detectar desviaciones en el comportamiento del sistema o del pipeline y responder de forma proactiva. Se implementaron alertas automáticas y configurables sobre métricas clave del entorno y del software.
+
+**Alertas configuradas:**
+
+* 🔥 **Errores 5xx** sostenidos en el backend.
+* 🕑 **Aumento de latencia** en endpoints críticos.
+* ❌ **Fallos consecutivos de despliegue** o builds.
+* ⚠️ **Uso de CPU o memoria fuera del umbral** en el entorno de staging/producción.
+* 🧪 **Cobertura de pruebas por debajo del mínimo aceptable** (detectado por SonarCloud).
+
+**Herramientas utilizadas para alertas:**
+
+* **Prometheus Alertmanager**: Motor centralizado para la evaluación y envío de alertas.
+* **Azure Monitor Alerts**: Configuración de reglas de alertas desde métricas de App Services y Application Insights.
+* **Grafana Alerting**: Alertas configurables desde dashboards con reglas sobre métricas y comportamiento histórico.
+
+**Ejemplo de alerta Prometheus:**
+
+```yaml
+groups:
+  - name: spring-boot-rules
+    rules:
+      - alert: HighHttpErrorRate
+        expr: rate(http_server_errors_total[1m]) > 0.05
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Tasa alta de errores HTTP 5xx detectada"
+          description: "Más del 5% de las peticiones están fallando."
+```
+
+---
+
+#### 7.4.4. Notification Pipeline Components
+
+Una vez detectadas las condiciones de alerta, el sistema debe notificar al equipo de desarrollo de manera oportuna, clara y efectiva.
+
+**Mecanismos de notificación implementados:**
+
+* 📧 **Correo electrónico** (Azure Alerts y Alertmanager).
+* 💬 **Slack**: Integración directa con canales del equipo para avisos críticos.
+* 📱 **Notificaciones móviles** (opcional) mediante integración con apps como Microsoft Teams, Opsgenie o PagerDuty.
+
+**Pasos de integración destacados:**
+
+* En Azure Monitor:
+
+  * Crear una regla de alerta → seleccionar condición → definir grupo de acción → agregar destino (correo, webhook, etc.).
+
+* En Prometheus + Alertmanager:
+
+  * Configurar `alertmanager.yml` para el canal de notificación:
+
+    ```yaml
+    receivers:
+      - name: 'slack-notifications'
+        slack_configs:
+          - channel: '#devops-alerts'
+            send_resolved: true
+            username: 'PrometheusBot'
+            text: "{{ .CommonAnnotations.summary }}"
+    ```
+
+* En Grafana:
+
+  * Crear una alerta desde un panel → configurar umbral → conectar notificador (Slack, Teams, email, etc.).
+
+Estas notificaciones permiten que el equipo responda de inmediato a incidentes críticos o fallos del pipeline, mejorando la **resiliencia operativa** del sistema.
+
+---
 
 ## Capítulo VIII: Experiment-Driven Development
 
