@@ -3208,15 +3208,15 @@ Se definió un plan de seguimiento utilizando Google Analytics y Firebase:
 | # Orden | User Story ID | Título                                        | Story Points (1 / 2 / 3 / 5 / 8) |
 |---------|----------------|----------------------------------------------|----------------------------------|
 | 1       | UA01           | Registro con email seguro                    | 3                                |
-| 2       | UA02           | Inicio de sesión persistente                 | 2                                |
+| 2       | UA02           | Inicio de sesión persistente                 | 3                                |
 | 3       | UA03           | Personalización con objetivos físicos        | 5                                |
 | 4       | UA04           | Selección de intereses                       | 2                                |
-| 5       | UA05           | Vista de progreso resumido en dashboard      | 5                                |
-| 6       | UA06           | Recomendaciones dinámicas en dashboard       | 5                                |
-| 7       | UA07           | Gráficas de evolución en informe de progreso | 3                                |
-| 8       | UA08           | Recompensas por metas cumplidas              | 2                                |
-| 9       | UA09           | Planes de nutrición según preferencias       | 5                                |
-| 10      | UA10           | Cambio de correo electrónico                 | 8                                |
+| 5       | UA05           | Vista de progreso resumido en dashboard      | 3                                |
+| 6       | UA06           | Recomendaciones dinámicas en dashboard       | 8                                |
+| 7       | UA07           | Gráficas de evolución en informe de progreso | 5                                |
+| 8       | UA08           | Recompensas por metas cumplidas              | 3                                |
+| 9       | UA09           | Planes de nutrición según preferencias       | 8                                |
+| 10      | UA10           | Cambio de correo electrónico                 | 5                                |
 
 ## Conclusiones
 
