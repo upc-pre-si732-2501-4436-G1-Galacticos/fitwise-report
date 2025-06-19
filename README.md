@@ -3039,405 +3039,390 @@ Estas notificaciones permiten que el equipo responda de inmediato a incidentes c
 
 ### 8.1.1. As-Is Summary
 
-**VibeFit** es una startup tecnológica que desarrolla **FitWise**, una aplicación web y móvil diseñada para mejorar el bienestar físico y mental de los usuarios mediante rutinas de entrenamiento y planes nutricionales personalizados.
+**VibeFit** es una startup tecnológica orientada a la innovación en el sector del bienestar digital. Su producto principal, **FitWise**, es una aplicación web y móvil diseñada para mejorar la salud física y mental de los usuarios a través de planes personalizados de entrenamiento físico y nutrición.
 
-#### Proceso principal del usuario en FitWise:
+#### Flujo principal del usuario en FitWise:
 
-1. **Registro o inicio de sesión**  
-   El usuario puede crear una cuenta o ingresar con credenciales previamente registradas. Se recopilan datos personales básicos y preferencias de bienestar.
+1. **Registro e inicio de sesión**  
+   El usuario puede registrarse mediante correo electrónico o ingresar con credenciales previamente creadas. Durante el proceso, se recopilan datos personales y preferencias generales relacionadas con el bienestar.
 
 2. **Evaluación inicial**  
-   Se realiza un cuestionario para conocer el nivel físico, estilo de vida, metas (bajar de peso, ganar masa muscular, mejorar salud general) y restricciones alimenticias.
+   A través de un cuestionario estructurado, la aplicación obtiene información clave como nivel de actividad física, estilo de vida, objetivos (pérdida de peso, ganancia muscular, mantenimiento de salud), y restricciones alimenticias. Con esta información se construye el perfil inicial del usuario.
 
-3. **Generación automática del plan personalizado**  
-   En base a los datos del usuario, FitWise genera una rutina de entrenamiento y un plan nutricional adecuados a sus características.
+3. **Generación automática de planes personalizados**  
+   Utilizando reglas y algoritmos definidos, FitWise genera una rutina de entrenamiento y un plan nutricional adaptado a las características, objetivos y restricciones del usuario.
 
-4. **Seguimiento diario del progreso**  
-   El usuario puede registrar la finalización de actividades, recibir recordatorios inteligentes, y consultar su progreso mediante gráficos de desempeño y métricas.
+4. **Seguimiento y retroalimentación diaria**  
+   Los usuarios pueden registrar su progreso diario (actividades completadas, cumplimiento nutricional), visualizar métricas e indicadores mediante gráficos, y recibir recordatorios inteligentes para fomentar la adherencia al plan.
 
-5. **Ajustes al plan**  
-   El usuario puede modificar su objetivo, nivel de intensidad o disponibilidad horaria en cualquier momento, y la plataforma reajusta el plan automáticamente.
-
-6. **Acompañamiento y motivación**  
-   La app utiliza tecnología de notificaciones, mensajes motivacionales, y herramientas de gamificación para mantener al usuario comprometido.
-
-#### Funcionalidades secundarias:
-
-- **Visualización del progreso con métricas y gráficas**  
-- **Interacción con un asistente virtual para resolver dudas sobre ejercicios o alimentación**
-- **Posibilidad de recibir feedback de un coach humano en versiones premium**
-- **Configuración de recordatorios diarios y notificaciones según comportamiento de uso**
-
+5. **Reconfiguración dinámica del plan**  
+   Los usuarios pueden modificar su objetivo, nivel de exigencia o disponibilidad horaria en cualquier momento. La aplicación se encarga de recalcular el plan de forma automática para mantener su alineación con las nuevas preferencias.
 
 ---
+
+#### Oportunidades identificadas para mejora futura:
+
+- ⚙️ **Rendimiento durante la generación del plan**  
+  El proceso de generación automática puede demorar varios segundos, lo que podría generar frustración y afectar la experiencia de usuario, especialmente en dispositivos móviles con recursos limitados.
+
+- 🌍 **Falta de soporte para múltiples idiomas**  
+  Actualmente, la interfaz y contenidos están disponibles únicamente en español, limitando la expansión internacional de la aplicación y dificultando su adopción por usuarios no hispanohablantes.
+
+- 🔔 **Preferencias personalizadas de notificaciones y recordatorios**  
+  La aplicación no cuenta con una sección donde el usuario pueda configurar cómo, cuándo y con qué frecuencia desea recibir notificaciones, recordatorios o mensajes de seguimiento.
+
+- 🌙 **Modo oscuro**  
+  No se ofrece la posibilidad de cambiar al modo oscuro, una funcionalidad valorada por usuarios que utilizan la app en entornos de poca luz o durante la noche. Su ausencia afecta la usabilidad y accesibilidad visual.
+
+- 💬 **Motivación y acompañamiento continuo**  
+  FitWise no incorpora actualmente elementos de gamificación, mensajes motivacionales o recompensas virtuales, los cuales son efectivos para aumentar la retención y el compromiso del usuario con su plan de bienestar.
+
+---
+
+Este resumen del estado actual permite establecer una línea base clara desde la cual identificar hipótesis, formular preguntas y diseñar experimentos que orienten el crecimiento futuro de la aplicación en función de necesidades reales de los usuarios.
 
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
 
-#### Assumptions
-
-- Los usuarios valoran la personalización en rutinas y dietas como factor motivador principal.
-- El acompañamiento digital (recordatorios y seguimiento) mejora la adherencia a los planes.
-- Las notificaciones deben ser frecuentes pero no invasivas para mantener la motivación.
-- Los usuarios están dispuestos a compartir datos personales si eso mejora la experiencia.
-- Un diseño simple y visual favorece la constancia de uso en usuarios sin experiencia.
-- La gamificación aumenta la frecuencia de uso semanal.
-- La mayoría de los usuarios quieren ver resultados visuales de su progreso.
-- El seguimiento del estado de ánimo es útil para adaptar el nivel de intensidad.
-
-#### Knowledge Gaps
-
-- ¿Qué elementos de acompañamiento tienen mayor impacto en la motivación?
-- ¿Cuál es la frecuencia ideal para enviar notificaciones sin generar fatiga digital?
-- ¿Qué tipo de personalización (nutricional vs. física) genera mayor adherencia?
-- ¿Qué perfil de usuario tiene mayor tasa de abandono y por qué?
-- ¿Cuáles son las métricas de éxito que los usuarios consideran más relevantes?
-- ¿Qué tan efectivo es el contenido educativo dentro de la app en el cambio de hábitos?
-- ¿Qué canales generan mayor conversión en usuarios nuevos?
-- ¿Cuánta diferencia genera la intervención de un coach humano en comparación con el asistente digital?
-
-#### Ideas
-
-- Integrar un **sistema de seguimiento del estado de ánimo** diario para adaptar entrenamientos.
-- Implementar una **IA generativa** para explicar y sugerir cambios en rutinas.
-- Desarrollar un **ranking entre usuarios** para fomentar competitividad saludable.
-- Agregar **videos personalizados** para corrección postural según desempeño.
-- Habilitar un sistema de **recompensas** por metas alcanzadas semanalmente.
-- Mostrar datos comparativos (“Personas con tu perfil lograron X en Y semanas”).
-- Generar **notificaciones adaptativas** según el tipo de usuario (proactivo, reactivo, inconstante).
-- Expandir el sistema de recomendación con contenido educativo personalizado.
-
-#### Claims
-
-- La personalización algorítmica mejora la adherencia semanal en un 30%.
-- La integración de notificaciones adaptativas aumenta la tasa de sesiones por semana.
-- Usuarios que visualizan métricas de progreso completan 2 veces más rutinas.
-- El acompañamiento motivacional es percibido como valioso por más del 70% de usuarios frecuentes.
-- Un diseño claro y simple reduce el abandono durante los primeros 7 días de uso.
-- Incluir rutinas de “mini-hábitos” genera mayor retención en usuarios con poca experiencia.
-- El uso de IA para feedback genera mayor percepción de personalización y cercanía.
-- Mostrar estadísticas comunitarias (ranking, progreso promedio) incrementa el compromiso.
+Esta sección recopila el material base que servirá como punto de partida para formular hipótesis experimentales. Incluye supuestos que guían las decisiones actuales, vacíos de conocimiento que requieren validación, ideas potenciales de mejora, y afirmaciones que pueden ponerse a prueba mediante experimentación.
 
 ---
+
+#### Assumptions (Supuestos actuales)
+
+- Los usuarios valoran la personalización de rutinas y planes nutricionales como un factor clave para iniciar y mantener el uso de la aplicación.
+- El acompañamiento digital (recordatorios y retroalimentación) mejora la adherencia diaria al plan.
+- Las notificaciones frecuentes, pero no invasivas, contribuyen positivamente a la motivación del usuario.
+- Los usuarios están dispuestos a compartir información personal si eso se traduce en una experiencia más útil y adaptada.
+- Un diseño visual claro y sencillo favorece la retención de usuarios con poca experiencia tecnológica.
+- La inclusión de elementos de gamificación puede aumentar la frecuencia de uso semanal.
+- La mayoría de los usuarios valora la visualización del progreso como refuerzo positivo.
+- El estado emocional del usuario puede influir en su rendimiento y constancia, y debe considerarse en la planificación personalizada.
+
+---
+
+#### Knowledge Gaps (Vacíos de conocimiento)
+
+- ¿Qué tipos de acompañamiento (notificaciones, consejos, seguimiento de logros) tienen mayor impacto en la motivación y adherencia?
+- ¿Cuál es la frecuencia ideal de notificaciones para fomentar el uso sin generar fatiga digital?
+- ¿Qué dimensión de personalización (entrenamiento físico vs. nutrición) resulta más significativa para los distintos tipos de usuario?
+- ¿Qué perfiles de usuario presentan mayores tasas de abandono y qué factores contribuyen a ello?
+- ¿Qué métricas de progreso (calorías, tiempo, rutinas completadas, peso corporal, bienestar percibido) resultan más relevantes para el usuario?
+- ¿Cuánto valor perciben los usuarios en contenidos educativos breves dentro de la app?
+- ¿Qué tan efectivas son las recomendaciones automatizadas en comparación con ajustes manuales del usuario?
+
+---
+
+#### Ideas (Ideas viables a corto plazo)
+
+- Incorporar un **registro emocional diario básico** (feliz, neutro, estresado, desmotivado) para adaptar la carga de entrenamiento.
+- Desarrollar un **sistema de recompensas simples** (badges o insignias) por metas semanales alcanzadas.
+- Mostrar comparaciones anónimas del tipo: *"El 68% de personas con tu perfil completó al menos 4 rutinas esta semana"*, como elemento motivador.
+- Implementar **notificaciones adaptativas** (por ejemplo, más insistentes con usuarios inconstantes, menos con los proactivos).
+- Añadir un panel de **progreso visual simplificado** accesible desde la pantalla principal para fomentar la constancia.
+- Integrar un sistema para que el usuario **personalice la frecuencia y tipo de notificaciones** (entrenamiento, motivación, nutrición).
+- Introducir una sección con **tips de bienestar personalizados** basada en la actividad registrada por el usuario.
+
+---
+
+#### Claims (Afirmaciones a validar)
+
+- La personalización basada en datos mejora la adherencia semanal de los usuarios en al menos un 30%.
+- La inclusión de notificaciones adaptativas aumenta la tasa de sesiones activas por semana.
+- Los usuarios que visualizan gráficos de progreso completan el doble de rutinas que aquellos que no lo hacen.
+- Más del 70% de los usuarios percibe como útil el acompañamiento motivacional automatizado (mensajes, logros, comparativas).
+- Un diseño claro y sin sobrecarga visual reduce la tasa de abandono durante la primera semana de uso.
+- La introducción de rutinas breves o de “mini-hábitos” mejora la retención en usuarios con nivel principiante o baja disponibilidad horaria.
+- Mostrar estadísticas comunitarias (por ejemplo, "ranking de constancia semanal") refuerza el sentido de progreso y pertenencia.
+
+---
+
+Este conjunto de supuestos, vacíos, ideas y afirmaciones servirá como base para la planificación de experimentos controlados orientados a validar qué funcionalidades aportan mayor valor al usuario final y optimizan la experiencia de uso en FitWise.
+
 
 ### 8.1.3. Experiment-Ready Questions
 
-1. ¿Aumenta la adherencia a planes si los usuarios reciben notificaciones adaptativas?
-2. ¿Qué tipo de contenido (texto motivacional, tips, logros visuales) genera más interacción diaria?
-3. ¿La personalización en base al estado de ánimo mejora la retención semanal?
-4. ¿La integración de mini-retos o gamificación aumenta la frecuencia de uso?
-5. ¿Un rediseño de interfaz más visual mejora la tasa de finalización de rutina?
-6. ¿Mostrar estadísticas comparativas (ranking, comunidad) influye en la motivación?
-7. ¿Agregar recompensas por consistencia diaria incrementa la adherencia?
-8. ¿El feedback de IA es percibido como más útil que el texto estático?
-9. ¿Los usuarios prefieren rutinas guiadas con video sobre rutinas por texto?
-10. ¿La posibilidad de contactar a un coach humano mejora la percepción de apoyo?
-
-| Pregunta | Confianza | Riesgo | Impacto | Interés | Total Score |
-|---------|-----------|--------|---------|---------|-------------|
-| ¿Aumenta la adherencia con notificaciones adaptativas? | 8 | 4 | 8 | 8 | **28** |
-| ¿Qué tipo de contenido genera más interacción diaria? | 7 | 5 | 7 | 8 | **27** |
-| ¿Personalizar según estado de ánimo mejora retención? | 6 | 6 | 8 | 7 | **27** |
-| ¿Gamificación aumenta frecuencia de uso? | 7 | 5 | 8 | 8 | **28** |
-| ¿Rediseño visual mejora finalización de rutina? | 7 | 4 | 7 | 7 | **25** |
-| ¿Estadísticas comparativas influyen en motivación? | 6 | 5 | 7 | 7 | **25** |
-| ¿Recompensas por consistencia mejoran adherencia? | 7 | 5 | 8 | 8 | **28** |
-| ¿Feedback de IA es más útil que texto estático? | 6 | 6 | 6 | 7 | **25** |
-| ¿Rutinas guiadas en video son preferidas? | 7 | 4 | 7 | 7 | **25** |
-| ¿Coach humano mejora percepción de apoyo? | 6 | 6 | 7 | 8 | **27** |
-
-#### 8.1.4. Question Backlog
-
-| Prioridad | Pregunta                                                                                   |
-|-----------|--------------------------------------------------------------------------------------------|
-| 5         | ¿Crecerá la audiencia agregando traducciones de la app a otros idiomas como inglés y francés? |
-| 3         | ¿Aumentará la participación si habilitamos calificaciones y comentarios por rutina y entrenamiento? |
-| 4         | ¿Aumentará la participación habilitando comentarios públicos bajo identidad verdadera?     |
-| 2         | ¿Mejorará la experiencia del usuario incluyendo varios temas de diseño para personalizar la app? |
-| 8         | ¿Crecerá la base de usuarios si nos expandimos a más países de habla hispana?              |
-| 7         | ¿Incrementará el porcentaje de visitas y uso si rediseñamos la app para ser más amigable en móviles? |
-| 2         | ¿Tendrá efecto positivo en las visitas del sitio web incluir testimonios destacados de usuarios satisfechos? |
-| 2         | ¿Aumentará la base de usuarios si indicamos la certificación y experiencia de los entrenadores? |
-| 1         | ¿Crecerá la audiencia incluyendo estadísticas claras sobre la comunidad FitWise?           |
-| 5         | ¿Aumentará la interacción entre usuarios agregando una función de mensajes directos?       |
-
----
-#### 8.1.5. Experiment Cards
+1. ¿El uso de notificaciones adaptativas mejora la frecuencia de interacción semanal?
+2. ¿Permitir al usuario configurar sus preferencias de notificación reduce el abandono en los primeros 7 días?
+3. ¿Visualizar el progreso mediante gráficos incrementa la finalización de rutinas semanales?
+4. ¿La inclusión de mensajes motivacionales personalizados aumenta la percepción de acompañamiento?
+5. ¿Un rediseño visual más claro y simplificado mejora la tasa de retención en usuarios novatos?
+6. ¿La incorporación de recompensas semanales (badges) mejora la constancia en los usuarios?
+7. ¿Mostrar estadísticas anónimas comparativas (por perfil) motiva a completar más rutinas?
+8. ¿La personalización de la carga de entrenamiento según estado de ánimo mejora la adherencia semanal?
+9. ¿Agregar tips de bienestar breves y contextualizados mejora la percepción de valor de la app?
+10. ¿Qué tipo de personalización (nutricional vs. entrenamiento) es más valorada por usuarios activos?
 
 ---
 
-### Question  
-¿Crecerá la audiencia agregando traducciones de la app a otros idiomas como inglés y francés?
+| Pregunta                                            | Confianza |   Riesgo  |  Impacto  |   Interés | Total Score |
+|:---------------------------------------------------:|:---------:|:---------:|:---------:|:---------:|:-----------:|
+| ¿Notificaciones adaptativas mejoran interacción semanal?                            | 8 | 4 | 8 | 8 |  **28**     |
+| ¿Configuración de notificaciones reduce abandono inicial?                           | 7 | 5 | 8 | 7 |  **27**     |
+| ¿Progreso visual incrementa finalización de rutinas?                                | 7 | 4 | 8 | 8 |  **27**     |
+| ¿Mensajes motivacionales aumentan percepción de acompañamiento?                     | 7 | 5 | 7 | 7 |  **26**     |
+| ¿Rediseño visual mejora retención en usuarios novatos?                              | 6 | 5 | 7 | 7 |  **25**     |
+| ¿Recompensas semanales aumentan constancia?                                         | 7 | 4 | 8 | 8 |  **27**     |
+| ¿Estadísticas comparativas motivan mayor cumplimiento?                              | 6 | 5 | 7 | 7 |  **25**     |
+| ¿Personalizar según estado de ánimo mejora adherencia semanal?                      | 6 | 6 | 8 | 7 |  **27**     |
+| ¿Tips de bienestar breves mejoran percepción de valor?                              | 7 | 4 | 6 | 6 |  **23**     |
+| ¿Personalización nutricional vs. entrenamiento: cuál genera mayor valor percibido?  | 6 | 5 | 7 | 7 |  **25**     |
 
-**Why**  
-Porque al ofrecer la app en inglés y francés, podemos atraer a usuarios que no hablan español, ampliando el alcance global de FitWise y aumentando su base de usuarios.
 
-**What**  
-Implementar traducciones de toda la app y contenido principal a inglés y francés para facilitar el acceso a nuevos usuarios.
+### 8.1.4. Question Backlog
 
-**Hypothesis**  
-Si agregamos estas traducciones, la base de usuarios aumentará al menos un 15% en los próximos 6 meses.
+Esta sección presenta el conjunto de preguntas experimentales priorizadas para su futura validación, utilizando la escala de Fibonacci para estimar su valor/impacto dentro del roadmap de mejoras. La priorización considera viabilidad técnica, impacto en la experiencia de usuario y alineación con los objetivos de corto y mediano plazo del proyecto.
 
----
+| # | Pregunta                                                               | Prioridad (Fibonacci) | Estado     | Justificación                                                                 |
+|---|--------------------------------------------------------------------------------------------|-------------------|--------------|-------------------------------------------------------------------------------|
+| 1 | ¿Notificaciones adaptativas mejoran interacción semanal?                                  | **21**            | Priorizada   | Alta alineación con objetivos de retención y factible de implementar pronto. |
+| 2 | ¿Recompensas semanales aumentan constancia?                                                | **21**            | Priorizada   | Elemento de gamificación fácil de implementar con alto impacto motivacional. |
+| 3 | ¿Progreso visual incrementa finalización de rutinas?                                       | **13**            | Priorizada   | Refuerzo visual ya solicitado por usuarios; impacto directo en adherencia.   |
+| 4 | ¿Configuración de notificaciones reduce abandono inicial?                                 | **13**            | Priorizada   | Personalización mejora experiencia; requiere cambios menores en frontend.    |
+| 5 | ¿Personalizar según estado de ánimo mejora adherencia semanal?                            | **13**            | En evaluación| Alineado con enfoque holístico; requiere pruebas de UX adicionales.          |
+| 6 | ¿Mensajes motivacionales aumentan percepción de acompañamiento?                           | **8**             | Priorizada   | Mejora percepción emocional sin gran complejidad técnica.                    |
+| 7 | ¿Rediseño visual mejora retención en usuarios novatos?                                    | **8**             | En evaluación| Iniciativa de mayor alcance, pero potencialmente muy efectiva.               |
+| 8 | ¿Estadísticas comparativas motivan mayor cumplimiento?                                    | **5**             | En evaluación| Interesante como gamificación ligera; validable rápidamente.                 |
+| 9 | ¿Tips de bienestar breves mejoran percepción de valor?                                    | **3**             | En evaluación| Valor añadido bajo esfuerzo, pero con efecto limitado.                       |
+|10 | ¿Personalización nutricional vs. entrenamiento: cuál genera mayor valor percibido?        | **2**             | Pendiente    | Requiere segmentación avanzada y mayor volumen de usuarios.                  |
 
-### Question  
-¿Aumentará la participación si habilitamos calificaciones y comentarios por rutina y entrenamiento?
 
-**Why**  
-Porque permitir que los usuarios valoren y comenten cada rutina genera mayor interacción y retroalimentación, lo que fortalece la comunidad.
-
-**What**  
-Agregar la función para calificar y comentar cada rutina o entrenamiento dentro de la app.
-
-**Hypothesis**  
-Con esta función, la interacción aumentará un 20% en los próximos 2 meses.
-
----
-
-### Question  
-¿Aumentará la participación habilitando comentarios públicos bajo identidad verdadera?
-
-**Why**  
-Porque los comentarios con identidad real fomentan la responsabilidad y reducen contenido tóxico, mejorando la calidad de la comunidad.
-
-**What**  
-Implementar comentarios públicos que requieran autenticación con perfil verificado mostrando nombre real.
-
-**Hypothesis**  
-Esto reducirá comentarios ofensivos y aumentará la participación positiva en un 25% durante los próximos 3 meses.
+### 8.1.5. Experiment Cards
 
 ---
 
-### Question  
-¿Mejorará la experiencia del usuario incluyendo varios temas de diseño para personalizar la app?
-
-**Why**  
-Porque ofrecer opciones de personalización visual permite a los usuarios adaptar la app a sus preferencias, aumentando su satisfacción.
-
-**What**  
-Agregar distintos temas visuales para que el usuario elija cómo se ve la app (modo claro, oscuro, colores personalizados).
-
-**Hypothesis**  
-Esto incrementará el tiempo de uso y satisfacción del usuario en al menos un 15% en 2 meses.
+| **Question** | ¿El uso de notificaciones adaptativas mejora la frecuencia de interacción semanal? |
+|--------------|-----------------------------------------------------------|
+| **Why**      | Para validar si adaptar la frecuencia y el tipo de notificaciones según el comportamiento del usuario aumenta su participación continua en la app. |
+| **What**     | Implementar una lógica de envío de notificaciones personalizada según el perfil del usuario (proactivo, inconstante, reactivo) y comparar su actividad semanal frente a un grupo de control con notificaciones estándar. |
+| **Hypothesis** | Creemos que las notificaciones adaptativas incrementarán en al menos un 25% la cantidad de sesiones semanales por usuario, ya que se ajustan mejor al ritmo y estilo de cada perfil. |
 
 ---
 
-### Question  
-¿Crecerá la base de usuarios si nos expandimos a más países de habla hispana?
-
-**Why**  
-Porque ampliar el mercado a más países con idioma español incrementará el alcance y atraerá nuevos usuarios interesados en fitness.
-
-**What**  
-Lanzar FitWise en nuevos países hispanohablantes y adaptar contenido y promociones locales.
-
-**Hypothesis**  
-Se obtendrán al menos 10,000 usuarios nuevos en 7 meses tras la expansión.
+| **Question** | ¿La incorporación de recompensas semanales (badges) mejora la constancia en los usuarios? |
+|--------------|---------------------------------------------|
+| **Why**      | Para validar si los incentivos simbólicos semanales (badges, insignias) generan mayor compromiso con el cumplimiento del plan asignado. |
+| **What**     | Desplegar un sistema básico de recompensas visuales por completar al menos 4 rutinas por semana. Medir la diferencia en adherencia respecto a usuarios sin recompensas visibles. |
+| **Hypothesis** | Creemos que los usuarios que reciben recompensas visuales tendrán una tasa de cumplimiento de planes semanales un 30% mayor, ya que se sienten reconocidos por sus logros. |
 
 ---
 
-### Question  
-¿Incrementará el porcentaje de visitas y uso si rediseñamos la app para ser más amigable en móviles?
-
-**Why**  
-Porque la mayoría de usuarios acceden desde dispositivos móviles; un diseño más amigable aumenta la retención y el uso.
-
-**What**  
-Rediseñar la app para optimizar la experiencia en móviles, mejorando navegación y velocidad.
-
-**Hypothesis**  
-La tasa de conversión y visitas aumentará en un 15% durante los próximos 10 meses.
+| **Question** | ¿Visualizar el progreso mediante gráficos incrementa la finalización de rutinas semanales? |
+|--------------|--------------------------------------------------------|
+| **Why**      | Para verificar si mostrar gráficamente el avance del usuario actúa como motivador adicional para mantener su constancia. |
+| **What**     | Incorporar un módulo visual con gráficos de progreso (rutinas completadas, metas semanales, días activos) y medir su impacto sobre la tasa de finalización de rutinas semanales. |
+| **Hypothesis** | Creemos que la visualización del progreso aumentará en al menos 20% la tasa de finalización de rutinas semanales, al reforzar la sensación de avance. |
 
 ---
 
-### Question  
-¿Tendrá efecto positivo en las visitas del sitio web incluir testimonios destacados de usuarios satisfechos?
-
-**Why**  
-Porque testimonios reales generan confianza y motivan a nuevos usuarios a explorar y unirse a FitWise.
-
-**What**  
-Mostrar testimonios destacados con mayor impacto en la página principal del sitio web.
-
-**Hypothesis**  
-Esto incrementará las visitas en un 10% en 5 meses.
+| **Question** | ¿Permitir al usuario configurar sus preferencias de notificación reduce el abandono en los primeros 7 días? |
+|--------------|------------------------------------------------------------|
+| **Why**      | Para determinar si ofrecer a los usuarios control sobre el tipo y la frecuencia de notificaciones durante su primera semana de uso mejora la retención inicial. |
+| **What**     | Habilitar una opción de configuración de preferencias de notificación durante el onboarding y comparar la tasa de abandono en los primeros 7 días respecto al flujo estándar sin personalización. |
+| **Hypothesis** | Creemos que permitir al usuario definir su experiencia notificacional reducirá el abandono inicial en al menos un 15%, al disminuir la sensación de intrusión y aumentar la percepción de control. |
 
 ---
 
-### Question  
-¿Aumentará la base de usuarios si indicamos la certificación y experiencia de los entrenadores?
+| **Question** | ¿La inclusión de mensajes motivacionales personalizados aumenta la percepción de acompañamiento? |
+|--------------|------------------------------------------------------------------|
+| **Why**      | Para analizar si el envío de mensajes motivacionales breves genera una mayor percepción de apoyo digital, lo que podría mejorar la experiencia de uso. |
+| **What**     | Enviar mensajes motivacionales diarios a un subconjunto de usuarios durante 14 días y aplicar una encuesta de percepción al final del periodo. Comparar con grupo de control sin mensajes. |
+| **Hypothesis** | Creemos que los usuarios que reciben mensajes motivacionales reportarán al menos un 25% más de percepción positiva sobre el acompañamiento de la app. |
 
-**Why**  
-Porque mostrar credenciales y certificaciones genera confianza y seguridad para los usuarios al elegir entrenadores.
-
-**What**  
-Mostrar certificaciones y experiencia profesional en los perfiles de entrenadores.
-
-**Hypothesis**  
-Aumentará el número de usuarios activos en un 5% durante los próximos 5 meses.
-
----
-
-### Question  
-¿Crecerá la audiencia incluyendo estadísticas claras sobre la comunidad FitWise?
-
-**Why**  
-Porque mostrar datos objetivos de la comunidad (número de usuarios, entrenamientos completados) genera confianza y atrae nuevos usuarios.
-
-**What**  
-Incluir estadísticas en la app y sitio web que reflejen el crecimiento y actividad de la comunidad.
-
-**Hypothesis**  
-La audiencia crecerá en un 10% en 4 meses.
-
----
-
-### Question  
-¿Aumentará la interacción entre usuarios agregando una función de mensajes directos?
-
-**Why**  
-Porque permitir comunicación privada facilita colaboración, apoyo y construcción de comunidad entre usuarios.
-
-**What**  
-Agregar función de mensajes directos para usuarios registrados.
-
-**Hypothesis**  
-La interacción aumentará en un 15% en el próximo trimestre.
 
 ### 8.2. Experiment Design
-#### 8.2.1. Hypotheses
 
-### Hypothesis 1  
-**Question:** ¿Cómo afectará la implementación de nuevas funcionalidades en la satisfacción de los usuarios?  
-**Belief:** Creemos que al agregar nuevas funcionalidades que ayuden al usuario a encontrar lo que desea más rápido, mejoraremos la experiencia del usuario.  
-**Hypothesis:** Si se agregan las funcionalidades de calificar contenido y seguir a los autores de las publicaciones, el 75% de usuarios tendrán mejor experiencia en la aplicación.  
-**Null Hypothesis:** Que las nuevas funcionalidades no impacten significativamente la satisfacción de los usuarios.
+### 8.2.1. Hypotheses
 
----
-
-### Hypothesis 2  
-**Question:** ¿Impacto de mejoras visuales en la retención de usuarios?  
-**Belief:** Rediseño que siga estándares visuales modernos que atraigan y retengan a los usuarios.  
-**Hypothesis:** Al implementar los cambios propuestos, el número de usuarios incrementará un 20% en dos meses.  
-**Null Hypothesis:** Que las mejoras visuales no generen el incremento de usuarios esperado.
+| **Question** | ¿El uso de notificaciones adaptativas mejora la frecuencia de interacción semanal? |
+|--------------|------------------------------------------------------------|
+| **Belief** | Las notificaciones personalizadas según comportamiento aumentarán la frecuencia de interacción semanal de los usuarios en FitWise. |
+| **Hypothesis** | Creemos que los usuarios que reciban notificaciones adaptativas tendrán al menos un 25% más de sesiones semanales en comparación con los que reciben notificaciones estándar. |
+| **Null Hypothesis** | Las notificaciones adaptativas no tendrán ningún efecto significativo sobre la frecuencia de interacción semanal. |
 
 ---
 
-### Hypothesis 3  
-**Question:** ¿Mejorar el proceso de testeo?  
-**Belief:** Definir los casos de pruebas automatizables para reducir bugs en producción.  
-**Hypothesis:** Definiendo los casos de prueba y automatizando la mayoría de ellos, los bugs en producción disminuirán en 30%.  
-**Null Hypothesis:** Que las mejoras en los testing no impacten la métrica de bugs reportados.
+| **Question** | ¿La incorporación de recompensas semanales (badges) mejora la constancia en los usuarios? |
+|--------------|---------------------------------------------|
+| **Belief** | Las recompensas visuales por constancia semanal aumentarán el compromiso del usuario con su plan de entrenamiento y nutrición. |
+| **Hypothesis** | Creemos que los usuarios que reciben recompensas por completar 4 o más rutinas semanales mostrarán al menos un 30% más de adherencia semanal en comparación con aquellos que no reciben recompensas. |
+| **Null Hypothesis** | Las recompensas semanales no generarán cambios significativos en la constancia de los usuarios. |
 
 ---
 
-### Hypothesis 4  
-**Question:** ¿Cómo afectará la expansión a nuevos países el crecimiento de usuarios?  
-**Belief:** Expandirnos geográficamente aumentará nuestra base de usuarios.  
-**Hypothesis:** Al lanzar la aplicación en más países de habla hispana en los próximos 7 meses, obtendremos al menos 10,000 usuarios nuevos en total.  
-**Null Hypothesis:** Que la expansión geográfica no genere el aumento significativo que hemos planteado.
+| **Question** | ¿Visualizar el progreso mediante gráficos incrementa la finalización de rutinas semanales? |
+|--------------|--------------------------------------------------------|
+| **Belief** | Mostrar visualmente el avance del usuario aumentará la motivación para completar rutinas asignadas. |
+| **Hypothesis** | Creemos que los usuarios que visualizan su progreso mediante gráficos completarán al menos un 20% más de rutinas semanales que los usuarios que no tienen acceso a dichos gráficos. |
+| **Null Hypothesis** | Visualizar el progreso no tendrá efecto significativo en la finalización de rutinas. |
 
 ---
 
-### Hypothesis 5  
-**Question:** ¿Mejorará la tasa de conversión con un nuevo diseño para móvil?  
-**Belief:** Adaptar mejor la app para dispositivos móviles aumentará su acogida entre los usuarios.  
-**Hypothesis:** Al complementar la app para que se vea mejor en la parte móvil, la tasa de conversión de visitas aumentará en al menos 15% en los próximos 10 meses.  
-**Null Hypothesis:** Que el rediseño móvil no impacte positivamente la cantidad de visitas por parte de los usuarios.
+| **Question** | ¿Permitir al usuario configurar sus preferencias de notificación reduce el abandono en los primeros 7 días? |
+|--------------|-------------------------------------------------------------|
+| **Belief** | Permitir que el usuario configure sus notificaciones desde el primer uso reducirá el abandono durante la primera semana. |
+| **Hypothesis** | Creemos que ofrecer configuración personalizada de notificaciones reducirá en al menos un 15% el abandono en los primeros 7 días en comparación con el grupo que usa la app con notificaciones por defecto. |
+| **Null Hypothesis** | La configuración personalizada de notificaciones no tendrá ningún impacto significativo en la tasa de abandono inicial. |
 
 ---
 
-### Hypothesis 6  
-**Question:** ¿Tendrá impacto en las visitas al añadir testimonios de los usuarios?  
-**Belief:** Los testimonios positivos motivarán a otros usuarios a usar la app para alcanzar sus metas fitness.  
-**Hypothesis:** Agregando 5 testimonios con más likes y usando un paginador para los demás testimonios, aumentarán las visitas en al menos un 10% en los próximos 5 meses.  
-**Null Hypothesis:** Que los testimonios de los usuarios no aumenten las métricas de visitas.
+| **Question** | ¿La inclusión de mensajes motivacionales personalizados aumenta la percepción de acompañamiento? |
+|--------------|------------------------------------------------------------------|
+| **Belief** | El envío de mensajes motivacionales breves generará una mayor sensación de acompañamiento digital en los usuarios. |
+| **Hypothesis** | Creemos que los usuarios que reciben mensajes motivacionales diarios reportarán al menos un 25% más de percepción positiva sobre el acompañamiento en comparación con el grupo de control. |
+| **Null Hypothesis** | El envío de mensajes motivacionales no influirá significativamente en la percepción de acompañamiento por parte de los usuarios. |
+
+
+### 8.2.2. Measures
+
+
+| **Question** | ¿Notificaciones adaptativas mejoran interacción semanal? |
+|--------------|-----------------------------------------------------------|
+| **Hypothesis** | Creemos que los usuarios que reciban notificaciones adaptativas tendrán al menos un 25% más de sesiones semanales en comparación con los que reciben notificaciones estándar. |
+| **Measure** |  
+- **Métrica principal**: Número de sesiones por semana por usuario.  
+- **Métricas secundarias**:  
+   - Tiempo medio por sesión.  
+   - % de usuarios que vuelven dentro de 24/48h tras recibir notificación.
 
 ---
 
-### Hypothesis 7  
-**Question:** ¿Habilitar diferentes idiomas en la aplicación?  
-**Belief:** Ampliar el alcance lingüístico para ampliar nuestra base de usuarios.  
-**Hypothesis:** Al traducir el contenido a más de 2 idiomas, el número de usuarios se incrementará en al menos un 10%.  
-**Null Hypothesis:** Que ofrecer más idiomas en la app no mejore el porcentaje de consumo o usuarios activos.
+| **Question** | ¿Recompensas semanales aumentan constancia? |
+|--------------|---------------------------------------------|
+| **Hypothesis** | Creemos que los usuarios que reciben recompensas por completar 4 o más rutinas semanales mostrarán al menos un 30% más de adherencia semanal en comparación con aquellos que no reciben recompensas. |
+| **Measure** |  
+- **Métrica principal**: Porcentaje de usuarios que completan al menos 4 rutinas por semana.  
+- **Métricas secundarias**:  
+   - Retención semanal.  
+   - Tasa de abandono de plan.  
 
 ---
 
-### Hypothesis 8  
-**Question:** ¿Aumentará la base de usuarios si colocamos en los perfiles de los entrenadores sus certificaciones y experiencia?  
-**Belief:** Los usuarios se sentirán más seguros al saber que los entrenadores cuentan con certificaciones y experiencia comprobada.  
-**Hypothesis:** Al indicar en cada perfil que el entrenador cuenta con certificación, el número de usuarios activos aumentará un 5% en los próximos 5 meses.  
-**Null Hypothesis:** Que la mención de certificación y experiencia no genere impacto en los usuarios.
+| **Question** | ¿Progreso visual incrementa finalización de rutinas? |
+|--------------|--------------------------------------------------------|
+| **Hypothesis** | Creemos que los usuarios que visualizan su progreso mediante gráficos completarán al menos un 20% más de rutinas semanales que los usuarios que no tienen acceso a dichos gráficos. |
+| **Measure** |  
+- **Métrica principal**: Número de rutinas completadas por semana por usuario.  
+- **Métricas secundarias**:  
+   - % de usuarios activos que usan la sección de progreso.  
+   - Tiempo medio de uso en pantalla de progreso.  
 
 ---
 
-### Hypothesis 9  
-**Question:** ¿Aumentará el tiempo en el que están los usuarios si agregamos más fotos y videos en las rutinas y entrenamientos?  
-**Belief:** Al promover contenido visual más rico, el tiempo promedio de los usuarios mejorará en más de un 10% en los siguientes 2 meses.  
-**Hypothesis:** Implementando la opción de incluir hasta 5 fotos o videos por rutina, el tiempo promedio de los usuarios aumentará en al menos un 15% para el próximo bimestre.  
-**Null Hypothesis:** Que el aumento en contenido visual no influya significativamente en la métrica de permanencia de los usuarios.
+| **Question** | ¿Configuración de notificaciones reduce abandono inicial? |
+|--------------|-------------------------------------------------------------|
+| **Hypothesis** | Creemos que ofrecer configuración personalizada de notificaciones reducirá en al menos un 15% el abandono en los primeros 7 días en comparación con el grupo que usa la app con notificaciones por defecto. |
+| **Measure** |  
+- **Métrica principal**: Tasa de abandono en los primeros 7 días.  
+- **Métricas secundarias**:  
+   - Tasa de activación de notificaciones configuradas.  
+   - Cantidad de sesiones durante la primera semana.  
 
 ---
 
-### Hypothesis 10  
-**Question:** ¿Crecerá la base de usuarios si ampliamos el alcance a otras regiones o países?  
-**Belief:** Mayores oportunidades para que los usuarios encuentren contenido relevante y haya más usuarios interesados en FitWise.  
-**Hypothesis:** Extendiendo la aplicación a 2 nuevas regiones, la cantidad de usuarios aumentará en más de 10% para el próximo trimestre.  
-**Null Hypothesis:** Que ampliar la cobertura geográfica no impacte significativamente el número total de usuarios registrados.
+| **Question** | ¿Mensajes motivacionales aumentan percepción de acompañamiento? |
+|--------------|------------------------------------------------------------------|
+| **Hypothesis** | Creemos que los usuarios que reciben mensajes motivacionales diarios reportarán al menos un 25% más de percepción positiva sobre el acompañamiento en comparación con el grupo de control. |
+| **Measure** |  
+- **Métrica principal**: Resultado promedio de la encuesta de percepción de acompañamiento (escala Likert 1–5).  
+- **Métricas secundarias**:  
+   - % de usuarios que interactúan con los mensajes.  
+   - Frecuencia de uso diario durante el periodo de exposición.
+
+
+### 8.2.3. Conditions
+
+| **Question** | ¿Notificaciones adaptativas mejoran interacción semanal? |
+|--------------|-----------------------------------------------------------|
+| **Group A (Experimental)** | Usuarios que reciben notificaciones adaptadas según su comportamiento (frecuencia de uso, respuesta previa a notificaciones). |
+| **Group B (Control)** | Usuarios que reciben notificaciones predeterminadas estándar una vez al día. |
+| **Entorno** | Producción con feature flag; segmentación aleatoria del 50% de nuevos usuarios. |
+| **Duración** | 2 semanas.
 
 ---
 
-#### 8.2.2. Measures
-
-| Pregunta                                                                                           | Medida                                                                                             |
-|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| ¿Cómo afectará la implementación de nuevas funcionalidades en la satisfacción de los usuarios?  | Medir % de usuarios satisfechos antes y después mediante encuestas o evaluaciones de satisfacción.|
-| ¿Impacto de mejoras visuales en la retención de usuarios?                                        | Seguimiento del % de usuarios que regresan tras la implementación de mejoras visuales.            |
-| ¿Mejorar el proceso de testeo?                                                                   | Medir la disminución en número de bugs reportados tras mejorar y automatizar pruebas.             |
-| ¿Cómo afectará la expansión a nuevos países el crecimiento de usuarios?                          | Seguimiento del aumento en usuarios registrados o activos en los nuevos países comparado con base.|
-| ¿Mejorará la tasa de conversión de un nuevo diseño para móvil?                                   | Comparar tasa de conversión antes y después del nuevo diseño móvil.                               |
-| ¿Tendrá impacto en las visitas al añadir testimonios de los usuarios?                            | Seguimiento del aumento en visitas a la sección de testimonios tras su implementación.           |
-| ¿Habilitar diferentes idiomas en la aplicación?                                                  | Medir aumento en usuarios o visitas desde países que hablan los nuevos idiomas agregados.         |
-| ¿Aumentará la base de usuarios si mostramos certificaciones y experiencia de entrenadores?      | Seguimiento del aumento en usuarios registrados tras mostrar certificaciones en perfiles.        |
-| ¿Aumentará el tiempo que los usuarios pasan en la app al agregar más fotos y videos?             | Comparar tiempo promedio en app antes y después de aumentar el contenido visual.                  |
-| ¿Crecerá la base de usuarios si ampliamos el alcance geográfico?                                | Seguimiento del aumento en usuarios activos tras ampliar cobertura a nuevas regiones.            |
+| **Question** | ¿Recompensas semanales aumentan constancia? |
+|--------------|---------------------------------------------|
+| **Group A (Experimental)** | Usuarios que reciben una insignia digital cada vez que completan al menos 4 rutinas en una semana. |
+| **Group B (Control)** | Usuarios que no reciben retroalimentación ni recompensas visuales. |
+| **Entorno** | Producción con cohortes controladas; aplicación a usuarios activos con al menos 1 rutina en la semana previa. |
+| **Duración** | 3 semanas.
 
 ---
 
-## 8.2.3 Conditions
-
-| Pregunta                                                                                        | Condición Experimental                                                                                 | Condición de Control                                                                         |
-|------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| ¿Cómo afectará la implementación de nuevas funcionalidades en la satisfacción de los usuarios?| Incremento del 10% en encuestas positivas de satisfacción tras implementación.                         | No aumenta la cantidad de encuestas positivas tras implementación.                          |
-| ¿Impacto de mejoras visuales en la retención de usuarios?                                      | Usuarios que vuelven después de un mes sin usar la app aumentan 20%.                                 | No hay variación significativa en usuarios que vuelven.                                   |
-| ¿Mejorar el proceso de testeo en reducir bugs?                                                | Errores reportados disminuyen 20% tras mejoras en testing y automatización.                          | Errores reportados no cambian significativamente.                                         |
-| ¿Cómo afectará la expansión a nuevos países el crecimiento de usuarios?                       | Aumento de usuarios totales en 15% tras lanzamiento en nuevo país en menos de un mes.                | No hay aumento significativo tras expansión.                                              |
-| ¿Mejorará la tasa de conversión con nuevo diseño móvil?                                       | Tasa de conversión aumenta en 8% tras actualización móvil.                                          | No hay aumento significativo en tasa de conversión.                                       |
-| ¿Tendrá impacto en visitas al añadir testimonios?                                            | Tiempo que usuarios pasan en la app aumenta 20% tras agregar testimonios.                            | Tiempo que usuarios pasan en la app no cambia significativamente.                          |
-| ¿Habilitar diferentes idiomas en la aplicación?                                              | Usuarios aumentan 10% tras agregar nuevo idioma.                                                    | No hay variación significativa en usuarios tras agregar idiomas.                          |
-| ¿Mostrar certificaciones de entrenadores aumenta usuarios?                                   | Usuarios que solicitan entrenamientos con entrenadores certificados aumentan 20%.                   | No hay aumento significativo en solicitudes tras mostrar certificaciones.                 |
-| ¿Agregar más fotos/videos aumenta tiempo en app?                                            | Tiempo en app aumenta 15% tras aumentar número de imágenes/videos por rutina.                       | Tiempo en app no aumenta significativamente tras cambio.                                 |
-| ¿Crecerá base de usuarios ampliando alcance geográfico?                                     | Usuarios activos aumentan 20% tras ampliar cobertura a nuevas regiones.                             | No hay impacto significativo en usuarios activos.                                        |
+| **Question** | ¿Progreso visual incrementa finalización de rutinas? |
+|--------------|--------------------------------------------------------|
+| **Group A (Experimental)** | Usuarios que pueden visualizar su progreso semanal mediante gráficos de rutinas completadas y calorías estimadas. |
+| **Group B (Control)** | Usuarios sin acceso a la sección de progreso visual; visualización desactivada. |
+| **Entorno** | Beta cerrada (usuarios recurrentes que acepten participar en el experimento). |
+| **Duración** | 2 semanas.
 
 ---
 
-#### 8.2.4. Scale Calculations and Decisions
+| **Question** | ¿Configuración de notificaciones reduce abandono inicial? |
+|--------------|-------------------------------------------------------------|
+| **Group A (Experimental)** | Nuevos usuarios que configuran sus preferencias de notificación en el onboarding. |
+| **Group B (Control)** | Nuevos usuarios que reciben notificaciones predeterminadas sin opción de configuración inicial. |
+| **Entorno** | Producción limitada; se activa según cohortes de usuarios nuevos por semana. |
+| **Duración** | 1 semana (se analiza comportamiento en primeros 7 días).
 
-Se calculó el tamaño mínimo de muestra para validar hipótesis de producto:
+---
 
-- **Nivel de confianza:** 95%
-- **Margen de error:** 10%
-- **Tamaño poblacional estimado:** 10,000 usuarios
-- **Muestra mínima recomendada:** 96 usuarios
+| **Question** | ¿Mensajes motivacionales aumentan percepción de acompañamiento? |
+|--------------|------------------------------------------------------------------|
+| **Group A (Experimental)** | Usuarios que reciben mensajes motivacionales diarios personalizados. |
+| **Group B (Control)** | Usuarios sin mensajes motivacionales; solo reciben notificaciones funcionales. |
+| **Entorno** | Producción con asignación aleatoria entre usuarios activos semanales. |
+| **Duración** | 14 días con encuesta final al día 15.
 
-**Decisión tomada:** realizar una prueba piloto con al menos 20 usuarios, como paso previo a una validación más amplia.
+
+### 8.2.4. Scale Calculations and Decisions
+
+| Scale Calculation | Decision | Factor | | | |
+|-------------------|----------|--------|--------|--------|--------|
+| | | **Desfavorable** | **Aceptable** | **Ideal** | **Excelente** |
+| Creemos que las notificaciones adaptativas aumentarán en al menos un **25%** la frecuencia semanal de uso. Sabremos que esto es cierto si el grupo experimental muestra 3 o más sesiones semanales sostenidas durante 2 semanas consecutivas. | Integrar sistema de notificaciones adaptativas según comportamiento de uso. | | X | | |
+| Creemos que las recompensas visuales semanales por completar 4 rutinas aumentarán la adherencia en un **30%**. Esto se validará si el 70% o más de los usuarios en el grupo experimental mantienen esa constancia por 2 semanas. | Incorporar lógica de recompensas semanales con insignias y refuerzo positivo. | | | X | |
+| Creemos que mostrar el progreso visual aumentará en un **20%** la finalización de rutinas. Se validará si el grupo experimental completa al menos 1 rutina más por semana que el grupo control. | Habilitar sección de progreso con gráficos e indicadores visuales. | | X | | |
+| Creemos que permitir la configuración de notificaciones reducirá en un **15%** el abandono en la primera semana. Esto se confirmará si la tasa de retención a 7 días mejora de 55% a 70% o más. | Añadir opción de personalización de notificaciones en onboarding. | X | | | |
+| Creemos que los mensajes motivacionales diarios aumentarán en un **25%** la percepción de acompañamiento. Se validará si la puntuación promedio en la encuesta de satisfacción emocional sube de 3.0 a 3.8 o más (escala 1–5). | Automatizar envío de mensajes motivacionales basados en objetivos y logros del usuario. | | X | | |
 
 #### 8.2.5. Methods Selection
 
-Se utilizaron métodos mixtos de recolección de datos:
+Para validar las hipótesis planteadas en los experimentos seleccionados, se emplearán métodos mixtos que combinan pruebas A/B, análisis de comportamiento, y encuestas cuantitativas. La elección del método se alinea con los objetivos de cada experimento, priorizando la precisión de los datos, la viabilidad técnica y el costo.
 
-- **Cuantitativos:** encuestas con escala Likert para evaluar satisfacción, motivación y utilidad.
-- **Cualitativos:** entrevistas semiestructuradas para recoger opiniones en profundidad.
-- **Test de usabilidad:** pruebas observadas con prototipos navegables.
+- Métodos aplicados por hipótesis:
+
+| Pregunta | Método de Validación | Justificación |
+|---------|----------------------|---------------|
+| ¿Notificaciones adaptativas mejoran interacción semanal? | **A/B Testing con métricas de sesiones** | Comparar frecuencia de uso entre usuarios con notificaciones adaptadas vs. estándar. |
+| ¿Recompensas semanales aumentan constancia? | **Análisis cuantitativo + cohortes** | Medir adherencia semanal mediante comportamiento agrupado por semana. |
+| ¿Progreso visual incrementa finalización de rutinas? | **A/B Testing con eventos de completitud** | Observar impacto visual en la tasa de finalización con respecto al grupo control. |
+| ¿Configuración de notificaciones reduce abandono inicial? | **Experimento de onboarding controlado** | Segmentar onboarding con y sin configuración personalizada, y medir retención. |
+| ¿Mensajes motivacionales aumentan percepción de acompañamiento? | **Encuesta + seguimiento de interacción** | Evaluar la percepción emocional post-intervención con escala Likert. |
+
+---
+
+- Herramientas para ejecución y análisis experimental
+
+| Herramienta         | Tipo de Métricas                       | Fácil Integración | Coste        | Casos de Uso Más Adecuados                            | Ventajas Clave                                     |
+|---------------------|----------------------------------------|-------------------|--------------|-------------------------------------------------------|----------------------------------------------------|
+| **Google Analytics 4** | Métricas de usuario, sesiones, conversión | Alta              | Gratuita     | Seguimiento de sesiones, funnels, comportamiento      | Integración rápida con Angular + soporte web/móvil |
+| **Firebase Analytics** | Eventos personalizados en móviles       | Alta              | Gratuita     | Monitoreo y análisis de uso en PWA y apps móviles     | Ideal para apps híbridas o PWA                     |
+| **Hotjar**          | Mapas de calor, encuestas, feedback     | Media             | Gratuito (limitado) | Experimentos UX, percepción y comportamiento visual   | Feedback visual rápido                             |
+| **Redline13**       | Pruebas de carga                       | Baja              | Pago (según uso) | Validar escalabilidad de backend bajo carga real      | Muy útil para pruebas antes de despliegue masivo   |
+| **Lighthouse**      | Desempeño y accesibilidad (frontend)    | Alta              | Gratuito     | Análisis técnico de rendimiento visual y UX           | Ideal para evaluar experiencia antes de experimentar |
+| **Catchpoint**      | Rendimiento, tiempo de carga y errores | Media             | Pago         | Comparación de rendimiento en distintos puntos del mundo | Alta precisión de datos técnicos                   |
+| **PostHog**         | Analítica de producto                  | Alta              | Gratuito (open-source) | Seguimiento de eventos, retención y funnels            | Control total sobre datos (self-hosted)            |
+
+---
+
+- Recomendación final:
+
+  Para los experimentos definidos en FitWise, se recomienda emplear:
+
+  - **Google Analytics 4 + Firebase Analytics**: Para capturar comportamiento, eventos clave y retención en Angular y PWA.
+  - **Lighthouse**: Para medir el impacto en rendimiento y accesibilidad tras los cambios visuales.
+  - **Encuestas internas** (modal in-app o Google Forms embebido): Para recoger la percepción del usuario sobre acompañamiento y experiencia.
 
 #### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
 
@@ -3453,7 +3438,6 @@ Se utilizaron métodos mixtos de recolección de datos:
 - Retención a 7 días.
 - Net Promoter Score (NPS).
 
-
 ### Métricas adicionales
 
 - Tiempo promedio en la app.
@@ -3463,21 +3447,71 @@ Se utilizaron métodos mixtos de recolección de datos:
   
 #### 8.2.7. Web and Mobile Tracking Plan
 
-Se definió un plan de seguimiento utilizando Google Analytics y Firebase:
+### 8.2.7. Web and Mobile Tracking Plan
 
-**Eventos clave:**
+Para validar los experimentos planteados y medir el comportamiento de los usuarios, se definió un plan de tracking estructurado por etapas del flujo de uso. Este plan será implementado en la aplicación web (Angular) y móvil (Angular PWA), utilizando herramientas como **Google Analytics 4**, **Firebase Analytics** y **eventos personalizados** registrados desde el backend (Spring Boot).
 
-- Registro y login.
-- Finalización de onboarding.
-- Inicio y término de rutina.
-- Interacción con el panel de progreso.
-- Visualización de recompensas.
+---
 
-**Conversiones objetivo:**
+#### 🟢 Etapa 1: Onboarding & Registro
 
-- Activación en los primeros 3 días.
-- 3 rutinas completadas durante la primera semana.
-- Usuarios que personalizan sus metas y zonas a trabajar.
+| Evento                  | Descripción | Atributos | Herramienta |
+|-------------------------|-------------|-----------|-------------|
+| `user_signup`           | Usuario completa el proceso de registro | método (email, Google), fecha, edad, género | Firebase / Backend |
+| `user_onboarding_start` | Se inicia el onboarding posterior al registro | user_id | Angular + GA4 |
+| `onboarding_step_completed` | Paso completado (perfil, objetivos, disponibilidad, nivel físico) | paso_id, timestamp | GA4 |
+| `notification_pref_set` | Usuario configura notificaciones al registrarse | tipo, frecuencia, hora_preferida | Angular / Firebase |
+| `onboarding_completed`  | Se finaliza el onboarding completo | duración, pasos personalizados | Firebase / GA4 |
+
+---
+
+#### 🟡 Etapa 2: Uso Diario / Seguimiento
+
+| Evento                   | Descripción | Atributos | Herramienta |
+|--------------------------|-------------|-----------|-------------|
+| `routine_started`        | El usuario inicia una rutina | rutina_id, duración estimada | GA4 |
+| `routine_completed`      | Rutina completada exitosamente | rutina_id, duración real, dificultad | Firebase / Backend |
+| `mood_logged`            | Registro del estado de ánimo diario | estado (feliz, cansado, estresado, etc.), hora | Angular |
+| `reminder_received`      | Notificación enviada al usuario | tipo (motivacional, rutina, nutrición), leída (bool) | Firebase Messaging |
+| `reward_unlocked`        | Usuario desbloquea recompensa semanal | tipo, fecha, nivel alcanzado | Backend |
+| `progress_viewed`        | Usuario visualiza su progreso semanal | duración vista, secciones consultadas | Angular / GA4 |
+
+---
+
+#### 🔵 Etapa 3: Interacción con UI / Experimentos
+
+| Evento                      | Descripción | Atributos | Herramienta |
+|-----------------------------|-------------|-----------|-------------|
+| `experiment_variant_exposed` | Usuario entra a un grupo experimental (A o B) | experimento_id, variante | Backend |
+| `motivation_msg_read`      | Usuario lee un mensaje motivacional | mensaje_id, tiempo respuesta | Firebase / Angular |
+| `feedback_prompt_answered` | Usuario responde a pregunta de percepción emocional | puntaje, feedback libre | Encuesta integrada / Forms |
+| `video_viewed`             | Visualización de contenido audiovisual (tutorial, feedback) | duración, completado (bool) | GA4 |
+| `notification_settings_changed` | Usuario modifica sus preferencias de notificación | nueva_frecuencia, silencioso | Angular UI |
+
+---
+
+#### 🔴 Etapa 4: Retención y Abandono
+
+| Evento                  | Descripción | Atributos | Herramienta |
+|-------------------------|-------------|-----------|-------------|
+| `last_active_session`   | Última sesión antes de abandono (sin volver en 7 días) | duración, acciones realizadas | Backend |
+| `inactive_flagged`      | Usuario etiquetado como inactivo tras X días sin actividad | días_inactivo, último_evento | Firebase |
+| `reengagement_sent`     | Notificación o correo para retomar actividad | tipo de mensaje, abierto (bool) | Firebase / SendGrid |
+| `return_after_inactive` | Usuario vuelve luego de inactividad | tiempo_ausente | Firebase / GA4 |
+
+---
+
+### Consideraciones Técnicas:
+
+- **Etiquetado uniforme** de eventos usando `snake_case`.
+- Uso de **custom dimensions** en GA4 para agrupar por tipo de usuario (principiante, intermedio, avanzado).
+- Todos los eventos críticos serán registrados tanto en **Firebase** como en el backend para redundancia y validación cruzada.
+- Las **encuestas post-interacción** serán opcionales pero incentivadas con recompensas visuales o feedback personalizado.
+
+---
+
+Este tracking plan permitirá evaluar las hipótesis con métricas confiables, generar dashboards analíticos útiles para la toma de decisiones, y mejorar la experiencia del usuario de manera continua.
+
 
 ### 8.3. Experimentation
 #### 8.3.1. To-Be User Stories
