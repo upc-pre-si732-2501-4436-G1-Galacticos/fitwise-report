@@ -2702,9 +2702,12 @@ Aquí se describen los elementos específicos del pipeline de producción:
 
 ***_Auditorías de Calidad Web:_*** Para las auditorías se utilizará Google Lighthouse, que es una herramienta automatizada de código abierto que permite evaluar la calidad de aplicaciones web mediante una serie de auditorías enfocadas en aspectos clave como rendimiento, accesibilidad, buenas prácticas, SEO y experiencia en dispositivos móviles. Al generar un informe detallado con puntuaciones y recomendaciones específicas, Lighthouse ayuda a los desarrolladores a identificar cuellos de botella y áreas de mejora, optimizando así tanto la eficiencia técnica del sitio como la experiencia final del usuario.
 
-
-
 #### 7.4.2. Monitoring Pipeline Components
+
+Un sistema de monitoreo eficaz se compone de múltiples etapas interconectadas que permiten evaluar y mantener el rendimiento y la calidad de una aplicación web. Este pipeline abarca desde la recopilación de datos hasta su análisis e interpretación visual, facilitando una visión completa del estado de la aplicación.
+
+Dentro de este flujo, Google Lighthouse se posiciona como una herramienta esencial para la etapa de auditoría técnica. Al integrarse en el pipeline, Lighthouse ejecuta evaluaciones automáticas que abarcan aspectos críticos como el rendimiento, la accesibilidad, el SEO y el cumplimiento de buenas prácticas. Sus informes detallados ayudan a detectar deficiencias que pueden afectar directamente la experiencia del usuario, como tiempos de carga elevados, inestabilidad visual (cambios de diseño inesperados) o problemas de navegación en dispositivos móviles. Incorporar Lighthouse de forma regular dentro del proceso de monitoreo permite a los equipos técnicos actuar de manera proactiva, optimizando continuamente la interfaz y el comportamiento de la aplicación.
+
 #### 7.4.3. Alerting Pipeline Components
 #### 7.4.4. Notification Pipeline Components.
 
