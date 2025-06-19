@@ -2709,6 +2709,23 @@ Un sistema de monitoreo eficaz se compone de múltiples etapas interconectadas q
 Dentro de este flujo, Google Lighthouse se posiciona como una herramienta esencial para la etapa de auditoría técnica. Al integrarse en el pipeline, Lighthouse ejecuta evaluaciones automáticas que abarcan aspectos críticos como el rendimiento, la accesibilidad, el SEO y el cumplimiento de buenas prácticas. Sus informes detallados ayudan a detectar deficiencias que pueden afectar directamente la experiencia del usuario, como tiempos de carga elevados, inestabilidad visual (cambios de diseño inesperados) o problemas de navegación en dispositivos móviles. Incorporar Lighthouse de forma regular dentro del proceso de monitoreo permite a los equipos técnicos actuar de manera proactiva, optimizando continuamente la interfaz y el comportamiento de la aplicación.
 
 #### 7.4.3. Alerting Pipeline Components
+
+El componente de alertas en un pipeline de monitoreo es responsable de identificar de forma automática problemas de rendimiento o disponibilidad en una aplicación y notificar inmediatamente al equipo correspondiente. Este proceso es clave para mantener la estabilidad del sistema y ofrecer una experiencia de usuario continua y sin interrupciones.
+
+Para implementar este componente de forma práctica y efectiva, se pueden utilizar dos herramientas ampliamente adoptadas y fáciles de integrar: Prometheus y Grafana.
+
+**Prometheus**
+Prometheus es una herramienta de monitoreo centrada en la recopilación de métricas. Su uso es sencillo: se configura para que obtenga datos periódicos desde aplicaciones, servidores o servicios, y luego permite establecer reglas de alerta basadas en esos datos. Por ejemplo, puedes configurar una alerta para cuando el uso de CPU supere cierto umbral o cuando una API deje de responder.
+
+Además, Prometheus se integra con **Alertmanager**, una herramienta que permite gestionar y distribuir esas alertas por diferentes canales como correo electrónico, Slack o Microsoft Teams.
+
+**Grafana**
+Grafana se utiliza para visualizar las métricas que Prometheus recopila. Además, Grafana permite configurar alertas visuales directamente desde sus paneles, sin necesidad de escribir reglas complejas. Puedes crear dashboards personalizados con indicadores clave (como tiempo de respuesta, errores por segundo, etc.) y configurar umbrales visuales que disparen notificaciones cuando algo se sale de lo normal.
+
+Grafana se complementa con Prometheus porque se conecta fácilmente a su base de datos de métricas y ofrece una interfaz mucho más amigable para analizar y reaccionar a la información.
+
+Usar Prometheus para la recolección de métricas y Grafana para la visualización y configuración de alertas ofrece una solución completa, intuitiva y eficiente para implementar el componente de alertas dentro de un pipeline de monitoreo. Esta combinación permite reaccionar rápidamente ante incidentes, mejorar la capacidad de respuesta del equipo técnico y garantizar la disponibilidad continua de los servicios.
+
 #### 7.4.4. Notification Pipeline Components.
 
 ## Capítulo VIII: Experiment-Driven Development
