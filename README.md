@@ -2950,12 +2950,13 @@ El pipeline de CI/CD también está sujeto a monitoreo para asegurar tiempos de 
 - Integración de resultados del pipeline con **Grafana** para visualizar patrones de ejecución y detectar cuellos de botella.
 
 **Ejemplo de visualización:**
+
 ```yaml
 # Ejemplo de anotación en Prometheus desde un job de Azure DevOps
 - name: Push custom metric to Prometheus PushGateway
   run: |
-    echo "ci_build_duration_seconds{pipeline='fitwise-backend'} 145" | curl --data-binary @- http://localhost:9091/metrics/job/build
-````
+    echo "ci_build_duration_seconds{pipeline='fitwise-backend'} 145" | curl --data-binary @- http://localhost:9091/metrics/job/build    
+```
 
 ---
 
@@ -3035,13 +3036,13 @@ Estas notificaciones permiten que el equipo responda de inmediato a incidentes c
 
 ## Capítulo VIII: Experiment-Driven Development
 
-## 8.1. Experiment Planning
+### 8.1. Experiment Planning
 
-### 8.1.1. As-Is Summary
+#### 8.1.1. As-Is Summary
 
 **VibeFit** es una startup tecnológica orientada a la innovación en el sector del bienestar digital. Su producto principal, **FitWise**, es una aplicación web y móvil diseñada para mejorar la salud física y mental de los usuarios a través de planes personalizados de entrenamiento físico y nutrición.
 
-#### Flujo principal del usuario en FitWise:
+**Flujo principal del usuario en FitWise:**
 
 1. **Registro e inicio de sesión**  
    El usuario puede registrarse mediante correo electrónico o ingresar con credenciales previamente creadas. Durante el proceso, se recopilan datos personales y preferencias generales relacionadas con el bienestar.
@@ -3060,7 +3061,7 @@ Estas notificaciones permiten que el equipo responda de inmediato a incidentes c
 
 ---
 
-#### Oportunidades identificadas para mejora futura:
+**Oportunidades identificadas para mejora futura:**
 
 - ⚙️ **Rendimiento durante la generación del plan**  
   El proceso de generación automática puede demorar varios segundos, lo que podría generar frustración y afectar la experiencia de usuario, especialmente en dispositivos móviles con recursos limitados.
@@ -3081,7 +3082,7 @@ Estas notificaciones permiten que el equipo responda de inmediato a incidentes c
 
 Este resumen del estado actual permite establecer una línea base clara desde la cual identificar hipótesis, formular preguntas y diseñar experimentos que orienten el crecimiento futuro de la aplicación en función de necesidades reales de los usuarios.
 
-### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+#### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
 
 Esta sección recopila el material base que servirá como punto de partida para formular hipótesis experimentales. Incluye supuestos que guían las decisiones actuales, vacíos de conocimiento que requieren validación, ideas potenciales de mejora, y afirmaciones que pueden ponerse a prueba mediante experimentación.
 
@@ -3139,7 +3140,7 @@ Esta sección recopila el material base que servirá como punto de partida para 
 Este conjunto de supuestos, vacíos, ideas y afirmaciones servirá como base para la planificación de experimentos controlados orientados a validar qué funcionalidades aportan mayor valor al usuario final y optimizan la experiencia de uso en FitWise.
 
 
-### 8.1.3. Experiment-Ready Questions
+#### 8.1.3. Experiment-Ready Questions
 
 1. ¿El uso de notificaciones adaptativas mejora la frecuencia de interacción semanal?
 2. ¿Permitir al usuario configurar sus preferencias de notificación reduce el abandono en los primeros 7 días?
@@ -3168,7 +3169,7 @@ Este conjunto de supuestos, vacíos, ideas y afirmaciones servirá como base par
 | ¿Personalización nutricional vs. entrenamiento: cuál genera mayor valor percibido?  | 6 | 5 | 7 | 7 |  **25**     |
 
 
-### 8.1.4. Question Backlog
+#### 8.1.4. Question Backlog
 
 Esta sección presenta el conjunto de preguntas experimentales priorizadas para su futura validación, utilizando la escala de Fibonacci para estimar su valor/impacto dentro del roadmap de mejoras. La priorización considera viabilidad técnica, impacto en la experiencia de usuario y alineación con los objetivos de corto y mediano plazo del proyecto.
 
@@ -3186,7 +3187,7 @@ Esta sección presenta el conjunto de preguntas experimentales priorizadas para 
 |10 | ¿Personalización nutricional vs. entrenamiento: cuál genera mayor valor percibido?        | **2**             | Pendiente    | Requiere segmentación avanzada y mayor volumen de usuarios.                  |
 
 
-### 8.1.5. Experiment Cards
+#### 8.1.5. Experiment Cards
 
 ---
 
@@ -3231,7 +3232,7 @@ Esta sección presenta el conjunto de preguntas experimentales priorizadas para 
 
 ### 8.2. Experiment Design
 
-### 8.2.1. Hypotheses
+#### 8.2.1. Hypotheses
 
 | **Question** | ¿El uso de notificaciones adaptativas mejora la frecuencia de interacción semanal? |
 |--------------|------------------------------------------------------------|
@@ -3272,7 +3273,7 @@ Esta sección presenta el conjunto de preguntas experimentales priorizadas para 
 | **Null Hypothesis** | El envío de mensajes motivacionales no influirá significativamente en la percepción de acompañamiento por parte de los usuarios. |
 
 
-### 8.2.2. Measures
+#### 8.2.2. Measures
 
 
 | **Question** | ¿Notificaciones adaptativas mejoran interacción semanal? |
@@ -3329,7 +3330,7 @@ Esta sección presenta el conjunto de preguntas experimentales priorizadas para 
    - Frecuencia de uso diario durante el periodo de exposición.
 
 
-### 8.2.3. Conditions
+#### 8.2.3. Conditions
 
 | **Question** | ¿Notificaciones adaptativas mejoran interacción semanal? |
 |--------------|-----------------------------------------------------------|
@@ -3375,7 +3376,7 @@ Esta sección presenta el conjunto de preguntas experimentales priorizadas para 
 | **Duración** | 14 días con encuesta final al día 15.
 
 
-### 8.2.4. Scale Calculations and Decisions
+#### 8.2.4. Scale Calculations and Decisions
 
 | Scale Calculation | Decision | Factor | | | |
 |-------------------|----------|--------|--------|--------|--------|
@@ -3426,34 +3427,32 @@ Para validar las hipótesis planteadas en los experimentos seleccionados, se emp
 
 #### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
 
-### Objetivos
+- Objetivos
 
-- Validar la propuesta de valor.
-- Medir adherencia a rutinas y motivación del usuario.
+  - Validar la propuesta de valor.
+  - Medir adherencia a rutinas y motivación del usuario.
 
-### KPIs seleccionados
+- KPIs seleccionados
 
-- Tasa de completitud del onboarding.
-- N° de rutinas completadas semanalmente.
-- Retención a 7 días.
-- Net Promoter Score (NPS).
+  - Tasa de completitud del onboarding.
+  - N° de rutinas completadas semanalmente.
+  - Retención a 7 días.
+  - Net Promoter Score (NPS).
 
-### Métricas adicionales
+- Métricas adicionales
 
-- Tiempo promedio en la app.
-- N° de interacciones por sesión.
-- % de usuarios activos semanales.
+  - Tiempo promedio en la app.
+  - N° de interacciones por sesión.
+  - % de usuarios activos semanales.
 
   
 #### 8.2.7. Web and Mobile Tracking Plan
-
-### 8.2.7. Web and Mobile Tracking Plan
 
 Para validar los experimentos planteados y medir el comportamiento de los usuarios, se definió un plan de tracking estructurado por etapas del flujo de uso. Este plan será implementado en la aplicación web (Angular) y móvil (Angular PWA), utilizando herramientas como **Google Analytics 4**, **Firebase Analytics** y **eventos personalizados** registrados desde el backend (Spring Boot).
 
 ---
 
-#### 🟢 Etapa 1: Onboarding & Registro
+- 🟢 Etapa 1: Onboarding & Registro
 
 | Evento                  | Descripción | Atributos | Herramienta |
 |-------------------------|-------------|-----------|-------------|
@@ -3465,7 +3464,7 @@ Para validar los experimentos planteados y medir el comportamiento de los usuari
 
 ---
 
-#### 🟡 Etapa 2: Uso Diario / Seguimiento
+- 🟡 Etapa 2: Uso Diario / Seguimiento
 
 | Evento                   | Descripción | Atributos | Herramienta |
 |--------------------------|-------------|-----------|-------------|
@@ -3478,7 +3477,7 @@ Para validar los experimentos planteados y medir el comportamiento de los usuari
 
 ---
 
-#### 🔵 Etapa 3: Interacción con UI / Experimentos
+- 🔵 Etapa 3: Interacción con UI / Experimentos
 
 | Evento                      | Descripción | Atributos | Herramienta |
 |-----------------------------|-------------|-----------|-------------|
@@ -3490,7 +3489,7 @@ Para validar los experimentos planteados y medir el comportamiento de los usuari
 
 ---
 
-#### 🔴 Etapa 4: Retención y Abandono
+- 🔴 Etapa 4: Retención y Abandono
 
 | Evento                  | Descripción | Atributos | Herramienta |
 |-------------------------|-------------|-----------|-------------|
@@ -3501,12 +3500,12 @@ Para validar los experimentos planteados y medir el comportamiento de los usuari
 
 ---
 
-### Consideraciones Técnicas:
+- Consideraciones Técnicas:
 
-- **Etiquetado uniforme** de eventos usando `snake_case`.
-- Uso de **custom dimensions** en GA4 para agrupar por tipo de usuario (principiante, intermedio, avanzado).
-- Todos los eventos críticos serán registrados tanto en **Firebase** como en el backend para redundancia y validación cruzada.
-- Las **encuestas post-interacción** serán opcionales pero incentivadas con recompensas visuales o feedback personalizado.
+  - **Etiquetado uniforme** de eventos usando `snake_case`.
+  - Uso de **custom dimensions** en GA4 para agrupar por tipo de usuario (principiante, intermedio, avanzado).
+  - Todos los eventos críticos serán registrados tanto en **Firebase** como en el backend para redundancia y validación cruzada.
+  - Las **encuestas post-interacción** serán opcionales pero incentivadas con recompensas visuales o feedback personalizado.
 
 ---
 
@@ -3514,8 +3513,37 @@ Este tracking plan permitirá evaluar las hipótesis con métricas confiables, g
 
 
 ### 8.3. Experimentation
+
 #### 8.3.1. To-Be User Stories
+
+| User Story ID | Título                                         | Descripción                                                                                                                                                     | Criterios de Aceptación                                                                                                                                                                                                                                                                                        | Relacionado con (Epic ID) |
+|---------------|------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+| UA01          | Registro con email seguro                      | Como nuevo usuario, quiero registrarme usando mi correo electrónico y contraseña, para acceder de forma segura a FitWise.                                      | **Escenario 1: Registro exitoso**<br>Given un usuario no registrado<br>When introduce un email y contraseña válidos<br>Then su cuenta es creada con autenticación segura.<br><br>**Escenario 2: Validación de campos**<br>Given el usuario comete errores<br>When el sistema detecta email inválido o clave corta<br>Then se muestran mensajes de error. | EP001                     |
+| UA02          | Inicio de sesión persistente                   | Como usuario, quiero mantener mi sesión iniciada para evitar ingresar mis credenciales constantemente.                                                         | **Escenario 1: Sesión persistente activa**<br>Given el usuario ha iniciado sesión previamente<br>When reabre la app<br>Then accede directamente al dashboard.<br><br>**Escenario 2: Cierre de sesión**<br>Given el usuario cierra sesión manualmente<br>When reingresa<br>Then debe volver a autenticarse.      | EP001                     |
+| UA03          | Personalización con objetivos físicos          | Como usuario nuevo, quiero configurar mis metas físicas y nivel de experiencia para recibir contenido adecuado.                                                | **Escenario 1: Configuración inicial completa**<br>Given el usuario está en onboarding<br>When selecciona su nivel y metas<br>Then se genera un perfil personalizado.<br><br>**Escenario 2: Validación de campos obligatorios**<br>Given el usuario omite algún dato<br>When intenta continuar<br>Then el sistema solicita completar los campos obligatorios. | EP002                     |
+| UA04          | Selección de intereses                         | Como usuario, quiero elegir mis áreas de interés (salud mental, fuerza, cardio, etc.) para recibir rutinas relevantes.                                         | **Escenario 1: Selección de intereses**<br>Given el usuario está en onboarding<br>When selecciona sus preferencias<br>Then se registran para personalizar el contenido.<br><br>**Escenario 2: Validación mínima de selección**<br>Given el usuario selecciona al menos una opción<br>When continúa<br>Then la configuración se guarda exitosamente. | EP002                     |
+| UA05          | Vista de progreso resumido en dashboard        | Como usuario activo, quiero ver un resumen de mis avances en el dashboard para mantenerme informado fácilmente.                                                | **Escenario 1: Visualización de resumen**<br>Given el usuario abre el dashboard<br>When accede a la sección principal<br>Then se muestra resumen de progreso semanal.<br><br>**Escenario 2: Visualización sin actividad**<br>Given el usuario aún no registra actividad<br>When accede al dashboard<br>Then se muestra mensaje motivacional para empezar. | EP003                     |
+| UA06          | Recomendaciones dinámicas en dashboard         | Como usuario, quiero recibir sugerencias de ejercicios o recetas según mi actividad reciente en el dashboard.                                                  | **Escenario 1: Recomendación basada en actividad reciente**<br>Given el usuario ha completado una rutina<br>When vuelve al dashboard<br>Then se le sugiere una actividad relacionada.<br><br>**Escenario 2: Recomendación por inactividad**<br>Given el usuario no interactúa por días<br>When accede al dashboard<br>Then se le recomienda contenido para retomar el hábito. | EP003                     |
+| UA07          | Gráficas de evolución en informe de progreso   | Como usuario comprometido, quiero ver gráficos que muestren mi evolución para evaluar mis avances a lo largo del tiempo.                                      | **Escenario 1: Gráfico con datos suficientes**<br>Given el usuario ha registrado actividad por más de una semana<br>When accede al informe de progreso<br>Then ve líneas de tendencia por tipo de actividad.<br><br>**Escenario 2: Gráfico vacío con mensaje**<br>Given el usuario no tiene datos<br>When accede<br>Then se muestra un mensaje motivador para empezar. | EP004                     |
+| UA08          | Recompensas por metas cumplidas                | Como usuario disciplinado, quiero recibir medallas al cumplir mis metas semanales para sentirme reconocido y motivado.                                         | **Escenario 1: Medalla desbloqueada**<br>Given el usuario completa sus metas semanales<br>When accede al dashboard<br>Then se muestra una medalla desbloqueada.<br><br>**Escenario 2: Visualización de logros**<br>Given se acumulan recompensas<br>When el usuario entra a su perfil<br>Then puede ver todas sus insignias. | EP005                     |
+| UA09          | Planes de nutrición según preferencias         | Como usuario, quiero recibir sugerencias de alimentación de acuerdo con mis gustos y objetivos para mantenerme saludable.                                      | **Escenario 1: Plan nutricional personalizado**<br>Given el usuario completó el onboarding<br>When abre la sección de nutrición<br>Then se muestran recetas y planes adaptados.<br><br>**Escenario 2: Actualización de preferencias**<br>Given el usuario cambia su preferencia alimentaria<br>When actualiza su perfil<br>Then el plan de alimentación se actualiza automáticamente. | EP006                     |
+| UA10          | Cambio de correo electrónico                   | Como usuario, quiero poder cambiar el correo asociado a mi cuenta para mantener mi información actualizada.                                                    | **Escenario 1: Cambio exitoso de correo**<br>Given el usuario entra a configuración<br>When modifica su correo y lo confirma<br>Then se actualiza en la base de datos.<br><br>**Escenario 2: Validación de formato de email**<br>Given el usuario introduce un correo inválido<br>When intenta guardar cambios<br>Then se le notifica el error con instrucciones claras. | EP007                     |
+
+
 #### 8.3.2. To-Be Product Backlog
+
+| # Orden | User Story ID | Título                                        | Story Points (1 / 2 / 3 / 5 / 8) |
+|---------|----------------|----------------------------------------------|----------------------------------|
+| 1       | UA01           | Registro con email seguro                    | 3                                |
+| 2       | UA02           | Inicio de sesión persistente                 | 3                                |
+| 3       | UA03           | Personalización con objetivos físicos        | 5                                |
+| 4       | UA04           | Selección de intereses                       | 2                                |
+| 5       | UA05           | Vista de progreso resumido en dashboard      | 3                                |
+| 6       | UA06           | Recomendaciones dinámicas en dashboard       | 8                                |
+| 7       | UA07           | Gráficas de evolución en informe de progreso | 5                                |
+| 8       | UA08           | Recompensas por metas cumplidas              | 3                                |
+| 9       | UA09           | Planes de nutrición según preferencias       | 8                                |
+| 10      | UA10           | Cambio de correo electrónico                 | 5                                |
 
 ## Conclusiones
 
