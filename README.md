@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/85c42ee1-c558-4f89-83c4-69d2d91782ca)# VibeFit
-
 **Producto: FitWise**
 
 # Universidad Peruana de Ciencias Aplicadas
