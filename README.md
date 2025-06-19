@@ -2738,15 +2738,120 @@ Las entrevistas de validación se diseñaron para evaluar la percepción del pro
 
 **Preguntas clave:**
 
-1. ¿Qué impresión te dio el diseño general de la app?
-2. ¿Las funciones propuestas te parecen útiles y fáciles de usar?
-3. ¿Sientes que la app se adapta a tu estilo de vida?
-4. ¿Te sentirías motivado/a a usarla por más de una semana? ¿Por qué?
-5. ¿Qué te gustaría mejorar o agregar?
-6. ¿Pagarías por una versión premium? ¿Qué precio te parecería justo?
+1. Funcionalidad Core
+*¿La aplicación permite registrar entrenamientos de forma intuitiva?*
+- Evalúa la función principal de la app
+
+2. Usabilidad Inicial
+*¿Un usuario nuevo puede completar su primer entrenamiento sin ayuda?*
+- Mide la curva de aprendizaje y accesibilidad
+
+3. Experiencia de Usuario
+*¿La navegación entre pantallas es fluida y lógica?*
+- Evalúa la arquitectura de información
+
+4. Valor Percibido
+*¿La aplicación mejora tu motivación para hacer ejercicio?*
+- Mide el impacto real en el comportamiento del usuario
+
+5. Confiabilidad
+*¿Los datos se guardan correctamente sin pérdidas?*
+- Evalúa la integridad y confianza del sistema
+
+6. Rendimiento
+*¿Los tiempos de carga son aceptables para el usuario?*
+- Mide la satisfacción con el rendimiento técnico
+
+7. Personalización
+*¿La personalización de rutinas cumple con las expectativas?*
+- Evalúa la adaptabilidad a necesidades individuales
+
+8. Satisfacción General
+*¿Recomendarías esta aplicación a otros usuarios?*
+- Indicador clave de satisfacción (Net Promoter Score)
+
+9. Retención
+*¿Continuarías usando la aplicación a largo plazo?*
+- Mide la intención de uso sostenido
+
+10. Cumplimiento de Expectativas
+*¿La aplicación cumple con tus expectativas iniciales?*
+- Evalúa el gap entre promesa y entrega del producto
 
 #### 6.3.2. Registro de Entrevistas
 
+Entrevista 1: 
+ - Nombres: Fabrizio Alberto
+ - Apellidos: Paredes Santos
+ - Edad: 18
+ - Distrito: San Miguel, Lima
+ - Enlace de la entrevista: https://youtu.be/QSBorteqYcA
+ - Evidencia de la reunion:
+  <p align="center">
+    <img src="./assets/Entrevista-Fabrizio.png" alt="Entrevista Fabrizio" />
+  </p>
+  - Resumen:
+    Fabrizio encontró la aplicación intuitiva y fácil de usar para registrar entrenamientos, apreciando la función de comunidad que le permite ver o crear rutinas. Un usuario nuevo podría completar su primer entrenamiento sin ayuda gracias a los planes completos y recomendaciones personalizadas para principiantes. La navegación es fluida, aunque notó la necesidad de recargar para visualizar nuevas adiciones.
+    La aplicación mejora su motivación al simplificar la organización de ejercicios y dietas. Los datos se guardan correctamente y los tiempos de carga son aceptables. La personalización de rutinas es útil, especialmente las recomendaciones para principiantes, aunque la creación de rutinas personalizadas le pareció más compleja para usuarios nuevos. Finalmente, Fabrizio recomendaría la aplicación a otros usuarios, especialmente a principiantes, y considera que cumple con sus expectativas iniciales.
+  
+
+Entrevista 2:
+  - Nombres: Sebastian
+  - Apellidos: Rodriguez Macedo
+  - Edad: 18
+  - Distrito: La Perla, Callao
+  - Enlace de la entrevista: https://youtu.be/z6OEto6wttg
+  - Evidencia de la reunion: 
+  <p align="center">
+    <img src="./assets/Entrevista-Sebastian.png" alt="Entrevista Sebastian" />
+  </p>
+  - Resumen:
+    Sebastián encontró la aplicación intuitiva para registrar entrenamientos y dietas. Un usuario nuevo podría completar su primer entrenamiento sin ayuda, gracias a la navegación clara. La navegación es fluida. La aplicación mejora su motivación por la planificación y la función de comunidad. Los datos se guardan correctamente y los tiempos de carga son aceptables.
+    La personalización de rutinas cumple con las expectativas, aunque la creación directa es más para usuarios avanzados, las rutinas de la comunidad son muy útiles para principiantes. Recomendaría la aplicación por sus opciones innovadoras y la usaría a largo plazo por su seguimiento y capacidad de actualización. Finalmente, cumplió totalmente sus expectativas iniciales.
+
+Entrevista 3:
+  - Nombres: Anthony
+  - Apellidos: Lara
+  - Edad: 20
+  - Distrito: San Miguel, Lima
+  - Enlace de la entrevista: https://youtu.be/PQKhQSDOoXk   
+  - Evidencia de la reunion:
+  <p align="center">
+    <img src="./assets/Entrevista-Anthony.png" alt="Entrevista Anthony" />
+  </p>
+  - Resumen:
+    Tony considera que la aplicación es intuitiva para registrar entrenamientos, y un usuario nuevo podría completar su primer entrenamiento sin ayuda por su facilidad de uso. La navegación entre pantallas es fluida y lógica. La aplicación mejora su motivación al resumir eficientemente los ejercicios y comidas.
+    Los datos se guardan correctamente y los tiempos de carga son aceptables, siendo muy rápidos y fluidos. La personalización de rutinas cumple totalmente con sus expectativas y se adapta a sus necesidades. Tony recomendaría la aplicación a personas que se inician en la vida fitness o saludable. Continuaría usándola a largo plazo por su facilidad de navegación, fluidez, intuición y dinamismo. Finalmente, la aplicación cumple con todas sus expectativas iniciales.
+
+Entrevista 4:
+  - Nombres: Paul
+  - Apellidos: Hoffman
+  - Edad: 20
+  - Distrito: Callao, Callao
+  - Enlace de la entrevista: https://youtu.be/4MsAx0J5SeY
+  - Evidencia de la reunion:
+  <p align="center">
+    <img src="./assets/Entrevista-Paul.png" alt="Entrevista Paul" />
+  </p>
+  - Resumen:
+    Paul considera que la aplicación permite registrar entrenamientos de forma intuitiva. Sin embargo, tuvo dudas sobre si un usuario nuevo podría completar su primer entrenamiento sin ayuda, indicando un posible punto de mejora en la usabilidad para principiantes. La navegación entre pantallas es fluida y lógica.
+    La aplicación mejora su motivación al facilitar la creación y seguimiento de planes de rutina. Los datos se guardan correctamente sin pérdidas, y los tiempos de carga son aceptables. La personalización de rutinas cumple con sus expectativas.
+    Paul recomendaría la aplicación por su buen plan de rutinas. Sobre la retención a largo plazo, señaló que dependerá de la motivación personal del usuario y no de fallas de la aplicación. Finalmente, la aplicación cumple con sus expectativas iniciales al ofrecer una buena opción para editar y seguir rutinas.
+
+Entrevista 5:
+  - Nombres: Julio
+  - Apellidos: Guillen
+  - Edad: 20
+  - Distrito: San Miguel, Lima
+  - Enlace de la entrevista: https://youtu.be/f5w96gHyI00
+  - Evidencia de la reunion:
+  <p align="center">
+    <img src="./assets/Entrevista-Julio.png" alt="Entrevista Julio" />
+  </p>
+  - Resumen:
+    Julio considera que la aplicación es intuitiva para registrar entrenamientos, ofreciendo una variedad de opciones para elegir o crear. Un usuario nuevo puede completar su primer entrenamiento sin ayuda, ya que la aplicación muestra claramente las rutinas y días correspondientes. La navegación entre pantallas es intuitiva y fluida.
+    La aplicación mejora su motivación gracias a los colores vibrantes y la guía visual que proporciona. Destaca que todos los datos se guardan correctamente en cada interfaz. Los tiempos de carga son bastante aceptables, siendo casi instantáneos.
+    En cuanto a la personalización de rutinas, la aplicación le ofrece una guía clara sobre qué hacer. Julio recomendaría la aplicación a sus amigos o familiares, especialmente a aquellos con sobrepeso. Afirmaría que continuaría usándola a largo plazo, dependiendo de la información que se vaya agregando a la plataforma. Finalmente, la aplicación cumple con sus expectativas iniciales, brindándole gran libertad para elegir entre planes saludables o crear los propios.
 
 #### 6.3.3. Evaluaciones según heurísticas
 
