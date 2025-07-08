@@ -4134,17 +4134,17 @@ Finalmente, el trabajo en equipo y la comunicación constante entre los miembros
 
 ## Anexos
 
-Organizacion de GitHub: [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos)
-Repositorio Reporte: [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/fitwise-report](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/fitwise-report)
-Repositorio Landing Page: [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/landing-page](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/landing-page)
-Repositorio Frontend: [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/frontend](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/frontend)
-Repositorio Backend: [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/fitwise-backend](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/fitwise-backend)
-Repositorio Landing Page Experimental: [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/fitwise-landing-experiment](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/fitwise-landing-experiment)
-Repositorio Frontend Experimental: [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/frontend/tree/experiment/hypothesis](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/frontend/tree/experiment/hypothesis)
-Repositorio Backend Experimental: [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/fitwise-backend/tree/experiment/hypothesis](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/fitwise-backend/tree/experiment/hypothesis)
-Deployment Landing Page: [https://upc-pre-si732-2501-4436-g1-galacticos.github.io/landing-page/](https://upc-pre-si732-2501-4436-g1-galacticos.github.io/landing-page/)
-Deployment Frontend: [https://fitwise-app-77eaf.web.app/](https://fitwise-app-77eaf.web.app/)
-Deployment Backend: [https://fitwisebackend-gfaehmgxfhhjhff6.canadacentral-01.azurewebsites.net/](https://fitwisebackend-gfaehmgxfhhjhff6.canadacentral-01.azurewebsites.net/)
-Deployment Landing Page Experimental: [https://upc-pre-si732-2501-4436-g1-galacticos.github.io/fitwise-landing-experiment/](https://upc-pre-si732-2501-4436-g1-galacticos.github.io/fitwise-landing-experiment/)
-Deployment Frontend Experimental: [https://fitwise-test.web.app/](https://fitwise-test.web.app/)
-Deployment Backend Experimental: []
+- Organizacion de GitHub: [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos)
+- Repositorio Reporte: [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/fitwise-report](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/fitwise-report)
+- Repositorio Landing Page: [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/landing-page](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/landing-page)
+- Repositorio Frontend: [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/frontend](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/frontend)
+- Repositorio Backend: [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/fitwise-backend](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/fitwise-backend)
+- Repositorio Landing Page Experimental: [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/fitwise-landing-experiment](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/fitwise-landing-experiment)
+- Repositorio Frontend Experimental: [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/frontend/tree/experiment/hypothesis](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/frontend/tree/experiment/hypothesis)
+- Repositorio Backend Experimental: [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/fitwise-backend/tree/experiment/hypothesis](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/fitwise-backend/tree/experiment/hypothesis)
+- Deployment Landing Page: [https://upc-pre-si732-2501-4436-g1-galacticos.github.io/landing-page/](https://upc-pre-si732-2501-4436-g1-galacticos.github.io/landing-page/)
+- Deployment Frontend: [https://fitwise-app-77eaf.web.app/](https://fitwise-app-77eaf.web.app/)
+- Deployment Backend: [https://fitwisebackend-gfaehmgxfhhjhff6.canadacentral-01.azurewebsites.net/](https://fitwisebackend-gfaehmgxfhhjhff6.canadacentral-01.azurewebsites.net/)
+- Deployment Landing Page Experimental: [https://upc-pre-si732-2501-4436-g1-galacticos.github.io/fitwise-landing-experiment/](https://upc-pre-si732-2501-4436-g1-galacticos.github.io/fitwise-landing-experiment/)
+- Deployment Frontend Experimental: [https://fitwise-test.web.app/](https://fitwise-test.web.app/)
+- Deployment Backend Experimental: []
