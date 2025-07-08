@@ -3750,7 +3750,13 @@ El siguiente sprint backlog está diseñado para implementar todas las funcional
 
 ##### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
-A continuacion se muestra las evidencias del nuevo Landing Page elaborado
+A continuacion se muestra las evidencias del nuevo Landing Page elaborado:
+
+ ![1](./assets/tobelandingpage1.png)
+ ![2](./assets/tobelandingpage2.png)
+ ![3](./assets/tobelandingpage3.png)
+ ![4](./assets/tobelandingpage4.png)
+ ![5](./assets/tobelandingpage5.png)
 
 ##### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 
