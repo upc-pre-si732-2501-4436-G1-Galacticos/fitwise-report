@@ -3750,19 +3750,54 @@ El siguiente sprint backlog está diseñado para implementar todas las funcional
 
 ##### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
+A continuacion se muestra las evidencias del nuevo Landing Page elaborado
+
 ##### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
-A continuación se puede vizualizar la **selección de idioma desde el onboarding** correctamente implementada en el Frotend-Web.
-![1](/assets/trad1.png)  
-![1](/assets/trad2.png)  
-![1](/assets/trad3.png)  
-![1](/assets/trad4.png)  
+
+A continuación, se presentan las evidencias de las funcionalidades implementadas en la aplicación web:
+
+- **Selección de idioma desde el onboarding:**  
+  La aplicación ahora permite a los usuarios elegir su idioma preferido durante el proceso de onboarding, mejorando la accesibilidad y personalización.  
+  ![Selección de idioma 1](/assets/trad1.png)  
+  ![Selección de idioma 2](/assets/trad2.png)  
+  ![Selección de idioma 3](/assets/trad3.png)  
+  ![Selección de idioma 4](/assets/trad4.png)  
+
+- **Modo oscuro:**  
+  Se ha añadido la opción de activar el modo oscuro, proporcionando una experiencia visual más cómoda para los usuarios que interactúan con la aplicación en entornos de poca luz.  
+  ![Modo oscuro 1](/assets/darkmode1.png)  
+  ![Modo oscuro 2](/assets/darkmode2.png)  
+  ![Modo oscuro 3](/assets/darkmode3.png)  
+  ![Modo oscuro 4](/assets/darkmode4.png)  
+
+- **Mensajes motivacionales en el dashboard:**  
+  Los usuarios ahora reciben mensajes motivacionales personalizados en el dashboard de bienvenida, fomentando el compromiso y la constancia en sus objetivos.  
+  ![Mensajes motivacionales 1](/assets/motivacion1.png)  
+  ![Mensajes motivacionales 2](/assets/motivacion2.png)  
+
+---
 
 ##### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
-A continuación se puede vizualizar la **selección de idioma desde el onboarding** correctamente implementada en el Native-Mobile.
-![1](/assets/cel1.jpeg)  
-![1](/assets/cel2.jpeg)  
-![1](/assets/cel3.jpeg)  
-![1](/assets/cel4.jpeg)  
+
+Las siguientes funcionalidades han sido implementadas en la aplicación móvil nativa:
+
+- **Selección de idioma desde el onboarding:**  
+  Los usuarios pueden elegir su idioma preferido al iniciar la aplicación, mejorando la experiencia inicial.  
+  ![Selección de idioma móvil 1](/assets/cel1.jpeg)  
+  ![Selección de idioma móvil 2](/assets/cel2.jpeg)  
+  ![Selección de idioma móvil 3](/assets/cel3.jpeg)  
+  ![Selección de idioma móvil 4](/assets/cel4.jpeg)  
+
+- **Modo oscuro:**  
+  La aplicación móvil ahora incluye un modo oscuro, optimizando la experiencia visual en entornos nocturnos.  
+  ![Modo oscuro móvil 1](/assets/darkmode1Mobile.png)  
+  ![Modo oscuro móvil 2](/assets/darkmode2Mobile.png)  
+  ![Modo oscuro móvil 3](/assets/darkmode3Mobile.png)  
+
+- **Mensajes motivacionales en el dashboard:**  
+  Los usuarios reciben mensajes motivacionales personalizados en el dashboard de bienvenida, incentivando su progreso y constancia.  
+  ![Mensajes motivacionales móvil 1](/assets/motivacion1Mobile.png)  
+
 
 ##### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
@@ -3790,16 +3825,19 @@ Este backend sirve como entorno seguro y controlado para validar las funcionalid
 
 ##### 8.3.3.6. Team Collaboration Insights
 
-Durante este ultimo sprint se hicieron avances en distintos repositorios para el desarrollo de nuestros experimentos y comprobar nuestras hipotesis. Las evidencias del trabajo colaborativo por repositorio se listan a continuacion:
+Durante el último sprint, el equipo logró avances significativos en diversos repositorios, enfocados en el desarrollo de los experimentos y la validación de nuestras hipótesis. A continuación, se presentan las evidencias del trabajo colaborativo realizado en cada repositorio:
 
-- Landing Page (Experimental):
-![Insights Landing Page](./assets/to-be-landing-insights.png)
+- **Landing Page (Experimental):**  
+  Este repositorio refleja los esfuerzos en la implementación de mejoras visuales y funcionales para la página de inicio, adaptadas a los experimentos en curso.  
+  ![Insights Landing Page](./assets/to-be-landing-insights.png)
 
-- Frontend Web Applications (Experimental):
-![Insights Frontend Web Application](./assets/to-be-frontend-insights.png)
+- **Frontend Web Applications (Experimental):**  
+  Aquí se trabajó en la integración de funcionalidades experimentales, como el modo oscuro, selección de idioma en el onboarding y mensajes motivacionales personalizados.  
+  ![Insights Frontend Web Application](./assets/to-be-frontend-insights.png)
 
-- Backend Web Services (Experimental):
-![Insights Backend Web Services](./assets/to-be-backend-insights.png)
+- **Backend Web Services (Experimental):**  
+  El equipo desarrolló y probó endpoints clave para soportar las nuevas funcionalidades experimentales, asegurando la estabilidad y escalabilidad del sistema.  
+  ![Insights Backend Web Services](./assets/to-be-backend-insights.png)
 
 ### 8.3.4. To-Be Validation Interviews
 
@@ -3830,6 +3868,19 @@ Las entrevistas de validación están diseñadas para obtener feedback directo d
   - Post-experimentación: Al final del período experimental de cada hipótesis
 
 ---
+
+**Preguntas por experimento:**
+
+1. ¿Cómo describirías tu nivel de motivación actual para mantener tus rutinas de ejercicio?  
+2. ¿Qué tipo de acompañamiento o apoyo valoras más cuando intentas mantener hábitos saludables?  
+3. ¿Sientes que la aplicación te brinda suficiente apoyo emocional durante tu proceso?  
+4. ¿Qué te haría sentir más acompañado/a mientras usas FitWise?  
+5. ¿En qué momentos del día sueles usar aplicaciones de fitness?  
+6. ¿Has usado modo oscuro en otras aplicaciones? ¿Qué opinas de esta funcionalidad?  
+7. ¿Notaste la opción de modo oscuro en FitWise? ¿La activaste?  
+8. Si la usaste, ¿cómo fue tu experiencia? ¿En qué momentos la prefieres?  
+9. ¿Cómo te relacionas con el cambio de idiomas de aplicaciones móviles en general?  
+10. ¿Crees que esta opción es útil para nuevos usuarios que se sumen desde otras partes del mundo?
 
 ---
 
