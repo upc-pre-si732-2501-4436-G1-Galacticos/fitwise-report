@@ -3311,7 +3311,7 @@ Este conjunto de supuestos, vacíos, ideas y afirmaciones servirá como base par
 #### 8.1.3. Experiment-Ready Questions
 
 1. ¿El uso de notificaciones adaptativas mejora la frecuencia de interacción semanal?
-2. ¿Permitir al usuario configurar sus preferencias de notificación reduce el abandono en los primeros 7 días?
+2. ¿Permitir seleccionar el idioma (EN/ES) durante el onboarding mejora la experiencia inicial del usuario y reduce la fricción de uso?
 3. ¿Visualizar el progreso mediante gráficos incrementa la finalización de rutinas semanales?
 4. ¿La inclusión de mensajes motivacionales personalizados aumenta la percepción de acompañamiento?
 5. ¿La implementación de modo oscuro mejora la experiencia de usuario y retención en usuarios novatos?
@@ -3326,7 +3326,7 @@ Este conjunto de supuestos, vacíos, ideas y afirmaciones servirá como base par
 | Pregunta                                            | Confianza |   Riesgo  |  Impacto  |   Interés | Total Score |
 |:---------------------------------------------------:|:---------:|:---------:|:---------:|:---------:|:-----------:|
 | ¿Notificaciones adaptativas mejoran interacción semanal?                            | 8 | 4 | 8 | 8 |  **28**     |
-| ¿Configuración de notificaciones reduce abandono inicial?                           | 7 | 5 | 8 | 7 |  **27**     |
+| ¿Permitir seleccionar idioma desde el onboarding mejora experiencia y reduce fricción? | 7 | 5 | 8 | 7 |  **27**     |
 | ¿Progreso visual incrementa finalización de rutinas?                                | 7 | 4 | 8 | 8 |  **27**     |
 | ¿Mensajes motivacionales aumentan percepción de acompañamiento?                     | 7 | 5 | 7 | 7 |  **26**     |
 | ¿Rediseño visual mejora retención en usuarios novatos?                              | 6 | 5 | 7 | 7 |  **25**     |
@@ -3336,23 +3336,22 @@ Este conjunto de supuestos, vacíos, ideas y afirmaciones servirá como base par
 | ¿Tips de bienestar breves mejoran percepción de valor?                              | 7 | 4 | 6 | 6 |  **23**     |
 | ¿Personalización nutricional vs. entrenamiento: cuál genera mayor valor percibido?  | 6 | 5 | 7 | 7 |  **25**     |
 
-
 #### 8.1.4. Question Backlog
 
 Esta sección presenta el conjunto de preguntas experimentales priorizadas para su validación inmediata, utilizando la escala de Fibonacci para estimar su valor/impacto dentro del roadmap de mejoras. La priorización final considera la viabilidad técnica para implementación en el corto plazo disponible (menos de 24 horas), priorizando cambios de frontend y funcionalidades que no requieren lógica de negocio compleja.
 
 | # | Pregunta                                                               | Prioridad (Fibonacci) | Estado     | Justificación                                                                 |
-|---|--------------------------------------------------------------------------------------------|-------------------|--------------|-------------------------------------------------------------------------------|
-| 1 | ¿Mensajes motivacionales aumentan percepción de acompañamiento?                           | **21**            | **Priorizada**   | Implementación inmediata: adición de contenido estático mostrado dinámicamente. No requiere cambios en lógica de negocio. |
-| 2 | ¿Tips de bienestar breves mejoran percepción de valor?                                    | **21**            | **Priorizada**   | Funcionalidad similar a mensajes motivacionales; implementable como contenido contextualizado simple. |
-| 3 | ¿La implementación de modo oscuro mejora la experiencia de usuario y retención?           | **13**            | **Priorizada**   | Cambio visual de alto impacto, implementable únicamente con modificaciones CSS/tema. |
-| 4 | ¿Configuración de notificaciones reduce abandono inicial?                                 | **13**            | **Priorizada**   | Formulario de configuración simple en frontend + almacenamiento básico de preferencias. |
-| 5 | ¿Estadísticas comparativas motivan mayor cumplimiento?                                    | **8**             | **Priorizada**   | Implementable con datos mock o cálculos básicos de promedios. No requiere algoritmos complejos. |
-| 6 | ¿Notificaciones adaptativas mejoran interacción semanal?                                  | **8**             | Diferida     | Requiere lógica adaptativa compleja; no viable para implementación inmediata. |
-| 7 | ¿Progreso visual incrementa finalización de rutinas?                                       | **5**             | Diferida     | Implica cambios en sistema de tracking y visualización de datos complejos. |
-| 8 | ¿Recompensas semanales aumentan constancia?                                                | **3**             | Diferida     | Requiere sistema de gamificación y lógica de recompensas no trivial. |
-| 9 | ¿Personalizar según estado de ánimo mejora adherencia semanal?                            | **2**             | Diferida     | Necesita algoritmos de personalización y integración con rutinas existentes. |
-|10 | ¿Personalización nutricional vs. entrenamiento: cuál genera mayor valor percibido?        | **2**             | Diferida     | Requiere segmentación avanzada y mayor volumen de usuarios para validación. |
+|---|------------------------------------------------------------------------|------------------------|------------|-------------------------------------------------------------------------------|
+| 1 | ¿Mensajes motivacionales aumentan percepción de acompañamiento?       | **21**                 | **Priorizada** | Implementación inmediata: adición de contenido estático mostrado dinámicamente. No requiere cambios en lógica de negocio. |
+| 2 | ¿Tips de bienestar breves mejoran percepción de valor?                | **21**                 | **Priorizada** | Funcionalidad similar a mensajes motivacionales; implementable como contenido contextualizado simple. |
+| 3 | ¿La implementación de modo oscuro mejora la experiencia de usuario y retención? | **13**          | **Priorizada** | Cambio visual de alto impacto, implementable únicamente con modificaciones CSS/tema. |
+| 4 | ¿Permitir seleccionar idioma desde el onboarding mejora experiencia y reduce fricción? | **13**    | **Priorizada** | Formulario sencillo en el onboarding; almacenamiento básico de preferencia en frontend. |
+| 5 | ¿Estadísticas comparativas motivan mayor cumplimiento?                | **8**                  | **Priorizada** | Implementable con datos mock o cálculos básicos de promedios. No requiere algoritmos complejos. |
+| 6 | ¿Notificaciones adaptativas mejoran interacción semanal?              | **8**                  | Diferida       | Requiere lógica adaptativa compleja; no viable para implementación inmediata. |
+| 7 | ¿Progreso visual incrementa finalización de rutinas?                  | **5**                  | Diferida       | Implica cambios en sistema de tracking y visualización de datos complejos. |
+| 8 | ¿Recompensas semanales aumentan constancia?                           | **3**                  | Diferida       | Requiere sistema de gamificación y lógica de recompensas no trivial. |
+| 9 | ¿Personalizar según estado de ánimo mejora adherencia semanal?        | **2**                  | Diferida       | Necesita algoritmos de personalización y conexión con rutinas. |
+|10 | ¿Personalización nutricional vs. entrenamiento: cuál genera mayor valor percibido? | **2**         | Diferida       | Requiere segmentación avanzada y mayor volumen de usuarios para validación. |
 
 #### 8.1.5. Experiment Cards
 
@@ -3382,11 +3381,11 @@ Esta sección presenta el conjunto de preguntas experimentales priorizadas para 
 
 ---
 
-| **Question** | ¿Permitir al usuario configurar sus preferencias de notificación reduce el abandono en los primeros 7 días? |
-|--------------|------------------------------------------------------------|
-| **Why**      | Para determinar si ofrecer a los usuarios control sobre el tipo y la frecuencia de notificaciones durante su primera semana de uso mejora la retención inicial. |
-| **What**     | Habilitar una opción de configuración de preferencias de notificación durante el onboarding y comparar la tasa de abandono en los primeros 7 días respecto al flujo estándar sin personalización. |
-| **Hypothesis** | Creemos que permitir al usuario definir su experiencia notificacional reducirá el abandono inicial en al menos un 15%, al disminuir la sensación de intrusión y aumentar la percepción de control. |
+| **Question** | ¿Permitir seleccionar el idioma (EN/ES) durante el onboarding mejora la experiencia inicial del usuario y reduce la fricción de uso? |
+|--------------|----------------------------------------------------------------------------------------------------------|
+| **Why**      | Para determinar si ofrecer la opción de idioma desde el inicio mejora la comprensión de la interfaz, reduce errores y mejora la retención inicial. |
+| **What**     | Agregar una pantalla de selección de idioma al onboarding inicial. Medir la satisfacción en los primeros días, interacciones con ayuda y tasa de retención temprana. |
+| **Hypothesis** | Creemos que permitir seleccionar el idioma desde el onboarding reducirá la fricción de uso y aumentará la satisfacción inicial en al menos un 20%. |
 
 ---
 
@@ -3759,6 +3758,11 @@ A continuación se puede vizualizar la **selección de idioma desde el onboardin
 ![1](/assets/trad4.png)  
 
 ##### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+A continuación se puede vizualizar la **selección de idioma desde el onboarding** correctamente implementada en el Native-Mobile.
+![1](/assets/cel1.jpeg)  
+![1](/assets/cel2.jpeg)  
+![1](/assets/cel3.jpeg)  
+![1](/assets/cel4.jpeg)  
 
 ##### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
