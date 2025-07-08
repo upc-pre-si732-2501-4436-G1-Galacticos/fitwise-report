@@ -4206,7 +4206,7 @@ El prototipo interactivo de Figma presenta las interfaces y soluciones propuesta
 
 Enlace Figma: [https://www.figma.com/design/d1HNhWUHkdpReMp9cZ8tOf/FitWise-Experimentos?node-id=0-1&t=zZ6VqbIOj7Uk4KhH-1](https://www.figma.com/design/d1HNhWUHkdpReMp9cZ8tOf/FitWise-Experimentos?node-id=0-1&t=zZ6VqbIOj7Uk4KhH-1)
 
-![Figma-FitWise-Experimentos](assets/Figma-FitWise-Experimentos.png)
+![Figma-FitWise-Experimentos](assets/Figma-FitWise-Experimentosv2.png)
 
 Mediante una encuesta en Google Forms, se recolectó feedback clave de los usuarios. Esta información no solo validó las hipótesis iniciales de diseño, sino que también fue esencial para evaluar la experiencia de usuario y respaldar las decisiones tomadas para mejorar la aplicación.
 
