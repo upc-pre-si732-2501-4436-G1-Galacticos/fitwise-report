@@ -3935,15 +3935,17 @@ Cada entrevista se documenta siguiendo un formato estandarizado que facilita el 
 
 | **Datos del Entrevistado** | |
 |---|---|
-| **Nombre:** | Carlos Alberto Mendoza |
-| **Edad:** | 35 años |
-| **Ocupación:** | Contador |
-| **Experiencia previa con apps fitness:** | Básica |
-| **Tiempo de uso de FitWise:** | 5 semanas |
+| **Nombre:** | Anthony Lara |
+| **Edad:** | 20 años |
+| **Ocupación:** | Estudiante de Ingniero de Sistemas |
+| **Experiencia previa con apps fitness:** | Alta |
+| **Tiempo de uso de FitWise:** | 6 semanas |
 | **Grupo experimental:** | Experimental (recibe tips contextualizados) |
-| **Fecha y hora:** | 16 de enero 2025, 7:30 PM |
-| **Duración:** | 22 minutos |
+| **Duración:** | 8:20 minutos |
 | **Entrevistador:** | David Garcia |
+| **Enlace video:** | [https://youtu.be/PQKhQSDOoXk](https://youtu.be/PQKhQSDOoXk) |
+
+![Entrevista experimento Anthony](./assets/Entrevista-Anthony.png)
 
 **Resumen de Respuestas Clave:**
 
@@ -3970,15 +3972,17 @@ Cada entrevista se documenta siguiendo un formato estandarizado que facilita el 
 
 | **Datos del Entrevistado** | |
 |---|---|
-| **Nombre:** | María José Vásquez |
-| **Edad:** | 24 años |
-| **Ocupación:** | Estudiante de Medicina |
-| **Experiencia previa con apps fitness:** | Alta |
-| **Tiempo de uso de FitWise:** | 2 semanas |
+| **Nombre:** | Julio Guillen |
+| **Edad:** | 21 años |
+| **Ocupación:** | Estudiante de Ingniería de Software |
+| **Experiencia previa con apps fitness:** | Media |
+| **Tiempo de uso de FitWise:** | 4 semanas |
 | **Grupo experimental:** | Experimental (acceso a modo oscuro) |
-| **Fecha y hora:** | 17 de enero 2025, 9:00 PM |
-| **Duración:** | 18 minutos |
-| **Entrevistador:** | Jhon Galvez |
+| **Duración:** | 8 minutos |
+| **Entrevistador:** | Farid Briceño |
+| **Enlace video** | [https://youtu.be/Cxrm3WgPhNs](https://youtu.be/Cxrm3WgPhNs) |
+
+![Entrevista experimento Julio](./assets/entrevista-experimento-julio.png)
 
 **Resumen de Respuestas Clave:**
 
@@ -4005,15 +4009,17 @@ Cada entrevista se documenta siguiendo un formato estandarizado que facilita el 
 
 | **Datos del Entrevistado** | |
 |---|---|
-| **Nombre:** | Roberto Fernández |
-| **Edad:** | 31 años |
-| **Ocupación:** | Ingeniero de Software |
-| **Experiencia previa con apps fitness:** | Moderada |
-| **Tiempo de uso de FitWise:** | 1 semana |
+| **Nombre:** | Paul Hoffman |
+| **Edad:** | 22 años |
+| **Ocupación:** | Profesor de computación |
+| **Experiencia previa con apps fitness:** | Baja |
+| **Tiempo de uso de FitWise:** | 2 semana |
 | **Grupo experimental:** | Experimental (configuró notificaciones en onboarding) |
-| **Fecha y hora:** | 18 de enero 2025, 6:30 PM |
-| **Duración:** | 20 minutos |
+| **Duración:** | 8:30 minutos |
 | **Entrevistador:** | Ramiro Guzman |
+| **Enlace video** | [https://youtu.be/4MsAx0J5SeY](https://youtu.be/4MsAx0J5SeY) |
+
+![Entrevista experimento Paul](./assets/Entrevista-Paul.png)
 
 **Resumen de Respuestas Clave:**
 
@@ -4040,15 +4046,18 @@ Cada entrevista se documenta siguiendo un formato estandarizado que facilita el 
 
 | **Datos del Entrevistado** | |
 |---|---|
-| **Nombre:** | Laura Beatriz Herrera |
-| **Edad:** | 26 años |
+| **Nombre:** | Sebastian Rodriguez |
+| **Edad:** | 18 años |
 | **Ocupación:** | Marketing Digital |
 | **Experiencia previa con apps fitness:** | Alta |
 | **Tiempo de uso de FitWise:** | 6 semanas |
 | **Grupo experimental:** | Experimental (ve estadísticas comparativas) |
-| **Fecha y hora:** | 19 de enero 2025, 5:45 PM |
-| **Duración:** | 27 minutos |
-| **Entrevistador:** | Farid Briceño |
+| **Duración:** | 4:27 minutos |
+| **Entrevistador:** | Mauricio Vilcapoma |
+| **Enlace video** | [https://youtu.be/4MsAx0J5SeY](https://youtu.be/4MsAx0J5SeY) |
+
+![Entrevista experimento Sebastian](./assets/Entrevista-Sebastian.png)
+
 
 **Resumen de Respuestas Clave:**
 
@@ -4075,15 +4084,16 @@ Cada entrevista se documenta siguiendo un formato estandarizado que facilita el 
 
 | **Datos del Entrevistado** | |
 |---|---|
-| **Nombre:** | Diego Alejandro Torres |
-| **Edad:** | 29 años |
+| **Nombre:** | Fabrizio Alberto |
+| **Edad:** | 18 años |
 | **Ocupación:** | Arquitecto |
 | **Experiencia previa con apps fitness:** | Moderada |
 | **Tiempo de uso de FitWise:** | 4 semanas |
 | **Grupo experimental:** | Control (sin funcionalidades experimentales) |
-| **Fecha y hora:** | 20 de enero 2025, 7:00 PM |
 | **Duración:** | 23 minutos |
-| **Entrevistador:** | David Garcia |
+| **Entrevistador:** | Jhon Galvez |
+
+![Entrevista experimento Fabrizzio](./assets/Entrevista-Fabrizio.png)
 
 **Resumen de Respuestas Clave:**
 
