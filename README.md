@@ -3790,6 +3790,17 @@ Este backend sirve como entorno seguro y controlado para validar las funcionalid
 
 ##### 8.3.3.6. Team Collaboration Insights
 
+Durante este ultimo sprint se hicieron avances en distintos repositorios para el desarrollo de nuestros experimentos y comprobar nuestras hipotesis. Las evidencias del trabajo colaborativo por repositorio se listan a continuacion:
+
+- Landing Page (Experimental):
+![Insights Landing Page](./assets/to-be-landing-insights.png)
+
+- Frontend Web Applications (Experimental):
+![Insights Frontend Web Application](./assets/to-be-frontend-insights.png)
+
+- Backend Web Services (Experimental):
+![Insights Backend Web Services](./assets/to-be-backend-insights.png)
+
 ### 8.3.4. To-Be Validation Interviews
 
 ##### 8.3.4.1. Diseño de Entrevistas.
@@ -3820,81 +3831,6 @@ Las entrevistas de validación están diseñadas para obtener feedback directo d
 
 ---
 
-**Guía de Entrevistas por Experimento:**
-
-**🎯 Experimento 1: Mensajes Motivacionales**
-
-*Preguntas Pre-experimentación (Línea Base):*
-1. ¿Cómo describirías tu nivel de motivación actual para mantener tus rutinas de ejercicio?
-2. ¿Qué tipo de acompañamiento o apoyo valoras más cuando intentas mantener hábitos saludables?
-3. ¿Has usado aplicaciones de fitness antes? ¿Qué te ayudaba a mantenerte comprometido?
-
-*Preguntas Post-experimentación (Grupo Experimental):*
-4. Durante las últimas dos semanas, ¿notaste algo diferente en tu experiencia con FitWise?
-5. ¿Recuerdas haber recibido mensajes motivacionales? ¿Cómo te hicieron sentir?
-6. En una escala del 1 al 5, ¿qué tan acompañado/a te sientes por la aplicación? ¿Por qué?
-7. ¿Los mensajes influyeron en tu decisión de continuar o completar alguna rutina?
-
-*Preguntas Post-experimentación (Grupo Control):*
-8. ¿Sientes que la aplicación te brinda suficiente apoyo emocional durante tu proceso?
-9. ¿Qué te haría sentir más acompañado/a mientras usas FitWise?
-
----
-
-**💡 Experimento 2: Tips de Bienestar**
-
-*Preguntas Pre-experimentación:*
-1. ¿Qué tan importante es para ti aprender sobre bienestar mientras usas una app de fitness?
-2. ¿Prefieres información educativa integrada en la app o buscarla por separado?
-
-*Preguntas Post-experimentación (Grupo Experimental):*
-3. ¿Notaste consejos o tips de bienestar mientras navegabas por la aplicación?
-4. ¿Encontraste útiles estos consejos? ¿Recordarías alguno específico?
-5. ¿Cambió tu percepción sobre el valor que te aporta FitWise?
-6. ¿Los tips te motivaron a explorar más secciones de la aplicación?
-
----
-
-**🌙 Experimento 3: Modo Oscuro**
-
-*Preguntas Pre-experimentación:*
-1. ¿En qué momentos del día sueles usar aplicaciones de fitness?
-2. ¿Has usado modo oscuro en otras aplicaciones? ¿Qué opinas de esta funcionalidad?
-
-*Preguntas Post-experimentación (Grupo Experimental):*
-3. ¿Notaste la opción de modo oscuro en FitWise? ¿La activaste?
-4. Si la usaste, ¿cómo fue tu experiencia? ¿En qué momentos la prefieres?
-5. ¿Sientes que mejora tu experiencia de uso? ¿En qué aspectos?
-6. ¿Te haría usar la aplicación más frecuentemente en ciertos momentos?
-
----
-
-**🔔 Experimento 4: Configuración de Notificaciones**
-
-*Preguntas Pre-experimentación:*
-1. ¿Cómo te relacionas con las notificaciones de aplicaciones móviles en general?
-2. ¿Qué tipos de recordatorios te resultan útiles vs. intrusivos?
-
-*Preguntas Post-experimentación (Grupo Experimental):*
-3. Durante tu registro, ¿recuerdas haber configurado las notificaciones?
-4. ¿Te sentiste más en control de tu experiencia al poder personalizarlas?
-5. ¿Las notificaciones que recibes se alinean con lo que esperabas?
-6. ¿Crees que esta personalización inicial influyó en tu decisión de seguir usando la app?
-
----
-
-**📊 Experimento 5: Estadísticas Comparativas**
-
-*Preguntas Pre-experimentación:*
-1. ¿Te motiva comparar tu progreso con el de otras personas?
-2. ¿Qué tipo de información sobre otros usuarios te parecería útil y motivadora?
-
-*Preguntas Post-experimentación (Grupo Experimental):*
-3. ¿Notaste estadísticas que comparen tu progreso con usuarios similares?
-4. ¿Esta información te resultó motivadora, desmotivadora o neutral? ¿Por qué?
-5. ¿Influyó en tu decisión de completar rutinas o mantener tu plan?
-6. ¿Te hizo sentir parte de una comunidad más amplia?
-
 ---
 
 **Preguntas de Cierre (Todas las entrevistas):**
@@ -3914,15 +3850,15 @@ Cada entrevista se documenta siguiendo un formato estandarizado que facilita el 
 
 | **Datos del Entrevistado** | |
 |---|---|
-| **Nombre:** | Ana Sofía Rodriguez |
-| **Edad:** | 28 años |
-| **Ocupación:** | Diseñadora gráfica |
-| **Experiencia previa con apps fitness:** | Moderada (2-3 apps anteriores) |
+| **Nombre:** | Sebastian Rodriguez |
+| **Edad:** | 19 años |
+| **Ocupación:** | Estudiante Ingenieria de Software |
 | **Tiempo de uso de FitWise:** | 3 semanas |
 | **Grupo experimental:** | Experimental (recibe mensajes motivacionales) |
-| **Fecha y hora:** | 15 de enero 2025, 6:00 PM |
-| **Duración:** | 25 minutos |
-| **Entrevistador:** | Mauricio Muñoz |
+| **Entrevistador:** | Jhon Galvez |
+| **Enlace video:** | [https://youtu.be/dEKN4zPNmeQ](https://youtu.be/dEKN4zPNmeQ) |
+
+![Entrevista Sebastian](./assets/sebas-entrevista-exp.png)
 
 **Resumen de Respuestas Clave:**
 
