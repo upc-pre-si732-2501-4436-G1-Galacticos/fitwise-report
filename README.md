@@ -4148,4 +4148,4 @@ Finalmente, el trabajo en equipo y la comunicación constante entre los miembros
 - Deployment Backend: [https://fitwisebackend-gfaehmgxfhhjhff6.canadacentral-01.azurewebsites.net/](https://fitwisebackend-gfaehmgxfhhjhff6.canadacentral-01.azurewebsites.net/)
 - Deployment Landing Page Experimental: [https://upc-pre-si732-2501-4436-g1-galacticos.github.io/fitwise-landing-experiment/](https://upc-pre-si732-2501-4436-g1-galacticos.github.io/fitwise-landing-experiment/)
 - Deployment Frontend Experimental: [https://fitwise-test.web.app/](https://fitwise-test.web.app/)
-- Deployment Backend Experimental: []
+- Deployment Backend Experimental: [https://fitwise-backend-test-avbyhgdafkgsabc6.canadacentral-01.azurewebsites.net/swagger-ui/index.html](https://fitwise-backend-test-avbyhgdafkgsabc6.canadacentral-01.azurewebsites.net/swagger-ui/index.html)
