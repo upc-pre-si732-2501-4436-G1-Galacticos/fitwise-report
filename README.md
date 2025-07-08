@@ -3752,6 +3752,11 @@ El siguiente sprint backlog está diseñado para implementar todas las funcional
 ##### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
 ##### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+A continuación se puede vizualizar la **selección de idioma desde el onboarding** correctamente implementada en el Frotend-Web.
+![1](/assets/trad1.png)  
+![1](/assets/trad2.png)  
+![1](/assets/trad3.png)  
+![1](/assets/trad4.png)  
 
 ##### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 
