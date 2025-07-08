@@ -4095,13 +4095,92 @@ Cada entrevista se documenta siguiendo un formato estandarizado que facilita el 
 
 ### 8.4.1. Analysis and Interpretation of Results
 
+Con el fin de mejorar la recopilación de datos para nuestro análisis de la experiencia de usuario, rediseñamos y estructuramos las preguntas originales de las entrevistas iniciales. Esto hizo posible capturar de manera más precisa las ideas de los participantes sobre sus percepciones, preferencias y necesidades en relación con las funcionalidades principales del producto.
+
+**<u>Preguntas Formuladas</u>**
+
+La evaluación de la experiencia del usuario con el producto se llevó a cabo mediante las siguientes preguntas:
+
+1.  ¿Considera útil la implementación del modo oscuro?
+2.  ¿Las opciones de idioma ofrecidas son suficientes?
+3.  ¿La estadística que se muestra en los ejercicios o dietas le resulta útil y relevante?
+4.  ¿Qué tan útiles encuentra las notificaciones personalizadas?
+5.  En general, ¿el contenido que se le presenta en la aplicación es claro, relevante y fácil de entender?
+6.  ¿Cómo calificaría la interfaz mostrada de la aplicación?
+7.  ¿Le resulta útil o motivador ver estadísticas o comparaciones?
+8.  ¿Cree que esto le incentiva a usar más la aplicación o a cumplir sus objetivos?
+9.  ¿Cuál es el mayor valor que percibe al usar esta aplicación?
+10. ¿Qué opina sobre la ubicación de las secciones dentro de la aplicación?
+
+Las respuestas a estas preguntas fueron obtenidas de 25 posibles clientes, quienes las basaron en su experiencia con las características del producto. Los resultados se explican a continuación.
+
+-Pregunta 1: ¿Qué tan útil considera el modo oscuro?
+Más del 70% de los encuestados quieren que se implemente un modo oscuro, lo cual indica actividad nocturna en nuestros usuarios.
+![Resultado de encuesta de pregunta de experimento 1](assets/qb-formresult-q1.png)
+
+-Pregunta 2: ¿Las opciones de idioma ofrecidas son suficientes?
+Un 60% de encuestados piensan que se debería implementar más idiomas a la aplicación.
+![Resultado de encuesta de pregunta de experimento 2](assets/qb-formresult-q2.png)
+
+-Pregunta 3: ¿La estadística que se muestra en los ejercicios o dietas le resulta útil y relevante?
+El 76% de los encuestados dieron una apreciación positiva a la estadística mostrada.
+![Resultado de encuesta de pregunta de experimento 3](assets/qb-formresult-q3.png)
+
+-Pregunta 4: ¿Qué tan útiles encuentra las notificaciones personalizadas?
+Siendo una opción de calificación, 4 (16%) encuestados dieron la calificación más baja y 9 (36%) encuestados dieron la calificación más alta.
+![Resultado de encuesta de pregunta de experimento 4](assets/qb-formresult-q4.png)
+
+-Pregunta 5: En general, ¿el contenido que se le presenta en la aplicación es claro, relevante y fácil de entender?
+68% de los encuestados señalan que el contenido mostrado es preciso; el resto (32%), lo contrario.
+![Resultado de encuesta de pregunta de experimento 5](assets/qb-formresult-q5.png)
+
+-Pregunta 6: ¿Cómo calificaría la interfaz mostrada de la aplicación?
+9 (36%) de los encuestados opinan que la interfaz es limpia y precisa, 7 (28%) encuestados opinan que no se entiende, 5 (20%) encuestados señalan que es suficiente y 4 (16%) denotan incomodidad al navegar en la interfaz.
+![Resultado de encuesta de pregunta de experimento 6](assets/qb-formresult-q6.png)
+
+-Pregunta 7: ¿Le resulta útil o motivador ver estadísticas o comparaciones?
+68% de los se sienten más motivados al ver estadísticas dentro de los items de la aplicación; el resto (32%), lo siente una disminución en su autoestima.
+![Resultado de encuesta de pregunta de experimento 7](assets/qb-formresult-q7.png)
+
+-Pregunta 8: ¿Cree que esto le incentiva a usar más la aplicación o a cumplir sus objetivos?
+Siendo que se relaciona con la pregunta anterior, el 76% de los encuestados sí creen que las estadísticas incentivan al usuario, en cambio el 24% no lo ve así.
+![Resultado de encuesta de pregunta de experimento 8](assets/qb-formresult-q8.png)
+
+-Pregunta 9: ¿Cuál es el mayor valor que percibe al usar esta aplicación?
+La mayor parte de los usuarios (48%) consideran que la fortaleza de la aplicación está en sus funcionalidades, el 32% aprecia la evolución que ha tenido con el tiempo y el 20% han valorado más la interfaz de la aplicación.
+![Resultado de encuesta de pregunta de experimento 9](assets/qb-formresult-q9.png)
+
+-Pregunta 10: ¿Qué opina sobre la ubicación de las secciones dentro de la aplicación?
+Un gran número de usuarios (76%) piensan que las secciones dentro de la aplicación está bien estructurado, el 24% piensa lo contrario.
+![Resultado de encuesta de pregunta de experimento 10](assets/qb-formresult-q10.png)
+
+**<u>Conclusiones</u>**
+Los datos de la encuesta reflejan un elevado grado de satisfacción global. No obstante, se han detectado áreas concretas susceptibles de optimización para potenciar la experiencia del usuario. Las recomendaciones derivadas de este estudio fundamentarán las subsiguientes evoluciones del producto.
+
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
+| Prioridad (1,2,3,5,8) | Pregunta |
+|:---:|:---|
+| 8 | ¿Mensajes motivacionales aumentan percepción de acompañamiento? |
+| 8 | ¿Tips de bienestar breves mejoran percepción de valor? |
+| 5 | ¿La implementación de modo oscuro mejora la experiencia de usuario y retención? |
+| 3 | ¿Configuración de notificaciones reduce abandono inicial? |
+| 5 | ¿Estadísticas comparativas motivan mayor cumplimiento?	 |
 
 ## 8.5. Continuous Learning
 
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
 
-Aqui es poner un figma con las nuevas vistas, tambien debemos agregar encuestas con forms para feedback de usuarios
+El prototipo interactivo de Figma presenta las interfaces y soluciones propuestas, las cuales fueron diseñadas considerando las necesidades y expectativas de los usuarios. Este artefacto ilustra la evolución y los ajustes visuales y funcionales realizados durante el proceso de diseño.
+
+Enlace Figma: [https://www.figma.com/design/d1HNhWUHkdpReMp9cZ8tOf/FitWise-Experimentos?node-id=0-1&t=zZ6VqbIOj7Uk4KhH-1](https://www.figma.com/design/d1HNhWUHkdpReMp9cZ8tOf/FitWise-Experimentos?node-id=0-1&t=zZ6VqbIOj7Uk4KhH-1)
+
+![Figma-FitWise-Experimentos](assets/Figma-FitWise-Experimentos.png)
+
+Mediante una encuesta en Google Forms, se recolectó feedback clave de los usuarios. Esta información no solo validó las hipótesis iniciales de diseño, sino que también fue esencial para evaluar la experiencia de usuario y respaldar las decisiones tomadas para mejorar la aplicación.
+
+Enlace encuesta: [https://forms.gle/3tExrttTEzPEgYtX6](https://forms.gle/3tExrttTEzPEgYtX6)
+
+![Screenshot-experimentos-encuesta](assets/Screenshot-experimentos-encuesta.png)
 
 ## 8.6. To-Be Software Platform Pre-launch
 
