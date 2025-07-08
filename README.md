@@ -3757,6 +3757,28 @@ El siguiente sprint backlog está diseñado para implementar todas las funcional
 
 ##### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
+Se implementó un backend de pruebas utilizando **Java Spring Boot**, como base para los futuros endpoints de producción. Esta versión de desarrollo permite validar la estructura, funcionalidad y seguridad de los servicios RESTful que serán expuestos en el entorno final.
+
+La documentación de los endpoints se generó automáticamente utilizando **Swagger (OpenAPI)**, lo cual facilita la inspección, prueba y verificación de cada operación disponible desde una interfaz web.
+
+Como evidencia, se presentan cinco capturas que muestran distintos fragmentos de la documentación Swagger generada, incluyendo los siguientes aspectos:
+
+- Autenticación y registro de usuarios  
+- Consultas a entidades del dominio  
+- Endpoints de gestión de datos  
+- Estructura de las peticiones y respuestas  
+- Estado actual del backend de pruebas  
+
+Este backend sirve como entorno seguro y controlado para validar las funcionalidades antes de su despliegue a producción, garantizando calidad, trazabilidad y facilidad de mantenimiento.
+
+#### Evidencia visual
+
+![1](/assets/captura1.jpg)  
+![2](./assets/captura2.jpg)  
+![3](./assets/captura3.jpg)  
+![4](./assets/captura4.jpg)  
+![5](./assets/captura5.jpg)
+
 ##### 8.3.3.6. Team Collaboration Insights
 
 ### 8.3.4. To-Be Validation Interviews
