@@ -3425,11 +3425,11 @@ Esta sección presenta el conjunto de preguntas experimentales priorizadas para 
 
 ---
 
-| **Question** | ¿Permitir al usuario configurar sus preferencias de notificación reduce el abandono en los primeros 7 días? |
-|--------------|-------------------------------------------------------------|
-| **Belief** | Permitir que el usuario configure sus notificaciones desde el primer uso reducirá el abandono durante la primera semana. |
-| **Hypothesis** | Creemos que ofrecer configuración personalizada de notificaciones reducirá en al menos un 15% el abandono en los primeros 7 días en comparación con el grupo que usa la app con notificaciones por defecto. |
-| **Null Hypothesis** | La configuración personalizada de notificaciones no tendrá ningún impacto significativo en la tasa de abandono inicial. |
+| **Question** | ¿Permitir seleccionar el idioma (EN/ES) durante el onboarding mejora la experiencia inicial del usuario y reduce la fricción de uso? |
+|--------------|----------------------------------------------------------------------------------------------------------|
+| **Belief** | La opción de elegir el idioma preferido desde el inicio reduce confusión, mejora la comprensión y genera mayor comodidad inicial. |
+| **Hypothesis** | Creemos que permitir seleccionar idioma desde el onboarding mejorará la satisfacción inicial del usuario en al menos un 20% y reducirá la fricción de uso medido por eventos de ayuda o abandono temprano. |
+| **Null Hypothesis** | La selección de idioma desde el onboarding no tendrá un impacto significativo en la satisfacción inicial ni en la fricción de uso. |
 
 ---
 
@@ -3477,14 +3477,15 @@ Esta sección presenta el conjunto de preguntas experimentales priorizadas para 
 
 ---
 
-| **Question** | ¿Configuración de notificaciones reduce abandono inicial? |
-|--------------|-------------------------------------------------------------|
-| **Hypothesis** | Creemos que ofrecer configuración personalizada de notificaciones reducirá en al menos un 15% el abandono en los primeros 7 días en comparación con el grupo que usa la app con notificaciones por defecto. |
+| **Question** | ¿Permitir seleccionar el idioma (EN/ES) durante el onboarding mejora la experiencia inicial del usuario y reduce la fricción de uso? |
+|--------------|----------------------------------------------------------------------------------------------------------|
+| **Hypothesis** | Creemos que permitir seleccionar idioma desde el onboarding mejorará la satisfacción inicial del usuario en al menos un 20% y reducirá la fricción de uso. |
 | **Measure** |  
-- **Métrica principal**: Tasa de abandono en los primeros 7 días.  
+- **Métrica principal**: Puntuación promedio de la encuesta de satisfacción inicial (escala Likert 1–5).  
 - **Métricas secundarias**:  
-   - Tasa de activación de notificaciones configuradas.  
-   - Cantidad de sesiones durante la primera semana.  
+   - % de usuarios que cambian idioma durante onboarding.  
+   - Número de interacciones con ayuda/soporte en los primeros 3 días.  
+   - Tasa de retención a 3 y 7 días. |
 
 ---
 
@@ -3526,12 +3527,12 @@ Esta sección presenta el conjunto de preguntas experimentales priorizadas para 
 
 ---
 
-| **Question** | ¿Configuración de notificaciones reduce abandono inicial? |
-|--------------|-------------------------------------------------------------|
-| **Group A (Experimental)** | Nuevos usuarios que configuran sus preferencias de notificación en el onboarding. |
-| **Group B (Control)** | Nuevos usuarios que reciben notificaciones predeterminadas sin opción de configuración inicial. |
+| **Question** | ¿Permitir seleccionar el idioma (EN/ES) durante el onboarding mejora la experiencia inicial del usuario y reduce la fricción de uso? |
+|--------------|----------------------------------------------------------------------------------------------------------|
+| **Group A (Experimental)** | Nuevos usuarios que pueden seleccionar idioma entre inglés y español en el onboarding. |
+| **Group B (Control)** | Nuevos usuarios que reciben la app en el idioma por defecto del dispositivo, sin opción de cambio inicial. |
 | **Entorno** | Producción limitada; se activa según cohortes de usuarios nuevos por semana. |
-| **Duración** | 1 semana (se analiza comportamiento en primeros 7 días).
+| **Duración** | 1 semana (se analiza comportamiento en primeros 7 días). |
 
 ---
 
@@ -3546,12 +3547,12 @@ Esta sección presenta el conjunto de preguntas experimentales priorizadas para 
 
 | Scale Calculation | Decision | Factor | | | |
 |-------------------|----------|--------|--------|--------|--------|
-| | | **Desfavorable** | **Aceptable** | **Ideal** | **Excelente** |
-| Creemos que los mensajes motivacionales aumentarán en un **25%** la percepción de acompañamiento. Se validará si la puntuación promedio en la encuesta de satisfacción emocional sube de 3.0 a 3.8 o más (escala 1–5). | Automatizar envío de mensajes motivacionales basados en objetivos y logros del usuario. | | X | | |
-| Creemos que los tips de bienestar aumentarán en un **20%** la percepción de valor. Esto se confirmará si la puntuación promedio en la encuesta de valor sube de 3.2 a 3.8 o más (escala 1–5). | Incorporar tips contextualizados en momentos clave de la experiencia de usuario. | | X | | |
-| Creemos que el modo oscuro aumentará en un **15%** la satisfacción del usuario. Se validará si la retención semanal mejora de 60% a 70% o más entre usuarios que activan esta función. | Habilitar opción de modo oscuro en configuración de la aplicación. | X | | | |
-| Creemos que permitir la configuración de notificaciones reducirá en un **15%** el abandono en la primera semana. Esto se confirmará si la tasa de retención a 7 días mejora de 55% a 70% o más. | Añadir opción de personalización de notificaciones en onboarding. | X | | | |
-| Creemos que mostrar estadísticas comparativas aumentará en un **18%** la finalización de rutinas semanales. Se validará si el grupo experimental completa al menos 0.6 rutinas más por semana que el grupo control. | Implementar sección de estadísticas comparativas con datos anónimos por perfil. | | X | | |
+|                   |          | **Desfavorable** | **Aceptable** | **Ideal** | **Excelente** |
+| Creemos que los mensajes motivacionales aumentarán en un **25%** la percepción de acompañamiento. Se validará si la puntuación promedio en la encuesta de satisfacción emocional sube de 3.0 a 3.8 o más (escala 1–5). | Automatizar envío de mensajes motivacionales basados en objetivos y logros del usuario. |       |    X   |         |          |
+| Creemos que los tips de bienestar aumentarán en un **20%** la percepción de valor. Esto se confirmará si la puntuación promedio en la encuesta de valor sube de 3.2 a 3.8 o más (escala 1–5). | Incorporar tips contextualizados en momentos clave de la experiencia de usuario. |       |    X   |         |          |
+| Creemos que el modo oscuro aumentará en un **15%** la satisfacción del usuario. Se validará si la retención semanal mejora de 60% a 70% o más entre usuarios que activan esta función. | Habilitar opción de modo oscuro en configuración de la aplicación. |   X   |        |         |          |
+| Creemos que permitir la **selección de idioma (EN/ES)** desde el onboarding aumentará la satisfacción inicial en un **20%** y reducirá eventos de fricción (ayuda, abandono, errores de navegación) en un **15%**. Esto se confirmará si la puntuación promedio en la encuesta inicial mejora de 3.2 a 3.9 y se observa menor tasa de solicitudes de ayuda o abandono temprano. | Habilitar selección de idioma en todos los flujos de onboarding. |       |    X   |         |          |
+| Creemos que mostrar estadísticas comparativas aumentará en un **18%** la finalización de rutinas semanales. Se validará si el grupo experimental completa al menos 0.6 rutinas más por semana que el grupo control. | Implementar sección de estadísticas comparativas con datos anónimos por perfil. |       |    X   |         |          |
 
 #### 8.2.5. Methods Selection
 
@@ -3564,7 +3565,7 @@ Para validar las hipótesis planteadas en los experimentos seleccionados, se emp
 | ¿Mensajes motivacionales aumentan percepción de acompañamiento? | **Encuesta + seguimiento de interacción** | Evaluar la percepción emocional post-intervención con escala Likert y medir engagement. |
 | ¿Tips de bienestar mejoran percepción de valor? | **Encuesta + análisis de tiempo de lectura** | Medir percepción de valor mediante encuesta y analizar interacción con contenido. |
 | ¿Modo oscuro mejora experiencia y retención? | **A/B Testing con métricas de retención** | Comparar retención semanal y patrones de uso entre usuarios con y sin acceso a modo oscuro. |
-| ¿Configuración de notificaciones reduce abandono inicial? | **Experimento de onboarding controlado** | Segmentar onboarding con y sin configuración personalizada, y medir retención a 7 días. |
+| ¿Selección de idioma EN/ES mejora satisfacción y reduce fricción inicial? | **Experimento de onboarding controlado + análisis de eventos de fricción** | Evaluar impacto de permitir selección de idioma en onboarding mediante encuestas y tasas de abandono o solicitudes de ayuda. |
 | ¿Estadísticas comparativas motivan mayor cumplimiento? | **A/B Testing con eventos de completitud** | Observar impacto en finalización de rutinas comparando acceso vs. no acceso a estadísticas. |
 
 ---
@@ -3704,18 +3705,18 @@ Las siguientes User Stories están diseñadas para validar las hipótesis experi
 | UE01          | Mensajes motivacionales personalizados        | Como usuario activo, quiero recibir mensajes motivacionales diarios personalizados para sentir mayor acompañamiento y apoyo durante mi proceso de bienestar, aumentando mi percepción de acompañamiento en la aplicación. | **Escenario 1: Entrega de mensaje motivacional**<br>Given un usuario pertenece al grupo experimental<br>When inicia sesión en la aplicación<br>Then recibe un mensaje motivacional de bienvenida basado en su progreso y objetivos.<br><br>**Escenario 2: Validación de percepción**<br>Given el usuario ha recibido mensajes por 14 días<br>When se le presenta la encuesta de percepción de acompañamiento<br>Then puede evaluar su experiencia en escala Likert 1-5. | Mensajes motivacionales aumentan percepción de acompañamiento | Alta (21) |
 | UE02          | Tips de bienestar contextualizados            | Como usuario navegando en la aplicación, quiero recibir tips de bienestar breves y relevantes durante mi búsqueda de rutinas y planes alimenticios para aumentar mi percepción de valor de la aplicación. | **Escenario 1: Tip contextualizado en rutinas**<br>Given el usuario está navegando en la sección de rutinas<br>When accede a una rutina específica<br>Then se muestra un tip de bienestar relacionado con ejercicio y rendimiento.<br><br>**Escenario 2: Tip contextualizado en nutrición**<br>Given el usuario está en la sección de planes alimenticios<br>When explora opciones de dieta<br>Then se muestra un tip sobre alimentación saludable y nutrición. | Tips de bienestar breves mejoran percepción de valor | Alta (21) |
 | UE03          | Modo oscuro configurable                      | Como usuario de la aplicación, quiero poder activar el modo oscuro para mejorar mi experiencia de uso, especialmente durante sesiones nocturnas, aumentando mi satisfacción y retención en la plataforma. | **Escenario 1: Activación de modo oscuro**<br>Given el usuario tiene acceso a la configuración<br>When activa la opción de modo oscuro<br>Then toda la interfaz cambia al tema oscuro de forma inmediata.<br><br>**Escenario 2: Persistencia de preferencia**<br>Given el usuario ha activado modo oscuro<br>When cierra y vuelve a abrir la aplicación<br>Then la preferencia de modo oscuro se mantiene activa. | Modo oscuro mejora experiencia y retención | Media (13) |
-| UE04          | Configuración de notificaciones personalizada | Como nuevo usuario, quiero configurar mis preferencias de notificación durante el onboarding para reducir la sensación de intrusión, mantener control sobre mi experiencia y reducir el abandono inicial. | **Escenario 1: Configuración en onboarding**<br>Given un usuario nuevo está completando el onboarding<br>When llega al paso de configuración de notificaciones<br>Then puede personalizar tipo, frecuencia y horarios de notificaciones.<br><br>**Escenario 2: Aplicación inmediata**<br>Given el usuario configura sus preferencias de notificación<br>When guarda la configuración<br>Then las preferencias se aplican inmediatamente y se confirma el cambio. | Media (13) |
+| UE04          | Selección de idioma desde el onboarding       | Como nuevo usuario, quiero elegir entre idioma inglés o español al comenzar la aplicación para sentirme más cómodo desde el inicio y reducir fricción durante el primer uso. | **Escenario 1: Selección de idioma en onboarding**<br>Given un usuario nuevo está completando el onboarding<br>When se le presenta la opción de idioma<br>Then puede seleccionar entre inglés o español antes de continuar.<br><br>**Escenario 2: Persistencia del idioma**<br>Given el usuario ha seleccionado un idioma<br>When completa el onboarding y vuelve a iniciar la app<br>Then la interfaz se mantiene en el idioma elegido sin necesidad de volver a configurarlo. | Selección de idioma EN/ES mejora satisfacción y reduce fricción inicial | Media (13) |
 | UE05          | Estadísticas comparativas anónimas            | Como usuario comprometido con mi bienestar, quiero ver estadísticas comparativas anónimas por perfil similar al mío para motivarme a completar más rutinas semanales y mantener mi constancia. | **Escenario 1: Visualización de estadísticas en rutinas**<br>Given el usuario accede a la sección de rutinas<br>When selecciona una rutina específica<br>Then ve estadísticas como "Usuarios con tu perfil completan 3.2 rutinas por semana en promedio".<br><br>**Escenario 2: Visualización de estadísticas en dietas**<br>Given el usuario accede a la sección de rutinas<br>When selecciona una dieta específica<br>Then ve estadísticas como "Usuarios con tu perfil optan por agregar esta dieta a su plan en un 50% de ocasiones". | Estadísticas comparativas motivan mayor cumplimiento | Media (8) |
 
 #### 8.3.2. To-Be Product Backlog
 
-| # Orden | User Story ID | Título                                        | Story Points (1 / 2 / 3 / 5 / 8) | Prioridad Experimental |
-|---------|----------------|----------------------------------------------|----------------------------------|------------------------|
-| 1       | UE01           | Mensajes motivacionales personalizados      | 5                                | Alta (Fibonacci 21)    |
-| 2       | UE02           | Tips de bienestar contextualizados          | 5                                | Alta (Fibonacci 21)    |
-| 3       | UE03           | Modo oscuro configurable                     | 3                                | Alta (Fibonacci 13)    |
-| 4       | UE04           | Configuración de notificaciones personalizada | 3                                | Alta (Fibonacci 13)    |
-| 5       | UE05           | Estadísticas comparativas anónimas          | 5                                | Media (Fibonacci 8)    |
+| # Orden | User Story ID | Título                                        | Story Points (1 / 2 / 3 / 5 / 8) | Prioridad Experimental     |
+|---------|----------------|----------------------------------------------|----------------------------------|----------------------------|
+| 1       | UE01           | Mensajes motivacionales personalizados       | 5                                | Alta (Fibonacci 21)        |
+| 2       | UE02           | Tips de bienestar contextualizados           | 5                                | Alta (Fibonacci 21)        |
+| 3       | UE03           | Modo oscuro configurable                      | 3                                | Alta (Fibonacci 13)        |
+| 4       | UE04           | Selección de idioma desde el onboarding      | 3                                | Media (Fibonacci 13)       |
+| 5       | UE05           | Estadísticas comparativas anónimas           | 5                                | Media (Fibonacci 8)        |
 
 
 #### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
@@ -3726,27 +3727,27 @@ El siguiente sprint backlog está diseñado para implementar todas las funcional
 
 **Sprint 1 - Implementación Integral de Experimentos**
 
-|Sprint #|Sprint 1|||||||
-| :- | :- | :- | :- | :- | :- | :- | :- |
-|User Story|Work-Item / Task|||||||
-|Id|Title|Id|Title|Description|<p>Estimation</p><p>(Hours)</p>|Assigned To|<p>Status</p><p>(To-do /</p><p>InProcess /</p><p>ToReview /</p><p>Done)</p>|
-|UE01|Mensajes motivacionales personalizados|T01|Crear base de datos de mensajes motivacionales|Desarrollar una colección de mensajes motivacionales categorizados por objetivos (pérdida de peso, ganancia muscular, mantenimiento) y nivel de progreso del usuario.|4|Farid Briceño|To-do|
-|UE01|Mensajes motivacionales personalizados|T02|Implementar lógica de selección de mensajes|Crear algoritmo que seleccione mensajes apropiados basándose en el perfil del usuario, progreso reciente y objetivos establecidos.|6|David Garcia|To-do|
-|UE01|Mensajes motivacionales personalizados|T03|Integrar sistema de notificaciones motivacionales|Desarrollar componente de UI que muestre mensajes motivacionales en el dashboard principal al iniciar sesión.|5|Jhon Galvez|To-do|
-|UE02|Tips de bienestar contextualizados|T05|Crear contenido de tips de bienestar|Desarrollar biblioteca de consejos breves categorizados por contexto (rutinas, nutrición, descanso) y nivel de usuario.|4|Ramiro Guzman|To-do|
-|UE02|Tips de bienestar contextualizados|T06|Implementar sistema de contexto dinámico|Crear lógica que detecte en qué sección se encuentra el usuario para mostrar tips relevantes.|5|David Garcia|To-do|
-|UE02|Tips de bienestar contextualizados|T07|Diseñar componente de tips contextualizados|Desarrollar componente de UI no intrusivo que muestre tips relevantes en secciones de rutinas y dietas.|4|Jhon Galvez|To-do|
-|UE03|Modo oscuro configurable|T09|Implementar sistema de temas CSS|Crear hojas de estilo para modo oscuro que cubran todos los componentes de la aplicación manteniendo consistencia visual.|8|Jhon Galvez|To-do|
-|UE03|Modo oscuro configurable|T10|Desarrollar toggle de modo oscuro|Crear componente de configuración que permita alternar entre modo claro y oscuro con persistencia de preferencia.|3|Farid Briceño|To-do|
-|UE03|Modo oscuro configurable|T11|Implementar persistencia de preferencia de tema|Desarrollar sistema de almacenamiento local que mantenga la preferencia de tema entre sesiones.|2|Ramiro Guzman|To-do|
-|UE03|Modo oscuro configurable|T12|Testing de accesibilidad en modo oscuro|Realizar pruebas de contraste y accesibilidad visual en modo oscuro según estándares WCAG.|3|Mauricio Muñoz|To-do|
-|UE04|Configuración de notificaciones personalizada|T13|Diseñar interfaz de configuración de notificaciones|Crear formulario intuitivo para configurar tipos, frecuencia y horarios de notificaciones durante onboarding.|4|Ramiro Guzman|To-do|
-|UE04|Configuración de notificaciones personalizada|T14|Implementar lógica de preferencias de notificación|Desarrollar backend para almacenar y gestionar preferencias personalizadas de notificaciones por usuario.|5|David Garcia|To-do|
-|UE04|Configuración de notificaciones personalizada|T15|Integrar configuración en flujo de onboarding|Añadir paso de configuración de notificaciones en el proceso de registro inicial del usuario.|3|Farid Briceño|To-do|
-|UE05|Estadísticas comparativas anónimas|T17|Desarrollar sistema de cálculo de estadísticas|Crear algoritmos para calcular promedios anónimos de rutinas completadas y adherencia por perfil de usuario.|6|David Garcia|To-do|
-|UE05|Estadísticas comparativas anónimas|T18|Implementar segmentación por perfil|Desarrollar lógica para agrupar usuarios por características similares (edad, objetivos, nivel) manteniendo anonimato.|5|Ramiro Guzman|To-do|
-|UE05|Estadísticas comparativas anónimas|T19|Diseñar componentes de visualización de estadísticas|Crear componentes de UI que muestren comparativas de forma atractiva y motivacional en secciones relevantes.|4|Jhon Galvez|To-do|
-|UE05|Estadísticas comparativas anónimas|T20|Integrar estadísticas en secciones de rutinas y dietas|Implementar visualización de estadísticas comparativas en páginas de detalle de rutinas y planes alimenticios.|3|Farid Briceño|To-do|
+| Sprint # | Sprint 1 | | | | | | |
+|----------|----------|--|--|--|--|--|--|
+| User Story | Work-Item / Task | | | | | | |
+| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / InProcess / ToReview / Done) |
+| UE01 | Mensajes motivacionales personalizados | T01 | Crear base de datos de mensajes motivacionales | Desarrollar una colección de mensajes motivacionales categorizados por objetivos (pérdida de peso, ganancia muscular, mantenimiento) y nivel de progreso del usuario. | 4 | Farid Briceño | To-do |
+| UE01 | Mensajes motivacionales personalizados | T02 | Implementar lógica de selección de mensajes | Crear algoritmo que seleccione mensajes apropiados basándose en el perfil del usuario, progreso reciente y objetivos establecidos. | 6 | David Garcia | To-do |
+| UE01 | Mensajes motivacionales personalizados | T03 | Integrar sistema de notificaciones motivacionales | Desarrollar componente de UI que muestre mensajes motivacionales en el dashboard principal al iniciar sesión. | 5 | Jhon Galvez | To-do |
+| UE02 | Tips de bienestar contextualizados | T05 | Crear contenido de tips de bienestar | Desarrollar biblioteca de consejos breves categorizados por contexto (rutinas, nutrición, descanso) y nivel de usuario. | 4 | Ramiro Guzman | To-do |
+| UE02 | Tips de bienestar contextualizados | T06 | Implementar sistema de contexto dinámico | Crear lógica que detecte en qué sección se encuentra el usuario para mostrar tips relevantes. | 5 | David Garcia | To-do |
+| UE02 | Tips de bienestar contextualizados | T07 | Diseñar componente de tips contextualizados | Desarrollar componente de UI no intrusivo que muestre tips relevantes en secciones de rutinas y dietas. | 4 | Jhon Galvez | To-do |
+| UE03 | Modo oscuro configurable | T09 | Implementar sistema de temas CSS | Crear hojas de estilo para modo oscuro que cubran todos los componentes de la aplicación manteniendo consistencia visual. | 8 | Jhon Galvez | To-do |
+| UE03 | Modo oscuro configurable | T10 | Desarrollar toggle de modo oscuro | Crear componente de configuración que permita alternar entre modo claro y oscuro con persistencia de preferencia. | 3 | Farid Briceño | To-do |
+| UE03 | Modo oscuro configurable | T11 | Implementar persistencia de preferencia de tema | Desarrollar sistema de almacenamiento local que mantenga la preferencia de tema entre sesiones. | 2 | Ramiro Guzman | To-do |
+| UE03 | Modo oscuro configurable | T12 | Testing de accesibilidad en modo oscuro | Realizar pruebas de contraste y accesibilidad visual en modo oscuro según estándares WCAG. | 3 | Mauricio Muñoz | To-do |
+| UE04 | Selección de idioma desde el onboarding | T13 | Diseñar pantalla de selección de idioma | Crear interfaz intuitiva que permita seleccionar el idioma al abrir la app por primera vez. | 3 | Ramiro Guzman | To-do |
+| UE04 | Selección de idioma desde el onboarding | T14 | Implementar lógica de cambio de idioma | Configurar sistema de traducciones que se adapte dinámicamente al idioma elegido. | 4 | David Garcia | To-do |
+| UE04 | Selección de idioma desde el onboarding | T15 | Persistir preferencia de idioma | Almacenar idioma seleccionado en localStorage o backend para mantener preferencia entre sesiones. | 2 | Farid Briceño | To-do |
+| UE05 | Estadísticas comparativas anónimas | T17 | Desarrollar sistema de cálculo de estadísticas | Crear algoritmos para calcular promedios anónimos de rutinas completadas y adherencia por perfil de usuario. | 6 | David Garcia | To-do |
+| UE05 | Estadísticas comparativas anónimas | T18 | Implementar segmentación por perfil | Desarrollar lógica para agrupar usuarios por características similares (edad, objetivos, nivel) manteniendo anonimato. | 5 | Ramiro Guzman | To-do |
+| UE05 | Estadísticas comparativas anónimas | T19 | Diseñar componentes de visualización de estadísticas | Crear componentes de UI que muestren comparativas de forma atractiva y motivacional en secciones relevantes. | 4 | Jhon Galvez | To-do |
+| UE05 | Estadísticas comparativas anónimas | T20 | Integrar estadísticas en secciones de rutinas y dietas | Implementar visualización de estadísticas comparativas en páginas de detalle de rutinas y planes alimenticios. | 3 | Farid Briceño | To-do |
 
 ##### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
@@ -3755,6 +3756,28 @@ El siguiente sprint backlog está diseñado para implementar todas las funcional
 ##### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 
 ##### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+Se implementó un backend de pruebas utilizando **Java Spring Boot**, como base para los futuros endpoints de producción. Esta versión de desarrollo permite validar la estructura, funcionalidad y seguridad de los servicios RESTful que serán expuestos en el entorno final.
+
+La documentación de los endpoints se generó automáticamente utilizando **Swagger (OpenAPI)**, lo cual facilita la inspección, prueba y verificación de cada operación disponible desde una interfaz web.
+
+Como evidencia, se presentan cinco capturas que muestran distintos fragmentos de la documentación Swagger generada, incluyendo los siguientes aspectos:
+
+- Autenticación y registro de usuarios  
+- Consultas a entidades del dominio  
+- Endpoints de gestión de datos  
+- Estructura de las peticiones y respuestas  
+- Estado actual del backend de pruebas  
+
+Este backend sirve como entorno seguro y controlado para validar las funcionalidades antes de su despliegue a producción, garantizando calidad, trazabilidad y facilidad de mantenimiento.
+
+#### Evidencia visual
+
+![1](/assets/captura1.jpg)  
+![2](./assets/captura2.jpg)  
+![3](./assets/captura3.jpg)  
+![4](./assets/captura4.jpg)  
+![5](./assets/captura5.jpg)
 
 ##### 8.3.3.6. Team Collaboration Insights
 
@@ -4226,4 +4249,4 @@ Finalmente, el trabajo en equipo y la comunicación constante entre los miembros
 - Deployment Backend: [https://fitwisebackend-gfaehmgxfhhjhff6.canadacentral-01.azurewebsites.net/](https://fitwisebackend-gfaehmgxfhhjhff6.canadacentral-01.azurewebsites.net/)
 - Deployment Landing Page Experimental: [https://upc-pre-si732-2501-4436-g1-galacticos.github.io/fitwise-landing-experiment/](https://upc-pre-si732-2501-4436-g1-galacticos.github.io/fitwise-landing-experiment/)
 - Deployment Frontend Experimental: [https://fitwise-test.web.app/](https://fitwise-test.web.app/)
-- Deployment Backend Experimental: []
+- Deployment Backend Experimental: [https://fitwise-backend-test-avbyhgdafkgsabc6.canadacentral-01.azurewebsites.net/swagger-ui/index.html](https://fitwise-backend-test-avbyhgdafkgsabc6.canadacentral-01.azurewebsites.net/swagger-ui/index.html)
