@@ -3314,7 +3314,7 @@ Este conjunto de supuestos, vacíos, ideas y afirmaciones servirá como base par
 2. ¿Permitir al usuario configurar sus preferencias de notificación reduce el abandono en los primeros 7 días?
 3. ¿Visualizar el progreso mediante gráficos incrementa la finalización de rutinas semanales?
 4. ¿La inclusión de mensajes motivacionales personalizados aumenta la percepción de acompañamiento?
-5. ¿Un rediseño visual más claro y simplificado mejora la tasa de retención en usuarios novatos?
+5. ¿La implementación de modo oscuro mejora la experiencia de usuario y retención en usuarios novatos?
 6. ¿La incorporación de recompensas semanales (badges) mejora la constancia en los usuarios?
 7. ¿Mostrar estadísticas anónimas comparativas (por perfil) motiva a completar más rutinas?
 8. ¿La personalización de la carga de entrenamiento según estado de ánimo mejora la adherencia semanal?
@@ -3339,47 +3339,46 @@ Este conjunto de supuestos, vacíos, ideas y afirmaciones servirá como base par
 
 #### 8.1.4. Question Backlog
 
-Esta sección presenta el conjunto de preguntas experimentales priorizadas para su futura validación, utilizando la escala de Fibonacci para estimar su valor/impacto dentro del roadmap de mejoras. La priorización considera viabilidad técnica, impacto en la experiencia de usuario y alineación con los objetivos de corto y mediano plazo del proyecto.
+Esta sección presenta el conjunto de preguntas experimentales priorizadas para su validación inmediata, utilizando la escala de Fibonacci para estimar su valor/impacto dentro del roadmap de mejoras. La priorización final considera la viabilidad técnica para implementación en el corto plazo disponible (menos de 24 horas), priorizando cambios de frontend y funcionalidades que no requieren lógica de negocio compleja.
 
 | # | Pregunta                                                               | Prioridad (Fibonacci) | Estado     | Justificación                                                                 |
 |---|--------------------------------------------------------------------------------------------|-------------------|--------------|-------------------------------------------------------------------------------|
-| 1 | ¿Notificaciones adaptativas mejoran interacción semanal?                                  | **21**            | Priorizada   | Alta alineación con objetivos de retención y factible de implementar pronto. |
-| 2 | ¿Recompensas semanales aumentan constancia?                                                | **21**            | Priorizada   | Elemento de gamificación fácil de implementar con alto impacto motivacional. |
-| 3 | ¿Progreso visual incrementa finalización de rutinas?                                       | **13**            | Priorizada   | Refuerzo visual ya solicitado por usuarios; impacto directo en adherencia.   |
-| 4 | ¿Configuración de notificaciones reduce abandono inicial?                                 | **13**            | Priorizada   | Personalización mejora experiencia; requiere cambios menores en frontend.    |
-| 5 | ¿Personalizar según estado de ánimo mejora adherencia semanal?                            | **13**            | En evaluación| Alineado con enfoque holístico; requiere pruebas de UX adicionales.          |
-| 6 | ¿Mensajes motivacionales aumentan percepción de acompañamiento?                           | **8**             | Priorizada   | Mejora percepción emocional sin gran complejidad técnica.                    |
-| 7 | ¿Rediseño visual mejora retención en usuarios novatos?                                    | **8**             | En evaluación| Iniciativa de mayor alcance, pero potencialmente muy efectiva.               |
-| 8 | ¿Estadísticas comparativas motivan mayor cumplimiento?                                    | **5**             | En evaluación| Interesante como gamificación ligera; validable rápidamente.                 |
-| 9 | ¿Tips de bienestar breves mejoran percepción de valor?                                    | **3**             | En evaluación| Valor añadido bajo esfuerzo, pero con efecto limitado.                       |
-|10 | ¿Personalización nutricional vs. entrenamiento: cuál genera mayor valor percibido?        | **2**             | Pendiente    | Requiere segmentación avanzada y mayor volumen de usuarios.                  |
-
+| 1 | ¿Mensajes motivacionales aumentan percepción de acompañamiento?                           | **21**            | **Priorizada**   | Implementación inmediata: adición de contenido estático mostrado dinámicamente. No requiere cambios en lógica de negocio. |
+| 2 | ¿Tips de bienestar breves mejoran percepción de valor?                                    | **21**            | **Priorizada**   | Funcionalidad similar a mensajes motivacionales; implementable como contenido contextualizado simple. |
+| 3 | ¿La implementación de modo oscuro mejora la experiencia de usuario y retención?           | **13**            | **Priorizada**   | Cambio visual de alto impacto, implementable únicamente con modificaciones CSS/tema. |
+| 4 | ¿Configuración de notificaciones reduce abandono inicial?                                 | **13**            | **Priorizada**   | Formulario de configuración simple en frontend + almacenamiento básico de preferencias. |
+| 5 | ¿Estadísticas comparativas motivan mayor cumplimiento?                                    | **8**             | **Priorizada**   | Implementable con datos mock o cálculos básicos de promedios. No requiere algoritmos complejos. |
+| 6 | ¿Notificaciones adaptativas mejoran interacción semanal?                                  | **8**             | Diferida     | Requiere lógica adaptativa compleja; no viable para implementación inmediata. |
+| 7 | ¿Progreso visual incrementa finalización de rutinas?                                       | **5**             | Diferida     | Implica cambios en sistema de tracking y visualización de datos complejos. |
+| 8 | ¿Recompensas semanales aumentan constancia?                                                | **3**             | Diferida     | Requiere sistema de gamificación y lógica de recompensas no trivial. |
+| 9 | ¿Personalizar según estado de ánimo mejora adherencia semanal?                            | **2**             | Diferida     | Necesita algoritmos de personalización y integración con rutinas existentes. |
+|10 | ¿Personalización nutricional vs. entrenamiento: cuál genera mayor valor percibido?        | **2**             | Diferida     | Requiere segmentación avanzada y mayor volumen de usuarios para validación. |
 
 #### 8.1.5. Experiment Cards
 
 ---
 
-| **Question** | ¿El uso de notificaciones adaptativas mejora la frecuencia de interacción semanal? |
+| **Question** | ¿La inclusión de mensajes motivacionales personalizados aumenta la percepción de acompañamiento? |
+|--------------|------------------------------------------------------------------|
+| **Why**      | Para analizar si el envío de mensajes motivacionales breves genera una mayor percepción de apoyo digital, lo que podría mejorar la experiencia de uso. |
+| **What**     | Enviar mensajes motivacionales diarios a un subconjunto de usuarios durante 14 días y aplicar una encuesta de percepción al final del periodo. Comparar con grupo de control sin mensajes. |
+| **Hypothesis** | Creemos que los usuarios que reciben mensajes motivacionales reportarán al menos un 25% más de percepción positiva sobre el acompañamiento de la app. |
+
+---
+
+| **Question** | ¿Agregar tips de bienestar breves y contextualizados mejora la percepción de valor de la app? |
 |--------------|-----------------------------------------------------------|
-| **Why**      | Para validar si adaptar la frecuencia y el tipo de notificaciones según el comportamiento del usuario aumenta su participación continua en la app. |
-| **What**     | Implementar una lógica de envío de notificaciones personalizada según el perfil del usuario (proactivo, inconstante, reactivo) y comparar su actividad semanal frente a un grupo de control con notificaciones estándar. |
-| **Hypothesis** | Creemos que las notificaciones adaptativas incrementarán en al menos un 25% la cantidad de sesiones semanales por usuario, ya que se ajustan mejor al ritmo y estilo de cada perfil. |
+| **Why**      | Para validar si la inclusión de consejos de bienestar breves y relevantes aumenta la percepción de valor agregado de la aplicación. |
+| **What**     | Implementar tips de bienestar contextualizados (nutrición, ejercicio, descanso) mostrados en momentos clave de la experiencia de usuario. Medir percepción de valor mediante encuesta. |
+| **Hypothesis** | Creemos que los usuarios que reciben tips de bienestar contextualizados reportarán al menos un 20% más de percepción de valor en comparación con el grupo de control. |
 
 ---
 
-| **Question** | ¿La incorporación de recompensas semanales (badges) mejora la constancia en los usuarios? |
-|--------------|---------------------------------------------|
-| **Why**      | Para validar si los incentivos simbólicos semanales (badges, insignias) generan mayor compromiso con el cumplimiento del plan asignado. |
-| **What**     | Desplegar un sistema básico de recompensas visuales por completar al menos 4 rutinas por semana. Medir la diferencia en adherencia respecto a usuarios sin recompensas visibles. |
-| **Hypothesis** | Creemos que los usuarios que reciben recompensas visuales tendrán una tasa de cumplimiento de planes semanales un 30% mayor, ya que se sienten reconocidos por sus logros. |
-
----
-
-| **Question** | ¿Visualizar el progreso mediante gráficos incrementa la finalización de rutinas semanales? |
+| **Question** | ¿La implementación de modo oscuro mejora la experiencia de usuario y retención? |
 |--------------|--------------------------------------------------------|
-| **Why**      | Para verificar si mostrar gráficamente el avance del usuario actúa como motivador adicional para mantener su constancia. |
-| **What**     | Incorporar un módulo visual con gráficos de progreso (rutinas completadas, metas semanales, días activos) y medir su impacto sobre la tasa de finalización de rutinas semanales. |
-| **Hypothesis** | Creemos que la visualización del progreso aumentará en al menos 20% la tasa de finalización de rutinas semanales, al reforzar la sensación de avance. |
+| **Why**      | Para verificar si ofrecer la opción de modo oscuro mejora la experiencia de usuario, especialmente en sesiones nocturnas, y afecta positivamente la retención. |
+| **What**     | Habilitar modo oscuro como opción configurable en la app y medir el impacto en satisfacción del usuario y frecuencia de uso nocturno. |
+| **Hypothesis** | Creemos que la disponibilidad de modo oscuro aumentará en al menos un 15% la satisfacción del usuario y mejorará la retención semanal. |
 
 ---
 
@@ -3391,38 +3390,38 @@ Esta sección presenta el conjunto de preguntas experimentales priorizadas para 
 
 ---
 
-| **Question** | ¿La inclusión de mensajes motivacionales personalizados aumenta la percepción de acompañamiento? |
-|--------------|------------------------------------------------------------------|
-| **Why**      | Para analizar si el envío de mensajes motivacionales breves genera una mayor percepción de apoyo digital, lo que podría mejorar la experiencia de uso. |
-| **What**     | Enviar mensajes motivacionales diarios a un subconjunto de usuarios durante 14 días y aplicar una encuesta de percepción al final del periodo. Comparar con grupo de control sin mensajes. |
-| **Hypothesis** | Creemos que los usuarios que reciben mensajes motivacionales reportarán al menos un 25% más de percepción positiva sobre el acompañamiento de la app. |
+| **Question** | ¿Mostrar estadísticas anónimas comparativas (por perfil) motiva a completar más rutinas? |
+|--------------|---------------------------------------------|
+| **Why**      | Para validar si mostrar estadísticas comparativas anónimas (promedios por perfil de usuario) genera motivación adicional para completar rutinas programadas. |
+| **What**     | Implementar una sección que muestre estadísticas comparativas básicas (ej: "Usuarios con tu perfil completan en promedio 3.2 rutinas por semana") y medir impacto en adherencia. |
+| **Hypothesis** | Creemos que los usuarios que ven estadísticas comparativas completarán al menos un 18% más de rutinas semanales que aquellos que no tienen acceso a esta información. |
 
 
 ### 8.2. Experiment Design
 
 #### 8.2.1. Hypotheses
 
-| **Question** | ¿El uso de notificaciones adaptativas mejora la frecuencia de interacción semanal? |
-|--------------|------------------------------------------------------------|
-| **Belief** | Las notificaciones personalizadas según comportamiento aumentarán la frecuencia de interacción semanal de los usuarios en FitWise. |
-| **Hypothesis** | Creemos que los usuarios que reciban notificaciones adaptativas tendrán al menos un 25% más de sesiones semanales en comparación con los que reciben notificaciones estándar. |
-| **Null Hypothesis** | Las notificaciones adaptativas no tendrán ningún efecto significativo sobre la frecuencia de interacción semanal. |
+| **Question** | ¿La inclusión de mensajes motivacionales personalizados aumenta la percepción de acompañamiento? |
+|--------------|------------------------------------------------------------------|
+| **Belief** | El envío de mensajes motivacionales breves generará una mayor sensación de acompañamiento digital en los usuarios. |
+| **Hypothesis** | Creemos que los usuarios que reciben mensajes motivacionales diarios reportarán al menos un 25% más de percepción positiva sobre el acompañamiento en comparación con el grupo de control. |
+| **Null Hypothesis** | El envío de mensajes motivacionales no influirá significativamente en la percepción de acompañamiento por parte de los usuarios. |
 
 ---
 
-| **Question** | ¿La incorporación de recompensas semanales (badges) mejora la constancia en los usuarios? |
+| **Question** | ¿Agregar tips de bienestar breves y contextualizados mejora la percepción de valor de la app? |
 |--------------|---------------------------------------------|
-| **Belief** | Las recompensas visuales por constancia semanal aumentarán el compromiso del usuario con su plan de entrenamiento y nutrición. |
-| **Hypothesis** | Creemos que los usuarios que reciben recompensas por completar 4 o más rutinas semanales mostrarán al menos un 30% más de adherencia semanal en comparación con aquellos que no reciben recompensas. |
-| **Null Hypothesis** | Las recompensas semanales no generarán cambios significativos en la constancia de los usuarios. |
+| **Belief** | Los consejos de bienestar contextualizados aumentarán la percepción de valor agregado de la aplicación. |
+| **Hypothesis** | Creemos que los usuarios que reciben tips de bienestar contextualizados reportarán al menos un 20% más de percepción de valor en comparación con el grupo de control. |
+| **Null Hypothesis** | Los tips de bienestar no generarán cambios significativos en la percepción de valor de la aplicación. |
 
 ---
 
-| **Question** | ¿Visualizar el progreso mediante gráficos incrementa la finalización de rutinas semanales? |
+| **Question** | ¿La implementación de modo oscuro mejora la experiencia de usuario y retención? |
 |--------------|--------------------------------------------------------|
-| **Belief** | Mostrar visualmente el avance del usuario aumentará la motivación para completar rutinas asignadas. |
-| **Hypothesis** | Creemos que los usuarios que visualizan su progreso mediante gráficos completarán al menos un 20% más de rutinas semanales que los usuarios que no tienen acceso a dichos gráficos. |
-| **Null Hypothesis** | Visualizar el progreso no tendrá efecto significativo en la finalización de rutinas. |
+| **Belief** | Ofrecer modo oscuro como opción mejorará la experiencia de usuario y aumentará la retención, especialmente en uso nocturno. |
+| **Hypothesis** | Creemos que la disponibilidad de modo oscuro aumentará en al menos un 15% la satisfacción del usuario y mejorará la retención semanal. |
+| **Null Hypothesis** | El modo oscuro no tendrá efecto significativo en la satisfacción del usuario ni en la retención. |
 
 ---
 
@@ -3434,46 +3433,47 @@ Esta sección presenta el conjunto de preguntas experimentales priorizadas para 
 
 ---
 
-| **Question** | ¿La inclusión de mensajes motivacionales personalizados aumenta la percepción de acompañamiento? |
+| **Question** | ¿Mostrar estadísticas anónimas comparativas (por perfil) motiva a completar más rutinas? |
 |--------------|------------------------------------------------------------------|
-| **Belief** | El envío de mensajes motivacionales breves generará una mayor sensación de acompañamiento digital en los usuarios. |
-| **Hypothesis** | Creemos que los usuarios que reciben mensajes motivacionales diarios reportarán al menos un 25% más de percepción positiva sobre el acompañamiento en comparación con el grupo de control. |
-| **Null Hypothesis** | El envío de mensajes motivacionales no influirá significativamente en la percepción de acompañamiento por parte de los usuarios. |
+| **Belief** | Las estadísticas comparativas anónimas generarán motivación adicional para completar rutinas programadas. |
+| **Hypothesis** | Creemos que los usuarios que ven estadísticas comparativas completarán al menos un 18% más de rutinas semanales que aquellos que no tienen acceso a esta información. |
+| **Null Hypothesis** | Las estadísticas comparativas no influirán significativamente en la finalización de rutinas semanales. |
 
 
 #### 8.2.2. Measures
 
 
-| **Question** | ¿Notificaciones adaptativas mejoran interacción semanal? |
-|--------------|-----------------------------------------------------------|
-| **Hypothesis** | Creemos que los usuarios que reciban notificaciones adaptativas tendrán al menos un 25% más de sesiones semanales en comparación con los que reciben notificaciones estándar. |
+| **Question** | ¿Mensajes motivacionales aumentan percepción de acompañamiento? |
+|--------------|------------------------------------------------------------------|
+| **Hypothesis** | Creemos que los usuarios que reciben mensajes motivacionales diarios reportarán al menos un 25% más de percepción positiva sobre el acompañamiento en comparación con el grupo de control. |
 | **Measure** |  
-- **Métrica principal**: Número de sesiones por semana por usuario.  
+- **Métrica principal**: Resultado promedio de la encuesta de percepción de acompañamiento (escala Likert 1–5).  
 - **Métricas secundarias**:  
-   - Tiempo medio por sesión.  
-   - % de usuarios que vuelven dentro de 24/48h tras recibir notificación.
+   - % de usuarios que interactúan con los mensajes.  
+   - Frecuencia de uso diario durante el periodo de exposición.
 
 ---
 
-| **Question** | ¿Recompensas semanales aumentan constancia? |
+| **Question** | ¿Tips de bienestar mejoran percepción de valor? |
 |--------------|---------------------------------------------|
-| **Hypothesis** | Creemos que los usuarios que reciben recompensas por completar 4 o más rutinas semanales mostrarán al menos un 30% más de adherencia semanal en comparación con aquellos que no reciben recompensas. |
+| **Hypothesis** | Creemos que los usuarios que reciben tips de bienestar contextualizados reportarán al menos un 20% más de percepción de valor en comparación con el grupo de control. |
 | **Measure** |  
-- **Métrica principal**: Porcentaje de usuarios que completan al menos 4 rutinas por semana.  
+- **Métrica principal**: Resultado promedio de la encuesta de percepción de valor (escala Likert 1–5).  
 - **Métricas secundarias**:  
-   - Retención semanal.  
-   - Tasa de abandono de plan.  
+   - % de usuarios que leen completamente los tips.  
+   - Tiempo de permanencia en pantallas con tips.  
 
 ---
 
-| **Question** | ¿Progreso visual incrementa finalización de rutinas? |
+| **Question** | ¿Modo oscuro mejora experiencia y retención? |
 |--------------|--------------------------------------------------------|
-| **Hypothesis** | Creemos que los usuarios que visualizan su progreso mediante gráficos completarán al menos un 20% más de rutinas semanales que los usuarios que no tienen acceso a dichos gráficos. |
+| **Hypothesis** | Creemos que la disponibilidad de modo oscuro aumentará en al menos un 15% la satisfacción del usuario y mejorará la retención semanal. |
 | **Measure** |  
-- **Métrica principal**: Número de rutinas completadas por semana por usuario.  
+- **Métrica principal**: Retención semanal de usuarios con acceso a modo oscuro.  
 - **Métricas secundarias**:  
-   - % de usuarios activos que usan la sección de progreso.  
-   - Tiempo medio de uso en pantalla de progreso.  
+   - % de usuarios que activan modo oscuro.  
+   - Tiempo de uso en sesiones nocturnas (20:00-06:00).  
+   - Puntuación de satisfacción en encuesta post-uso.
 
 ---
 
@@ -3488,42 +3488,41 @@ Esta sección presenta el conjunto de preguntas experimentales priorizadas para 
 
 ---
 
-| **Question** | ¿Mensajes motivacionales aumentan percepción de acompañamiento? |
+| **Question** | ¿Estadísticas comparativas motivan mayor cumplimiento? |
 |--------------|------------------------------------------------------------------|
-| **Hypothesis** | Creemos que los usuarios que reciben mensajes motivacionales diarios reportarán al menos un 25% más de percepción positiva sobre el acompañamiento en comparación con el grupo de control. |
+| **Hypothesis** | Creemos que los usuarios que ven estadísticas comparativas completarán al menos un 18% más de rutinas semanales que aquellos que no tienen acceso a esta información. |
 | **Measure** |  
-- **Métrica principal**: Resultado promedio de la encuesta de percepción de acompañamiento (escala Likert 1–5).  
+- **Métrica principal**: Número de rutinas completadas por semana por usuario.  
 - **Métricas secundarias**:  
-   - % de usuarios que interactúan con los mensajes.  
-   - Frecuencia de uso diario durante el periodo de exposición.
-
+   - % de usuarios que consultan la sección de estadísticas.  
+   - Tiempo medio en pantalla de estadísticas comparativas.
 
 #### 8.2.3. Conditions
 
-| **Question** | ¿Notificaciones adaptativas mejoran interacción semanal? |
-|--------------|-----------------------------------------------------------|
-| **Group A (Experimental)** | Usuarios que reciben notificaciones adaptadas según su comportamiento (frecuencia de uso, respuesta previa a notificaciones). |
-| **Group B (Control)** | Usuarios que reciben notificaciones predeterminadas estándar una vez al día. |
-| **Entorno** | Producción con feature flag; segmentación aleatoria del 50% de nuevos usuarios. |
-| **Duración** | 2 semanas.
+| **Question** | ¿Mensajes motivacionales aumentan percepción de acompañamiento? |
+|--------------|------------------------------------------------------------------|
+| **Group A (Experimental)** | Usuarios que reciben mensajes motivacionales diarios personalizados. |
+| **Group B (Control)** | Usuarios sin mensajes motivacionales; solo reciben notificaciones funcionales. |
+| **Entorno** | Producción con asignación aleatoria entre usuarios activos semanales. |
+| **Duración** | 14 días con encuesta final al día 15.
 
 ---
 
-| **Question** | ¿Recompensas semanales aumentan constancia? |
+| **Question** | ¿Tips de bienestar mejoran percepción de valor? |
 |--------------|---------------------------------------------|
-| **Group A (Experimental)** | Usuarios que reciben una insignia digital cada vez que completan al menos 4 rutinas en una semana. |
-| **Group B (Control)** | Usuarios que no reciben retroalimentación ni recompensas visuales. |
-| **Entorno** | Producción con cohortes controladas; aplicación a usuarios activos con al menos 1 rutina en la semana previa. |
-| **Duración** | 3 semanas.
+| **Group A (Experimental)** | Usuarios que reciben tips de bienestar contextualizados en momentos clave de la experiencia. |
+| **Group B (Control)** | Usuarios sin tips adicionales; experiencia estándar sin consejos de bienestar. |
+| **Entorno** | Producción con feature flag; segmentación aleatoria del 50% de usuarios activos. |
+| **Duración** | 2 semanas con encuesta de percepción al final.
 
 ---
 
-| **Question** | ¿Progreso visual incrementa finalización de rutinas? |
+| **Question** | ¿Modo oscuro mejora experiencia y retención? |
 |--------------|--------------------------------------------------------|
-| **Group A (Experimental)** | Usuarios que pueden visualizar su progreso semanal mediante gráficos de rutinas completadas y calorías estimadas. |
-| **Group B (Control)** | Usuarios sin acceso a la sección de progreso visual; visualización desactivada. |
-| **Entorno** | Beta cerrada (usuarios recurrentes que acepten participar en el experimento). |
-| **Duración** | 2 semanas.
+| **Group A (Experimental)** | Usuarios que tienen acceso a la opción de modo oscuro en configuración. |
+| **Group B (Control)** | Usuarios sin acceso a modo oscuro; solo modo claro disponible. |
+| **Entorno** | Producción con cohortes controladas; aplicación a usuarios con al menos 1 semana de uso. |
+| **Duración** | 3 semanas con seguimiento de patrones de uso.
 
 ---
 
@@ -3536,38 +3535,37 @@ Esta sección presenta el conjunto de preguntas experimentales priorizadas para 
 
 ---
 
-| **Question** | ¿Mensajes motivacionales aumentan percepción de acompañamiento? |
+| **Question** | ¿Estadísticas comparativas motivan mayor cumplimiento? |
 |--------------|------------------------------------------------------------------|
-| **Group A (Experimental)** | Usuarios que reciben mensajes motivacionales diarios personalizados. |
-| **Group B (Control)** | Usuarios sin mensajes motivacionales; solo reciben notificaciones funcionales. |
-| **Entorno** | Producción con asignación aleatoria entre usuarios activos semanales. |
-| **Duración** | 14 días con encuesta final al día 15.
-
+| **Group A (Experimental)** | Usuarios que pueden ver estadísticas comparativas anónimas por perfil en sección dedicada. |
+| **Group B (Control)** | Usuarios sin acceso a estadísticas comparativas; solo ven sus propios datos individuales. |
+| **Entorno** | Beta cerrada con usuarios recurrentes (mínimo 2 semanas de uso previo). |
+| **Duración** | 2 semanas con análisis de adherencia semanal.
 
 #### 8.2.4. Scale Calculations and Decisions
 
 | Scale Calculation | Decision | Factor | | | |
 |-------------------|----------|--------|--------|--------|--------|
 | | | **Desfavorable** | **Aceptable** | **Ideal** | **Excelente** |
-| Creemos que las notificaciones adaptativas aumentarán en al menos un **25%** la frecuencia semanal de uso. Sabremos que esto es cierto si el grupo experimental muestra 3 o más sesiones semanales sostenidas durante 2 semanas consecutivas. | Integrar sistema de notificaciones adaptativas según comportamiento de uso. | | X | | |
-| Creemos que las recompensas visuales semanales por completar 4 rutinas aumentarán la adherencia en un **30%**. Esto se validará si el 70% o más de los usuarios en el grupo experimental mantienen esa constancia por 2 semanas. | Incorporar lógica de recompensas semanales con insignias y refuerzo positivo. | | | X | |
-| Creemos que mostrar el progreso visual aumentará en un **20%** la finalización de rutinas. Se validará si el grupo experimental completa al menos 1 rutina más por semana que el grupo control. | Habilitar sección de progreso con gráficos e indicadores visuales. | | X | | |
+| Creemos que los mensajes motivacionales aumentarán en un **25%** la percepción de acompañamiento. Se validará si la puntuación promedio en la encuesta de satisfacción emocional sube de 3.0 a 3.8 o más (escala 1–5). | Automatizar envío de mensajes motivacionales basados en objetivos y logros del usuario. | | X | | |
+| Creemos que los tips de bienestar aumentarán en un **20%** la percepción de valor. Esto se confirmará si la puntuación promedio en la encuesta de valor sube de 3.2 a 3.8 o más (escala 1–5). | Incorporar tips contextualizados en momentos clave de la experiencia de usuario. | | X | | |
+| Creemos que el modo oscuro aumentará en un **15%** la satisfacción del usuario. Se validará si la retención semanal mejora de 60% a 70% o más entre usuarios que activan esta función. | Habilitar opción de modo oscuro en configuración de la aplicación. | X | | | |
 | Creemos que permitir la configuración de notificaciones reducirá en un **15%** el abandono en la primera semana. Esto se confirmará si la tasa de retención a 7 días mejora de 55% a 70% o más. | Añadir opción de personalización de notificaciones en onboarding. | X | | | |
-| Creemos que los mensajes motivacionales diarios aumentarán en un **25%** la percepción de acompañamiento. Se validará si la puntuación promedio en la encuesta de satisfacción emocional sube de 3.0 a 3.8 o más (escala 1–5). | Automatizar envío de mensajes motivacionales basados en objetivos y logros del usuario. | | X | | |
+| Creemos que mostrar estadísticas comparativas aumentará en un **18%** la finalización de rutinas semanales. Se validará si el grupo experimental completa al menos 0.6 rutinas más por semana que el grupo control. | Implementar sección de estadísticas comparativas con datos anónimos por perfil. | | X | | |
 
 #### 8.2.5. Methods Selection
 
-Para validar las hipótesis planteadas en los experimentos seleccionados, se emplearán métodos mixtos que combinan pruebas A/B, análisis de comportamiento, y encuestas cuantitativas. La elección del método se alinea con los objetivos de cada experimento, priorizando la precisión de los datos, la viabilidad técnica y el costo.
+Para validar las hipótesis planteadas en los experimentos seleccionados, se emplearán métodos mixtos que combinan pruebas A/B, análisis de comportamiento, y encuestas cuantitativas. La elección del método se alinea con los objetivos de cada experimento, priorizando la precisión de los datos, la viabilidad técnica y el costo de implementación inmediata.
 
 - Métodos aplicados por hipótesis:
 
 | Pregunta | Método de Validación | Justificación |
 |---------|----------------------|---------------|
-| ¿Notificaciones adaptativas mejoran interacción semanal? | **A/B Testing con métricas de sesiones** | Comparar frecuencia de uso entre usuarios con notificaciones adaptadas vs. estándar. |
-| ¿Recompensas semanales aumentan constancia? | **Análisis cuantitativo + cohortes** | Medir adherencia semanal mediante comportamiento agrupado por semana. |
-| ¿Progreso visual incrementa finalización de rutinas? | **A/B Testing con eventos de completitud** | Observar impacto visual en la tasa de finalización con respecto al grupo control. |
-| ¿Configuración de notificaciones reduce abandono inicial? | **Experimento de onboarding controlado** | Segmentar onboarding con y sin configuración personalizada, y medir retención. |
-| ¿Mensajes motivacionales aumentan percepción de acompañamiento? | **Encuesta + seguimiento de interacción** | Evaluar la percepción emocional post-intervención con escala Likert. |
+| ¿Mensajes motivacionales aumentan percepción de acompañamiento? | **Encuesta + seguimiento de interacción** | Evaluar la percepción emocional post-intervención con escala Likert y medir engagement. |
+| ¿Tips de bienestar mejoran percepción de valor? | **Encuesta + análisis de tiempo de lectura** | Medir percepción de valor mediante encuesta y analizar interacción con contenido. |
+| ¿Modo oscuro mejora experiencia y retención? | **A/B Testing con métricas de retención** | Comparar retención semanal y patrones de uso entre usuarios con y sin acceso a modo oscuro. |
+| ¿Configuración de notificaciones reduce abandono inicial? | **Experimento de onboarding controlado** | Segmentar onboarding con y sin configuración personalizada, y medir retención a 7 días. |
+| ¿Estadísticas comparativas motivan mayor cumplimiento? | **A/B Testing con eventos de completitud** | Observar impacto en finalización de rutinas comparando acceso vs. no acceso a estadísticas. |
 
 ---
 
@@ -3590,8 +3588,8 @@ Para validar las hipótesis planteadas en los experimentos seleccionados, se emp
   Para los experimentos definidos en FitWise, se recomienda emplear:
 
   - **Google Analytics 4 + Firebase Analytics**: Para capturar comportamiento, eventos clave y retención en Angular y PWA.
-  - **Lighthouse**: Para medir el impacto en rendimiento y accesibilidad tras los cambios visuales.
-  - **Encuestas internas** (modal in-app o Google Forms embebido): Para recoger la percepción del usuario sobre acompañamiento y experiencia.
+  - **Lighthouse**: Para medir el impacto en rendimiento y accesibilidad tras los cambios visuales (especialmente para modo oscuro).
+  - **Encuestas internas** (modal in-app o Google Forms embebido): Para recoger la percepción del usuario sobre acompañamiento, valor y experiencia.
 
 #### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
 
@@ -3695,47 +3693,60 @@ Para validar los experimentos planteados y medir el comportamiento de los usuari
 
 Este tracking plan permitirá evaluar las hipótesis con métricas confiables, generar dashboards analíticos útiles para la toma de decisiones, y mejorar la experiencia del usuario de manera continua.
 
-
 ### 8.3. Experimentation
 
 #### 8.3.1. To-Be User Stories
 
-| User Story ID | Título                                         | Descripción                                                                                                                                                     | Criterios de Aceptación                                                                                                                                                                                                                                                                                        | Relacionado con (Epic ID) |
-|---------------|------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-| UA01          | Registro con email seguro                      | Como nuevo usuario, quiero registrarme usando mi correo electrónico y contraseña, para acceder de forma segura a FitWise.                                      | **Escenario 1: Registro exitoso**<br>Given un usuario no registrado<br>When introduce un email y contraseña válidos<br>Then su cuenta es creada con autenticación segura.<br><br>**Escenario 2: Validación de campos**<br>Given el usuario comete errores<br>When el sistema detecta email inválido o clave corta<br>Then se muestran mensajes de error. | EP001                     |
-| UA02          | Inicio de sesión persistente                   | Como usuario, quiero mantener mi sesión iniciada para evitar ingresar mis credenciales constantemente.                                                         | **Escenario 1: Sesión persistente activa**<br>Given el usuario ha iniciado sesión previamente<br>When reabre la app<br>Then accede directamente al dashboard.<br><br>**Escenario 2: Cierre de sesión**<br>Given el usuario cierra sesión manualmente<br>When reingresa<br>Then debe volver a autenticarse.      | EP001                     |
-| UA03          | Personalización con objetivos físicos          | Como usuario nuevo, quiero configurar mis metas físicas y nivel de experiencia para recibir contenido adecuado.                                                | **Escenario 1: Configuración inicial completa**<br>Given el usuario está en onboarding<br>When selecciona su nivel y metas<br>Then se genera un perfil personalizado.<br><br>**Escenario 2: Validación de campos obligatorios**<br>Given el usuario omite algún dato<br>When intenta continuar<br>Then el sistema solicita completar los campos obligatorios. | EP002                     |
-| UA04          | Selección de intereses                         | Como usuario, quiero elegir mis áreas de interés (salud mental, fuerza, cardio, etc.) para recibir rutinas relevantes.                                         | **Escenario 1: Selección de intereses**<br>Given el usuario está en onboarding<br>When selecciona sus preferencias<br>Then se registran para personalizar el contenido.<br><br>**Escenario 2: Validación mínima de selección**<br>Given el usuario selecciona al menos una opción<br>When continúa<br>Then la configuración se guarda exitosamente. | EP002                     |
-| UA05          | Vista de progreso resumido en dashboard        | Como usuario activo, quiero ver un resumen de mis avances en el dashboard para mantenerme informado fácilmente.                                                | **Escenario 1: Visualización de resumen**<br>Given el usuario abre el dashboard<br>When accede a la sección principal<br>Then se muestra resumen de progreso semanal.<br><br>**Escenario 2: Visualización sin actividad**<br>Given el usuario aún no registra actividad<br>When accede al dashboard<br>Then se muestra mensaje motivacional para empezar. | EP003                     |
-| UA06          | Recomendaciones dinámicas en dashboard         | Como usuario, quiero recibir sugerencias de ejercicios o recetas según mi actividad reciente en el dashboard.                                                  | **Escenario 1: Recomendación basada en actividad reciente**<br>Given el usuario ha completado una rutina<br>When vuelve al dashboard<br>Then se le sugiere una actividad relacionada.<br><br>**Escenario 2: Recomendación por inactividad**<br>Given el usuario no interactúa por días<br>When accede al dashboard<br>Then se le recomienda contenido para retomar el hábito. | EP003                     |
-| UA07          | Gráficas de evolución en informe de progreso   | Como usuario comprometido, quiero ver gráficos que muestren mi evolución para evaluar mis avances a lo largo del tiempo.                                      | **Escenario 1: Gráfico con datos suficientes**<br>Given el usuario ha registrado actividad por más de una semana<br>When accede al informe de progreso<br>Then ve líneas de tendencia por tipo de actividad.<br><br>**Escenario 2: Gráfico vacío con mensaje**<br>Given el usuario no tiene datos<br>When accede<br>Then se muestra un mensaje motivador para empezar. | EP004                     |
-| UA08          | Recompensas por metas cumplidas                | Como usuario disciplinado, quiero recibir medallas al cumplir mis metas semanales para sentirme reconocido y motivado.                                         | **Escenario 1: Medalla desbloqueada**<br>Given el usuario completa sus metas semanales<br>When accede al dashboard<br>Then se muestra una medalla desbloqueada.<br><br>**Escenario 2: Visualización de logros**<br>Given se acumulan recompensas<br>When el usuario entra a su perfil<br>Then puede ver todas sus insignias. | EP005                     |
-| UA09          | Planes de nutrición según preferencias         | Como usuario, quiero recibir sugerencias de alimentación de acuerdo con mis gustos y objetivos para mantenerme saludable.                                      | **Escenario 1: Plan nutricional personalizado**<br>Given el usuario completó el onboarding<br>When abre la sección de nutrición<br>Then se muestran recetas y planes adaptados.<br><br>**Escenario 2: Actualización de preferencias**<br>Given el usuario cambia su preferencia alimentaria<br>When actualiza su perfil<br>Then el plan de alimentación se actualiza automáticamente. | EP006                     |
-| UA10          | Cambio de correo electrónico                   | Como usuario, quiero poder cambiar el correo asociado a mi cuenta para mantener mi información actualizada.                                                    | **Escenario 1: Cambio exitoso de correo**<br>Given el usuario entra a configuración<br>When modifica su correo y lo confirma<br>Then se actualiza en la base de datos.<br><br>**Escenario 2: Validación de formato de email**<br>Given el usuario introduce un correo inválido<br>When intenta guardar cambios<br>Then se le notifica el error con instrucciones claras. | EP007                     |
+Las siguientes User Stories están diseñadas para validar las hipótesis experimentales priorizadas y responden directamente a las preguntas experimentales identificadas en la sección 8.1.4. Cada historia incluye criterios de aceptación medibles que permitirán evaluar el éxito de los experimentos planteados.
 
+| User Story ID | Título  | Descripción    | Criterios de Aceptación    | Experimento Relacionado | Prioridad |
+|---------------|---------|----------------|----------------------------|-------------------------|-----------|
+| UE01          | Mensajes motivacionales personalizados        | Como usuario activo, quiero recibir mensajes motivacionales diarios personalizados para sentir mayor acompañamiento y apoyo durante mi proceso de bienestar, aumentando mi percepción de acompañamiento en la aplicación. | **Escenario 1: Entrega de mensaje motivacional**<br>Given un usuario pertenece al grupo experimental<br>When inicia sesión en la aplicación<br>Then recibe un mensaje motivacional de bienvenida basado en su progreso y objetivos.<br><br>**Escenario 2: Validación de percepción**<br>Given el usuario ha recibido mensajes por 14 días<br>When se le presenta la encuesta de percepción de acompañamiento<br>Then puede evaluar su experiencia en escala Likert 1-5. | Mensajes motivacionales aumentan percepción de acompañamiento | Alta (21) |
+| UE02          | Tips de bienestar contextualizados            | Como usuario navegando en la aplicación, quiero recibir tips de bienestar breves y relevantes durante mi búsqueda de rutinas y planes alimenticios para aumentar mi percepción de valor de la aplicación. | **Escenario 1: Tip contextualizado en rutinas**<br>Given el usuario está navegando en la sección de rutinas<br>When accede a una rutina específica<br>Then se muestra un tip de bienestar relacionado con ejercicio y rendimiento.<br><br>**Escenario 2: Tip contextualizado en nutrición**<br>Given el usuario está en la sección de planes alimenticios<br>When explora opciones de dieta<br>Then se muestra un tip sobre alimentación saludable y nutrición. | Tips de bienestar breves mejoran percepción de valor | Alta (21) |
+| UE03          | Modo oscuro configurable                      | Como usuario de la aplicación, quiero poder activar el modo oscuro para mejorar mi experiencia de uso, especialmente durante sesiones nocturnas, aumentando mi satisfacción y retención en la plataforma. | **Escenario 1: Activación de modo oscuro**<br>Given el usuario tiene acceso a la configuración<br>When activa la opción de modo oscuro<br>Then toda la interfaz cambia al tema oscuro de forma inmediata.<br><br>**Escenario 2: Persistencia de preferencia**<br>Given el usuario ha activado modo oscuro<br>When cierra y vuelve a abrir la aplicación<br>Then la preferencia de modo oscuro se mantiene activa. | Modo oscuro mejora experiencia y retención | Media (13) |
+| UE04          | Configuración de notificaciones personalizada | Como nuevo usuario, quiero configurar mis preferencias de notificación durante el onboarding para reducir la sensación de intrusión, mantener control sobre mi experiencia y reducir el abandono inicial. | **Escenario 1: Configuración en onboarding**<br>Given un usuario nuevo está completando el onboarding<br>When llega al paso de configuración de notificaciones<br>Then puede personalizar tipo, frecuencia y horarios de notificaciones.<br><br>**Escenario 2: Aplicación inmediata**<br>Given el usuario configura sus preferencias de notificación<br>When guarda la configuración<br>Then las preferencias se aplican inmediatamente y se confirma el cambio. | Media (13) |
+| UE05          | Estadísticas comparativas anónimas            | Como usuario comprometido con mi bienestar, quiero ver estadísticas comparativas anónimas por perfil similar al mío para motivarme a completar más rutinas semanales y mantener mi constancia. | **Escenario 1: Visualización de estadísticas en rutinas**<br>Given el usuario accede a la sección de rutinas<br>When selecciona una rutina específica<br>Then ve estadísticas como "Usuarios con tu perfil completan 3.2 rutinas por semana en promedio".<br><br>**Escenario 2: Visualización de estadísticas en dietas**<br>Given el usuario accede a la sección de rutinas<br>When selecciona una dieta específica<br>Then ve estadísticas como "Usuarios con tu perfil optan por agregar esta dieta a su plan en un 50% de ocasiones". | Estadísticas comparativas motivan mayor cumplimiento | Media (8) |
 
 #### 8.3.2. To-Be Product Backlog
 
-| # Orden | User Story ID | Título                                        | Story Points (1 / 2 / 3 / 5 / 8) |
-|---------|----------------|----------------------------------------------|----------------------------------|
-| 1       | UA01           | Registro con email seguro                    | 3                                |
-| 2       | UA02           | Inicio de sesión persistente                 | 3                                |
-| 3       | UA03           | Personalización con objetivos físicos        | 5                                |
-| 4       | UA04           | Selección de intereses                       | 2                                |
-| 5       | UA05           | Vista de progreso resumido en dashboard      | 3                                |
-| 6       | UA06           | Recomendaciones dinámicas en dashboard       | 8                                |
-| 7       | UA07           | Gráficas de evolución en informe de progreso | 5                                |
-| 8       | UA08           | Recompensas por metas cumplidas              | 3                                |
-| 9       | UA09           | Planes de nutrición según preferencias       | 8                                |
-| 10      | UA10           | Cambio de correo electrónico                 | 5                                |
+| # Orden | User Story ID | Título                                        | Story Points (1 / 2 / 3 / 5 / 8) | Prioridad Experimental |
+|---------|----------------|----------------------------------------------|----------------------------------|------------------------|
+| 1       | UE01           | Mensajes motivacionales personalizados      | 5                                | Alta (Fibonacci 21)    |
+| 2       | UE02           | Tips de bienestar contextualizados          | 5                                | Alta (Fibonacci 21)    |
+| 3       | UE03           | Modo oscuro configurable                     | 3                                | Alta (Fibonacci 13)    |
+| 4       | UE04           | Configuración de notificaciones personalizada | 3                                | Alta (Fibonacci 13)    |
+| 5       | UE05           | Estadísticas comparativas anónimas          | 5                                | Media (Fibonacci 8)    |
+
 
 #### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 
 ##### 8.3.3.1. To-Be Sprint Backlogs
 
-##### 8.3.3.2. Implemented To-Be Landing Page Evidence
+El siguiente sprint backlog está diseñado para implementar todas las funcionalidades experimentales priorizadas en un único sprint de 2 semanas. Las tareas han sido distribuidas equitativamente entre los 5 miembros del equipo, considerando la complejidad técnica y las habilidades de cada desarrollador.
 
-##### 8.3.3.2. Implemented To-Be Landing Page Evidence
+**Sprint 1 - Implementación Integral de Experimentos**
+
+|Sprint #|Sprint 1|||||||
+| :- | :- | :- | :- | :- | :- | :- | :- |
+|User Story|Work-Item / Task|||||||
+|Id|Title|Id|Title|Description|<p>Estimation</p><p>(Hours)</p>|Assigned To|<p>Status</p><p>(To-do /</p><p>InProcess /</p><p>ToReview /</p><p>Done)</p>|
+|UE01|Mensajes motivacionales personalizados|T01|Crear base de datos de mensajes motivacionales|Desarrollar una colección de mensajes motivacionales categorizados por objetivos (pérdida de peso, ganancia muscular, mantenimiento) y nivel de progreso del usuario.|4|Farid Briceño|To-do|
+|UE01|Mensajes motivacionales personalizados|T02|Implementar lógica de selección de mensajes|Crear algoritmo que seleccione mensajes apropiados basándose en el perfil del usuario, progreso reciente y objetivos establecidos.|6|David Garcia|To-do|
+|UE01|Mensajes motivacionales personalizados|T03|Integrar sistema de notificaciones motivacionales|Desarrollar componente de UI que muestre mensajes motivacionales en el dashboard principal al iniciar sesión.|5|Jhon Galvez|To-do|
+|UE02|Tips de bienestar contextualizados|T05|Crear contenido de tips de bienestar|Desarrollar biblioteca de consejos breves categorizados por contexto (rutinas, nutrición, descanso) y nivel de usuario.|4|Ramiro Guzman|To-do|
+|UE02|Tips de bienestar contextualizados|T06|Implementar sistema de contexto dinámico|Crear lógica que detecte en qué sección se encuentra el usuario para mostrar tips relevantes.|5|David Garcia|To-do|
+|UE02|Tips de bienestar contextualizados|T07|Diseñar componente de tips contextualizados|Desarrollar componente de UI no intrusivo que muestre tips relevantes en secciones de rutinas y dietas.|4|Jhon Galvez|To-do|
+|UE03|Modo oscuro configurable|T09|Implementar sistema de temas CSS|Crear hojas de estilo para modo oscuro que cubran todos los componentes de la aplicación manteniendo consistencia visual.|8|Jhon Galvez|To-do|
+|UE03|Modo oscuro configurable|T10|Desarrollar toggle de modo oscuro|Crear componente de configuración que permita alternar entre modo claro y oscuro con persistencia de preferencia.|3|Farid Briceño|To-do|
+|UE03|Modo oscuro configurable|T11|Implementar persistencia de preferencia de tema|Desarrollar sistema de almacenamiento local que mantenga la preferencia de tema entre sesiones.|2|Ramiro Guzman|To-do|
+|UE03|Modo oscuro configurable|T12|Testing de accesibilidad en modo oscuro|Realizar pruebas de contraste y accesibilidad visual en modo oscuro según estándares WCAG.|3|Mauricio Muñoz|To-do|
+|UE04|Configuración de notificaciones personalizada|T13|Diseñar interfaz de configuración de notificaciones|Crear formulario intuitivo para configurar tipos, frecuencia y horarios de notificaciones durante onboarding.|4|Ramiro Guzman|To-do|
+|UE04|Configuración de notificaciones personalizada|T14|Implementar lógica de preferencias de notificación|Desarrollar backend para almacenar y gestionar preferencias personalizadas de notificaciones por usuario.|5|David Garcia|To-do|
+|UE04|Configuración de notificaciones personalizada|T15|Integrar configuración en flujo de onboarding|Añadir paso de configuración de notificaciones en el proceso de registro inicial del usuario.|3|Farid Briceño|To-do|
+|UE05|Estadísticas comparativas anónimas|T17|Desarrollar sistema de cálculo de estadísticas|Crear algoritmos para calcular promedios anónimos de rutinas completadas y adherencia por perfil de usuario.|6|David Garcia|To-do|
+|UE05|Estadísticas comparativas anónimas|T18|Implementar segmentación por perfil|Desarrollar lógica para agrupar usuarios por características similares (edad, objetivos, nivel) manteniendo anonimato.|5|Ramiro Guzman|To-do|
+|UE05|Estadísticas comparativas anónimas|T19|Diseñar componentes de visualización de estadísticas|Crear componentes de UI que muestren comparativas de forma atractiva y motivacional en secciones relevantes.|4|Jhon Galvez|To-do|
+|UE05|Estadísticas comparativas anónimas|T20|Integrar estadísticas en secciones de rutinas y dietas|Implementar visualización de estadísticas comparativas en páginas de detalle de rutinas y planes alimenticios.|3|Farid Briceño|To-do|
 
 ##### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
@@ -3751,7 +3762,334 @@ Este tracking plan permitirá evaluar las hipótesis con métricas confiables, g
 
 ##### 8.3.4.1. Diseño de Entrevistas.
 
+Las entrevistas de validación están diseñadas para obtener feedback directo de los usuarios sobre las funcionalidades experimentales implementadas. Se estructuran en dos fases: entrevistas pre-experimentación para establecer línea base y entrevistas post-experimentación para validar hipótesis.
+
+**Objetivos de las Entrevistas:**
+
+- Validar la percepción de valor de las funcionalidades experimentales implementadas
+- Recopilar feedback cualitativo sobre la experiencia de usuario con las nuevas características
+- Identificar oportunidades de mejora y refinamiento de las hipótesis experimentales
+- Complementar las métricas cuantitativas con insights cualitativos profundos
+
+**Perfil de Entrevistados:**
+
+- **Segmento 1:** Usuarios nuevos (0-2 semanas de uso) - Para validar experimentos de onboarding y retención inicial
+- **Segmento 2:** Usuarios activos (2-8 semanas de uso) - Para validar experimentos de engagement y adherencia
+- **Segmento 3:** Usuarios constantes (más de 8 semanas) - Para validar experimentos de motivación y personalización
+
+**Metodología:**
+
+- **Formato:** Entrevistas semiestructuradas de 20-30 minutos via videollamada
+- **Tamaño de muestra:** 6-8 entrevistas por experimento (3-4 grupo experimental, 3-4 grupo control)
+- **Registro:** Grabación con consentimiento + notas estructuradas
+- **Timing:** 
+  - Pre-experimentación: Semana previa al lanzamiento de experimentos
+  - Post-experimentación: Al final del período experimental de cada hipótesis
+
+---
+
+**Guía de Entrevistas por Experimento:**
+
+**🎯 Experimento 1: Mensajes Motivacionales**
+
+*Preguntas Pre-experimentación (Línea Base):*
+1. ¿Cómo describirías tu nivel de motivación actual para mantener tus rutinas de ejercicio?
+2. ¿Qué tipo de acompañamiento o apoyo valoras más cuando intentas mantener hábitos saludables?
+3. ¿Has usado aplicaciones de fitness antes? ¿Qué te ayudaba a mantenerte comprometido?
+
+*Preguntas Post-experimentación (Grupo Experimental):*
+4. Durante las últimas dos semanas, ¿notaste algo diferente en tu experiencia con FitWise?
+5. ¿Recuerdas haber recibido mensajes motivacionales? ¿Cómo te hicieron sentir?
+6. En una escala del 1 al 5, ¿qué tan acompañado/a te sientes por la aplicación? ¿Por qué?
+7. ¿Los mensajes influyeron en tu decisión de continuar o completar alguna rutina?
+
+*Preguntas Post-experimentación (Grupo Control):*
+8. ¿Sientes que la aplicación te brinda suficiente apoyo emocional durante tu proceso?
+9. ¿Qué te haría sentir más acompañado/a mientras usas FitWise?
+
+---
+
+**💡 Experimento 2: Tips de Bienestar**
+
+*Preguntas Pre-experimentación:*
+1. ¿Qué tan importante es para ti aprender sobre bienestar mientras usas una app de fitness?
+2. ¿Prefieres información educativa integrada en la app o buscarla por separado?
+
+*Preguntas Post-experimentación (Grupo Experimental):*
+3. ¿Notaste consejos o tips de bienestar mientras navegabas por la aplicación?
+4. ¿Encontraste útiles estos consejos? ¿Recordarías alguno específico?
+5. ¿Cambió tu percepción sobre el valor que te aporta FitWise?
+6. ¿Los tips te motivaron a explorar más secciones de la aplicación?
+
+---
+
+**🌙 Experimento 3: Modo Oscuro**
+
+*Preguntas Pre-experimentación:*
+1. ¿En qué momentos del día sueles usar aplicaciones de fitness?
+2. ¿Has usado modo oscuro en otras aplicaciones? ¿Qué opinas de esta funcionalidad?
+
+*Preguntas Post-experimentación (Grupo Experimental):*
+3. ¿Notaste la opción de modo oscuro en FitWise? ¿La activaste?
+4. Si la usaste, ¿cómo fue tu experiencia? ¿En qué momentos la prefieres?
+5. ¿Sientes que mejora tu experiencia de uso? ¿En qué aspectos?
+6. ¿Te haría usar la aplicación más frecuentemente en ciertos momentos?
+
+---
+
+**🔔 Experimento 4: Configuración de Notificaciones**
+
+*Preguntas Pre-experimentación:*
+1. ¿Cómo te relacionas con las notificaciones de aplicaciones móviles en general?
+2. ¿Qué tipos de recordatorios te resultan útiles vs. intrusivos?
+
+*Preguntas Post-experimentación (Grupo Experimental):*
+3. Durante tu registro, ¿recuerdas haber configurado las notificaciones?
+4. ¿Te sentiste más en control de tu experiencia al poder personalizarlas?
+5. ¿Las notificaciones que recibes se alinean con lo que esperabas?
+6. ¿Crees que esta personalización inicial influyó en tu decisión de seguir usando la app?
+
+---
+
+**📊 Experimento 5: Estadísticas Comparativas**
+
+*Preguntas Pre-experimentación:*
+1. ¿Te motiva comparar tu progreso con el de otras personas?
+2. ¿Qué tipo de información sobre otros usuarios te parecería útil y motivadora?
+
+*Preguntas Post-experimentación (Grupo Experimental):*
+3. ¿Notaste estadísticas que comparen tu progreso con usuarios similares?
+4. ¿Esta información te resultó motivadora, desmotivadora o neutral? ¿Por qué?
+5. ¿Influyó en tu decisión de completar rutinas o mantener tu plan?
+6. ¿Te hizo sentir parte de una comunidad más amplia?
+
+---
+
+**Preguntas de Cierre (Todas las entrevistas):**
+1. ¿Recomendarías FitWise a un amigo? ¿Por qué?
+2. ¿Qué es lo que más valoras de tu experiencia con la aplicación?
+3. ¿Hay algo que cambiarías o mejorarías?
+
 ##### 8.3.4.2. Registro de Entrevistas.
+
+**Metodología de Documentación:**
+
+Cada entrevista se documenta siguiendo un formato estandarizado que facilita el análisis posterior y la extracción de insights clave para la validación de hipótesis experimentales.
+
+---
+
+**Entrevista #01 - Experimento: Mensajes Motivacionales**
+
+| **Datos del Entrevistado** | |
+|---|---|
+| **Nombre:** | Ana Sofía Rodriguez |
+| **Edad:** | 28 años |
+| **Ocupación:** | Diseñadora gráfica |
+| **Experiencia previa con apps fitness:** | Moderada (2-3 apps anteriores) |
+| **Tiempo de uso de FitWise:** | 3 semanas |
+| **Grupo experimental:** | Experimental (recibe mensajes motivacionales) |
+| **Fecha y hora:** | 15 de enero 2025, 6:00 PM |
+| **Duración:** | 25 minutos |
+| **Entrevistador:** | Mauricio Muñoz |
+
+**Resumen de Respuestas Clave:**
+
+*Percepción de Acompañamiento (Pre-experimentación):*
+> "Antes sentía que las apps eran muy frías, como robots. Me daban rutinas pero no me motivaban emocionalmente."
+
+*Experiencia con Mensajes Motivacionales:*
+> "Los mensajes me sorprendieron gratamente. Especialmente uno que decía 'Tu constancia de esta semana es admirable' - me hizo sentir reconocida."
+
+*Impacto en Adherencia:*
+> "Hubo una ocasión donde no tenía ganas de hacer ejercicio, pero el mensaje matutino me recordó por qué empecé. Terminé completando la rutina."
+
+*Puntuación de Acompañamiento:* 4.5/5 ("Siento que hay alguien que se preocupa por mi progreso")
+
+**Insights Clave:**
+- Los mensajes personalizados generan conexión emocional significativa
+- El timing matutino es especialmente efectivo para motivar
+- Los usuarios valoran el reconocimiento de su esfuerzo y constancia
+
+---
+
+**Entrevista #02 - Experimento: Tips de Bienestar**
+
+| **Datos del Entrevistado** | |
+|---|---|
+| **Nombre:** | Carlos Alberto Mendoza |
+| **Edad:** | 35 años |
+| **Ocupación:** | Contador |
+| **Experiencia previa con apps fitness:** | Básica |
+| **Tiempo de uso de FitWise:** | 5 semanas |
+| **Grupo experimental:** | Experimental (recibe tips contextualizados) |
+| **Fecha y hora:** | 16 de enero 2025, 7:30 PM |
+| **Duración:** | 22 minutos |
+| **Entrevistador:** | David Garcia |
+
+**Resumen de Respuestas Clave:**
+
+*Valoración de Contenido Educativo:*
+> "Me gusta aprender mientras hago ejercicio. Los tips me ayudaron a entender mejor por qué ciertos ejercicios son importantes."
+
+*Recordación de Tips Específicos:*
+> "Recuerdo uno sobre hidratación que apareció cuando estaba viendo rutinas de cardio. Era simple pero útil."
+
+*Percepción de Valor:*
+> "Antes: 3.5/5, Ahora: 4.2/5. Siento que la app me enseña, no solo me da órdenes."
+
+*Exploración de la App:*
+> "Los tips me llevaron a revisar más secciones. Encontré información sobre nutrición que no había visto antes."
+
+**Insights Clave:**
+- Los tips aumentan la percepción de valor educativo de la aplicación
+- La contextualización es clave para la relevancia y recordación
+- Los consejos impulsan la exploración de otras funcionalidades
+
+---
+
+**Entrevista #03 - Experimento: Modo Oscuro**
+
+| **Datos del Entrevistado** | |
+|---|---|
+| **Nombre:** | María José Vásquez |
+| **Edad:** | 24 años |
+| **Ocupación:** | Estudiante de Medicina |
+| **Experiencia previa con apps fitness:** | Alta |
+| **Tiempo de uso de FitWise:** | 2 semanas |
+| **Grupo experimental:** | Experimental (acceso a modo oscuro) |
+| **Fecha y hora:** | 17 de enero 2025, 9:00 PM |
+| **Duración:** | 18 minutos |
+| **Entrevistador:** | Jhon Galvez |
+
+**Resumen de Respuestas Clave:**
+
+*Hábitos de Uso:*
+> "Suelo hacer ejercicio en las noches después de estudiar, entre 8-10 PM."
+
+*Descubrimiento y Adopción:*
+> "Vi la opción en configuración el segundo día. Lo activé inmediatamente porque uso modo oscuro en todo."
+
+*Experiencia de Uso:*
+> "Es mucho más cómodo para los ojos, especialmente cuando ya estoy cansada del día. Me permite concentrarme mejor en las rutinas."
+
+*Impacto en Frecuencia:*
+> "Definitivamente uso la app más en las noches ahora. Antes evitaba pantallas brillantes antes de dormir."
+
+**Insights Clave:**
+- El modo oscuro es inmediatamente adoptado por usuarios que ya lo usan en otras apps
+- Facilita el uso nocturno y reduce la fatiga visual
+- Puede expandir las ventanas de tiempo en que los usuarios interactúan con la aplicación
+
+---
+
+**Entrevista #04 - Experimento: Configuración de Notificaciones**
+
+| **Datos del Entrevistado** | |
+|---|---|
+| **Nombre:** | Roberto Fernández |
+| **Edad:** | 31 años |
+| **Ocupación:** | Ingeniero de Software |
+| **Experiencia previa con apps fitness:** | Moderada |
+| **Tiempo de uso de FitWise:** | 1 semana |
+| **Grupo experimental:** | Experimental (configuró notificaciones en onboarding) |
+| **Fecha y hora:** | 18 de enero 2025, 6:30 PM |
+| **Duración:** | 20 minutos |
+| **Entrevistador:** | Ramiro Guzman |
+
+**Resumen de Respuestas Clave:**
+
+*Actitud hacia Notificaciones:*
+> "Soy muy selectivo con las notificaciones. Desactivo la mayoría porque me distraen en el trabajo."
+
+*Experiencia de Configuración:*
+> "Me gustó poder elegir desde el inicio. Configuré solo recordatorios de rutinas por las mañanas, nada más."
+
+*Sensación de Control:*
+> "Se sintió como que la app respeta mi espacio personal. No es invasiva como otras que te bombardean."
+
+*Impacto en Retención:*
+> "Probablemente seguiré usando la app. El hecho de que no me moleste con notificaciones innecesarias es importante para mí."
+
+**Insights Clave:**
+- La personalización temprana genera sensación de respeto y control
+- Los usuarios técnicos especialmente valoran la capacidad de configuración granular
+- Evitar notificaciones intrusivas es tan importante como ofrecerlas
+
+---
+
+**Entrevista #05 - Experimento: Estadísticas Comparativas**
+
+| **Datos del Entrevistado** | |
+|---|---|
+| **Nombre:** | Laura Beatriz Herrera |
+| **Edad:** | 26 años |
+| **Ocupación:** | Marketing Digital |
+| **Experiencia previa con apps fitness:** | Alta |
+| **Tiempo de uso de FitWise:** | 6 semanas |
+| **Grupo experimental:** | Experimental (ve estadísticas comparativas) |
+| **Fecha y hora:** | 19 de enero 2025, 5:45 PM |
+| **Duración:** | 27 minutos |
+| **Entrevistador:** | Farid Briceño |
+
+**Resumen de Respuestas Clave:**
+
+*Motivación por Comparación:*
+> "Me motivan las comparaciones, pero solo si son justas. No me compares con atletas profesionales."
+
+*Descubrimiento de Estadísticas:*
+> "Las vi en la sección de rutinas. Decía algo como 'Usuarios como tú completan 3.8 rutinas por semana'."
+
+*Impacto Motivacional:*
+> "Me hizo pensar 'Si otros pueden, yo también'. Completé 4 rutinas esa semana, más de lo habitual."
+
+*Sentido de Comunidad:*
+> "Me hizo sentir parte de algo más grande. No estoy sola en esto, hay otros con objetivos similares."
+
+**Insights Clave:**
+- Las comparaciones anónimas son motivadoras cuando se perciben como justas y alcanzables
+- Generan sentido de comunidad y pertenencia
+- Pueden impulsar comportamientos de superación personal
+
+---
+
+**Entrevista #06 - Grupo Control: Perspectiva Comparativa**
+
+| **Datos del Entrevistado** | |
+|---|---|
+| **Nombre:** | Diego Alejandro Torres |
+| **Edad:** | 29 años |
+| **Ocupación:** | Arquitecto |
+| **Experiencia previa con apps fitness:** | Moderada |
+| **Tiempo de uso de FitWise:** | 4 semanas |
+| **Grupo experimental:** | Control (sin funcionalidades experimentales) |
+| **Fecha y hora:** | 20 de enero 2025, 7:00 PM |
+| **Duración:** | 23 minutos |
+| **Entrevistador:** | David Garcia |
+
+**Resumen de Respuestas Clave:**
+
+*Experiencia General:*
+> "La app cumple su función básica bien, pero siento que me falta algo de conexión emocional."
+
+*Necesidades No Cubiertas:*
+> "Me gustaría más feedback personalizado y saber cómo me estoy desempeñando comparado con otros."
+
+*Sugerencias de Mejora:*
+> "Mensajes de aliento ocasionales estarían bien. Y tal vez poder ver algunas estadísticas de la comunidad."
+
+**Insights del Grupo Control:**
+- Confirma la necesidad de elementos motivacionales que los experimentos buscan abordar
+- Los usuarios identifican espontáneamente las mismas áreas que los experimentos están probando
+- Valida la dirección de las hipótesis experimentales
+
+---
+
+**Síntesis de Hallazgos Transversales:**
+
+1. **Alto valor percibido en personalización**: Todos los usuarios experimentales reportaron mayor satisfacción
+2. **Impacto emocional significativo**: Los mensajes motivacionales generaron la respuesta más fuerte
+3. **Adopción rápida de mejoras de UX**: Modo oscuro fue adoptado inmediatamente por usuarios nocturnos
+4. **Importancia del timing y contexto**: Las funcionalidades experimentales son más efectivas cuando se integran naturalmente en el flujo de usuario
 
 ## 8.4. Experiment Aftermath & Analysis
 
@@ -3763,11 +4101,17 @@ Este tracking plan permitirá evaluar las hipótesis con métricas confiables, g
 
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
 
+Aqui es poner un figma con las nuevas vistas, tambien debemos agregar encuestas con forms para feedback de usuarios
+
 ## 8.6. To-Be Software Platform Pre-launch
 
 ### 8.6.1. About-the-Product Intro Video
 
+Video publicitario de la app
+
 ## Conclusiones
+
+### Conclusiones y recomendaciones
 
 El desarrollo de VibeFit ha sido un proceso integral que abarca desde la investigación de mercado hasta la implementación final del producto. Las conclusiones de este proyecto reflejan el impacto positivo que la startup puede tener en la vida de los usuarios, proporcionando una solución accesible, personalizada y eficaz para mejorar el bienestar físico y mental. La colaboración constante, la validación de las soluciones a través de pruebas y feedback, y el enfoque centrado en el usuario son aspectos clave que garantizan el éxito y la sostenibilidad de la plataforma.
 
@@ -3781,7 +4125,26 @@ En cuanto a la implementación técnica, se utilizó una arquitectura de softwar
 
 Finalmente, el trabajo en equipo y la comunicación constante entre los miembros del equipo fueron fundamentales para alcanzar los objetivos establecidos. La capacidad de adaptarse a los cambios, compartir conocimientos y mantener una visión común permitió que el proyecto se desarrollara de manera eficiente y exitosa, cumpliendo con los estándares técnicos y éticos requeridos.
 
+### Video About-The-Team
+
+
+
 ## Bibliografia
 
 
 ## Anexos
+
+Organizacion de GitHub: [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos)
+Repositorio Reporte: [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/fitwise-report](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/fitwise-report)
+Repositorio Landing Page: [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/landing-page](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/landing-page)
+Repositorio Frontend: [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/frontend](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/frontend)
+Repositorio Backend: [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/fitwise-backend](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/fitwise-backend)
+Repositorio Landing Page Experimental: [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/fitwise-landing-experiment](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/fitwise-landing-experiment)
+Repositorio Frontend Experimental: [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/frontend/tree/experiment/hypothesis](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/frontend/tree/experiment/hypothesis)
+Repositorio Backend Experimental: [https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/fitwise-backend/tree/experiment/hypothesis](https://github.com/upc-pre-si732-2501-4436-G1-Galacticos/fitwise-backend/tree/experiment/hypothesis)
+Deployment Landing Page: [https://upc-pre-si732-2501-4436-g1-galacticos.github.io/landing-page/](https://upc-pre-si732-2501-4436-g1-galacticos.github.io/landing-page/)
+Deployment Frontend: [https://fitwise-app-77eaf.web.app/](https://fitwise-app-77eaf.web.app/)
+Deployment Backend: [https://fitwisebackend-gfaehmgxfhhjhff6.canadacentral-01.azurewebsites.net/](https://fitwisebackend-gfaehmgxfhhjhff6.canadacentral-01.azurewebsites.net/)
+Deployment Landing Page Experimental: [https://upc-pre-si732-2501-4436-g1-galacticos.github.io/fitwise-landing-experiment/](https://upc-pre-si732-2501-4436-g1-galacticos.github.io/fitwise-landing-experiment/)
+Deployment Frontend Experimental: [https://fitwise-test.web.app/](https://fitwise-test.web.app/)
+Deployment Backend Experimental: []
